@@ -1,0 +1,8 @@
+From: Research List <research@example.org>
+To: intake@example.org
+Subject: Synthetic research position
+Message-ID: not-a-valid-message-id
+MIME-Version: 1.0
+Content-Type: text/plain
+
+Malformed ID still accepted.

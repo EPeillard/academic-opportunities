@@ -16,7 +16,7 @@ Prepared 2026-10-19. Resources are provisioned manually. These instructions prep
 
 Production is a separate, complete configuration file per Worker, **not** a named `--env` override. This avoids relying on binding inheritance. Always select it with `--config`; do not add `--env production`. Default npm development, build, seed and CI commands continue to use the local files. Never use `wrangler dev --remote` with real email data.
 
-The ingestion Worker is a disabled configuration scaffold: HTTP returns 503; no `email()` or `queue()` handlers, consumer registration or schedule exists. Its Queue binding is producer-only. Do not connect an email address or add a consumer until durable ingestion is implemented and tested. There is no endpoint to read or write raw messages.
+M2 implements Email/Queue/scheduled handlers. Local ingestion configuration enables only local processing. Generated production configuration explicitly disables both runtime gates and omits the Queue consumer and cron. HTTP returns 503 and never serves MIME. [M2 rollout](m2-rollout.md) documents the separate offline activation preparation and manually approved production steps; none are executed by setup/build/CI.
 
 ## Local development (no credentials)
 
@@ -120,13 +120,13 @@ npm run test:smoke
 npx wrangler deploy --config apps/worker/wrangler.production.jsonc
 ```
 
-Future private Worker deployment command, **only after replacing the disabled scaffold with tested durable email/Queue processing in M2**:
+Future private Worker deployment command, **disabled production preparation only; follow the M2 rollout for activation**:
 
 ```sh
 npx wrangler deploy --config apps/ingestion/wrangler.production.jsonc
 ```
 
-Both configurations have `workers_dev: false`, `preview_urls: false`, and no routes/custom domains. Deployment therefore does not create a public URL or change DNS. Choosing the eventual website hostname and enabling ingress are separate future actions. A successful deployment alone does not make email processing operational. Do not deploy the disabled ingestion scaffold as an intake service.
+Both configurations have `workers_dev: false`, `preview_urls: false`, and no routes/custom domains. Deployment therefore does not create a public URL or change DNS. Choosing the eventual website hostname and enabling ingress are separate future actions. A successful deployment alone does not make email processing operational. The default generated production config intentionally rejects intake until the separately reviewed activation config is deployed and Email Routing is approved.
 
 ## Official references reviewed 2026-10-19
 

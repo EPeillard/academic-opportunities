@@ -1,0 +1,2 @@
+# MIME fixtures deliberately preserve RFC-style CRLF byte-for-byte on all platforms.
+tests/fixtures/mime/*.eml -text whitespace=cr-at-eol

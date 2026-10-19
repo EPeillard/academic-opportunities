@@ -1,0 +1,8 @@
+From: Research List <research@example.org>
+To: intake@example.org
+Subject: Synthetic research position
+Message-ID: <synthetic-002@example.org>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<h1>Synthetic Postdoc</h1><script>fetch("https://attacker.invalid/")</script><img src="http://169.254.169.254/">

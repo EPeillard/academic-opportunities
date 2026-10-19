@@ -1,0 +1,18 @@
+# M2 validation record
+
+Executed locally on 2026-10-19 using Node 24, pinned Wrangler 4.100.0 and Miniflare 4.20260611.0. No production/demo remote resources were queried or mutated for M2; GitHub is used only to prepare the code/PR and inspect CI.
+
+| Check                                     | Result                                                                                                                                                                       |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `npm run check`                           | Passed: Prettier, all four TypeScript projects, 133 Vitest tests in seven files, Vite and both Worker dry-run builds                                                         |
+| `npm run db:migrate:local`                | Passed: existing local M1 database upgraded with append-only `0002_durable_ingestion.sql`                                                                                    |
+| `npm run db:seed` twice                   | Passed; committed seed file unchanged                                                                                                                                        |
+| `npm run test:smoke`                      | Passed: existing public API/filter/details/privacy/assets behavior                                                                                                           |
+| `npm run test:demo`                       | Passed: disposable isolated local demo migrations, repeated seed, eight synthetic opportunities, read-only denials and assets                                                |
+| `npm run test:ingestion`                  | Passed: actual workerd Email handler -> private R2 + D1 -> actual Miniflare Queue consumer, duplicate ack, five scheduled phases, HTTP privacy denial, outbound HTTP blocked |
+| Prepared activation configuration dry run | Passed with invented account/database IDs only; no deployment or activation                                                                                                  |
+| `git diff --check`                        | Passed                                                                                                                                                                       |
+
+The 51 ingestion Vitest cases cover plain/HTML/multipart/attachment/Gmail MIME, missing/malformed/reused/folded Message-ID, byte-for-byte preservation, concurrent duplicate intake/processing, actual and reported oversize, header/chunk/time/memory bounds, atomic daily cap, R2/D1/Queue failures, transactional rollback, admission-only/R2-only/publication-before-mark/commit-before-ack crash windows, missing outbox/Queue expiry, lease expiry/backoff/terminal state and stale-success/failure fencing, deletion during processing, failed raw purge repair, retention, paginated inventory, log redaction and public API isolation. Storage/SQL are real local simulators; failures and time are injected. One additional configuration test covers explicit activation, demo UUID separation and read-only target-name checking.
+
+Not verified remotely: production resource permissions/privacy, SMTP retry/rejection, real Gmail forwarding, production CPU/memory/quota behavior, scheduled reliability under account outages, backup restoration or a production ingestion deployment. No real emails or mailing lists connected. [Rollout, manual actions and residual risks](m2-rollout.md) remain required before activation.

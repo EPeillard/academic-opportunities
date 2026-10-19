@@ -28,7 +28,19 @@ export function productionConfigs({ accountId, databaseId }) {
       app === "worker"
         ? "academic-opportunities"
         : "academic-opportunities-ingestion";
-    config.vars = { APP_ENV: "production" };
+    config.vars =
+      app === "ingestion"
+        ? {
+            ...config.vars,
+            APP_ENV: "production",
+            INGESTION_ENABLED: "false",
+            PROCESSING_ENABLED: "false",
+          }
+        : { APP_ENV: "production" };
+    if (app === "ingestion") {
+      delete config.queues.consumers;
+      delete config.triggers;
+    }
     config.d1_databases = config.d1_databases.map((db) => ({
       ...db,
       database_id: databaseId,

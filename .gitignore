@@ -12,3 +12,5 @@ apps/*/wrangler.production.jsonc
 dist-production/
 apps/*/wrangler.demo*.jsonc
 dist-demo/
+
+apps/ingestion/wrangler.activation.jsonc

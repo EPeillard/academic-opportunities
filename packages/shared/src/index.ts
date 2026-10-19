@@ -173,3 +173,22 @@ export const FacetsSchema = z
     types: z.array(JobTypeSchema),
   })
   .strict();
+
+// Private pipeline contracts. They are never included in public response schemas.
+export const IngestionJobPayloadSchema = z
+  .object({
+    jobId: z.string().regex(/^integrity-v1-[a-f0-9]{64}$/),
+  })
+  .strict();
+export const IntegrityOutcomeSchema = z
+  .object({
+    version: z.literal(1),
+    kind: z.literal("mime_integrity_verified"),
+    sizeBytes: z
+      .number()
+      .int()
+      .positive()
+      .max(10 * 1024 * 1024),
+    sha256: z.string().regex(/^[a-f0-9]{64}$/),
+  })
+  .strict();

@@ -1,6 +1,6 @@
 # Implementation plan
 
-## M1 — local public foundation (this change)
+## M1 — public foundation (completed)
 
 1. Write architecture, specification, decisions and operational boundaries before code.
 2. npm TypeScript workspaces, shared Zod contracts and strict typecheck.
@@ -9,9 +9,9 @@
 5. React/Vite/Tailwind search, filters, detail views and responsive/error states.
 6. Vitest contract and real local D1 integration tests, local HTTP smoke checks, production builds, CI without deployment credentials.
 
-## M2 — durable intake
+## M2 — durable intake (this change, local validation only)
 
-Email Routing + Gmail forwarding integration, private R2, streaming limits/hashes, D1 jobs/outbox, idempotent Queue consumers, reconciliation and synthetic MIME fixtures. Acceptance: crash/replay at each durability boundary without loss or public leakage. Requires user-managed domain and Cloudflare resources only after explicit deployment scope.
+Email Routing handler compatible with Gmail-forwarded MIME, private R2, bounded stream/hash, D1 admission/jobs/outbox, fenced Queue consumer, phased reconciliation, retention/tombstones and synthetic MIME fixtures. Gmail forwarding verification and real delivery activation remain manual future steps. See [M2 design](m2-design.md) and [rollout](m2-rollout.md). Acceptance: crash/replay at each durability boundary without loss or public leakage. Requires user-managed domain and Cloudflare resources only after explicit deployment scope.
 
 ## M3 — extraction and publication policy
 

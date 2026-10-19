@@ -7,6 +7,11 @@
   "preview_urls": false,
   "vars": {
     "APP_ENV": "local",
+    "INGESTION_ENABLED": "true",
+    "PROCESSING_ENABLED": "true",
+    "MAX_MESSAGE_BYTES": "2097152",
+    "MAX_DAILY_MESSAGES": "500",
+    "RAW_RETENTION_DAYS": "30",
   },
   "d1_databases": [
     {
@@ -25,6 +30,16 @@
     },
   ],
   "queues": {
+    "consumers": [
+      {
+        "queue": "academic-opportunities-ingestion",
+        "max_batch_size": 5,
+        "max_batch_timeout": 2,
+        "max_retries": 3,
+        "retry_delay": 60,
+        "max_concurrency": 1,
+      },
+    ],
     "producers": [
       {
         "binding": "INGESTION_QUEUE",
