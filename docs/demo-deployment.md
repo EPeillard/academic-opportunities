@@ -2,6 +2,8 @@
 
 Prepared 2026-10-19. **Preparation only: no resource provisioning, remote metadata check, remote migration/seed, deployment, email routing or DNS change has been executed.** Obtain explicit approval before running the remote steps below. Local tests and offline dry runs are safe to run now.
 
+For a browser-only deployment with the token stored in GitHub Secrets, use [the GitHub Actions procedure](demo-github-actions.md). The manual workflow defaults to read-only verification and never deploys on push or PR.
+
 ## Exact target and boundaries
 
 | Item                                    | Demo value                                                            |
