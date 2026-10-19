@@ -39,7 +39,18 @@
     "ingestion:prepare-activation": "node scripts/prepare-ingestion.mjs --prepare-activation",
     "ingestion:verify-target": "node scripts/prepare-ingestion.mjs verify-target",
     "dev:agent": "npm run dev -w @academic/agent",
-    "test:agent": "npm run build -w @academic/ingestion && npm run build -w @academic/agent && node scripts/smoke-agent.mjs"
+    "test:agent": "npm run build -w @academic/ingestion && npm run build -w @academic/agent && node scripts/smoke-agent.mjs",
+    "agent:poc:configure": "node scripts/agent-poc-environment.mjs configure",
+    "agent:poc:dry-run": "node scripts/agent-poc-environment.mjs dry-run",
+    "agent:poc:verify-target": "node scripts/agent-poc-environment.mjs verify-target",
+    "agent:poc:migrate": "node scripts/agent-poc-environment.mjs migrate",
+    "agent:poc:init": "node scripts/agent-poc-environment.mjs init",
+    "agent:poc:deploy": "node scripts/agent-poc-environment.mjs deploy",
+    "agent:poc:disable": "node scripts/agent-poc-environment.mjs disable",
+    "agent:poc:check-oauth": "node scripts/agent-poc-environment.mjs check-oauth",
+    "agent:poc:probe": "node scripts/verify-agent-poc.mjs probe",
+    "agent:poc:verify-results": "node scripts/verify-agent-poc.mjs results",
+    "test:agent-poc": "npm run build -w @academic/agent && node scripts/smoke-agent-poc.mjs"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20260702.1",

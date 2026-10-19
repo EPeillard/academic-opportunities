@@ -49,7 +49,7 @@ export async function handleAgentRequest(
   now = Date.now(),
 ) {
   try {
-    const cfg = authConfig(env),
+    const cfg = authConfig(env, now),
       url = new URL(request.url);
     if (
       url.origin !== cfg.origin ||
@@ -68,6 +68,8 @@ export async function handleAgentRequest(
         throw new ApiError(400, "INVALID_REQUEST");
       return Response.json(protectedResource(env), { headers });
     }
+    if (env.APP_ENV === "poc" && url.pathname !== "/mcp")
+      throw new ApiError(404, "NOT_FOUND");
     const principal = await authenticate(request, env, now);
     await rateLimit(env, principal, now);
     if (url.pathname === "/mcp") {

@@ -1,0 +1,11 @@
+{
+  "name": "Academic Opportunities ChatGPT synthetic test",
+  "app_type": "native",
+  "is_first_party": true,
+  "token_endpoint_auth_method": "none",
+  "grant_types": ["authorization_code"],
+  "callbacks": [
+    "https://chatgpt.com/connector/oauth/REPLACE_WITH_EXACT_CALLBACK_FROM_CHATGPT"
+  ],
+  "oidc_conformant": true
+}

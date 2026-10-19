@@ -1,6 +1,7 @@
 export interface AgentEnv {
   APP_ENV: "local" | "poc";
   AGENT_ENABLED?: string;
+  AGENT_TEST_EXPIRES_AT?: string;
   AGENT_RESOURCE?: string;
   AGENT_AUTH_ISSUER?: string;
   AGENT_AUTH_SUBJECT?: string;

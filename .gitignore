@@ -14,3 +14,7 @@ apps/*/wrangler.demo*.jsonc
 dist-demo/
 
 apps/ingestion/wrangler.activation.jsonc
+
+apps/agent/wrangler.poc.jsonc
+dist-poc/
+.poc-*/

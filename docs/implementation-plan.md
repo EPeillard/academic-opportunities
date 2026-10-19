@@ -28,3 +28,7 @@ Verified Access JWT server authorization, CSRF, queue UI, correction/reject/merg
 ## M5 — operations and release
 
 Schedules, durable retry recovery, DLQ, retention/deletion/tombstones, backup/restore drills, operational dashboards, rate limits, accessibility/browser checks, source permission review, deployment runbook and reviewed CI/CD environments. Deploy only after separate authorization; do not add DNS/accounts/email sending in M1. Acceptance: restore/replay after queue expiry, purge all derived data, budget and alert drills. Production deployment workflow comes here; M1 GitHub Actions is CI only.
+
+### M2.5 follow-up — interactive live test preparation
+
+Prepared isolated Worker/D1 config, Auth0 public-client PKCE/RFC 9068 setup, guarded synthetic bootstrap, MCP-only expiring exposure and private verification tooling. Local validation does not establish real OAuth or ChatGPT extraction. Next manual gates: approve provisioning/provider setup, migrate/init, approve exposure, connect only the synthetic personal plugin and record interactive evidence. Unattended scheduling remains a separate milestone.
