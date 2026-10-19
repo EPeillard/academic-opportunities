@@ -102,6 +102,75 @@ describe("demo isolation and deployment guards", () => {
       }),
     ).rejects.toThrow("does not match");
   });
+  it.each([
+    [
+      "HTTP denial",
+      () => new Response("private-body", { status: 403 }),
+      "HTTP 403",
+    ],
+    [
+      "API failure",
+      () =>
+        Response.json({
+          success: false,
+          errors: [{ code: 10000, message: "private-body" }],
+        }),
+      "error codes: 10000",
+    ],
+    ["invalid JSON", () => new Response("private-body"), "not valid JSON"],
+    ["null envelope", () => Response.json(null), "did not report success"],
+    [
+      "missing name",
+      () => Response.json({ success: true, result: { uuid: databaseId } }),
+      "database name is missing or invalid",
+    ],
+    [
+      "wrong UUID",
+      () =>
+        Response.json({
+          success: true,
+          result: { name: DEMO_DATABASE, uuid: "private-body" },
+        }),
+      "database UUID differs",
+    ],
+    [
+      "invalid UUID type",
+      () =>
+        Response.json({
+          success: true,
+          result: { name: DEMO_DATABASE, uuid: 123 },
+        }),
+      "database UUID is missing or invalid",
+    ],
+  ])(
+    "diagnoses %s without exposing response contents or executing a mutation",
+    async (_, response, diagnostic) => {
+      const run = vi.fn();
+      await expect(
+        runDemoAction("migrate", configuration(), {
+          token: "private-token",
+          verify: (config, options) =>
+            verifyDemoIdentity(config, {
+              ...options,
+              request: async () => response(),
+            }),
+          run,
+          load: configuration,
+        }),
+      ).rejects.toThrow(diagnostic);
+      expect(run).not.toHaveBeenCalled();
+      try {
+        await verifyDemoIdentity(configuration(), {
+          token: "private-token",
+          request: async () => response(),
+        });
+      } catch (error) {
+        expect(error.message).toContain("No mutation was run.");
+        expect(error.message).not.toContain("private-body");
+        expect(error.message).not.toContain("private-token");
+      }
+    },
+  );
   it("runs only the fixed seed file after a successful identity check", async () => {
     const run = vi.fn();
     const verify = vi.fn().mockResolvedValue(undefined);

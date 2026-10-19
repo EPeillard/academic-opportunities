@@ -28,6 +28,16 @@ Go to **Actions → Demo - verify or deploy → Run workflow**:
 
 Approve the `demo` environment job when GitHub asks. This run installs locked dependencies, runs local tests/builds and the isolated local demo rehearsal, generates the demo config, validates the expected URL, runs the offline demo dry run and verifies the demo D1 identity through the Cloudflare metadata API. It does **not** migrate, seed or deploy anything remotely. Its summary explicitly confirms that no remote mutation ran. Fix failed settings/permissions before requesting deployment approval.
 
+## If target verification fails
+
+Keep operation **verify** while troubleshooting. The identity check reports HTTP failures, unsuccessful API envelopes (numeric error codes only), invalid JSON, and name/UUID mismatches separately. It does not log the token, raw response, or arbitrary Cloudflare error messages.
+
+- HTTP 401/403 or an unsuccessful API response: check that the environment secret is present, the token has D1 access for the intended account, and the account ID/database UUID are correct. Do not broaden permissions blindly.
+- Database name differs: open the database identified by `CLOUDFLARE_DEMO_D1_DATABASE_ID` and confirm its name is exactly `academic-opportunities-demo-db`. Correct the GitHub variable if it points elsewhere; never rename production to bypass this check.
+- UUID differs or a field is missing/invalid: confirm the UUID in the demo database overview and inspect the current official D1 metadata API schema before changing the validator. Do not bypass identity verification.
+
+After correcting the configuration or merging a diagnostic fix, start a **new** workflow run on `main` with operation **verify**. Re-running an old failed job uses its original workflow/code revision. No remote migration, seed or deployment should be started to diagnose this step.
+
 ## Deployment: only after explicit approval
 
 Once the read-only verification succeeds and the user has approved demo migration/seed/deployment, start another manual run:
