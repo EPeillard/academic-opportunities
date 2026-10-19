@@ -138,16 +138,46 @@ export async function verifyDemoIdentity(
       signal: AbortSignal.timeout(10000),
     },
   );
+  const stop = (reason) => {
+    throw new Error(`${reason} No mutation was run.`);
+  };
   if (!response.ok)
-    throw new Error("Could not verify demo D1 identity. No mutation was run.");
-  const data = await response.json();
+    stop(
+      `Could not verify demo D1 identity (HTTP ${response.status}). Check the account, database UUID and token permissions.`,
+    );
+  let data;
+  try {
+    data = await response.json();
+  } catch {
+    stop("Cloudflare D1 metadata response is not valid JSON.");
+  }
+  if (data?.success !== true) {
+    // Never log raw response bodies/messages: they may contain sensitive values.
+    const codes = Array.isArray(data?.errors)
+      ? data.errors
+          .map((error) => error?.code)
+          .filter((code) => Number.isSafeInteger(code))
+          .slice(0, 5)
+      : [];
+    stop(
+      `Cloudflare D1 metadata did not report success${codes.length ? ` (error codes: ${codes.join(", ")})` : ""}. Check the account, database UUID and token permissions.`,
+    );
+  }
+  const problems = [];
+  if (data.result?.name !== DEMO_DATABASE)
+    problems.push(
+      `database name ${typeof data.result?.name === "string" ? "differs" : "is missing or invalid"} (expected ${DEMO_DATABASE})`,
+    );
   if (
-    data.success !== true ||
-    data.result?.name !== DEMO_DATABASE ||
-    data.result?.uuid?.toLowerCase() !== id.toLowerCase()
+    typeof data.result?.uuid !== "string" ||
+    data.result.uuid.toLowerCase() !== id.toLowerCase()
   )
-    throw new Error(
-      "Remote D1 identity does not match the isolated demo database. No mutation was run.",
+    problems.push(
+      `database UUID ${typeof data.result?.uuid === "string" ? "differs from CLOUDFLARE_DEMO_D1_DATABASE_ID" : "is missing or invalid"}`,
+    );
+  if (problems.length)
+    stop(
+      `Remote D1 identity does not match the isolated demo database: ${problems.join("; ")}. Check the demo database in Cloudflare and the demo environment variables in GitHub.`,
     );
 }
 export function demoActionArgs(action) {
