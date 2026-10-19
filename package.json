@@ -34,7 +34,10 @@
     "demo:seed": "node scripts/demo-environment.mjs seed",
     "demo:deploy": "node scripts/demo-environment.mjs deploy",
     "test:demo": "node scripts/smoke-demo.mjs",
-    "demo:verify-live": "node scripts/verify-live-demo.mjs"
+    "demo:verify-live": "node scripts/verify-live-demo.mjs",
+    "test:ingestion": "npm run build -w @academic/ingestion && node scripts/smoke-ingestion.mjs",
+    "ingestion:prepare-activation": "node scripts/prepare-ingestion.mjs --prepare-activation",
+    "ingestion:verify-target": "node scripts/prepare-ingestion.mjs verify-target"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20260702.1",

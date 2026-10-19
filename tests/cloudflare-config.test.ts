@@ -3,6 +3,10 @@ import { readFileSync } from "node:fs";
 import { parse } from "jsonc-parser";
 import { Miniflare } from "miniflare";
 import { productionConfigs } from "../scripts/configure-production.mjs";
+import {
+  activationConfig,
+  verifyIngestionTarget,
+} from "../scripts/prepare-ingestion.mjs";
 import ingestion from "../apps/ingestion/src";
 const local = (app: string) =>
   parse(
@@ -66,6 +70,58 @@ describe("Cloudflare resource isolation", () => {
     ]);
     expect(config.queues.consumers).toBeUndefined();
     expect(config.d1_databases[0].migrations_dir).toBe("../worker/migrations");
+  });
+  it("requires explicit offline activation preparation and never enables production triggers by default", async () => {
+    const safe = productionConfigs(ids).find(
+      (c) => c.app === "ingestion",
+    )!.config;
+    expect(safe.vars.INGESTION_ENABLED).toBe("false");
+    expect(safe.vars.PROCESSING_ENABLED).toBe("false");
+    expect(safe.triggers).toBeUndefined();
+    expect(() =>
+      activationConfig({ ...ids, prepareActivation: false }),
+    ).toThrow();
+    expect(() =>
+      activationConfig({
+        ...ids,
+        prepareActivation: true,
+        demoDatabaseId: ids.databaseId,
+      }),
+    ).toThrow();
+    const active = activationConfig({
+      ...ids,
+      demoDatabaseId: "87654321-1234-4234-8234-123456789abc",
+      prepareActivation: true,
+    });
+    expect(active.queues.consumers[0].queue).toBe(
+      "academic-opportunities-ingestion",
+    );
+    expect(active.triggers.crons).toEqual(["* * * * *"]);
+    expect(active.workers_dev).toBe(false);
+    expect(active.routes).toBeUndefined();
+    await expect(
+      verifyIngestionTarget(active, {
+        token: "test",
+        request: async () =>
+          Response.json({
+            success: true,
+            result: {
+              name: "academic-opportunities-demo-db",
+              uuid: ids.databaseId,
+            },
+          }),
+      }),
+    ).rejects.toThrow("mismatch");
+    await expect(
+      verifyIngestionTarget(active, {
+        token: "test",
+        request: async () =>
+          Response.json({
+            success: true,
+            result: { name: "academic-opportunities-db", uuid: ids.databaseId },
+          }),
+      }),
+    ).resolves.toBeUndefined();
   });
   it.each([
     { accountId: "", databaseId: ids.databaseId },

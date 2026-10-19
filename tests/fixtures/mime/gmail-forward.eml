@@ -1,0 +1,16 @@
+Received: from mail-synthetic.google.com by routing.example.org
+From: Forwarder <forwarder@example.org>
+To: intake@example.org
+Message-ID: <forwarded-001@mail.gmail.com>
+X-Forwarded-To: intake@example.org
+Subject: Fwd: Synthetic PhD
+Content-Type: message/rfc822
+
+From: Research List <research@example.org>
+To: intake@example.org
+Subject: Synthetic research position
+Message-ID: <synthetic-001@example.org>
+MIME-Version: 1.0
+Content-Type: text/plain
+
+Original synthetic announcement.

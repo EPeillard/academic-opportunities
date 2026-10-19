@@ -2,7 +2,7 @@
 
 An MIT-licensed open-source academic jobs aggregator for computer science and adjacent research disciplines.
 
-**Milestone 1: local public foundation.** Eight fictional opportunities, a read-only D1 API and a responsive public website are implemented. Email ingestion, LLM extraction, publication automation, moderation/authentication, queues, retention enforcement and deployment are **not operational**. All examples are clearly marked synthetic; links point to example.org.
+**M1 public demo is deployed; M2 durable email ingestion is implemented and validated locally.** The [public demo](https://academic-opportunities-demo.etienne-peillard.workers.dev/) contains eight fictional opportunities and uses a separate synthetic database. M2 adds private R2 receipt, durable D1 jobs/outbox, integrity-only Queue processing, reconciliation and raw-MIME retention. **Production ingestion is not deployed or activated.** LLM extraction, publication automation and authenticated moderation remain future milestones. All examples are synthetic; links point to example.org.
 
 ## Quick start
 
@@ -25,7 +25,7 @@ npm run preview
 # open http://127.0.0.1:8787
 ```
 
-`build` performs a Wrangler **dry run**, which bundles but does not deploy. `preview` runs Wrangler locally. Production configuration generation and future deployment commands are documented in [the deployment runbook](docs/deployment.md); no deployment workflow is enabled. The D1 ID is a local placeholder, not a provisioned resource.
+`build` performs a Wrangler **dry run**, which bundles but does not deploy. `preview` runs Wrangler locally. Production configuration generation and future deployment commands are documented in [the deployment runbook](docs/deployment.md); production ingestion has no deployment workflow; the demo uses its separate manual workflow. The D1 ID is a local placeholder, not a provisioned resource.
 
 ## Verification
 
@@ -35,6 +35,8 @@ npm run db:migrate   # actual Wrangler local migration
 npm run db:seed
 npm run db:seed      # safe to repeat: does not overwrite edited records
 npm run test:smoke   # starts local Worker on 8799; tests HTTP + D1 + built assets
+npm run test:demo    # disposable local demo regression checks
+npm run test:ingestion # workerd Email -> private R2/D1 -> local Queue -> integrity outcome
 ```
 
 The smoke test expects a fresh, seeded synthetic database and built assets. Vitest uses a separate ephemeral Miniflare D1 database; it never modifies development data. CI runs checks, migration, repeated seed and HTTP smoke; it has read-only repository permissions and no deployment secrets. Dependency versions and the lockfile are committed. Wrangler/Miniflare are pinned to a stable, mutually compatible release; update them together and rerun the real migration and HTTP smoke before adopting a new runtime. Browser layout QA is separate from API/build checks.
@@ -43,14 +45,14 @@ To reset development data, stop local servers and remove **only** `apps/worker/.
 
 ## Workspace
 
-| Path              | Purpose                                                               |
-| ----------------- | --------------------------------------------------------------------- |
-| `apps/web`        | React, Vite, Tailwind public search and detail views                  |
-| `apps/worker`     | Read-only Worker API, Static Assets config, D1 migrations and seed    |
-| `apps/ingestion`  | Disabled private Worker scaffold with local D1, R2 and Queue bindings |
-| `packages/shared` | Zod public contracts, extraction/evidence/permission contracts        |
-| `tests`           | Contract, database/API and UI behavior tests                          |
-| `docs`            | Architecture, product contract, phased plan and decisions             |
+| Path              | Purpose                                                            |
+| ----------------- | ------------------------------------------------------------------ |
+| `apps/web`        | React, Vite, Tailwind public search and detail views               |
+| `apps/worker`     | Read-only Worker API, Static Assets config, D1 migrations and seed |
+| `apps/ingestion`  | Private Email/Queue/reconciliation Worker, locally enabled only    |
+| `packages/shared` | Zod public contracts, extraction/evidence/permission contracts     |
+| `tests`           | Contract, database/API and UI behavior tests                       |
+| `docs`            | Architecture, product contract, phased plan and decisions          |
 
 ## Local API
 
@@ -72,7 +74,7 @@ No public write endpoints. Unsupported API methods return 405. Admin paths retur
 
 Read [architecture](docs/architecture.md), [product specification](docs/product-specification.md), [implementation plan](docs/implementation-plan.md), [ADR 0001](docs/decisions/0001-foundation.md) and [operations](docs/operations.md).
 
-- M2: durable email intake, private R2, D1 jobs/outbox, Queue replay and reconciliation.
+- M2 (this change): durable email intake, private R2, D1 jobs/outbox, Queue replay, reconciliation and raw retention. See [M2 design](docs/m2-design.md) and [rollout/recovery/risks](docs/m2-rollout.md).
 - M3: MIME/extraction adapters, evidence, independent publication gates, safe summaries and deduplication.
 - M4: authenticated private review/correction/merge/republication and audit.
 - M5: recovery schedules, retention/deletion, monitoring, cost controls and reviewed deployment.
@@ -87,8 +89,12 @@ For M1: install dependencies, migrate/seed local D1 and start the app. Before fu
 
 Bindings now use `academic-opportunities-db`, `academic-opportunities-emails` and `academic-opportunities-ingestion`. Run `npm run configure:production` with your account ID and provisioned D1 UUID to generate separate ignored production configurations. The public Worker has no R2/Queue binding. [Deployment and permissions](docs/deployment.md) includes exact local/remote migration commands and the required manual R2 privacy verification. No production migration, deployment or DNS change is performed by setup/build/CI.
 
-## Isolated public demo (prepared, not deployed)
+## Isolated public demo
 
 The [demo runbook](docs/demo-deployment.md) prepares a separate `academic-opportunities-demo` Worker and `academic-opportunities-demo-db` database, serving the existing website/read-only API on a temporary workers.dev URL. Run `npm run configure:demo` with the account ID and `CLOUDFLARE_DEMO_D1_DATABASE_ID`, then validate offline with `npm run demo:dry-run`. `npm run test:demo` rehearses the migration, repeated synthetic seed and HTTP checks against disposable local state. Remote migration/seed/deploy wrappers verify the demo database identity first; **do not execute them before deployment approval**. No R2, Queue, email handler or mailing list is connected. [jobs.etiennepeillard.com](docs/custom-domain.md) is a documentation-only future plan; DNS stays unchanged.
 
 To deploy without a local terminal, follow [GitHub Actions demo setup](docs/demo-github-actions.md). Store the token in the protected `demo` environment secret and IDs/subdomain in environment variables. The manual workflow defaults to read-only verification; deployment requires explicit intent and approval.
+
+## M2 private ingestion
+
+Read [M2 rollout and local test instructions](docs/m2-rollout.md) before using the ingestion Worker. `npm run dev:ingestion` uses only local bindings; its HTTP interface deliberately returns 503. Send synthetic fixtures only through the local simulator's email handler. Production config generation always disables email/processing gates and strips consumer/cron triggers. `ingestion:prepare-activation` only prepares an ignored file offline and is not production approval. No production resources or the deployed demo are modified by M2 setup/tests/CI. Exact remote rollout commands are documented for a separately approved future operation; do not run them now.
