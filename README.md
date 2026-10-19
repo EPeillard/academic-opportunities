@@ -15,7 +15,7 @@ npm run db:seed
 npm run dev
 ```
 
-Open http://127.0.0.1:5173. Vite proxies API requests to the local Worker at http://127.0.0.1:8787. `dev` builds initial static assets then runs both servers. Local D1 persists under `apps/worker/.wrangler/state`; all migration/seed commands use the same workspace and explicit `--local`. No remote bindings are configured. Stop both with Ctrl+C.
+Open http://127.0.0.1:5173. Vite proxies API requests to the local Worker at http://127.0.0.1:8787. `dev` builds initial static assets then runs both servers. Local D1 persists under `apps/worker/.wrangler/state`; all migration/seed commands use the same workspace and explicit `--local`. Default bindings explicitly use local simulators. Stop both with Ctrl+C.
 
 To test the built SPA and Worker at one origin:
 
@@ -25,7 +25,7 @@ npm run preview
 # open http://127.0.0.1:8787
 ```
 
-`build` performs a Wrangler **dry run**, which bundles but does not deploy. `preview` runs Wrangler locally. There is intentionally no production deployment command/workflow. The D1 ID is a local placeholder, not a provisioned resource.
+`build` performs a Wrangler **dry run**, which bundles but does not deploy. `preview` runs Wrangler locally. Production configuration generation and future deployment commands are documented in [the deployment runbook](docs/deployment.md); no deployment workflow is enabled. The D1 ID is a local placeholder, not a provisioned resource.
 
 ## Verification
 
@@ -43,13 +43,14 @@ To reset development data, stop local servers and remove **only** `apps/worker/.
 
 ## Workspace
 
-| Path              | Purpose                                                            |
-| ----------------- | ------------------------------------------------------------------ |
-| `apps/web`        | React, Vite, Tailwind public search and detail views               |
-| `apps/worker`     | Read-only Worker API, Static Assets config, D1 migrations and seed |
-| `packages/shared` | Zod public contracts, extraction/evidence/permission contracts     |
-| `tests`           | Contract, database/API and UI behavior tests                       |
-| `docs`            | Architecture, product contract, phased plan and decisions          |
+| Path              | Purpose                                                               |
+| ----------------- | --------------------------------------------------------------------- |
+| `apps/web`        | React, Vite, Tailwind public search and detail views                  |
+| `apps/worker`     | Read-only Worker API, Static Assets config, D1 migrations and seed    |
+| `apps/ingestion`  | Disabled private Worker scaffold with local D1, R2 and Queue bindings |
+| `packages/shared` | Zod public contracts, extraction/evidence/permission contracts        |
+| `tests`           | Contract, database/API and UI behavior tests                          |
+| `docs`            | Architecture, product contract, phased plan and decisions             |
 
 ## Local API
 
@@ -81,3 +82,7 @@ No routine human intervention is the target for validated incoming announcements
 ## Manual actions
 
 For M1: install dependencies, migrate/seed local D1 and start the app. Before future real intake: choose a domain, approve source/redistribution and retention policies, select an extraction provider and spending cap, configure verified server-side admin identities, and provision reviewed Cloudflare resources. Domain routing, Gmail forwarding and subscriptions are deliberately deferred. Do not commit `.dev.vars`, `.env`, credentials or real email samples.
+
+## Manually provisioned Cloudflare resources
+
+Bindings now use `academic-opportunities-db`, `academic-opportunities-emails` and `academic-opportunities-ingestion`. Run `npm run configure:production` with your account ID and provisioned D1 UUID to generate separate ignored production configurations. The public Worker has no R2/Queue binding. [Deployment and permissions](docs/deployment.md) includes exact local/remote migration commands and the required manual R2 privacy verification. No production migration, deployment or DNS change is performed by setup/build/CI.

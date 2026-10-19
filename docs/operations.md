@@ -2,7 +2,7 @@
 
 ## Implemented in M1
 
-Local-only D1 and Static Assets. Runtime failures return generic JSON and log a structured `public_api_error`/`READ_FAILED` code without payloads. API inputs and page sizes are bounded. There are no secrets, production resources, mail senders, background handlers or admin mutation endpoints. Local database contents persist until explicitly reset. Development HTTP has no real users or data; production rate limiting and readiness monitoring remain release blockers.
+Local D1 and Static Assets, plus an inert private ingestion scaffold with local D1/R2/Queue bindings. Separate production configurations can be generated offline; see [deployment and permissions](deployment.md). Runtime failures return generic JSON and log a structured `public_api_error`/`READ_FAILED` code without payloads. API inputs and page sizes are bounded. No secrets are committed and these workflows do not create or access production resources. There are no mail senders, background handlers or admin mutation endpoints. Local database contents persist until explicitly reset. Development HTTP has no real users or data; production rate limiting and readiness monitoring remain release blockers.
 
 If schema is missing, stop the app and run `npm run db:migrate`; then `npm run db:seed`. If migration fails, inspect the local error without sharing private database contents. Migrations are append-only once used outside disposable development. Never edit an applied production migration; add a new numbered SQL file. `db:seed` is idempotent, not a reset. Real deployments must never use synthetic seed.
 
