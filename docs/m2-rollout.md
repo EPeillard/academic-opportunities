@@ -118,15 +118,15 @@ This does not configure Email Routing or DNS. Check the Cloudflare Queue consume
 
 Scope account permissions to the intended Cloudflare account. Separate migration and deployment credentials where practical.
 
-| Task                                                | Permissions                                                                                    |
-| --------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Read-only D1 target check, migration listing/export | Account D1 Read (export may need D1 Edit depending on account policy; verify before rollout)   |
-| D1 migration                                        | Account D1 Edit                                                                                |
-| Private Worker deployment/bindings                  | Account Workers Scripts Edit, D1 Read, Workers R2 Storage Edit, Queues Edit                    |
-| Consumer/cron management and recovery               | Queues Edit, Workers Scripts Edit as applicable; D1 Edit for private SQL recovery              |
-| Bucket privacy checks                               | Workers R2 Storage Read                                                                        |
-| Optional redacted tail                              | Workers Tail Read                                                                              |
-| Final manual Email Routing                          | Zone Email Routing Rules Edit for the intended zone; DNS setup separately authorized if needed |
+| Task                                         | Permissions                                                                                    |
+| -------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Read-only D1 target check, migration listing | Account D1 Read                                                                                |
+| Private D1 export and migration              | Account D1 Edit                                                                                |
+| Private Worker deployment/bindings           | Account Workers Scripts Edit, D1 Read, Workers R2 Storage Edit, Queues Edit                    |
+| Consumer/cron management and recovery        | Queues Edit, Workers Scripts Edit as applicable; D1 Edit for private SQL recovery              |
+| Bucket privacy checks                        | Workers R2 Storage Read                                                                        |
+| Optional redacted tail                       | Workers Tail Read                                                                              |
+| Final manual Email Routing                   | Zone Email Routing Rules Edit for the intended zone; DNS setup separately authorized if needed |
 
 No DNS, Email Routing, R2, Queue or production token is given to normal CI or the public/demo Workers. Never broaden the existing demo token to production ingestion just to get a failing command to pass. Runtime bindings use platform authorization and contain no API/S3 tokens.
 

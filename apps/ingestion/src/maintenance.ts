@@ -49,7 +49,7 @@ async function recoverInventory(env: IngestionEnv, now: number) {
         continue;
       }
       if (
-        Date.parse(intent.admitted_at) + limits(env).retentionDays * 86400000 <=
+        object.uploaded.getTime() + limits(env).retentionDays * 86400000 <=
         now
       ) {
         await deleteMessage(env, hash, now);
@@ -72,7 +72,9 @@ async function recoverInventory(env: IngestionEnv, now: number) {
         hash,
         key: object.key,
         size: bytes.length,
-        receivedAt: intent.admitted_at,
+        // Admission can predate successful storage by days after an outage.
+        // Retention starts at the immutable object's receipt, never the budget intent.
+        receivedAt: iso(object.uploaded.getTime()),
         ...metadata,
       });
       event("ORPHAN_RECOVERED");

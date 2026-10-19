@@ -813,3 +813,28 @@ describe("additional crash and operational boundaries", () => {
     ).rejects.toThrow();
   });
 });
+
+describe("receipt time after an old storage failure", () => {
+  it("recovers newly stored MIME without backdating it to an expired admission intent", async () => {
+    const hash = await sha256(fixture());
+    await admit(env, hash, now - 40 * 86400000);
+    expect(
+      (
+        await accept("plain.eml", now, {
+          ...env,
+          DB: failures(env.DB, "batch"),
+        })
+      ).setReject,
+    ).toHaveBeenCalled();
+    const stored = await env.RAW_EMAILS.head(objectKey(hash));
+    await reconcile(
+      { ...env, PROCESSING_ENABLED: "true" },
+      now + ORPHAN_GRACE_MS + 60000,
+    );
+    expect(await job()).toMatchObject({ state: "queued" });
+    expect(await query("SELECT received_at FROM messages")).toMatchObject({
+      received_at: stored!.uploaded.toISOString(),
+    });
+    expect(await env.RAW_EMAILS.head(objectKey(hash))).not.toBeNull();
+  });
+});
