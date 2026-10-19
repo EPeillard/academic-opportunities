@@ -50,3 +50,7 @@ Free-tier compatibility is a design goal, not a zero-cost guarantee. R2 activati
 ## M2.5 synthetic integration boundary
 
 The [M2.5 design](m2-5-design.md) adds an isolated, disabled-by-default `apps/agent` Worker and private bridge tables via append-only migration 0003. Only successful M2 receipts matching a compiled synthetic fixture allowlist can be claimed/exported as curated plaintext. The integration Worker has no R2, Queue or Email capability and never writes public opportunities or modifies M2 processing state. JWT OAuth resource checks, short-lived principal-bound batches, immutable result submissions and deletion triggers protect this test boundary. Production/demo generators remain unchanged. Current ChatGPT Work plugin scheduling is a documented mechanism, but [end-to-end unattended feasibility remains conditional](chatgpt-feasibility.md) until an authorized real ChatGPT test passes.
+
+### Isolated interactive MCP test preparation
+
+The agent PoC can use a separate D1 with explicit synthetic bootstrap provenance (migration 0004), without a remote R2 bucket or fabricated M2 jobs. This eligibility alternative is confined to `APP_ENV=poc`, retains compiled fixture identity/evidence/deletion checks and never changes M2 processing. PoC mode exposes only MCP and protected-resource metadata within a bounded test window. Auth0 is the prepared OAuth provider; actual linking remains unverified. See [design](m2-5-live-design.md) and [runbook/security review](agent-live-test.md).

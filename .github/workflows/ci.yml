@@ -29,3 +29,6 @@ jobs:
       - run: npm run test:agent
         env:
           WRANGLER_SEND_METRICS: "false"
+      - run: npm run test:agent-poc
+        env:
+          WRANGLER_SEND_METRICS: "false"

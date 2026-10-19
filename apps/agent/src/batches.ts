@@ -19,9 +19,15 @@ import {
 } from "./common";
 export const fixtures = manifest;
 // Both immutable MIME identity and curated text digest must match the compiled allowlist.
-const eligibility = `m.status='processed' AND m.id=m.mime_sha256 AND m.mime_sha256=f.mime_sha256 AND f.synthetic=1
- AND EXISTS(SELECT 1 FROM jobs j WHERE j.message_id=m.id AND j.stage='mime_integrity' AND j.version=1 AND j.state='succeeded')
- AND NOT EXISTS(SELECT 1 FROM deletion_tombstones t WHERE t.content_sha256=m.mime_sha256)`;
+function eligibilityFor(env: AgentEnv) {
+  const bootstrap =
+    env.APP_ENV === "poc"
+      ? "OR EXISTS(SELECT 1 FROM agent_fixture_bootstraps b WHERE b.message_id=m.id AND b.fixture_version=1 AND m.r2_key='synthetic-no-object/'||m.id)"
+      : "";
+  return `m.status='processed' AND m.id=m.mime_sha256 AND m.mime_sha256=f.mime_sha256 AND f.synthetic=1
+    AND (EXISTS(SELECT 1 FROM jobs j WHERE j.message_id=m.id AND j.stage='mime_integrity' AND j.version=1 AND j.state='succeeded') ${bootstrap})
+    AND NOT EXISTS(SELECT 1 FROM deletion_tombstones t WHERE t.content_sha256=m.mime_sha256)`;
+}
 function knownFixture(id: string, textHash: string) {
   return fixtures.find((f) => f.messageId === id && f.textSha256 === textHash);
 }
@@ -54,6 +60,7 @@ interface Batch {
   state: string;
 }
 async function items(env: AgentEnv, batchId: string) {
+  const eligibility = eligibilityFor(env);
   return (
     await env.DB.prepare(
       `SELECT c.message_id,c.state,f.text_sha256,CASE WHEN ${eligibility} THEN 1 ELSE 0 END AS eligible
@@ -74,6 +81,7 @@ export async function pendingBatch(
   input: unknown,
   now: number,
 ) {
+  const eligibility = eligibilityFor(env);
   requireScope(principal, READ_SCOPE);
   const parsed = BatchQuerySchema.safeParse(input);
   if (!parsed.success) throw new ApiError(400, "INVALID_QUERY");
@@ -235,6 +243,7 @@ export async function submitResults(
   input: unknown,
   now: number,
 ) {
+  const eligibility = eligibilityFor(env);
   requireScope(principal, WRITE_SCOPE);
   const parsed = SubmissionSchema.safeParse(input);
   if (!parsed.success) throw new ApiError(400, "INVALID_SUBMISSION");

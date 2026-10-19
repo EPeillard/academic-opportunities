@@ -7,9 +7,18 @@ import {
   type AgentEnv,
   type Principal,
 } from "./common";
-export function authConfig(env: AgentEnv) {
+export function authConfig(env: AgentEnv, now = Date.now()) {
   if (!["local", "poc"].includes(env.APP_ENV) || env.AGENT_ENABLED !== "true")
     throw new ApiError(503, "AGENT_DISABLED");
+  if (env.APP_ENV === "poc") {
+    const expiry = Date.parse(env.AGENT_TEST_EXPIRES_AT ?? "");
+    if (
+      !Number.isFinite(expiry) ||
+      expiry <= now ||
+      expiry - now > 7 * 86400000
+    )
+      throw new ApiError(503, "TEST_WINDOW_CLOSED");
+  }
   const url = (value: string | undefined) => {
     if (!value || value.length > 2048)
       throw new ApiError(503, "AUTH_NOT_CONFIGURED");
@@ -84,7 +93,7 @@ export async function authenticate(
   env: AgentEnv,
   now: number,
 ): Promise<Principal> {
-  const cfg = authConfig(env);
+  const cfg = authConfig(env, now);
   const authorization = request.headers.get("Authorization") ?? "";
   const match = /^Bearer ([a-zA-Z0-9_.-]{1,8192})$/.exec(authorization);
   if (!match) throw new ApiError(401, "UNAUTHORIZED");

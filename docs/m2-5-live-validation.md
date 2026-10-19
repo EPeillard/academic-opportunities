@@ -1,0 +1,22 @@
+# Live MCP preparation: validation record
+
+2026-10-19. Base: merged M2.5 (`ffb80b4`). All tests use local resources and ephemeral synthetic authentication. No Cloudflare resource was created, migrated remotely, deployed or exposed. No Auth0 account, app, Action or connection was created. No ChatGPT plugin was connected and no model API was called.
+
+| Check                                                      | Result                                                                                                                                                             |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `npm run check`                                            | Passed: formatting, TypeScript, **228 tests**, React production build and three Worker dry-run bundles                                                             |
+| Local D1 migrations and existing seed twice                | Passed with append-only 0004; no seed changes                                                                                                                      |
+| `npm run test:smoke`                                       | Passed: public API and static assets                                                                                                                               |
+| `npm run test:demo`                                        | Passed: isolated local demo, filters/details, private denial, repeated seed                                                                                        |
+| `npm run test:ingestion`                                   | Passed: existing M2 reception/R2/Queue/recovery rehearsal                                                                                                          |
+| `npm run test:agent`                                       | Passed: original M2-backed local REST/MCP protocol rehearsal                                                                                                       |
+| `npm run test:agent-poc`                                   | Passed: generated live-profile config dry run, synthetic bootstrap twice, actual workerd MCP-only profile, SDK calls/replay and private stored-result verification |
+| Hosted Auth0 authorization-code/S256 flow                  | **NOT RUN** — manual provider setup and explicit approval required                                                                                                 |
+| Interactive ChatGPT model extraction and result submission | **NOT RUN** — approved HTTPS exposure and OAuth connection required                                                                                                |
+| Scheduled/unattended operation                             | **NOT TESTED; OUT OF SCOPE**                                                                                                                                       |
+
+The 37 added tests exercise unsafe config rejection (including production/demo identities, extra bindings/routes, key material and expiry), mandatory action-specific confirmation, remote name/UUID checks using mocked responses, config changes during verification, provider discovery checks and Auth0 Action restrictions. Local D1 tests cover manifest/hash verification, repeated bootstrap, contamination/tombstone refusal, actual deletion suppression, PoC-only eligibility, closed REST routes, hard expiry and private result verification.
+
+The generated-config rehearsal uses an ephemeral test JWT issuer and committed expected JSON. It validates deployment packaging, resource isolation, transport and data boundaries; it cannot establish hosted provider settings, OAuth code handling, account/plugin availability, model behavior or human approval requirements. The acceptance record remains **NOT RUN** until an actual interactive ChatGPT trace matches private D1 receipt IDs and factual/security review passes.
+
+Public/frontend sources, public API, M2 ingestion sources, production/demo generators, demo workflow and synthetic demo seed are unchanged. No production migration or trigger is enabled by this change. See [runbook, security review and rollback](agent-live-test.md) for the remaining manual gates and residual risks.
