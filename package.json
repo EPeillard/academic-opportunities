@@ -26,7 +26,14 @@
     "dev:ingestion": "npm run dev -w @academic/ingestion",
     "configure:production": "node scripts/configure-production.mjs",
     "db:migrate:local": "npm run db:migrate",
-    "db:migrate:production": "wrangler d1 migrations apply DB --config apps/worker/wrangler.production.jsonc --remote"
+    "db:migrate:production": "wrangler d1 migrations apply DB --config apps/worker/wrangler.production.jsonc --remote",
+    "configure:demo": "node scripts/demo-environment.mjs configure",
+    "demo:dry-run": "node scripts/demo-environment.mjs dry-run",
+    "demo:verify-target": "node scripts/demo-environment.mjs verify-target",
+    "demo:migrate": "node scripts/demo-environment.mjs migrate",
+    "demo:seed": "node scripts/demo-environment.mjs seed",
+    "demo:deploy": "node scripts/demo-environment.mjs deploy",
+    "test:demo": "node scripts/smoke-demo.mjs"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20260702.1",

@@ -135,3 +135,7 @@ Both configurations have `workers_dev: false`, `preview_urls: false`, and no rou
 - [D1 migrations and command flags](https://developers.cloudflare.com/workers/wrangler/commands/d1/).
 - [R2 public access](https://developers.cloudflare.com/r2/buckets/public-buckets/).
 - [API-token permissions](https://developers.cloudflare.com/fundamentals/api/reference/permissions/), [Workers roles and permissions](https://developers.cloudflare.com/workers/authorization/workers/).
+
+## Isolated demo exception
+
+The production procedure above remains unchanged. A separate [demo runbook](demo-deployment.md) prepares a new demo-only D1 database and enables workers.dev only on `academic-opportunities-demo`, without granting R2/Queue bindings or changing DNS. Do not use production migration/deployment commands for that demo. Deployment still requires explicit approval.

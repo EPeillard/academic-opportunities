@@ -86,3 +86,7 @@ For M1: install dependencies, migrate/seed local D1 and start the app. Before fu
 ## Manually provisioned Cloudflare resources
 
 Bindings now use `academic-opportunities-db`, `academic-opportunities-emails` and `academic-opportunities-ingestion`. Run `npm run configure:production` with your account ID and provisioned D1 UUID to generate separate ignored production configurations. The public Worker has no R2/Queue binding. [Deployment and permissions](docs/deployment.md) includes exact local/remote migration commands and the required manual R2 privacy verification. No production migration, deployment or DNS change is performed by setup/build/CI.
+
+## Isolated public demo (prepared, not deployed)
+
+The [demo runbook](docs/demo-deployment.md) prepares a separate `academic-opportunities-demo` Worker and `academic-opportunities-demo-db` database, serving the existing website/read-only API on a temporary workers.dev URL. Run `npm run configure:demo` with the account ID and `CLOUDFLARE_DEMO_D1_DATABASE_ID`, then validate offline with `npm run demo:dry-run`. `npm run test:demo` rehearses the migration, repeated synthetic seed and HTTP checks against disposable local state. Remote migration/seed/deploy wrappers verify the demo database identity first; **do not execute them before deployment approval**. No R2, Queue, email handler or mailing list is connected. [jobs.etiennepeillard.com](docs/custom-domain.md) is a documentation-only future plan; DNS stays unchanged.
