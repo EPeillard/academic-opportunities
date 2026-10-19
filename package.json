@@ -1,0 +1,42 @@
+{
+  "name": "academic-opportunities",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "npm run build:web && concurrently -k -n api,web \"npm run dev -w @academic/worker\" \"npm run dev -w @academic/web\"",
+    "build:web": "npm run build -w @academic/web",
+    "build": "npm run build:web && npm run build -w @academic/worker",
+    "typecheck": "tsc --noEmit -p packages/shared && tsc --noEmit -p apps/worker && tsc --noEmit -p apps/web",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:migrate": "npm run db:migrate -w @academic/worker",
+    "db:seed": "npm run db:seed -w @academic/worker",
+    "check": "npm run format:check && npm run typecheck && npm test && npm run build",
+    "preview": "npm run dev -w @academic/worker",
+    "test:smoke": "node scripts/smoke.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20260702.1",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.8",
+    "@types/node": "26.6.5",
+    "concurrently": "10.0.6",
+    "happy-dom": "21.0.3",
+    "miniflare": "4.20260611.0",
+    "prettier": "3.9.10",
+    "typescript": "7.0.2",
+    "vitest": "5.0.5",
+    "wrangler": "4.100.0"
+  },
+  "type": "module",
+  "license": "MIT"
+}
