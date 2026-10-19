@@ -4,7 +4,7 @@ Design reviewed 2026-10-19. Implementation status: Milestone 1 only, local devel
 
 ## Boundaries
 
-TypeScript npm workspaces: `apps/web` (React, Vite, Tailwind), `apps/worker` (public API and Static Assets), `packages/shared` (Zod contracts). D1 owns relational metadata. Future email and processing Workers are separate from the public Worker: only they may bind private R2, queues, and extraction credentials. The public Worker must never have a raw-mail R2 binding. Public JSON is an explicit allowlist, not serialized database rows.
+TypeScript npm workspaces: `apps/web` (React, Vite, Tailwind), `apps/worker` (public API and Static Assets), `packages/shared` (Zod contracts). D1 owns relational metadata. The disabled ingestion scaffold in `apps/ingestion` prepares private resource bindings but implements no intake or processing. See [deployment configuration](deployment.md). Future email and processing Workers are separate from the public Worker: only they may bind private R2, queues, and extraction credentials. The public Worker must never have a raw-mail R2 binding. Public JSON is an explicit allowlist, not serialized database rows.
 
 React renders plain text only. Public source and application URLs are HTTPS, validated at schema and response boundaries; credentials, local hostnames and IP literals are excluded. No remote URL fetching exists in M1. Administrative routes fail closed and have no implementation in M1. Future admin Worker requires Cloudflare Access JWT verification (signature, issuer, audience, expiry, approved identities) on every request, including API calls, plus CSRF protection for mutations. Hiding UI is not authorization.
 

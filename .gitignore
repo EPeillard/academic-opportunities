@@ -8,3 +8,5 @@ coverage/
 *.log
 playwright-report/
 test-results/
+apps/*/wrangler.production.jsonc
+dist-production/

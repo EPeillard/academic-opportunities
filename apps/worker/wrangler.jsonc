@@ -13,9 +13,14 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "academic-opportunities-local",
+      "database_name": "academic-opportunities-db",
       "database_id": "00000000-0000-0000-0000-000000000001",
       "migrations_dir": "migrations",
+      "remote": false,
     },
   ],
+  "preview_urls": false,
+  "vars": {
+    "APP_ENV": "local",
+  },
 }

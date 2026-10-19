@@ -1,0 +1,11 @@
+{
+  "name": "@academic/ingestion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local --ip 127.0.0.1 --port 8788 --inspector-port 0 --persist-to ../worker/.wrangler/state",
+    "build": "wrangler deploy --dry-run --outdir dist"
+  },
+  "license": "MIT"
+}
