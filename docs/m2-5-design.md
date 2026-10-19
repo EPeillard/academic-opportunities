@@ -1,0 +1,25 @@
+# M2.5 design: synthetic extraction bridge
+
+Written before implementation, 2026-10-19. M2 is merged; its intake/outbox/Queue/retention protocol remains unchanged. This milestone builds and tests a separate local Worker, not a production extraction dependency. No deployment, live connection, task creation, email activation, paid model calls or changes to the public demo.
+
+## Feasibility boundary
+
+Current official ChatGPT Work scheduling documentation permits connected tools/plugins and background runs. That establishes a supported mechanism, not proof of this user's plan/workspace availability, OAuth linking/refresh, approval policies or end-to-end scheduled write. Recommendation: conditionally feasible, not verified unattended. The authoritative assessment and dated source matrix are in `chatgpt-feasibility.md`. Do not infer universal support from a localhost test or assume a paid ChatGPT subscription is an unlimited API entitlement.
+
+Preferred transport: authenticated MCP over Streamable HTTP, with OAuth 2.1 handled by an established authorization server. This Worker validates pinned RS256 access tokens (signature, issuer, audience, time, subject/client allowlist, scopes), exposes protected-resource discovery, and never implements a password/login/token-issuing endpoint. Local tests mint tokens only in memory using an ephemeral keypair. No private key, token or Cloudflare credential goes into source, configuration, prompt or frontend. OpenAPI describes the parallel REST endpoints; it is not an MCP plugin manifest.
+
+## Isolation and data
+
+`apps/agent` has only its own local D1 binding, no R2/Queue/Email binding, no routes or workers.dev exposure. It does not use the production/demo config generator. A new append-only migration extends the canonical schema with bridge-only fixture enrollment, batch claims, submissions and pending-validation results. Pending messages must be completed M2 integrity receipts, enrolled against a compile-time synthetic MIME hash/text allowlist, and not tombstoned/deleted. The Worker returns only curated, bounded plain text from these known fixtures; it cannot retrieve or expose arbitrary MIME or headers. It is deliberately not the M3 general-purpose MIME parser. Tests prove a forged enrollment of a real/unknown message cannot export content.
+
+GET pending-batch authenticates and rate-limits first, claims at most three eligible synthetic receipts, and returns a principal-bound immutable batch with a 15-minute expiry. Repeated GET returns the same active batch. Cursor and limit are bounded; callers must finish/expire an active batch before changing pagination. Expired claims can be reassigned. Allocation is a private state change even though the requested REST endpoint uses GET; MCP annotations must not call it read-only.
+
+POST extraction-results validates strict Zod contracts and bounded bytes, explicit batch/message/submission IDs, zero–three candidates per message, nullable missing fields, and evidence spans against the exported text. It requires the whole batch exactly once. Scoped identity, batch expiry, current claims, M2 status/tombstones and immutable fixture identity are checked inside the commit guard. One transaction inserts an immutable submission hash/receipt, results in pending_validation, and completion markers. Exact semantic replay returns the same receipt; changed replay, cross-principal batches, expired/reassigned claims and reused submission IDs cannot write new results. Bearer tokens remain replayable if stolen until expiry: TLS, narrow scopes, one-hour max token life and immutable application-level commits mitigate this; no claim of DPoP/token-theft prevention.
+
+M2 deletion triggers erase bridge results and suppress claims. Never update opportunities/publication state or mutate M2 integrity jobs/outbox. Rate limits are durable per authenticated principal/hour; request bodies, model text, JWTs and subject identifiers never enter logs. Unknown/invalid requests fail with fixed error codes. Public API and frontend code remain unchanged.
+
+## Validation and future gate
+
+Local tests cover JWT/scope/tenant boundaries, batches/expiry/concurrency/pagination, strict schemas/evidence, zero/one/multiple candidates, idempotency/conflicts, deletion races, service errors, quotas and public isolation. A workerd+SDK client rehearsal verifies actual MCP discovery/calls and REST behavior with ephemeral auth and isolated D1/R2 fixture storage. These are protocol tests with synthetic submitted results, not a ChatGPT extraction evaluation.
+
+Future interactive testing needs explicit authorization to expose an isolated HTTPS endpoint or secure tunnel, configure an OAuth provider/client, and connect the custom MCP server. Only after manual success and feature availability checks may a separately approved one-off scheduled synthetic test run. Success requires authentication, batch retrieval, analysis and immutable result submission without per-run human approval, verified both in ChatGPT traces and D1. Until then record the integration test as NOT RUN/BLOCKED and keep production architecture independent.

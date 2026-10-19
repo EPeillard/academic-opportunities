@@ -46,3 +46,7 @@ Use structured event/job IDs and reason codes, never bodies, headers, contact de
 - [R2 pricing](https://developers.cloudflare.com/r2/pricing/) — storage and operations are independent of Worker usage.
 
 Free-tier compatibility is a design goal, not a zero-cost guarantee. R2 activation/account requirements, domain costs, Access eligibility, provider charges, and current quotas require verification before deployment. Static assets reduce Worker requests; bounded SQL avoids unlimited scans. M1 uses LIKE for small datasets; evaluate FTS/indexing and rate limiting before launch.
+
+## M2.5 synthetic integration boundary
+
+The [M2.5 design](m2-5-design.md) adds an isolated, disabled-by-default `apps/agent` Worker and private bridge tables via append-only migration 0003. Only successful M2 receipts matching a compiled synthetic fixture allowlist can be claimed/exported as curated plaintext. The integration Worker has no R2, Queue or Email capability and never writes public opportunities or modifies M2 processing state. JWT OAuth resource checks, short-lived principal-bound batches, immutable result submissions and deletion triggers protect this test boundary. Production/demo generators remain unchanged. Current ChatGPT Work plugin scheduling is a documented mechanism, but [end-to-end unattended feasibility remains conditional](chatgpt-feasibility.md) until an authorized real ChatGPT test passes.
