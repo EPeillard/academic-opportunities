@@ -13,6 +13,10 @@
 
 Email Routing handler compatible with Gmail-forwarded MIME, private R2, bounded stream/hash, D1 admission/jobs/outbox, fenced Queue consumer, phased reconciliation, retention/tombstones and synthetic MIME fixtures. Gmail forwarding verification and real delivery activation remain manual future steps. See [M2 design](m2-design.md) and [rollout](m2-rollout.md). Acceptance: crash/replay at each durability boundary without loss or public leakage. Requires user-managed domain and Cloudflare resources only after explicit deployment scope.
 
+## M2.5 — synthetic ChatGPT feasibility (this change)
+
+Isolated OAuth resource Worker, REST/MCP synthetic batch bridge, strict nullable extraction/evidence contract, replay-safe private results and local protocol tests. No paid model calls or live connection. Deliver dated [feasibility assessment](chatgpt-feasibility.md) and [manual interactive/unattended test gates](agent-integration.md). A successful SDK rehearsal does not establish ChatGPT scheduled authentication or approval-free writes; production architecture cannot depend on them yet.
+
 ## M3 — extraction and publication policy
 
 Bounded MIME parsing, provider-neutral adapter and fake, zero/multiple candidates, field evidence, schema versions, deterministic normalization, independent permission registry/privacy checks, summaries, exact/semantic duplicate candidates and revisions. Acceptance: adversarial instructions cannot access tools; optional nulls accepted; unlicensed full text blocked; uncertain dedupe reviewed; budgets enforced.

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "academic-opportunities-agent-poc-local",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-06-11",
+  "workers_dev": false,
+  "preview_urls": false,
+  "vars": { "APP_ENV": "local", "AGENT_ENABLED": "false" },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "academic-opportunities-agent-poc-db",
+      "database_id": "00000000-0000-0000-0000-000000000025",
+      "migrations_dir": "../worker/migrations",
+      "remote": false,
+    },
+  ],
+}

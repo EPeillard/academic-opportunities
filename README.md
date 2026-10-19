@@ -98,3 +98,9 @@ To deploy without a local terminal, follow [GitHub Actions demo setup](docs/demo
 ## M2 private ingestion
 
 Read [M2 rollout and local test instructions](docs/m2-rollout.md) before using the ingestion Worker. `npm run dev:ingestion` uses only local bindings; its HTTP interface deliberately returns 503. Send synthetic fixtures only through the local simulator's email handler. Production config generation always disables email/processing gates and strips consumer/cron triggers. `ingestion:prepare-activation` only prepares an ignored file offline and is not production approval. No production resources or the deployed demo are modified by M2 setup/tests/CI. Exact remote rollout commands are documented for a separately approved future operation; do not run them now.
+
+## M2.5 — synthetic ChatGPT integration feasibility
+
+A separate, locally tested `apps/agent` Worker exposes authenticated synthetic batch retrieval/submission and MCP tools. It binds only its own local D1, never R2, and stores results as private `pending_validation`; no publication or production extraction is enabled. OAuth issuer/audience/subject/client/scopes are verified, batches expire, submissions are idempotent and M2 deletion suppresses derived results. Run `npm run test:agent` for a disposable real M2 + workerd + MCP SDK rehearsal with ephemeral tokens and no external model calls.
+
+Read the [dated feasibility assessment](docs/chatgpt-feasibility.md), [API/auth/manual ChatGPT test guide](docs/agent-integration.md), [OpenAPI](docs/integrations/agent-openapi.json) and [design](docs/m2-5-design.md). Unattended ChatGPT Work use is **conditionally feasible and unverified**; no ChatGPT connection, OAuth login/refresh or scheduled run has been performed. The prototype is disabled by default and no remote configuration/deployment/real-mail connection is provided. M3/M4 still own factual/deduplication/privacy/publication decisions. The existing demo is unchanged.

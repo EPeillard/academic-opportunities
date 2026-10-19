@@ -12,8 +12,8 @@
   "scripts": {
     "dev": "npm run build:web && concurrently -k -n api,web \"npm run dev -w @academic/worker\" \"npm run dev -w @academic/web\"",
     "build:web": "npm run build -w @academic/web",
-    "build": "npm run build:web && npm run build -w @academic/worker && npm run build -w @academic/ingestion",
-    "typecheck": "tsc --noEmit -p packages/shared && tsc --noEmit -p apps/worker && tsc --noEmit -p apps/web && tsc --noEmit -p apps/ingestion",
+    "build": "npm run build:web && npm run build -w @academic/worker && npm run build -w @academic/ingestion && npm run build -w @academic/agent",
+    "typecheck": "tsc --noEmit -p packages/shared && tsc --noEmit -p apps/worker && tsc --noEmit -p apps/web && tsc --noEmit -p apps/ingestion && tsc --noEmit -p apps/agent",
     "test": "vitest run",
     "test:watch": "vitest",
     "db:migrate": "npm run db:migrate -w @academic/worker",
@@ -37,7 +37,9 @@
     "demo:verify-live": "node scripts/verify-live-demo.mjs",
     "test:ingestion": "npm run build -w @academic/ingestion && node scripts/smoke-ingestion.mjs",
     "ingestion:prepare-activation": "node scripts/prepare-ingestion.mjs --prepare-activation",
-    "ingestion:verify-target": "node scripts/prepare-ingestion.mjs verify-target"
+    "ingestion:verify-target": "node scripts/prepare-ingestion.mjs verify-target",
+    "dev:agent": "npm run dev -w @academic/agent",
+    "test:agent": "npm run build -w @academic/ingestion && npm run build -w @academic/agent && node scripts/smoke-agent.mjs"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20260702.1",
