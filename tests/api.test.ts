@@ -197,3 +197,39 @@ describe("public API against real local D1", () => {
     ).rejects.toThrow();
   });
 });
+
+describe("demo-only public projection", () => {
+  it("hides non-synthetic published records in lists, details and facets", async () => {
+    await env.DB.prepare(
+      "INSERT INTO opportunities (id,state,title,job_type,description,country,published_at,updated_at,synthetic) VALUES ('real-sentinel','published','Real sentinel','PhD','Not a demo','Real Country','2026-10-20T00:00:00.000Z','2026-10-20T00:00:00.000Z',0)",
+    ).run();
+    const demoEnv = { ...env, APP_ENV: "demo" as const };
+    const response = await handleRequest(
+      new Request("https://demo.example/api/opportunities"),
+      demoEnv,
+    );
+    const result = ListSchema.parse(await response.json());
+    expect(result.total).toBe(8);
+    expect(result.items.every((o) => o.synthetic)).toBe(true);
+    expect(
+      (
+        await handleRequest(
+          new Request("https://demo.example/api/opportunities/real-sentinel"),
+          demoEnv,
+        )
+      ).status,
+    ).toBe(404);
+    const facets = await (
+      await handleRequest(
+        new Request("https://demo.example/api/facets"),
+        demoEnv,
+      )
+    ).text();
+    expect(facets).not.toContain("Real Country");
+    // Default/local behavior still permits published records: demo safeguards do not alter production scope.
+    expect((await get("/api/opportunities/real-sentinel")).status).toBe(200);
+    await env.DB.prepare(
+      "DELETE FROM opportunities WHERE id='real-sentinel'",
+    ).run();
+  });
+});

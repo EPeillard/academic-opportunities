@@ -140,7 +140,7 @@ export function App() {
   return (
     <>
       <div className="demo">
-        LOCAL DEMO{" "}
+        SYNTHETIC DEMO{" "}
         <span>
           All opportunities and organizations shown here are fictional.
         </span>
@@ -487,7 +487,7 @@ export function App() {
       <footer className="shell footer">
         <span>Academic Opportunities</span>
         <p>Connecting researchers with what comes next.</p>
-        <span>Milestone 1 · Local demonstration</span>
+        <span>Demonstration · Synthetic data</span>
       </footer>
     </>
   );

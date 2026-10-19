@@ -8,6 +8,7 @@ import {
 } from "@academic/shared";
 import type { Opportunity } from "@academic/shared";
 export interface Env {
+  APP_ENV?: "local" | "production" | "demo";
   DB: D1Database;
   ASSETS: Fetcher;
 }
@@ -86,6 +87,10 @@ export async function handleRequest(
   env: Env,
 ): Promise<Response> {
   const url = new URL(request.url);
+  const publicationScope =
+    env.APP_ENV === "demo"
+      ? "state='published' AND synthetic=1"
+      : "state='published'";
   if (
     url.pathname === "/admin" ||
     url.pathname.startsWith("/admin/") ||
@@ -110,7 +115,7 @@ export async function handleRequest(
       return json({ status: "ok", milestone: 1 });
     if (url.pathname === "/api/facets") {
       const countries = await env.DB.prepare(
-        "SELECT DISTINCT country FROM opportunities WHERE state='published' AND country IS NOT NULL ORDER BY country",
+        `SELECT DISTINCT country FROM opportunities WHERE ${publicationScope} AND country IS NOT NULL ORDER BY country`,
       ).all<{ country: string }>();
       return json(
         FacetsSchema.parse({
@@ -143,7 +148,7 @@ export async function handleRequest(
       )
         return json({ error: "Repeated filters are not supported" }, 400);
       const q = parsed.data,
-        where = ["state='published'"],
+        where = [publicationScope],
         values: (string | number)[] = [];
       if (q.q) {
         where.push(
@@ -201,7 +206,7 @@ export async function handleRequest(
     );
     if (match) {
       const row = await env.DB.prepare(
-        `SELECT ${columns} FROM opportunities WHERE id=? AND state='published'`,
+        `SELECT ${columns} FROM opportunities WHERE id=? AND ${publicationScope}`,
       )
         .bind(match[1])
         .first<Record<string, unknown>>();
