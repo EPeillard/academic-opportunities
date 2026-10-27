@@ -437,7 +437,9 @@ export function App() {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          Original vacancy ↗
+                          {s.label.startsWith("AFXR")
+                            ? "AFXR announcement ↗"
+                            : "Original vacancy ↗"}
                         </a>
                       ) : (
                         <span>{s.label}</span>

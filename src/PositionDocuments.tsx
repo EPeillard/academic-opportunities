@@ -24,16 +24,34 @@ export function PositionDocuments({
             </a>
             <div className="document-actions">
               <span className="muted">
-                {attachment.url.split(".").pop()?.toUpperCase()} ·{" "}
-                {size(attachment.size)}
+                {
+                  {
+                    "application/pdf": "PDF",
+                    "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
+                      "DOCX",
+                    "image/png": "PNG",
+                  }[attachment.mediaType]
+                }{" "}
+                · {size(attachment.size)}
               </span>
-              <a
-                href={attachment.url}
-                download={attachment.name}
-                aria-label={`Download ${attachment.name}`}
-              >
-                Download
-              </a>
+              {attachment.url.startsWith("/documents/") ? (
+                <a
+                  href={attachment.url}
+                  download={attachment.name}
+                  aria-label={`Download ${attachment.name}`}
+                >
+                  Download
+                </a>
+              ) : (
+                <a
+                  href={attachment.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Open ${attachment.name}`}
+                >
+                  Open document ↗
+                </a>
+              )}
             </div>
           </li>
         ))}

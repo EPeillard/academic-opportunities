@@ -27,6 +27,10 @@ const mailingLists = [
 ];
 
 const websites = [
+  {
+    name: "AFXR · Emplois et Carrières",
+    url: "https://www.afxr.org/page/976227-emplois-et-carrieres",
+  },
   { name: "CNRS recruitment", url: "https://emploi.cnrs.fr/" },
   { name: "Inria recruitment", url: "https://recrutement.inria.fr/" },
   { name: "ADUM", url: "https://adum.fr/" },
@@ -43,8 +47,8 @@ export function Sources() {
         <p>Where the opportunities in this catalogue come from.</p>
       </div>
       <p>
-        Opportunities are selected manually from research mailing list
-        announcements. Listings retain links to the original vacancy or
+        Opportunities are selected manually from research mailing lists and
+        vacancy websites. Listings retain links to the original vacancy or
         application website when available.
       </p>
       <section aria-labelledby="mailing-lists-title">

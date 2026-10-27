@@ -14,6 +14,8 @@ Les fiches proviennent de `data/opportunities.json`. Le site est entièrement st
 
 Les exports et documents de travail restent hors du dépôt public. On y conserve les fiches structurées, les résumés factuels et les descriptions originales utiles au recrutement, avec leurs liens. Les mises à jour ne demandent aucun abonnement de liste, compte de service ou clé de modèle.
 
+L’[import AFXR de 2026](data/import-afxr-2026-10-27.md) ajoute les annonces de cette année et complète les offres déjà présentes, avec un [manifeste de rapprochement](data/import-afxr-2026-10-27.json). Les documents externes restent accessibles depuis leurs serveurs d’origine.
+
 ## Développement
 
 Node.js 24 et npm sont recommandés.

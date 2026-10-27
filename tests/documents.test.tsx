@@ -10,9 +10,26 @@ import { createHash } from "node:crypto";
 
 afterEach(cleanup);
 describe("position document attachments", () => {
+  it("opens publisher-hosted PDFs with a clear format and source link", () => {
+    const attachment = opportunities
+      .flatMap((offer) => offer.attachments)
+      .find((attachment) => attachment.url.startsWith("https://"))!;
+    expect(AttachmentSchema.safeParse(attachment).success).toBe(true);
+    render(<PositionDocuments attachments={[attachment]} />);
+    const link = screen.getByRole("link", { name: `Open ${attachment.name}` });
+    expect(link.getAttribute("href")).toBe(attachment.url);
+    expect(link.getAttribute("target")).toBe("_blank");
+    expect(link.getAttribute("rel")).toContain("noopener");
+    expect(link.hasAttribute("download")).toBe(false);
+    expect(screen.getByText(/PDF ·/)).toBeTruthy();
+  });
   it("provides original filenames and working download links even without an email body", () => {
     const offer = opportunities.find(
-      (offer) => !offer.announcements.length && offer.attachments.length,
+      (offer) =>
+        !offer.announcements.length &&
+        offer.attachments.some((attachment) =>
+          attachment.url.startsWith("/documents/"),
+        ),
     )!;
     expect(offer).toBeTruthy();
     render(<PositionDocuments attachments={offer.attachments} />);
@@ -28,13 +45,17 @@ describe("position document attachments", () => {
   });
   it("preserves original file bytes and deduplicates files across relances", () => {
     expect(
-      opportunities.filter((offer) => offer.attachments.length).length,
+      opportunities.filter((offer) =>
+        offer.attachments.some((attachment) =>
+          attachment.url.startsWith("/documents/"),
+        ),
+      ).length,
     ).toBe(76);
     const documents = new Map(
       opportunities.flatMap((offer) =>
-        offer.attachments.map(
-          (attachment) => [attachment.url, attachment] as const,
-        ),
+        offer.attachments
+          .filter((attachment) => attachment.url.startsWith("/documents/"))
+          .map((attachment) => [attachment.url, attachment] as const),
       ),
     );
     expect(documents.size).toBe(79);
@@ -53,7 +74,7 @@ describe("position document attachments", () => {
     const attachment = opportunities.flatMap((offer) => offer.attachments)[0];
     for (const url of [
       "/documents/../../private.eml",
-      "https://example.org/private.pdf",
+      "http://localhost/private.pdf",
       "/documents/123.exe",
     ]) {
       expect(AttachmentSchema.safeParse({ ...attachment, url }).success).toBe(

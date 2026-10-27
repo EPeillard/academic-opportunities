@@ -125,7 +125,10 @@ export const AttachmentSchema = z
       .min(1)
       .max(250)
       .regex(/^[^\x00-\x1f\\/]+$/),
-    url: z.string().regex(/^\/documents\/[a-f0-9]{24}\.(pdf|docx|png)$/),
+    url: z.union([
+      z.string().regex(/^\/documents\/[a-f0-9]{24}\.(pdf|docx|png)$/),
+      PublicUrlSchema,
+    ]),
     mediaType: z.enum([
       "application/pdf",
       "application/vnd.openxmlformats-officedocument.wordprocessingml.document",

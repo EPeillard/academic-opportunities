@@ -476,7 +476,7 @@
     "applicationUrl": "https://amethis.doctorat.org/amethis-client/prd/consulter/offre/3474",
     "description": "Design and develop a virtual training platform for non-destructive testing, combining immersive learning and pedagogical scenario design.",
     "publishedAt": "2026-04-14T08:24:05.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement · bulle-i3",
@@ -492,6 +492,11 @@
         "label": "Research vacancy announcement · GT RV",
         "url": "https://amethis.doctorat.org/amethis-client/prd/consulter/offre/3474",
         "receivedAt": "2026-04-14T09:51:30.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/207685-3-offres-de-these-en-rv-ra-et-eiah-lium",
+        "receivedAt": "2026-04-21T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -523,7 +528,7 @@
     "applicationUrl": "https://amethis.doctorat.org/amethis-client/prd/consulter/offre/3473",
     "description": "Model and evaluate non-destructive testing gestures using augmented reality, including learning and authoring tools.",
     "publishedAt": "2026-04-14T08:24:05.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement · bulle-i3",
@@ -539,6 +544,11 @@
         "label": "Research vacancy announcement · GT RV",
         "url": "https://amethis.doctorat.org/amethis-client/prd/consulter/offre/3473",
         "receivedAt": "2026-04-14T09:51:30.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/207685-3-offres-de-these-en-rv-ra-et-eiah-lium",
+        "receivedAt": "2026-04-21T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -574,7 +584,7 @@
     "applicationUrl": "https://amethis.doctorat.org/amethis-client/prd/consulter/offre/3466",
     "description": "Develop models and tools for designing and operationalizing collaborative pedagogical activities in virtual reality.",
     "publishedAt": "2026-04-14T08:24:05.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement · bulle-i3",
@@ -590,6 +600,11 @@
         "label": "Research vacancy announcement · GT RV",
         "url": "https://amethis.doctorat.org/amethis-client/prd/consulter/offre/3466",
         "receivedAt": "2026-04-14T09:51:30.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/207685-3-offres-de-these-en-rv-ra-et-eiah-lium",
+        "receivedAt": "2026-04-21T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -909,12 +924,17 @@
     "applicationUrl": "https://edtlab.fr/fr/nous-rejoindre/phd-pc5-phd4-exploringalternatives",
     "description": "CIFRE doctoral research on interactive exploration of alternative digital twins, with visits to CESI in Rouen. The announcement also points to seven other doctoral topics in the EDT PC5 programme.",
     "publishedAt": "2026-05-12T16:43:17.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
         "url": "https://edtlab.fr/fr/nous-rejoindre/phd-pc5-phd4-exploringalternatives",
         "receivedAt": "2026-05-12T16:43:17.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/209837-8-offres-de-theses-en-ihm-et-ou-rv-ra-dans-le-cadre-du-projet-edt",
+        "receivedAt": "2026-05-19T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -5579,12 +5599,17 @@
     "applicationUrl": null,
     "description": "Develop interactive immersive VR experiences for digital art and live performance in the IRISA EXPRESSION team, funded by PEPR ICCARE.",
     "publishedAt": "2026-01-08T12:54:16.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement · GDR IHM",
         "url": null,
         "receivedAt": "2026-01-08T12:54:16.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/198936-stage-m2-experiences-en-rv-pour-lart-immersif-et-le-spectacle-vivant",
+        "receivedAt": "2026-01-20T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -5815,9 +5840,9 @@
     "applicationDeadline": null,
     "contact": "ladeveze@lisn.upsaclay.fr",
     "applicationUrl": null,
-    "description": "Master's internship on augmented-reality museography and computing heritage in the PATRIA project at LISN.",
+    "description": "Offre signalée comme pourvue par l’AFXR. Master's internship on augmented-reality museography and computing heritage in the PATRIA project at LISN.",
     "publishedAt": "2026-01-15T07:10:35.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement · bulle-i3",
@@ -5828,6 +5853,11 @@
         "label": "Research vacancy announcement · GDR IHM",
         "url": null,
         "receivedAt": "2026-01-15T07:10:35.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/198942-offre-de-stage-m2-ra-patrimoine-au-lisn",
+        "receivedAt": "2026-01-20T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -6222,7 +6252,7 @@
     "applicationUrl": null,
     "description": "CIFRE doctoral research in collaborative virtual reality for data visualization, involving XR, HCI, and collaborative systems, with Unity/C# development experience valued.",
     "publishedAt": "2026-05-12T15:53:12.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement · bulle-i3",
@@ -6238,6 +6268,16 @@
         "label": "Research vacancy announcement · bulle-i3",
         "url": null,
         "receivedAt": "2026-08-31T14:12:34.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/218162-these-rv-collaborative-pour-la-datavis-imt-atlantique-thales",
+        "receivedAt": "2026-09-16T12:00:00.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/209836-offre-de-these-en-rv-collaborative-pour-la-visualisation-de-donnees",
+        "receivedAt": "2026-05-19T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -6281,12 +6321,17 @@
     "applicationUrl": null,
     "description": "Investigate XR in the design of reconfigurable production systems and interoperability between CAD, digital twins, and XR within ANR HUMANIRE.",
     "publishedAt": "2026-08-31T11:43:23.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
         "url": null,
         "receivedAt": "2026-08-31T11:43:23.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/218161-these-ensam-lispen-vers-une-interoperabilite-cao-jumeau-numerique-xr",
+        "receivedAt": "2026-09-16T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -6319,15 +6364,20 @@
     "startDate": null,
     "applicationDeadline": null,
     "contact": "ludovic.hoyet@inria.fr",
-    "applicationUrl": null,
+    "applicationUrl": "https://jobs.inria.fr/public/classic/en/offres/2026-10520",
     "description": "Investigate crowd simulation and authoring in augmented reality for digital twins and large-scale events in the Inria Virtus team.",
     "publishedAt": "2026-09-23T09:43:10.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
         "url": null,
         "receivedAt": "2026-09-23T09:43:10.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/218699-these-et-poste-ingenieur-cdd-simulation-et-animation-de-foules-en-xr",
+        "receivedAt": "2026-09-23T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -6352,15 +6402,20 @@
     "startDate": null,
     "applicationDeadline": null,
     "contact": "ludovic.hoyet@inria.fr",
-    "applicationUrl": null,
+    "applicationUrl": "https://jobs.inria.fr/public/classic/fr/offres/2026-10519",
     "description": "Develop tools for crowd simulation, animation, and digital twins, including augmented-reality evaluation of crowds in large-scale events.",
     "publishedAt": "2026-09-23T09:43:10.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
         "url": null,
         "receivedAt": "2026-09-23T09:43:10.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/218699-these-et-poste-ingenieur-cdd-simulation-et-animation-de-foules-en-xr",
+        "receivedAt": "2026-09-23T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -6500,12 +6555,17 @@
     "applicationUrl": "https://link.springer.com/content/pdf/10.1007%2F978-90-481-8933-5_3.pdf",
     "description": "The SPARK doctoral project combines augmented reality, collaborative knowledge construction, and physics education in the context of energy and climate transition.",
     "publishedAt": "2026-05-13T17:22:21.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
         "url": "https://link.springer.com/content/pdf/10.1007%2F978-90-481-8933-5_3.pdf",
         "receivedAt": "2026-05-13T17:22:21.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/209838-offre-de-these-ihm-education-perseus",
+        "receivedAt": "2026-05-19T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -7462,7 +7522,7 @@
     "applicationUrl": null,
     "description": "Doctoral research proposal in the PEPR eNSEMBLE call combining XR collaboration, AI, and technical gestures. Applicants should consult the call and project supervisors for conditions.",
     "publishedAt": "2026-04-21T13:57:57.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement · bulle-i3",
@@ -7473,6 +7533,11 @@
         "label": "Research vacancy announcement",
         "url": null,
         "receivedAt": "2026-04-21T13:57:57.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/208131-appel-a-candidatures-these-collaboration-xr-ia-et-geste-technique",
+        "receivedAt": "2026-04-27T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -8880,12 +8945,17 @@
     "applicationUrl": "https://jobs.inria.fr/public/classic/fr/offres/2026-10355",
     "description": "Capture and infer scene properties in real time, integrating foundation models and multimodal information in the Seamless team.",
     "publishedAt": "2026-07-31T09:14:23.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
         "url": "https://jobs.inria.fr/public/classic/fr/offres/2026-10355",
         "receivedAt": "2026-07-31T09:14:23.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/216801-phd-postdoc-openings-xr-haptics-hci-eu-project-inria-rennes-france",
+        "receivedAt": "2026-08-31T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -8913,12 +8983,17 @@
     "applicationUrl": "https://jobs.inria.fr/public/classic/fr/offres/2026-10367",
     "description": "Design and evaluate wearable haptic interfaces and algorithms for spatial tactile rendering in extended reality.",
     "publishedAt": "2026-07-31T09:14:23.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
         "url": "https://jobs.inria.fr/public/classic/fr/offres/2026-10367",
         "receivedAt": "2026-07-31T09:14:23.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/216801-phd-postdoc-openings-xr-haptics-hci-eu-project-inria-rennes-france",
+        "receivedAt": "2026-08-31T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -8946,12 +9021,17 @@
     "applicationUrl": "https://jobs.inria.fr/public/classic/fr/offres/2026-10362",
     "description": "Conduct research and co-supervise doctoral work in multimodal reconstruction or haptic/tactile rendering within Seamless.",
     "publishedAt": "2026-07-31T09:14:23.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
         "url": "https://jobs.inria.fr/public/classic/fr/offres/2026-10362",
         "receivedAt": "2026-07-31T09:14:23.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/216801-phd-postdoc-openings-xr-haptics-hci-eu-project-inria-rennes-france",
+        "receivedAt": "2026-08-31T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -9741,7 +9821,7 @@
     "applicationUrl": null,
     "description": "Develop the UX Arc NEXUS ecosystem for businesses in the Jura Arc, combining a web platform, maturity models, resources, and expert networks at ELLIADD/ERCOS.",
     "publishedAt": "2026-01-27T07:01:19.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement · bulle-i3",
@@ -9752,6 +9832,11 @@
         "label": "Research vacancy announcement · GDR IHM",
         "url": null,
         "receivedAt": "2026-01-27T07:01:19.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/200577-post-doctorat-projet-ux-arc-nexus-cnu-60-61-utbm-ercos-elliadd",
+        "receivedAt": "2026-02-05T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -10154,7 +10239,7 @@
     "applicationUrl": null,
     "description": "Develop Unity-based VR interfaces for geology teaching, informed by user feedback and using LISN's EVE Room and EVE XR facilities. Engineering and postdoctoral profiles are eligible.",
     "publishedAt": "2026-01-27T06:56:20.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement · bulle-i3",
@@ -10165,6 +10250,11 @@
         "label": "Research vacancy announcement · GDR IHM",
         "url": null,
         "receivedAt": "2026-01-27T06:56:20.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/200576-postdoc-ingenieur-1-an-apprentissage-en-geologie-en-rv",
+        "receivedAt": "2026-02-05T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -12329,14 +12419,24 @@
     "applicationDeadline": null,
     "contact": "jean-pierre.boutin@univ-lyon1.fr; jean-marc.petit@insa-lyon.fr; saida.bouakaz@univ-lyon1.fr",
     "applicationUrl": null,
-    "description": "The 2026 LIRIS campaign announces five faculty appointments with distinct teaching and research profiles across partner institutions.",
+    "description": "The 2026 LIRIS campaign announces five faculty appointments across partner institutions. The AFXR notices include a lectureship in virtual reality and data science at Centrale Lyon / ENISE (Saint-Étienne), and a lectureship in machine learning for vision, virtual worlds and interaction at Université Lyon 1 (Villeurbanne). See the individual AFXR notices for teaching and research profiles.",
     "publishedAt": "2026-02-05T06:24:25.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement · bulle-i3",
         "url": null,
         "receivedAt": "2026-02-05T06:24:25.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/200588-poste-mcf-realite-virtuelle-et-science-des-donnees-liris-enise",
+        "receivedAt": "2026-02-05T12:00:00.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/200589-poste-mcf-a-l-universite-lyon-1-liris-section-27",
+        "receivedAt": "2026-02-05T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -12950,12 +13050,17 @@
     "applicationUrl": null,
     "description": "Develop interaction support for transitions between physical and digital representations of digital twins, using mixed reality, 3D interaction, and physical-world interfaces.",
     "publishedAt": "2026-05-22T09:30:36.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
         "url": null,
         "receivedAt": "2026-05-22T09:30:36.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/210380-offre-de-these-ihm-et-jumeaux-numeriques-toulouse",
+        "receivedAt": "2026-05-26T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -13164,7 +13269,7 @@
     "applicationUrl": "https://lium-cloud.univ-lemans.fr/index.php/s/AciyDdqQFcx7NPG",
     "description": "Computer science lectureship at IUT de Laval, with research in the LIUM IEIAH team and teaching in computing and multimedia programmes.",
     "publishedAt": "2026-02-16T11:21:12.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement · bulle-i3",
@@ -13175,6 +13280,11 @@
         "label": "Research vacancy announcement",
         "url": "https://lium-cloud.univ-lemans.fr/index.php/s/AciyDdqQFcx7NPG",
         "receivedAt": "2026-02-24T12:54:56.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/202480-annonce-d-une-ouverture-d-un-poste-mcf-27-iut-laval",
+        "receivedAt": "2026-02-23T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -14416,13 +14526,18 @@
     "contact": "jean-michel.auberlet@univ-eiffel.fr; martin.bossard@univ-eiffel.fr; regis.lobjois@univ-eiffel.fr",
     "applicationUrl": null,
     "description": "Doctoral research at PICS-L on visual information and interpersonal coordination in shared urban spaces, combining movement science, experimental psychology, and VR.",
-    "publishedAt": "2026-02-23T12:41:32.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "publishedAt": "2026-02-23T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
     "sources": [
       {
         "label": "Research vacancy announcement · GT RV",
         "url": null,
         "receivedAt": "2026-02-23T12:41:32.000Z"
+      },
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/202478-these-sciences-du-mouvement-psychologie-experimentale-realite-virtuelle",
+        "receivedAt": "2026-02-23T12:00:00.000Z"
       }
     ],
     "announcements": [
@@ -15414,5 +15529,567 @@
       }
     ],
     "attachments": []
+  },
+  {
+    "id": "afxr-222039-sketch2space",
+    "title": "Stage M2 — Esquisse 3D en réalité virtuelle pour la conception architecturale",
+    "jobType": "Internship",
+    "organization": "Mines Paris – PSL",
+    "laboratory": "Centre de Robotique",
+    "country": "France",
+    "city": "Paris",
+    "topics": [
+      "Extended Reality",
+      "Graphics & Visualization",
+      "AI & Machine Learning",
+      "Computer Vision"
+    ],
+    "duration": "6 mois",
+    "compensation": "Environ 693 € net par mois, selon le document",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "Alexis Paljic — alexis.paljic@minesparis.psl.eu",
+    "applicationUrl": "https://www.afxr.org/articles/222039-offre-de-stage-du-croquis-a-lespace-mines-paris-psl",
+    "description": "Le projet Sketch2space associe Mines Paris et l’ENSA Paris-Malaquais pour permettre de dessiner et d’explorer des propositions architecturales en réalité virtuelle. Le stage consiste à intégrer une scène Gaussian Splatting dans Unity, développer une interface de croquis, puis générer des volumes 3D cohérents avec la profondeur et l’échelle du lieu existant.\n\nProfil M2 informatique ou dernière année d’école d’ingénieur : programmation, Unity et bases en apprentissage profond. Une expérience en reconstruction 3D est appréciée. Stage prévu entre février et août 2027, avec début selon le calendrier de formation. Envoyer CV, lettre de motivation et relevés de notes à Alexis Paljic.",
+    "publishedAt": "2026-10-27T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/222039-offre-de-stage-du-croquis-a-lespace-mines-paris-psl",
+        "receivedAt": "2026-10-27T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": [
+      {
+        "name": "stage_sketch2space-1.pdf",
+        "url": "https://app.assoconnect.com/services/storage?type=document&id=8010848&secret=7x9cGyt3yX119fMpHxuH1A0URfk82DToqmWz1eLn&timestamp=1793096697",
+        "mediaType": "application/pdf",
+        "size": 72772,
+        "receivedAt": "2026-10-27T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "afxr-219955-postdoc-assets",
+    "title": "Postdoc — INSPIRE : intégration d’assets et édition accessible",
+    "jobType": "Postdoc",
+    "organization": "Cnam",
+    "laboratory": "CEDRIC — équipe ILJ",
+    "country": "France",
+    "city": "Paris / Angoulême",
+    "topics": [
+      "Extended Reality",
+      "Human–Computer Interaction",
+      "Software Engineering"
+    ],
+    "duration": "12 mois, renouvelable",
+    "compensation": "2 800 € brut par mois",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "Stéphanie Mader — stephanie.mader@cnam.fr ; Axel Buendia",
+    "applicationUrl": "https://www.afxr.org/articles/219955-2-post-docs-et-1-poste-d-ir-cdd-cnam-cedric-projet-inspire",
+    "description": "Concevoir les outils Godot de spatialisation audio, d’import de collections 3D de musées et d’édition de scènes destinés aux non-spécialistes. Doctorat requis. Début annoncé en février 2027 ; entretiens dès novembre 2026.",
+    "publishedAt": "2026-10-05T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/219955-2-post-docs-et-1-poste-d-ir-cdd-cnam-cedric-projet-inspire",
+        "receivedAt": "2026-10-05T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": [
+      {
+        "name": "AnnoncesINSPIRE_septembre2026.pdf",
+        "url": "https://app.assoconnect.com/services/storage?type=document&id=7907279&secret=eTKXAmNGMSLkwODSXXYI2YO0RZ6GbYmqqHNE54Ji&timestamp=1791222455",
+        "mediaType": "application/pdf",
+        "size": 186991,
+        "receivedAt": "2026-10-05T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "afxr-219955-postdoc-interactions",
+    "title": "Postdoc — INSPIRE : interactions XR coopératives",
+    "jobType": "Postdoc",
+    "organization": "Cnam",
+    "laboratory": "CEDRIC — équipe ILJ",
+    "country": "France",
+    "city": "Paris / Angoulême",
+    "topics": [
+      "Extended Reality",
+      "Human–Computer Interaction",
+      "Software Engineering"
+    ],
+    "duration": "12 mois, renouvelable",
+    "compensation": "2 800 € brut par mois",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "Stéphanie Mader — stephanie.mader@cnam.fr ; Axel Buendia",
+    "applicationUrl": "https://www.afxr.org/articles/219955-2-post-docs-et-1-poste-d-ir-cdd-cnam-cedric-projet-inspire",
+    "description": "Étudier et développer des interactions multi-équipements pour les mondes virtuels culturels du projet INSPIRE, sous Godot. Doctorat requis. Début annoncé en février 2027 ; entretiens dès novembre 2026.",
+    "publishedAt": "2026-10-05T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/219955-2-post-docs-et-1-poste-d-ir-cdd-cnam-cedric-projet-inspire",
+        "receivedAt": "2026-10-05T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": [
+      {
+        "name": "AnnoncesINSPIRE_septembre2026.pdf",
+        "url": "https://app.assoconnect.com/services/storage?type=document&id=7907279&secret=eTKXAmNGMSLkwODSXXYI2YO0RZ6GbYmqqHNE54Ji&timestamp=1791222455",
+        "mediaType": "application/pdf",
+        "size": 186991,
+        "receivedAt": "2026-10-05T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "afxr-219955-ingenieur",
+    "title": "Ingénieur de recherche — INSPIRE : mondes virtuels sous Godot",
+    "jobType": "Research Engineer",
+    "organization": "Cnam",
+    "laboratory": "CEDRIC — équipe ILJ",
+    "country": "France",
+    "city": "Paris / Angoulême",
+    "topics": [
+      "Extended Reality",
+      "Human–Computer Interaction",
+      "Software Engineering"
+    ],
+    "duration": "12 mois, renouvelable",
+    "compensation": "2 600 € brut par mois",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "Stéphanie Mader — stephanie.mader@cnam.fr ; Axel Buendia",
+    "applicationUrl": "https://www.afxr.org/articles/219955-2-post-docs-et-1-poste-d-ir-cdd-cnam-cedric-projet-inspire",
+    "description": "Développer les composants ouverts Godot d’INSPIRE : réseau, interactions collaboratives, intégration de contenus et outils pour les musées. Expérience Godot ou moteur de jeu et C++/C# attendue. Début annoncé en février 2027.",
+    "publishedAt": "2026-10-05T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/219955-2-post-docs-et-1-poste-d-ir-cdd-cnam-cedric-projet-inspire",
+        "receivedAt": "2026-10-05T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": [
+      {
+        "name": "AnnoncesINSPIRE_septembre2026.pdf",
+        "url": "https://app.assoconnect.com/services/storage?type=document&id=7907279&secret=eTKXAmNGMSLkwODSXXYI2YO0RZ6GbYmqqHNE54Ji&timestamp=1791222455",
+        "mediaType": "application/pdf",
+        "size": 186991,
+        "receivedAt": "2026-10-05T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "afxr-219958-graph-xai",
+    "title": "Stage M2 — Explications immersives en RA pour la détection d’anomalies dans les graphes",
+    "jobType": "Internship",
+    "organization": "Université Claude Bernard Lyon 1 / Université Lumière Lyon 2",
+    "laboratory": "LIRIS / ERIC",
+    "country": "France",
+    "city": "Villeurbanne / Bourg-en-Bresse",
+    "topics": [
+      "Extended Reality",
+      "Graphics & Visualization",
+      "AI & Machine Learning",
+      "Cybersecurity",
+      "Data Science"
+    ],
+    "duration": "6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "Hamida Seba — Hamida.seba@univ-lyon1.fr",
+    "applicationUrl": "https://www.afxr.org/articles/219958-stages-m2-explicabilite-et-graphes-en-ar-liris",
+    "description": "Intégrer des méthodes de détection d’anomalies par apprentissage profond, notamment des réseaux de neurones sur graphes, puis comparer leurs explications. Le sujet porte sur la sélection et la représentation interactive des éléments explicatifs en réalité augmentée pour assister les analystes en cybersécurité. Un prototype WebXR existant sert de point de départ.\n\nEncadrement : Jean-Philippe Farrugia, Mohammed Lamine Messai et Hamida Seba. Le lieu annoncé est le campus de la Doua ou l’IUT Lyon 1 à Bourg-en-Bresse. Candidature avec CV et relevés de notes à Hamida Seba.",
+    "publishedAt": "2026-10-05T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/219958-stages-m2-explicabilite-et-graphes-en-ar-liris",
+        "receivedAt": "2026-10-05T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": [
+      {
+        "name": "Sujets_M2_Projet_FIL_LIRIS-2.pdf",
+        "url": "https://app.assoconnect.com/services/storage?type=document&id=7907365&secret=kUs6e7EzLvZM2m3KXecPSn3PNHWeUpwlT5MSW6jN&timestamp=1791223217",
+        "mediaType": "application/pdf",
+        "size": 141417,
+        "receivedAt": "2026-10-05T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "afxr-219958-anomalies-statistiques",
+    "title": "Stage M2 — Détection explicable d’anomalies et visualisation en réalité augmentée",
+    "jobType": "Internship",
+    "organization": "Université Claude Bernard Lyon 1 / Université Lumière Lyon 2",
+    "laboratory": "LIRIS / ERIC",
+    "country": "France",
+    "city": "Villeurbanne / Bourg-en-Bresse",
+    "topics": [
+      "Extended Reality",
+      "Graphics & Visualization",
+      "AI & Machine Learning",
+      "Cybersecurity",
+      "Data Science"
+    ],
+    "duration": "6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "Hamida Seba — Hamida.seba@univ-lyon1.fr",
+    "applicationUrl": "https://www.afxr.org/articles/219958-stages-m2-explicabilite-et-graphes-en-ar-liris",
+    "description": "Étudier des anomalies de réseau et de graphes avec des méthodes statistiques interprétables, puis représenter les indices de détection dans une interface en réalité augmentée. Le travail s’appuie sur un prototype WebXR et concerne l’analyse de données de cybersécurité.\n\nEncadrement : Jean-Philippe Farrugia, Mohammed Lamine Messai et Hamida Seba. Le lieu annoncé est le campus de la Doua ou l’IUT Lyon 1 à Bourg-en-Bresse. Candidature avec CV et relevés de notes à Hamida Seba.",
+    "publishedAt": "2026-10-05T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/219958-stages-m2-explicabilite-et-graphes-en-ar-liris",
+        "receivedAt": "2026-10-05T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": [
+      {
+        "name": "Sujets_M2_Projet_FIL_LIRIS.pdf",
+        "url": "https://app.assoconnect.com/services/storage?type=document&id=7907366&secret=5cKpGSKexG2f5ygQYi4xIyHzbn4oldVf36Q6VLSt&timestamp=1791223218",
+        "mediaType": "application/pdf",
+        "size": 121384,
+        "receivedAt": "2026-10-05T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "afxr-219959-co-incarnation",
+    "title": "Stage M2 — Apprentissage de gestes par co-incarnation en réalité virtuelle",
+    "jobType": "Internship",
+    "organization": "Mines Paris – PSL",
+    "laboratory": "Centre de Robotique",
+    "country": "France",
+    "city": "Paris",
+    "topics": [
+      "Extended Reality",
+      "Human–Computer Interaction",
+      "Perception & Cognitive Science"
+    ],
+    "duration": "6 mois",
+    "compensation": "Environ 693 € net, selon le document",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "Jean Morell et Alexis Paljic — Centre de Robotique",
+    "applicationUrl": "https://www.afxr.org/articles/219959-stage-m2-apprentissage-de-gestes-par-co-embodiment-en-rv-caor",
+    "description": "Le projet Re-SOuRCE étudie la transmission des gestes experts par le partage d’un avatar entre enseignant et apprenant. Le stage propose d’améliorer une plateforme existante de co-incarnation en réalité virtuelle et d’évaluer son apport à l’apprentissage moteur.\n\nProfil M2 ou fin d’école d’ingénieur en informatique, avec programmation et pratique d’un moteur 3D ; un intérêt pour l’éducation et les neurosciences est apprécié. Encadrement par Jean Morell et Alexis Paljic. Le document ne précise ni date de début ni échéance de candidature.",
+    "publishedAt": "2026-10-05T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/219959-stage-m2-apprentissage-de-gestes-par-co-embodiment-en-rv-caor",
+        "receivedAt": "2026-10-05T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": [
+      {
+        "name": "stage_coemb_mines_vf.pdf",
+        "url": "https://app.assoconnect.com/services/storage?type=document&id=7907407&secret=dtSXbyLHjzmwIkojW5mza2AEGNfviKQbosYHmf8F&timestamp=1791223562",
+        "mediaType": "application/pdf",
+        "size": 155861,
+        "receivedAt": "2026-10-05T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "afxr-214910-empowr",
+    "title": "Postdoc — Réalité augmentée adaptative pour la fabrication industrielle (EMPOWR)",
+    "jobType": "Postdoc",
+    "organization": "IMT Atlantique",
+    "laboratory": "Lab-STICC — équipe INUIT",
+    "country": "France",
+    "city": "Brest",
+    "topics": [
+      "Extended Reality",
+      "Human–Computer Interaction",
+      "Human Factors"
+    ],
+    "duration": "24 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://institutminestelecom.recruitee.com/o/post-doctorat-en-realite-augmenteecdd-24-mois",
+    "description": "Recherche postdoctorale au sein du projet européen EMPOWR pour développer une assistance en réalité augmentée qui s’adapte aux ouvriers et aux opérations de chaînes de fabrication complexes. Le poste est accueilli sur le campus de Brest, dans l’équipe INUIT du Lab-STICC. Les modalités détaillées de candidature figurent dans l’annonce de recrutement de l’IMT.",
+    "publishedAt": "2026-07-20T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/214910-postdoc-realite-augmentee-imt-atlantique-lab-sticc-brest",
+        "receivedAt": "2026-07-20T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": []
+  },
+  {
+    "id": "afxr-212191-chaire-lispen",
+    "title": "Chaire de professeur junior — Interaction humain-système et perception",
+    "jobType": "Faculty",
+    "organization": "Arts et Métiers",
+    "laboratory": "LISPEN",
+    "country": "France",
+    "city": "Chalon-sur-Saône",
+    "topics": [
+      "Human–Computer Interaction",
+      "Extended Reality",
+      "Perception & Cognitive Science"
+    ],
+    "duration": "5 ans",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "Jean-Rémy Chardonnet — jean-remy.chardonnet@ensam.eu",
+    "applicationUrl": "https://www.afxr.org/articles/212191-chaire-de-professeur-junior-lispen",
+    "description": "Chaire de professeur junior consacrée à l’interaction humain-système, à la perception et aux expériences immersives. Le profil vise des titulaires d’un doctorat avec une expérience scientifique solide et prévoit des activités de recherche et d’enseignement liées au LISPEN.\n\nL’AFXR indique une candidature avant mi-juillet 2026 et une prise de poste envisagée au 1er novembre ou au 1er décembre 2026. Ces indications ne permettent pas d’établir une date exacte de clôture ni une date de début unique ; la période de candidature annoncée est passée.",
+    "publishedAt": "2026-06-15T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/212191-chaire-de-professeur-junior-lispen",
+        "receivedAt": "2026-06-15T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": [
+      {
+        "name": "Profil-V0-LISPEN.pdf",
+        "url": "https://app.assoconnect.com/services/storage?type=document&id=7323487&secret=nsgyqgj4xChF9fkgOJwbVQD0lJY3LyLFTILH3Rs9&timestamp=1781509461",
+        "mediaType": "application/pdf",
+        "size": 371006,
+        "receivedAt": "2026-06-15T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "afxr-212218-lille-3d",
+    "title": "Ingénieur — Numérisation du patrimoine, Lille 3D Research Hub",
+    "jobType": "Research Engineer",
+    "organization": "CNRS / Université de Lille",
+    "laboratory": "FR SCV — Sciences et Cultures du Visuel, CNRS 2052",
+    "country": "France",
+    "city": "Lille",
+    "topics": [
+      "Graphics & Visualization",
+      "Software Engineering",
+      "Extended Reality"
+    ],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://univ-lille.nous-recrutons.fr/poste/zsp50bfkxc-ingenieur-en-ingenierie-logicielle/",
+    "description": "Le projet Lille 3D Research Hub recrute en ingénierie logicielle, développement et analyse-programmation pour la numérisation du patrimoine culturel et scientifique. Le recrutement est porté par la fédération Sciences et Cultures du Visuel et financé par le FEDER Hauts-de-France. L’annonce AFXR ne précise pas la durée, la rémunération ni la date limite ; consulter la fiche de recrutement de l’Université de Lille.",
+    "publishedAt": "2026-06-15T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/212218-poste-ingenieur-fr-scv-lille-numerisation-du-patrimoine",
+        "receivedAt": "2026-06-15T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": []
+  },
+  {
+    "id": "afxr-208130-postdocs-printemps",
+    "title": "Appel à contrats postdoctoraux 2026 — PEPR eNSEMBLE (printemps)",
+    "jobType": "Postdoc",
+    "organization": "PEPR eNSEMBLE",
+    "laboratory": null,
+    "country": "France",
+    "city": null,
+    "topics": ["Human–Computer Interaction", "Interdisciplinary"],
+    "duration": "12 à 24 mois",
+    "compensation": "Grille de l’établissement d’accueil ; 6 000 à 10 000 € de soutien équipement/déplacements",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://www.pepr-ensemble.fr/appel-a-contrats-postdoctoraux-2026-pepr-ensemble/",
+    "description": "Appel de printemps 2026 pour des recherches sur les outils numériques de collaboration et leurs usages. Les projets retenus bénéficient d’un contrat postdoctoral de 12 à 24 mois, rémunéré selon les règles de l’établissement d’accueil, ainsi que de 6 000 à 10 000 € pour l’équipement et les déplacements. La candidature se fait en anglais. Cet appel est distinct de la campagne d’automne 2026 déjà présente dans le catalogue.",
+    "publishedAt": "2026-04-27T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/208130-appel-a-contrats-postdoctoraux-2026-pepr-ensemble",
+        "receivedAt": "2026-04-27T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": []
+  },
+  {
+    "id": "afxr-200578-edge-xr",
+    "title": "Stage M2 — Réalité étendue assistée par edge computing pour l’aéronautique",
+    "jobType": "Internship",
+    "organization": "CESI",
+    "laboratory": "LINEACT",
+    "country": "France",
+    "city": "Pau",
+    "topics": [
+      "Extended Reality",
+      "Software Engineering",
+      "AI & Machine Learning"
+    ],
+    "duration": "5 à 6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://cesi.recruitee.com/o/stage-realite-etendue-assistee-par-edge-computing-pour-les-taches-collaboratives-dans-lindustrie-aeronautique/c/new",
+    "description": "Stage de recherche sur l’usage du edge computing pour la réalité étendue, les jumeaux numériques et la maintenance industrielle collaborative dans l’aéronautique. Le profil attendu est un M2 informatique ou génie logiciel, avec intérêt pour la XR, le calcul en périphérie et l’IA ; Unity3D et C# figurent parmi les technologies citées. Stage financé dans le cadre de France 2030, avec début souhaité en février 2026. La date exacte de début et la rémunération ne sont pas indiquées.",
+    "publishedAt": "2026-02-05T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/200578-internship-edge-assisted-xr-for-aeronautical-industry-cesi-lineact",
+        "receivedAt": "2026-02-05T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": []
+  },
+  {
+    "id": "afxr-200579-vd2i",
+    "title": "Ingénieur de recherche ou postdoc — Visualisation 3D distante immersive (VD2i)",
+    "jobType": "Research Engineer",
+    "organization": "Université de Reims Champagne-Ardenne",
+    "laboratory": "LICIIS / Centre Image",
+    "country": "France",
+    "city": "Reims",
+    "topics": [
+      "Extended Reality",
+      "Graphics & Visualization",
+      "Computer Vision",
+      "Software Engineering"
+    ],
+    "duration": "12 mois",
+    "compensation": null,
+    "startDate": "2026-03-01",
+    "applicationDeadline": null,
+    "contact": "Stéphanie Prévost — centre.image@univ-reims.fr",
+    "applicationUrl": "https://www.afxr.org/articles/200579-post-doc-ou-ingenieur-12-mois-visu-3d-immersive",
+    "description": "Concevoir un prototype de visualisation 3D distante compatible avec le calcul intensif, intégrant selon les usages immersion et collaboration. Le poste comporte une étude client-serveur et la réalisation de premières briques logicielles, notamment en C++, avec les ressources ROMEO et Centre Image.\n\nBac+5 minimum ; programmation système/réseau, C/C++, OpenGL, Qt ou Python, et informatique graphique attendus. WebRTC et une expérience en IHM sont appréciés. L’annonce accepte aussi un profil postdoctoral. Début prévisionnel annoncé au 1er mars 2026. Envoyer CV, lettre de motivation et éléments de projets à Centre Image.",
+    "publishedAt": "2026-02-05T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/200579-post-doc-ou-ingenieur-12-mois-visu-3d-immersive",
+        "receivedAt": "2026-02-05T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": [
+      {
+        "name": "VD2i_FichePoste_IGR_LICIIS.pdf",
+        "url": "https://centreimage.univ-reims.fr/info/VD2i_FichePoste_IGR_LICIIS.pdf",
+        "mediaType": "application/pdf",
+        "size": 265242,
+        "receivedAt": "2026-02-05T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "afxr-200580-cexi-ha",
+    "title": "Ingénieur R&D — Plateformes expérimentales et technologies immersives CEXI-HA",
+    "jobType": "Research Engineer",
+    "organization": "IMT Atlantique",
+    "laboratory": "Plateforme CEXI-HA",
+    "country": "France",
+    "city": "Brest",
+    "topics": [
+      "Extended Reality",
+      "Human–Computer Interaction",
+      "Software Engineering"
+    ],
+    "duration": "12 mois, renouvelable selon financement",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-02-20",
+    "contact": "Étienne Peillard — etienne.peillard@imt-atlantique.fr",
+    "applicationUrl": "https://institutminestelecom.recruitee.com/o/ingenieure-ou-ingenieur-de-recherche-et-developpement-en-plateformes-experimentales-et-technologies-immersives-cdd-12-mois",
+    "description": "Développer et maintenir les plateformes expérimentales CEXI-HA pour la recherche en interaction humain-machine et en VR/AR. Les missions comprennent le développement logiciel, l’accompagnement de projets scientifiques et étudiants et la préparation de démonstrations.\n\nBac+5 en informatique ou domaine proche, programmation Java/Python/C/C++/C#, moteurs 3D tels que Unity et outils collaboratifs comme Git. Contrat de 12 mois renouvelable selon financement ; début souhaité en avril 2026. La date limite annoncée était le 20 février 2026.",
+    "publishedAt": "2026-02-05T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/200580-ingenieure-r-d-en-technologies-immersives-imt-atlantique-brest",
+        "receivedAt": "2026-02-05T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": []
+  },
+  {
+    "id": "afxr-198940-exhibitec",
+    "title": "Postdoc — Plateforme collaborative Exhibitec et création numérique",
+    "jobType": "Postdoc",
+    "organization": "Cnam – Enjmin",
+    "laboratory": "CEDRIC — équipe ILJ",
+    "country": "France",
+    "city": "Angoulême",
+    "topics": [
+      "Human–Computer Interaction",
+      "Extended Reality",
+      "Software Engineering"
+    ],
+    "duration": "24 mois",
+    "compensation": "2 800 € brut par mois",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "Eulalie Verhulst — eulalie.verhulst@lecnam.net",
+    "applicationUrl": "https://www.afxr.org/articles/198940-post-doctorat-de-deux-ans-cedric-cnam",
+    "description": "Concevoir et expérimenter la plateforme Exhibitec, un environnement virtuel collaboratif pour la création, l’exposition et le partage de contenus numériques. Le projet Nouvelle Confluence Créative associe Angoulême et Zapopan au Mexique. Le développement de la plateforme est confié à un prestataire, avec lequel la personne recrutée travaille sur les besoins, les expérimentations et l’évaluation.\n\nProgrammation, IHM, médias immersifs et travail pluridisciplinaire attendus ; moteurs de jeu et espagnol appréciés. Début annoncé en mars 2026, à Cnam-Enjmin Angoulême, avec jusqu’à deux jours de télétravail par semaine. Envoyer CV avec publications et lettre de motivation à Eulalie Verhulst.",
+    "publishedAt": "2026-01-20T12:00:00.000Z",
+    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "sources": [
+      {
+        "label": "AFXR — Emplois et Carrières",
+        "url": "https://www.afxr.org/articles/198940-post-doctorat-de-deux-ans-cedric-cnam",
+        "receivedAt": "2026-01-20T12:00:00.000Z"
+      }
+    ],
+    "announcements": [],
+    "attachments": [
+      {
+        "name": "FICOL2_Exhibit_postdoc.pdf",
+        "url": "https://app.assoconnect.com/services/storage?type=document&id=6811475&secret=DU7yapNaBnbiV48p5JNSsf7FwobSNvjPIVm8nZai&timestamp=1768897694",
+        "mediaType": "application/pdf",
+        "size": 445545,
+        "receivedAt": "2026-01-20T12:00:00.000Z"
+      }
+    ]
   }
 ]

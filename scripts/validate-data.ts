@@ -25,6 +25,7 @@ for (const item of data) {
     if (documents.has(attachment.url))
       throw new Error(`Duplicate document: ${item.id}`);
     documents.add(attachment.url);
+    if (!attachment.url.startsWith("/documents/")) continue;
     attachments.add(attachment.url);
     const raw = readFileSync(
       new URL(`../public${attachment.url}`, import.meta.url),
