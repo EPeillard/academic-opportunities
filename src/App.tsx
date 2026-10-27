@@ -91,7 +91,7 @@ export function App() {
     event.preventDefault();
     const params = new URLSearchParams();
     for (const [key, value] of new FormData(event.currentTarget))
-      if (String(value).trim()) params.set(key, String(value).trim());
+      if (String(value).trim()) params.append(key, String(value).trim());
     navigate(`/?${params}`);
   }
   const pager = (page: number) => {
@@ -167,18 +167,25 @@ export function App() {
                     ))}
                   </select>
                 </label>
-                <label>
-                  Country
-                  <select
-                    name="country"
-                    defaultValue={url.searchParams.get("country") ?? ""}
-                  >
-                    <option value="">Anywhere</option>
-                    {countries.map((v) => (
-                      <option key={v}>{v}</option>
+                <fieldset className="country-filter">
+                  <legend>Country</legend>
+                  <p className="country-hint">No selection = all countries.</p>
+                  <div className="country-options">
+                    {countries.map((country) => (
+                      <label key={country}>
+                        <input
+                          type="checkbox"
+                          name="country"
+                          value={country}
+                          defaultChecked={url.searchParams
+                            .getAll("country")
+                            .includes(country)}
+                        />
+                        {country}
+                      </label>
                     ))}
-                  </select>
-                </label>
+                  </div>
+                </fieldset>
                 <details
                   className="advanced-filters"
                   open={Boolean(

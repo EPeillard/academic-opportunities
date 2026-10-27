@@ -89,7 +89,7 @@ export const QuerySchema = z
     q: z.string().trim().max(200).default(""),
     type: JobTypeSchema.optional(),
     topic: TopicSchema.optional(),
-    country: z.string().trim().min(1).max(100).optional(),
+    country: z.array(z.string().trim().min(1).max(100)).max(100).default([]),
     publishedSince: DateSchema.optional(),
     deadlineBefore: DateSchema.optional(),
     includeUnknownDeadline: z.enum(["true", "false"]).default("false"),

@@ -14,6 +14,20 @@ function list(query = "") {
   return result;
 }
 describe("static catalogue", () => {
+  it("combines checked countries with OR and other filters with AND", () => {
+    const france = list("?country=France&type=PhD");
+    const germany = list("?country=Germany&type=PhD");
+    const both = list("?country=France&country=Germany&type=PhD&limit=50");
+    expect(both.total).toBe(france.total + germany.total);
+    expect(
+      both.items.every(
+        (o) =>
+          o.jobType === "PhD" &&
+          ["France", "Germany"].includes(o.country ?? ""),
+      ),
+    ).toBe(true);
+    expect(() => list("?country=")).toThrow(/filters/);
+  });
   it("validates the entire public dataset and rejects private email fields", () => {
     expect(z.array(OpportunitySchema).parse(opportunities)).toHaveLength(
       opportunities.length,

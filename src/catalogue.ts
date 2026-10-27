@@ -24,11 +24,18 @@ export function getFacets() {
   };
 }
 export function listOpportunities(params: URLSearchParams, today = todayUTC()) {
-  if ([...params.keys()].some((key) => params.getAll(key).length > 1))
+  if (
+    [...params.keys()].some(
+      (key) => key !== "country" && params.getAll(key).length > 1,
+    )
+  )
     throw new Error(
       "The filters in this URL are invalid. Reset them to continue.",
     );
-  const parsed = QuerySchema.safeParse(Object.fromEntries(params));
+  const parsed = QuerySchema.safeParse({
+    ...Object.fromEntries(params),
+    country: params.getAll("country"),
+  });
   if (!parsed.success)
     throw new Error(
       "The filters in this URL are invalid. Reset them to continue.",
@@ -46,7 +53,8 @@ export function listOpportunities(params: URLSearchParams, today = todayUTC()) {
             .includes(term)) &&
         (!q.type || o.jobType === q.type) &&
         (!q.topic || o.topics.includes(q.topic)) &&
-        (!q.country || o.country === q.country) &&
+        (!q.country.length ||
+          (o.country !== null && q.country.includes(o.country))) &&
         (!q.publishedSince || o.publishedAt.slice(0, 10) >= q.publishedSince) &&
         (!q.deadlineBefore ||
           (o.applicationDeadline

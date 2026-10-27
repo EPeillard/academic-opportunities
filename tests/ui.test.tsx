@@ -21,6 +21,39 @@ afterEach(() => {
   vi.unstubAllGlobals();
 });
 describe("static public browsing", () => {
+  it("keeps multiple checked countries in the URL and clears them on reset", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await user.click(screen.getByRole("checkbox", { name: "France" }));
+    await user.click(screen.getByRole("checkbox", { name: "Germany" }));
+    await user.click(screen.getByRole("button", { name: /Apply filters/ }));
+    expect(
+      new URLSearchParams(window.location.search).getAll("country"),
+    ).toEqual(["France", "Germany"]);
+    expect(
+      (
+        screen.getByRole("checkbox", {
+          name: "France",
+        }) as HTMLInputElement
+      ).checked,
+    ).toBe(true);
+    expect(
+      (
+        screen.getByRole("checkbox", {
+          name: "Germany",
+        }) as HTMLInputElement
+      ).checked,
+    ).toBe(true);
+    await user.click(screen.getByRole("link", { name: "Reset" }));
+    expect(
+      (
+        screen.getByRole("checkbox", {
+          name: "France",
+        }) as HTMLInputElement
+      ).checked,
+    ).toBe(false);
+    expect(window.location.search).toBe("");
+  });
   it("lists real offers, opens details, and returns without a server", async () => {
     const user = userEvent.setup();
     render(<App />);

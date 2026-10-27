@@ -62,7 +62,7 @@ Le Worker `academic-opportunities-demo` et l’accès servant les fichiers stati
 
 ## Comportement
 
-Les filtres se combinent : mots-clés, type, domaine, pays, date d’annonce, échéance maximale et état de l’échéance. Les paramètres figurent dans l’URL et les résultats sont triés par date d’annonce décroissante, puis identifiant stable. Toutes les annonces sont affichées par défaut, y compris celles dont l’échéance est passée. Une échéance inconnue n’est jamais présentée comme une candidature encore ouverte. Les dates de priorité ou de début d’examen ne sont pas assimilées à des dates de clôture.
+Les filtres se combinent : mots-clés, type, domaine, pays, date d’annonce, échéance maximale et état de l’échéance. Plusieurs pays peuvent être cochés : une offre correspond si elle appartient à l’un de ces pays. Sans pays coché, tous les pays restent inclus. Les paramètres figurent dans l’URL et les résultats sont triés par date d’annonce décroissante, puis identifiant stable. Toutes les annonces sont affichées par défaut, y compris celles dont l’échéance est passée. Une échéance inconnue n’est jamais présentée comme une candidature encore ouverte. Les dates de priorité ou de début d’examen ne sont pas assimilées à des dates de clôture.
 
 Le contrôle des données refuse les champs inconnus, les identifiants en double, les dates invalides, les liens publics non conformes et les résidus de courriels. Les descriptions restent du texte échappé par React.
 
