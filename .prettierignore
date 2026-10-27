@@ -1,5 +1,3 @@
 package-lock.json
-apps/worker/seeds/synthetic.sql
-apps/*/wrangler.production.jsonc
-apps/*/wrangler.demo*.jsonc
-dist-demo/
+apps/web/dist/
+node_modules/

@@ -708,3 +708,20 @@ h1 em {
     font-size: 10px;
   }
 }
+
+.expired {
+  display: block;
+  color: #8b4b26;
+  font-size: 11px;
+  margin-top: 4px;
+}
+.deadline-notice {
+  padding: 14px 18px;
+  background: #f6ebdb;
+  border-left: 3px solid #ad742b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.facts dd {
+  overflow-wrap: anywhere;
+}

@@ -23,13 +23,6 @@ export const TOPICS = [
   "Human Factors",
   "Interdisciplinary",
 ] as const;
-export const PublicationStateSchema = z.enum([
-  "draft",
-  "pending_review",
-  "published",
-  "rejected",
-  "archived",
-]);
 export const JobTypeSchema = z.enum(JOB_TYPES);
 export const TopicSchema = z.enum(TOPICS);
 export const DateSchema = z.iso.date();
@@ -55,7 +48,7 @@ export const PublicUrlSchema = z
     }
   }, "Expected a public HTTPS URL without credentials or a custom port");
 const text = z.string().trim().min(1).max(500);
-export const ExtractedFieldsSchema = z
+export const FieldsSchema = z
   .object({
     title: text.nullable(),
     jobType: JobTypeSchema.nullable(),
@@ -73,58 +66,6 @@ export const ExtractedFieldsSchema = z
     description: z.string().min(1).max(30000).nullable(),
   })
   .strict();
-export const EvidenceSchema = z
-  .object({
-    field: z.enum(ExtractedFieldsSchema.keyof().options),
-    messageId: text,
-    quote: z.string().min(1).max(4000),
-    start: z.number().int().nonnegative(),
-    end: z.number().int().positive(),
-  })
-  .strict()
-  .refine((v) => v.end > v.start, "Evidence span must be ordered");
-export const ExtractionSchema = z
-  .object({
-    schemaVersion: z.literal(1),
-    provider: text,
-    model: text,
-    candidates: z
-      .array(
-        z
-          .object({
-            fields: ExtractedFieldsSchema,
-            evidence: z.array(EvidenceSchema),
-            confidence: z.number().min(0).max(1),
-          })
-          .strict(),
-      )
-      .max(20),
-  })
-  .strict();
-export interface ExtractionProvider {
-  extract(
-    input: { messageId: string; untrustedText: string; schemaVersion: 1 },
-    signal: AbortSignal,
-  ): Promise<z.infer<typeof ExtractionSchema>>;
-}
-// Full-text permission is deliberately separate from extraction confidence.
-export const PermissionCheckSchema = z
-  .object({
-    decision: z.enum([
-      "summary_only",
-      "authorized_full_text",
-      "unknown",
-      "denied",
-    ]),
-    policyId: text.nullable(),
-    checkedAt: z.iso.datetime(),
-    reason: text,
-  })
-  .strict()
-  .refine(
-    (v) => v.decision !== "authorized_full_text" || v.policyId !== null,
-    "Full text needs an independently recorded policy",
-  );
 export const PublicSourceSchema = z
   .object({
     label: text,
@@ -132,7 +73,7 @@ export const PublicSourceSchema = z
     receivedAt: z.iso.datetime(),
   })
   .strict();
-export const OpportunitySchema = ExtractedFieldsSchema.extend({
+export const OpportunitySchema = FieldsSchema.extend({
   id: z.string().regex(/^[a-z0-9-]{1,100}$/),
   title: text,
   jobType: JobTypeSchema,
@@ -147,6 +88,7 @@ export const OpportunitySchema = ExtractedFieldsSchema.extend({
 export type Opportunity = z.infer<typeof OpportunitySchema>;
 export const QuerySchema = z
   .object({
+    deadlineStatus: z.enum(["all", "upcoming", "past"]).default("all"),
     q: z.string().trim().max(200).default(""),
     type: JobTypeSchema.optional(),
     topic: TopicSchema.optional(),
@@ -171,24 +113,5 @@ export const FacetsSchema = z
     countries: z.array(z.string()),
     topics: z.array(TopicSchema),
     types: z.array(JobTypeSchema),
-  })
-  .strict();
-
-// Private pipeline contracts. They are never included in public response schemas.
-export const IngestionJobPayloadSchema = z
-  .object({
-    jobId: z.string().regex(/^integrity-v1-[a-f0-9]{64}$/),
-  })
-  .strict();
-export const IntegrityOutcomeSchema = z
-  .object({
-    version: z.literal(1),
-    kind: z.literal("mime_integrity_verified"),
-    sizeBytes: z
-      .number()
-      .int()
-      .positive()
-      .max(10 * 1024 * 1024),
-    sha256: z.string().regex(/^[a-f0-9]{64}$/),
   })
   .strict();

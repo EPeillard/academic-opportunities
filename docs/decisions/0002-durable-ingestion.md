@@ -1,9 +1,0 @@
-# ADR 0002 — Durable private intake and explicit activation
-
-Status: implemented locally for M2, not deployed. Supersedes the R2-first outline in ADR 0001 only for the hash-only admission reservation; R2 still precedes the accepted receipt/job/outbox commit and processing.
-
-D1 reserves a minimal unique-content budget intent before R2 writes, then the Email handler conditionally creates immutable MIME in private R2 and commits message/job/outbox together. It returns successfully only after both services satisfy the durable receipt boundary. D1 is the queue of record; Cloudflare Queues is a replaceable dispatch mechanism. Token-fenced leases and outcomes make repeated transport delivery safe. Paginated inventory recovers orphan MIME only with matching admission/hash, and permanent tombstones win over all replay paths.
-
-Keep extraction/publication out of M2. Store optional Message-ID only as hashed supporting metadata; byte-distinct Gmail/list deliveries remain distinct. Retain MIME for 30 days by default, no automatic expiry of suppression hashes. Five bounded maintenance phases rotate once per minute instead of doing an unbounded scan in one cron invocation. Default generated production config disables gates/consumer/cron; offline activation preparation and future manual rollout are separate explicit steps.
-
-Consequences: no distributed transaction or exactly-once execution claim, D1 availability required at admission, possible permanent SMTP rejection on infrastructure/capacity errors, and delayed cleanup/recovery during inventory backlogs. Cloud account privacy, SMTP semantics, CPU/quota budgets, backup suppression and real Gmail verification still need an approved staging/production validation. See [design](../m2-design.md), [rollout and risks](../m2-rollout.md), and [local validation](../m2-validation.md).

@@ -8,6 +8,7 @@ import {
 } from "@academic/shared";
 import type { Opportunity } from "@academic/shared";
 import "./styles.css";
+import { readCatalogue, deadlinePassed, updatedAt } from "./catalogue";
 
 const date = (value: string | null) =>
   value
@@ -64,16 +65,8 @@ function Link({
   );
 }
 async function request(path: string, signal: AbortSignal) {
-  const response = await fetch(path, { signal });
-  if (!response.ok)
-    throw new Error(
-      response.status === 404
-        ? "This opportunity could not be found."
-        : response.status === 400
-          ? "The filters in this URL are invalid. Reset them to continue."
-          : "We could not load opportunities. Please try again.",
-    );
-  return response.json();
+  if (signal.aborted) throw new DOMException("Aborted", "AbortError");
+  return readCatalogue(path);
 }
 export function App() {
   const [location, navigate] = useLocation();
@@ -140,10 +133,8 @@ export function App() {
   return (
     <>
       <div className="demo">
-        SYNTHETIC DEMO{" "}
-        <span>
-          All opportunities and organizations shown here are fictional.
-        </span>
+        ACADEMIC JOBS{" "}
+        <span>Manually curated opportunities · Updated {date(updatedAt)}</span>
       </div>
       <header className="masthead">
         <div className="shell nav">
@@ -254,7 +245,20 @@ export function App() {
                   </select>
                 </label>
                 <label>
-                  Published on or after
+                  Deadline status
+                  <select
+                    name="deadlineStatus"
+                    defaultValue={
+                      url.searchParams.get("deadlineStatus") ?? "all"
+                    }
+                  >
+                    <option value="all">All announcements</option>
+                    <option value="upcoming">Upcoming deadlines</option>
+                    <option value="past">Past deadlines</option>
+                  </select>
+                </label>
+                <label>
+                  Announced on or after
                   <input
                     type="date"
                     name="publishedSince"
@@ -334,7 +338,7 @@ export function App() {
                         {o.jobType}
                       </span>
                       <span className="posted">
-                        Posted {date(o.publishedAt)}
+                        Announced {date(o.publishedAt)}
                       </span>
                     </div>
                     <h3>
@@ -361,6 +365,9 @@ export function App() {
                     <div className="card-bottom">
                       <span>
                         Deadline <strong>{date(o.applicationDeadline)}</strong>
+                        {deadlinePassed(o.applicationDeadline) && (
+                          <small className="expired">Deadline passed</small>
+                        )}
                       </span>
                       <Link href={`/opportunities/${o.id}`} navigate={navigate}>
                         View opportunity <span aria-hidden="true">→</span>
@@ -409,12 +416,24 @@ export function App() {
             <div className="detail-heading">
               <span className="type-tag">{item.jobType}</span>
               <p className="eyebrow">
-                SYNTHETIC EXAMPLE ·{" "}
+                VACANCY ·{" "}
                 {item.publicationFormat === "summary"
                   ? "FACTUAL SUMMARY"
                   : "AUTHORIZED FULL TEXT"}
               </p>
               <h1>{item.title}</h1>
+              {deadlinePassed(item.applicationDeadline) && (
+                <p className="deadline-notice">
+                  The announced deadline has passed. This listing is kept for
+                  reference; check with the institution for availability.
+                </p>
+              )}
+              {!item.applicationDeadline && (
+                <p className="muted">
+                  No firm deadline was specified. Availability has not been
+                  verified.
+                </p>
+              )}
               <p className="detail-org">
                 {item.organization ?? "Organization not specified"}
               </p>
@@ -428,23 +447,35 @@ export function App() {
               <div>
                 <h2>About the opportunity</h2>
                 <p className="description">{item.description}</p>
-                <h2>Sources & provenance</h2>
+                <h2>Vacancy information</h2>
                 <p className="muted">
-                  This example is fictional. Source links use example.org and do
-                  not lead to real vacancies.
+                  {item.applicationUrl
+                    ? "Check the original vacancy for current availability and application requirements."
+                    : item.contact
+                      ? "Contact the recruiting team for current availability and application requirements."
+                      : "Application details are not available. Contact the institution for further information."}
                 </p>
-                {item.sources.map((s, i) => (
-                  <div className="source" key={i}>
-                    {s.url ? (
-                      <a href={s.url} target="_blank" rel="noopener noreferrer">
-                        {s.label} ↗
-                      </a>
-                    ) : (
-                      <span>{s.label}</span>
-                    )}
-                    <small>Received {date(s.receivedAt)}</small>
-                  </div>
-                ))}
+                {item.sources
+                  .filter(
+                    (s, i, all) =>
+                      s.url &&
+                      all.findIndex((other) => other.url === s.url) === i,
+                  )
+                  .map((s, i) => (
+                    <div className="source" key={i}>
+                      {s.url ? (
+                        <a
+                          href={s.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Original vacancy ↗
+                        </a>
+                      ) : (
+                        <span>{s.label}</span>
+                      )}
+                    </div>
+                  ))}
                 <p className="muted">
                   Published {date(item.publishedAt)} · Updated{" "}
                   {date(item.updatedAt)}
@@ -476,7 +507,7 @@ export function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Example application link ↗
+                    View vacancy & apply ↗
                   </a>
                 )}
               </aside>
@@ -487,7 +518,7 @@ export function App() {
       <footer className="shell footer">
         <span>Academic Opportunities</span>
         <p>Connecting researchers with what comes next.</p>
-        <span>Demonstration · Synthetic data</span>
+        <span>Manually maintained catalogue</span>
       </footer>
     </>
   );

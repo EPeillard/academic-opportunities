@@ -1,45 +1,21 @@
-name: Demo - verify or deploy
-
+name: Publish static catalogue
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
-    inputs:
-      operation:
-        description: Read-only target verification or approved demo deployment
-        type: choice
-        options: [verify, deploy]
-        default: verify
-        required: true
-      confirmation:
-        description: For deployment only, type DEPLOY DEMO
-        type: string
-        default: ""
-        required: false
-
 permissions:
   contents: read
-
 concurrency:
-  group: academic-opportunities-demo
+  group: academic-opportunities-publication
   cancel-in-progress: false
-
 jobs:
-  demo:
-    if: github.ref == 'refs/heads/main'
+  publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     environment: demo
     env:
       WRANGLER_SEND_METRICS: "false"
     steps:
-      - name: Require explicit deployment intent
-        if: inputs.operation == 'deploy'
-        env:
-          CONFIRMATION: ${{ inputs.confirmation }}
-        run: |
-          if [ "$CONFIRMATION" != "DEPLOY DEMO" ]; then
-            echo 'Deployment requires confirmation text DEPLOY DEMO.'
-            exit 1
-          fi
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
@@ -48,42 +24,9 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - name: All local checks and builds
-        run: npm run check
-      - name: Ordinary local HTTP rehearsal
-        run: |
-          npm run db:migrate:local
-          npm run db:seed
-          npm run test:smoke
-      - name: Isolated local demo rehearsal
-        run: npm run test:demo
-      - name: Configure demo offline
+      - run: npm run check
+      - name: Publish reviewed static files to the existing public address
         env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-          CLOUDFLARE_DEMO_D1_DATABASE_ID: ${{ vars.CLOUDFLARE_DEMO_D1_DATABASE_ID }}
-          CLOUDFLARE_WORKERS_SUBDOMAIN: ${{ vars.CLOUDFLARE_WORKERS_SUBDOMAIN }}
-        run: |
-          npm run configure:demo
-          node --input-type=module -e "import { demoUrl } from './scripts/verify-live-demo.mjs'; demoUrl(process.env.CLOUDFLARE_WORKERS_SUBDOMAIN)"
-      - name: Demo configuration dry run
-        run: npm run demo:dry-run
-      - name: Verify Cloudflare target metadata (read-only)
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: npm run demo:verify-target
-      - name: Approved demo migration, synthetic seed and deployment
-        if: inputs.operation == 'deploy'
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: |
-          npm run demo:migrate
-          npm run demo:seed
-          npm run demo:deploy
-      - name: Verify public demo website and API
-        if: inputs.operation == 'deploy'
-        env:
-          CLOUDFLARE_WORKERS_SUBDOMAIN: ${{ vars.CLOUDFLARE_WORKERS_SUBDOMAIN }}
-        run: npm run demo:verify-live
-      - name: Summarize read-only verification
-        if: inputs.operation == 'verify'
-        run: echo 'Demo identity and local checks passed. No remote migration, seed or deployment was executed.' >> "$GITHUB_STEP_SUMMARY"
+        run: npx wrangler deploy
