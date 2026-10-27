@@ -2,7 +2,7 @@
 
 Catalogue public d’offres académiques et de recherche, maintenu manuellement.
 
-**[Consulter le site](https://academic-opportunities-demo.etienne-peillard.workers.dev/)**
+**[Consulter le site](https://academic-opportunities.etienne-peillard.workers.dev/)**
 
 Les fiches proviennent de `data/opportunities.json`. Le site est entièrement statique : recherche, filtres, pagination et détails fonctionnent dans le navigateur. Il ne dépend d’aucune API, base distante, connexion OAuth, réception de courriels, file d’attente, tâche planifiée ou service d’extraction. Aucun courriel original ni pièce jointe n’est publié.
 
@@ -50,7 +50,7 @@ Le dépôt contient une seule application : `src/`, `public/`, `index.html` et l
 
 ## Publication
 
-Le workflow **Publish static catalogue** utilise l’environnement GitHub existant `demo`, avec le secret `CLOUDFLARE_API_TOKEN` et la variable `CLOUDFLARE_ACCOUNT_ID`. Il remplace le contenu du site existant `academic-opportunities-demo` et retire sa dépendance à D1. L’adresse conserve son nom historique ; les données affichées sont réelles.
+Le workflow **Publish static catalogue** publie le site `academic-opportunities` à l’adresse ci-dessus. Les données affichées sont réelles. Il utilise le secret `CLOUDFLARE_API_TOKEN` et la variable `CLOUDFLARE_ACCOUNT_ID` de l’environnement GitHub historique `demo`, conservé uniquement pour ses accès de publication. Ce nom interne n’apparaît ni dans le site ni dans sa nouvelle adresse.
 
 Pour publier depuis un poste déjà authentifié auprès de Cloudflare : `npm run deploy`. Aucune migration, initialisation ou alimentation de base distante n’est nécessaire. Les anciennes ressources de stockage éventuelles ne sont plus utilisées par le site ; cette modification ne supprime pas de ressources Cloudflare indépendantes.
 
@@ -58,7 +58,7 @@ Pour publier depuis un poste déjà authentifié auprès de Cloudflare : `npm ru
 
 Le workflow manuel **Audit Cloudflare resources (read only)** inventorie les ressources dont le nom commence par `academic-opportunities`. Il utilise uniquement des requêtes GET, ne consulte aucun courriel ni contenu de base et ne lit pas les valeurs des secrets. Son rapport est conservé sept jours comme artefact GitHub ; les permissions manquantes sont signalées comme des vérifications non réalisées, jamais comme une absence de ressources.
 
-Le Worker `academic-opportunities-demo` et l’accès servant les fichiers statiques doivent être conservés. Les anciens Workers de collecte/extraction, crons, consommateurs de queues et règles de routage d’e-mails sont à débrancher s’ils existent encore. D1, R2 et les queues historiques ne sont plus nécessaires au site ; vérifier leurs données et leurs autres utilisateurs avant suppression. Les redirections externes (Gmail, listes) et connexions OAuth se vérifient séparément. Le jeton de publication doit rester actif avec les seules permissions nécessaires au déploiement.
+Le Worker `academic-opportunities` et l’accès servant les fichiers statiques doivent être conservés. Les anciens Workers de collecte/extraction, crons, consommateurs de queues et règles de routage d’e-mails sont à débrancher s’ils existent encore. D1, R2 et les queues historiques ne sont plus nécessaires au site ; vérifier leurs données et leurs autres utilisateurs avant suppression. Les redirections externes (Gmail, listes) et connexions OAuth se vérifient séparément. Le jeton de publication doit rester actif avec les seules permissions nécessaires au déploiement.
 
 ## Comportement
 
