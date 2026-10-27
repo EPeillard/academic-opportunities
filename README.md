@@ -2,7 +2,7 @@
 
 Catalogue public d’offres académiques et de recherche, maintenu manuellement.
 
-**[Consulter le site](https://academic-opportunities.etienne-peillard.workers.dev/)**
+**[Consulter le site](https://jobs.etiennepeillard.com/)**
 
 Les fiches proviennent de `data/opportunities.json`. Le site est entièrement statique : recherche, filtres, pagination et détails fonctionnent dans le navigateur. Il ne dépend d’aucune API, base distante, connexion OAuth, réception de courriels, file d’attente, tâche planifiée ou service d’extraction. Aucun courriel original ni pièce jointe n’est publié.
 
@@ -50,7 +50,7 @@ Le dépôt contient une seule application : `src/`, `public/`, `index.html` et l
 
 ## Publication
 
-Le workflow **Publish static catalogue** publie le site `academic-opportunities` à l’adresse ci-dessus. Les données affichées sont réelles. Il utilise le secret `CLOUDFLARE_API_TOKEN` et la variable `CLOUDFLARE_ACCOUNT_ID` de l’environnement GitHub historique `demo`, conservé uniquement pour ses accès de publication. Ce nom interne n’apparaît ni dans le site ni dans sa nouvelle adresse.
+Le workflow **Publish static catalogue** publie le site `academic-opportunities` à l’adresse ci-dessus. Le domaine personnalisé `jobs.etiennepeillard.com` est déclaré dans `wrangler.jsonc` ; Cloudflare gère son enregistrement DNS et son certificat HTTPS. Le jeton de publication doit avoir accès à la zone `etiennepeillard.com`, avec la permission `Workers Routes Write`, en plus de l’accès au Worker. L’adresse `https://academic-opportunities.etienne-peillard.workers.dev/` reste disponible. Les données affichées sont réelles. Le workflow utilise le secret `CLOUDFLARE_API_TOKEN` et la variable `CLOUDFLARE_ACCOUNT_ID` de l’environnement GitHub historique `demo`, conservé uniquement pour ses accès de publication. Ce nom interne n’apparaît ni dans le site ni dans sa nouvelle adresse.
 
 Pour publier depuis un poste déjà authentifié auprès de Cloudflare : `npm run deploy`. Aucune migration, initialisation ou alimentation de base distante n’est nécessaire. Les anciennes ressources de stockage éventuelles ne sont plus utilisées par le site ; cette modification ne supprime pas de ressources Cloudflare indépendantes.
 
