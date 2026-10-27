@@ -50,9 +50,7 @@ describe("static public browsing", () => {
       "impossible-vacancy-zzzz",
     );
     await user.selectOptions(screen.getByLabelText("Position type"), "PhD");
-    await user.click(
-      screen.getByRole("button", { name: /Find opportunities/ }),
-    );
+    await user.click(screen.getByRole("button", { name: /Apply filters/ }));
     await screen.findByText("No opportunities match these filters.");
     expect(window.location.search).toContain("type=PhD");
     expect(window.location.search).toContain("q=impossible-vacancy-zzzz");

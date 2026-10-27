@@ -19,6 +19,7 @@ const date = (value: string | null) =>
         timeZone: "UTC",
       }).format(new Date(value))
     : "Not specified";
+const countries = FacetsSchema.parse(readCatalogue("/api/facets")).countries;
 const currentLocation = () => window.location.pathname + window.location.search;
 function useLocation() {
   const [location, setLocation] = useState(currentLocation);
@@ -73,7 +74,6 @@ export function App() {
   const [data, setData] = useState<
     ReturnType<typeof ListSchema.parse> | Opportunity | null
   >(null);
-  const [countries, setCountries] = useState<string[]>([]);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
   const [retry, setRetry] = useState(0);
@@ -81,13 +81,6 @@ export function App() {
     match = url.pathname.match(/^\/opportunities\/([a-z0-9-]+)$/),
     id = match?.[1];
   const unknownPath = url.pathname !== "/" && !match;
-  useEffect(() => {
-    const c = new AbortController();
-    request("/api/facets", c.signal)
-      .then((raw) => setCountries(FacetsSchema.parse(raw).countries))
-      .catch(() => {});
-    return () => c.abort();
-  }, []);
   useEffect(() => {
     const c = new AbortController();
     setLoading(true);
@@ -132,57 +125,23 @@ export function App() {
   };
   return (
     <>
-      <div className="demo">
-        ACADEMIC JOBS{" "}
-        <span>Manually curated opportunities · Updated {date(updatedAt)}</span>
-      </div>
+      <a className="skip-link" href="#main">
+        Skip to offers
+      </a>
       <header className="masthead">
         <div className="shell nav">
-          <Link href="/" navigate={navigate} className="brand">
-            <span className="brand-icon" aria-hidden="true">
-              a<span>o</span>
-            </span>
-            <span>
-              Academic
-              <br />
-              Opportunities
-            </span>
+          <Link href="/" navigate={navigate} className="site-title">
+            Research positions
           </Link>
-          <span className="nav-note">
-            A new place to find your next question.
-          </span>
-          <a
-            className="github"
-            href="https://github.com/EPeillard/academic-opportunities"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Open source ↗
-          </a>
+          <span className="updated">Updated {date(updatedAt)}</span>
         </div>
       </header>
       <main id="main" className="shell">
         {!id && !unknownPath && (
-          <section className="hero">
-            <p className="eyebrow">RESEARCH STARTS WITH A POSSIBILITY</p>
-            <h1>
-              Your next chapter
-              <br />
-              in <em>research.</em>
-            </h1>
-            <div className="hero-bottom">
-              <p>
-                Discover opportunities across computer science
-                <br className="desktop-break" /> and the disciplines it
-                connects.
-              </p>
-              <div className="discipline-note">
-                <span className="status-dot" /> One field. Many directions.
-                <br />
-                <small>From human factors to machine learning.</small>
-              </div>
-            </div>
-          </section>
+          <div className="page-heading">
+            <h1>Internships, PhDs and research jobs</h1>
+            <p>Computer science and related fields.</p>
+          </div>
         )}
         {id && (
           <Link href="/" navigate={navigate} className="back">
@@ -194,7 +153,7 @@ export function App() {
             <aside>
               <form key={location} onSubmit={filter} className="filters">
                 <div className="filter-heading">
-                  <h2>Refine your search</h2>
+                  <h2>Filter offers</h2>
                   <Link href="/" navigate={navigate}>
                     Reset
                   </Link>
@@ -244,61 +203,71 @@ export function App() {
                     ))}
                   </select>
                 </label>
-                <label>
-                  Deadline status
-                  <select
-                    name="deadlineStatus"
-                    defaultValue={
-                      url.searchParams.get("deadlineStatus") ?? "all"
-                    }
-                  >
-                    <option value="all">All announcements</option>
-                    <option value="upcoming">Upcoming deadlines</option>
-                    <option value="past">Past deadlines</option>
-                  </select>
-                </label>
-                <label>
-                  Announced on or after
-                  <input
-                    type="date"
-                    name="publishedSince"
-                    defaultValue={url.searchParams.get("publishedSince") ?? ""}
-                  />
-                </label>
-                <label>
-                  Deadline on or before
-                  <input
-                    type="date"
-                    name="deadlineBefore"
-                    defaultValue={url.searchParams.get("deadlineBefore") ?? ""}
-                  />
-                </label>
-                <label className="checkbox">
-                  <input
-                    type="checkbox"
-                    name="includeUnknownDeadline"
-                    value="true"
-                    defaultChecked={
-                      url.searchParams.get("includeUnknownDeadline") === "true"
-                    }
-                  />
-                  Include unspecified deadlines
-                </label>
-                <p className="filter-hint">
-                  Applies when a deadline filter is set.
-                </p>
+                <details
+                  className="advanced-filters"
+                  open={Boolean(
+                    url.searchParams.get("publishedSince") ||
+                    url.searchParams.get("deadlineBefore") ||
+                    (url.searchParams.get("deadlineStatus") &&
+                      url.searchParams.get("deadlineStatus") !== "all"),
+                  )}
+                >
+                  <summary>Dates and deadlines</summary>
+                  <div className="advanced-fields">
+                    <label>
+                      Deadline status
+                      <select
+                        name="deadlineStatus"
+                        defaultValue={
+                          url.searchParams.get("deadlineStatus") ?? "all"
+                        }
+                      >
+                        <option value="all">All announcements</option>
+                        <option value="upcoming">Upcoming deadlines</option>
+                        <option value="past">Past deadlines</option>
+                      </select>
+                    </label>
+                    <label>
+                      Announced on or after
+                      <input
+                        type="date"
+                        name="publishedSince"
+                        defaultValue={
+                          url.searchParams.get("publishedSince") ?? ""
+                        }
+                      />
+                    </label>
+                    <label>
+                      Deadline on or before
+                      <input
+                        type="date"
+                        name="deadlineBefore"
+                        defaultValue={
+                          url.searchParams.get("deadlineBefore") ?? ""
+                        }
+                      />
+                    </label>
+                    <label className="checkbox">
+                      <input
+                        type="checkbox"
+                        name="includeUnknownDeadline"
+                        value="true"
+                        defaultChecked={
+                          url.searchParams.get("includeUnknownDeadline") ===
+                          "true"
+                        }
+                      />
+                      Include unspecified deadlines
+                    </label>
+                    <p className="filter-hint">
+                      Applies when a deadline filter is set.
+                    </p>
+                  </div>
+                </details>
                 <button className="button" type="submit">
-                  Find opportunities <span aria-hidden="true">→</span>
+                  Apply filters
                 </button>
               </form>
-              <div className="aside-note">
-                <span aria-hidden="true">↗</span>
-                <p>
-                  Science crosses boundaries.
-                  <br />
-                  Your next role can, too.
-                </p>
-              </div>
             </aside>
             <section aria-label="Opportunity results" aria-busy={loading}>
               <div className="results-heading">
@@ -344,23 +313,26 @@ export function App() {
                     <h3>
                       <Link href={`/opportunities/${o.id}`} navigate={navigate}>
                         {o.title}
-                        <span className="card-arrow" aria-hidden="true">
-                          ↗
-                        </span>
                       </Link>
                     </h3>
                     <p className="organization">
                       {o.organization ?? "Organization not specified"}
                     </p>
                     <p className="place">
-                      {[o.city, o.country].filter(Boolean).join(", ") ||
-                        "Location not specified"}{" "}
-                      <span>·</span> {o.duration ?? "Duration not specified"}
+                      {[
+                        [o.city, o.country].filter(Boolean).join(", "),
+                        o.duration,
+                      ]
+                        .filter(Boolean)
+                        .join(" · ") || "Location not specified"}
                     </p>
                     <div className="tags">
-                      {o.topics.map((t) => (
+                      {o.topics.slice(0, 3).map((t) => (
                         <span key={t}>{t}</span>
                       ))}
+                      {o.topics.length > 3 && (
+                        <span>+{o.topics.length - 3}</span>
+                      )}
                     </div>
                     <div className="card-bottom">
                       <span>
@@ -370,7 +342,7 @@ export function App() {
                         )}
                       </span>
                       <Link href={`/opportunities/${o.id}`} navigate={navigate}>
-                        View opportunity <span aria-hidden="true">→</span>
+                        View opportunity
                       </Link>
                     </div>
                   </article>
@@ -415,12 +387,6 @@ export function App() {
           <article className="detail">
             <div className="detail-heading">
               <span className="type-tag">{item.jobType}</span>
-              <p className="eyebrow">
-                VACANCY ·{" "}
-                {item.publicationFormat === "summary"
-                  ? "FACTUAL SUMMARY"
-                  : "AUTHORIZED FULL TEXT"}
-              </p>
               <h1>{item.title}</h1>
               {deadlinePassed(item.applicationDeadline) && (
                 <p className="deadline-notice">
@@ -516,9 +482,14 @@ export function App() {
         )}
       </main>
       <footer className="shell footer">
-        <span>Academic Opportunities</span>
-        <p>Connecting researchers with what comes next.</p>
-        <span>Manually maintained catalogue</span>
+        <span>Updated {date(updatedAt)}</span>
+        <a
+          href="https://github.com/EPeillard/academic-opportunities"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source code
+        </a>
       </footer>
     </>
   );
