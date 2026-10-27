@@ -120,15 +120,6 @@ export function App() {
           </Link>
           <nav className="site-links" aria-label="Main navigation">
             <Link
-              href="/"
-              navigate={navigate}
-              aria-current={
-                !id && !unknownPath && !sourcesPage ? "page" : undefined
-              }
-            >
-              Opportunities
-            </Link>
-            <Link
               href="/sources"
               navigate={navigate}
               aria-current={sourcesPage ? "page" : undefined}

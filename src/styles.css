@@ -111,16 +111,15 @@ button:disabled {
   font-weight: 650;
 }
 .site-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 18px;
-  font-size: 13px;
+  font-size: 12px;
+}
+.site-links a {
+  color: #5d6876;
+  padding-block: 8px;
 }
 .site-links a[aria-current="page"] {
-  color: #202733;
-  font-weight: 650;
   text-decoration: underline;
-  text-underline-offset: 5px;
+  text-underline-offset: 3px;
 }
 .sources-page {
   max-width: 760px;
