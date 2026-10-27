@@ -3,6 +3,7 @@ import { JOB_TYPES, TOPICS } from "./schema";
 import "./styles.css";
 import { Announcements } from "./Announcements";
 import { PositionDocuments } from "./PositionDocuments";
+import { Sources } from "./Sources";
 import {
   getFacets,
   getOpportunity,
@@ -29,10 +30,11 @@ function useLocation() {
     window.addEventListener("popstate", update);
     return () => window.removeEventListener("popstate", update);
   }, []);
-  const navigate = (path: string) => {
-    window.history.pushState(null, "", path);
+  const navigate = (path: string, filtering = false) => {
+    if (filtering) window.history.replaceState(null, "", path);
+    else window.history.pushState(null, "", path);
     setLocation(currentLocation());
-    window.scrollTo({ top: 0 });
+    if (!filtering) window.scrollTo({ top: 0 });
   };
   return [location, navigate] as const;
 }
@@ -71,12 +73,17 @@ export function App() {
   const url = new URL(location, window.location.origin),
     match = url.pathname.match(/^\/opportunities\/([a-z0-9-]+)$/),
     id = match?.[1];
-  const unknownPath = url.pathname !== "/" && !match;
+  const sourcesPage = url.pathname === "/sources";
+  const unknownPath = url.pathname !== "/" && !match && !sourcesPage;
   const { data, error } = useMemo(() => {
     try {
       if (unknownPath) throw new Error("This page could not be found.");
       return {
-        data: id ? getOpportunity(id) : listOpportunities(url.searchParams),
+        data: sourcesPage
+          ? null
+          : id
+            ? getOpportunity(id)
+            : listOpportunities(url.searchParams),
         error: "",
       };
     } catch (e) {
@@ -89,12 +96,12 @@ export function App() {
   }, [location]);
   const items = data && "items" in data ? data : null;
   const item = data && "title" in data ? data : null;
-  function filter(event: React.FormEvent<HTMLFormElement>) {
+  function filter(event: React.SyntheticEvent<HTMLFormElement>) {
     event.preventDefault();
     const params = new URLSearchParams();
     for (const [key, value] of new FormData(event.currentTarget))
       if (String(value).trim()) params.append(key, String(value).trim());
-    navigate(`/?${params}`);
+    navigate(params.size ? `/?${params}` : "/", true);
   }
   const pager = (page: number) => {
     const p = new URLSearchParams(url.search);
@@ -104,32 +111,50 @@ export function App() {
   return (
     <>
       <a className="skip-link" href="#main">
-        Skip to offers
+        Skip to content
       </a>
       <header className="masthead">
         <div className="shell nav">
           <Link href="/" navigate={navigate} className="site-title">
             Research positions
           </Link>
-          <span className="updated">Updated {date(updatedAt)}</span>
+          <nav className="site-links" aria-label="Main navigation">
+            <Link
+              href="/"
+              navigate={navigate}
+              aria-current={
+                !id && !unknownPath && !sourcesPage ? "page" : undefined
+              }
+            >
+              Opportunities
+            </Link>
+            <Link
+              href="/sources"
+              navigate={navigate}
+              aria-current={sourcesPage ? "page" : undefined}
+            >
+              Sources
+            </Link>
+          </nav>
         </div>
       </header>
       <main id="main" className="shell">
-        {!id && !unknownPath && (
+        {!id && !unknownPath && !sourcesPage && (
           <div className="page-heading">
             <h1>Internships, PhDs and research jobs</h1>
             <p>Computer science and related fields.</p>
           </div>
         )}
-        {id && (
+        {(id || sourcesPage) && (
           <Link href="/" navigate={navigate} className="back">
             ← All opportunities
           </Link>
         )}
-        {!id && !unknownPath && (
+        {sourcesPage && <Sources />}
+        {!id && !unknownPath && !sourcesPage && (
           <div className="content-grid">
             <aside>
-              <form key={location} onSubmit={filter} className="filters">
+              <form onChange={filter} onSubmit={filter} className="filters">
                 <div className="filter-heading">
                   <h2>Filter offers</h2>
                   <Link href="/" navigate={navigate}>
@@ -142,14 +167,16 @@ export function App() {
                     name="q"
                     placeholder="Title, lab, or keyword"
                     maxLength={200}
-                    defaultValue={url.searchParams.get("q") ?? ""}
+                    value={url.searchParams.get("q") ?? ""}
+                    onChange={() => {}}
                   />
                 </label>
                 <label>
                   Position type
                   <select
                     name="type"
-                    defaultValue={url.searchParams.get("type") ?? ""}
+                    value={url.searchParams.get("type") ?? ""}
+                    onChange={() => {}}
                   >
                     <option value="">All positions</option>
                     {JOB_TYPES.map((v) => (
@@ -161,7 +188,8 @@ export function App() {
                   Research topic
                   <select
                     name="topic"
-                    defaultValue={url.searchParams.get("topic") ?? ""}
+                    value={url.searchParams.get("topic") ?? ""}
+                    onChange={() => {}}
                   >
                     <option value="">All research areas</option>
                     {TOPICS.map((v) => (
@@ -169,25 +197,30 @@ export function App() {
                     ))}
                   </select>
                 </label>
-                <fieldset className="country-filter">
-                  <legend>Country</legend>
-                  <p className="country-hint">No selection = all countries.</p>
-                  <div className="country-options">
+                <details className="country-filter">
+                  <summary>
+                    Country ·{" "}
+                    {url.searchParams.getAll("country").join(", ") ||
+                      "All countries"}
+                  </summary>
+                  <fieldset className="country-options">
+                    <legend className="sr-only">Country</legend>
                     {countries.map((country) => (
                       <label key={country}>
                         <input
                           type="checkbox"
                           name="country"
                           value={country}
-                          defaultChecked={url.searchParams
+                          checked={url.searchParams
                             .getAll("country")
                             .includes(country)}
+                          onChange={() => {}}
                         />
                         {country}
                       </label>
                     ))}
-                  </div>
-                </fieldset>
+                  </fieldset>
+                </details>
                 <details
                   className="advanced-filters"
                   open={Boolean(
@@ -203,9 +236,8 @@ export function App() {
                       Deadline status
                       <select
                         name="deadlineStatus"
-                        defaultValue={
-                          url.searchParams.get("deadlineStatus") ?? "all"
-                        }
+                        value={url.searchParams.get("deadlineStatus") ?? "all"}
+                        onChange={() => {}}
                       >
                         <option value="all">All announcements</option>
                         <option value="upcoming">Upcoming deadlines</option>
@@ -217,9 +249,8 @@ export function App() {
                       <input
                         type="date"
                         name="publishedSince"
-                        defaultValue={
-                          url.searchParams.get("publishedSince") ?? ""
-                        }
+                        value={url.searchParams.get("publishedSince") ?? ""}
+                        onChange={() => {}}
                       />
                     </label>
                     <label>
@@ -227,9 +258,8 @@ export function App() {
                       <input
                         type="date"
                         name="deadlineBefore"
-                        defaultValue={
-                          url.searchParams.get("deadlineBefore") ?? ""
-                        }
+                        value={url.searchParams.get("deadlineBefore") ?? ""}
+                        onChange={() => {}}
                       />
                     </label>
                     <label className="checkbox">
@@ -237,10 +267,11 @@ export function App() {
                         type="checkbox"
                         name="includeUnknownDeadline"
                         value="true"
-                        defaultChecked={
+                        checked={
                           url.searchParams.get("includeUnknownDeadline") ===
                           "true"
                         }
+                        onChange={() => {}}
                       />
                       Include unspecified deadlines
                     </label>
@@ -249,9 +280,6 @@ export function App() {
                     </p>
                   </div>
                 </details>
-                <button className="button" type="submit">
-                  Apply filters
-                </button>
               </form>
             </aside>
             <section aria-label="Opportunity results">
@@ -317,9 +345,6 @@ export function App() {
                           <small className="expired">Deadline passed</small>
                         )}
                       </span>
-                      <Link href={`/opportunities/${o.id}`} navigate={navigate}>
-                        View opportunity
-                      </Link>
                     </div>
                   </article>
                 ))}

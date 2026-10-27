@@ -1,7 +1,13 @@
 // @vitest-environment happy-dom
 import React from "react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import { cleanup, render, screen, waitFor } from "@testing-library/react";
+import {
+  cleanup,
+  render,
+  screen,
+  waitFor,
+  within,
+} from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { App } from "../src/App";
 import { opportunities } from "../src/catalogue";
@@ -21,12 +27,38 @@ afterEach(() => {
   vi.unstubAllGlobals();
 });
 describe("static public browsing", () => {
+  it("opens the sources page, supports direct links, and returns to offers", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await user.click(screen.getByRole("link", { name: "Sources" }));
+    expect(window.location.pathname).toBe("/sources");
+    expect(screen.getByRole("heading", { name: "Mailing lists" })).toBeTruthy();
+    expect(
+      screen.getByRole("link", { name: /CHI-JOBS/ }).getAttribute("href"),
+    ).toBe("https://sigchi.org/operations/listserv/");
+    expect(
+      screen.queryByRole("heading", { name: /opportunities$/ }),
+    ).toBeNull();
+    cleanup();
+    render(<App />);
+    expect(
+      screen.getByRole("heading", { name: "Vacancy websites" }),
+    ).toBeTruthy();
+    expect(screen.queryByRole("alert")).toBeNull();
+    await user.click(screen.getByRole("link", { name: /All opportunities/ }));
+    expect(
+      screen.getByRole("heading", {
+        name: `${opportunities.length} opportunities`,
+      }),
+    ).toBeTruthy();
+    expect(fetch).not.toHaveBeenCalled();
+  });
   it("keeps multiple checked countries in the URL and clears them on reset", async () => {
     const user = userEvent.setup();
     render(<App />);
+    await user.click(screen.getByText("Country · All countries"));
     await user.click(screen.getByRole("checkbox", { name: "France" }));
     await user.click(screen.getByRole("checkbox", { name: "Germany" }));
-    await user.click(screen.getByRole("button", { name: /Apply filters/ }));
     expect(
       new URLSearchParams(window.location.search).getAll("country"),
     ).toEqual(["France", "Germany"]);
@@ -60,9 +92,8 @@ describe("static public browsing", () => {
     await screen.findByRole("heading", {
       name: `${opportunities.length} opportunities`,
     });
-    await user.click(
-      screen.getAllByRole("link", { name: /View opportunity/ })[0],
-    );
+    const title = screen.getAllByRole("heading", { level: 3 })[0];
+    await user.click(within(title).getByRole("link"));
     await screen.findByRole("heading", { name: "About the opportunity" });
     expect(window.location.pathname).toMatch(/^\/opportunities\//);
     await user.click(screen.getByRole("link", { name: /All opportunities/ }));
@@ -82,7 +113,6 @@ describe("static public browsing", () => {
       "impossible-vacancy-zzzz",
     );
     await user.selectOptions(screen.getByLabelText("Position type"), "PhD");
-    await user.click(screen.getByRole("button", { name: /Apply filters/ }));
     await screen.findByText("No opportunities match these filters.");
     expect(window.location.search).toContain("type=PhD");
     expect(window.location.search).toContain("q=impossible-vacancy-zzzz");
