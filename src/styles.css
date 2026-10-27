@@ -1,4 +1,35 @@
-@import "tailwindcss";
+/* Minimal browser defaults; the site uses ordinary CSS. */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+h1,
+h2,
+h3,
+p,
+dl {
+  margin: 0;
+}
+button,
+input,
+select {
+  font: inherit;
+  line-height: inherit;
+}
+button,
+input {
+  border-radius: 0;
+}
+input[type="date"],
+select {
+  min-width: 0;
+}
+button {
+  appearance: button;
+}
+a {
+  text-decoration: inherit;
+}
+
 :root {
   font-family:
     system-ui,

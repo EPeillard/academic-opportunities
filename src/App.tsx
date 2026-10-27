@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from "react";
-import {
-  FacetsSchema,
-  JOB_TYPES,
-  ListSchema,
-  OpportunitySchema,
-  TOPICS,
-} from "@academic/shared";
-import type { Opportunity } from "@academic/shared";
+import React, { useEffect, useMemo, useState } from "react";
+import { JOB_TYPES, TOPICS } from "./schema";
 import "./styles.css";
-import { readCatalogue, deadlinePassed, updatedAt } from "./catalogue";
+import {
+  getFacets,
+  getOpportunity,
+  listOpportunities,
+  deadlinePassed,
+  updatedAt,
+} from "./catalogue";
 
 const date = (value: string | null) =>
   value
@@ -19,7 +18,7 @@ const date = (value: string | null) =>
         timeZone: "UTC",
       }).format(new Date(value))
     : "Not specified";
-const countries = FacetsSchema.parse(readCatalogue("/api/facets")).countries;
+const countries = getFacets().countries;
 const currentLocation = () => window.location.pathname + window.location.search;
 function useLocation() {
   const [location, setLocation] = useState(currentLocation);
@@ -65,50 +64,27 @@ function Link({
     </a>
   );
 }
-async function request(path: string, signal: AbortSignal) {
-  if (signal.aborted) throw new DOMException("Aborted", "AbortError");
-  return readCatalogue(path);
-}
 export function App() {
   const [location, navigate] = useLocation();
-  const [data, setData] = useState<
-    ReturnType<typeof ListSchema.parse> | Opportunity | null
-  >(null);
-  const [error, setError] = useState("");
-  const [loading, setLoading] = useState(true);
-  const [retry, setRetry] = useState(0);
   const url = new URL(location, window.location.origin),
     match = url.pathname.match(/^\/opportunities\/([a-z0-9-]+)$/),
     id = match?.[1];
   const unknownPath = url.pathname !== "/" && !match;
-  useEffect(() => {
-    const c = new AbortController();
-    setLoading(true);
-    setError("");
-    setData(null);
-    if (unknownPath) {
-      setError("This page could not be found.");
-      setLoading(false);
-      return () => c.abort();
+  const { data, error } = useMemo(() => {
+    try {
+      if (unknownPath) throw new Error("This page could not be found.");
+      return {
+        data: id ? getOpportunity(id) : listOpportunities(url.searchParams),
+        error: "",
+      };
+    } catch (e) {
+      return {
+        data: null,
+        error:
+          e instanceof Error ? e.message : "Unable to display opportunities.",
+      };
     }
-    request(
-      id ? `/api/opportunities/${id}` : `/api/opportunities${url.search}`,
-      c.signal,
-    )
-      .then((raw) =>
-        setData(id ? OpportunitySchema.parse(raw) : ListSchema.parse(raw)),
-      )
-      .catch((e) => {
-        if (!c.signal.aborted)
-          setError(
-            e instanceof Error ? e.message : "Unable to load opportunities.",
-          );
-      })
-      .finally(() => {
-        if (!c.signal.aborted) setLoading(false);
-      });
-    return () => c.abort();
-  }, [location, retry]);
+  }, [location]);
   const items = data && "items" in data ? data : null;
   const item = data && "title" in data ? data : null;
   function filter(event: React.FormEvent<HTMLFormElement>) {
@@ -269,24 +245,15 @@ export function App() {
                 </button>
               </form>
             </aside>
-            <section aria-label="Opportunity results" aria-busy={loading}>
+            <section aria-label="Opportunity results">
               <div className="results-heading">
                 <h2>
                   {items ? `${items.total} opportunities` : "Opportunities"}
                 </h2>
                 <span>Newest first</span>
               </div>
-              {loading && (
-                <p className="state" role="status">
-                  Loading opportunities…
-                </p>
-              )}
               {error && (
-                <ErrorState
-                  error={error}
-                  retry={() => setRetry((v) => v + 1)}
-                  reset={() => navigate("/")}
-                />
+                <ErrorState error={error} reset={() => navigate("/")} />
               )}
               {items && items.items.length === 0 && (
                 <div className="state">
@@ -371,17 +338,8 @@ export function App() {
             </section>
           </div>
         )}
-        {id && loading && (
-          <p className="state" role="status">
-            Loading opportunity…
-          </p>
-        )}
         {(id || unknownPath) && error && (
-          <ErrorState
-            error={error}
-            retry={() => setRetry((v) => v + 1)}
-            reset={() => navigate("/")}
-          />
+          <ErrorState error={error} reset={() => navigate("/")} />
         )}
         {item && (
           <article className="detail">
@@ -494,21 +452,10 @@ export function App() {
     </>
   );
 }
-function ErrorState({
-  error,
-  retry,
-  reset,
-}: {
-  error: string;
-  retry: () => void;
-  reset: () => void;
-}) {
+function ErrorState({ error, reset }: { error: string; reset: () => void }) {
   return (
     <div className="state" role="alert">
       <h3>{error}</h3>
-      <button className="text-button" onClick={retry}>
-        Try again
-      </button>{" "}
       <button className="text-button" onClick={reset}>
         Reset & return to opportunities
       </button>

@@ -3,8 +3,8 @@ import React from "react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { cleanup, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { App } from "../apps/web/src/App";
-import { opportunities } from "../apps/web/src/catalogue";
+import { App } from "../src/App";
+import { opportunities } from "../src/catalogue";
 
 beforeEach(() => {
   window.history.replaceState(null, "", "/");
@@ -27,7 +27,6 @@ describe("static public browsing", () => {
     await screen.findByRole("heading", {
       name: `${opportunities.length} opportunities`,
     });
-    expect(screen.queryByText(/SYNTHETIC DEMO/)).toBeNull();
     await user.click(
       screen.getAllByRole("link", { name: /View opportunity/ })[0],
     );

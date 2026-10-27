@@ -1,14 +1,15 @@
 import { describe, expect, it } from "vitest";
 import { z } from "zod";
-import { OpportunitySchema } from "../packages/shared/src";
+import { OpportunitySchema } from "../src/schema";
 import {
   deadlinePassed,
   opportunities,
-  readCatalogue,
-} from "../apps/web/src/catalogue";
+  listOpportunities,
+  getOpportunity,
+} from "../src/catalogue";
 
 function list(query = "") {
-  const result = readCatalogue(`/api/opportunities${query}`, "2026-10-27");
+  const result = listOpportunities(new URLSearchParams(query), "2026-10-27");
   if (!("items" in result)) throw new Error("Expected list");
   return result;
 }
@@ -21,7 +22,6 @@ describe("static catalogue", () => {
       opportunities.length,
     );
     for (const item of opportunities) {
-      expect(item.synthetic).toBe(false);
       expect(item.sources.length).toBeGreaterThan(0);
       expect(
         OpportunitySchema.safeParse({ ...item, rawMime: "private" }).success,
@@ -93,10 +93,8 @@ describe("static catalogue", () => {
   });
   it("opens every detail and rejects unknown IDs", () => {
     for (const item of opportunities)
-      expect(readCatalogue(`/api/opportunities/${item.id}`)).toEqual(item);
-    expect(() => readCatalogue("/api/opportunities/nonexistent")).toThrow(
-      /not be found/,
-    );
+      expect(getOpportunity(item.id)).toEqual(item);
+    expect(() => getOpportunity("nonexistent")).toThrow(/not be found/);
     expect(list("?page=1000").items).toEqual([]);
   });
   it("keeps real split vacancies searchable under their own position types", () => {

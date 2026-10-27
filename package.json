@@ -2,20 +2,16 @@
   "name": "academic-opportunities",
   "version": "1.0.0",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
   "engines": {
     "node": ">=22.12.0"
   },
   "scripts": {
-    "dev": "npm run dev -w @academic/web",
-    "build": "npm run validate:data && npm run build -w @academic/web",
-    "typecheck": "tsc --noEmit -p packages/shared && tsc --noEmit -p apps/web",
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run validate:data && vite build",
+    "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "check": "npm run format:check && npm run typecheck && npm test && npm run build",
-    "preview": "npm run preview -w @academic/web",
+    "preview": "vite preview --host 127.0.0.1",
     "validate:data": "tsx scripts/validate-data.ts",
     "deploy": "npm run build && wrangler deploy",
     "format": "prettier --write .",
@@ -30,8 +26,17 @@
     "typescript": "7.0.2",
     "vitest": "5.0.5",
     "wrangler": "4.100.0",
-    "tsx": "4.21.0"
+    "tsx": "4.21.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "vite": "8.3.4"
   },
   "type": "module",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  }
 }

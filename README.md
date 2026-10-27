@@ -39,17 +39,26 @@ La prévisualisation est disponible sur http://127.0.0.1:4173. Les liens directs
 | `data/opportunities.json`   | Base statique des offres                                                                  |
 | `data/README.md`            | Règles de mise à jour manuelle                                                            |
 | `data/import-2026-10-27.md` | Bilan du premier import                                                                   |
-| `apps/web`                  | Interface React et filtres locaux                                                         |
-| `packages/shared`           | Types et validation des fiches                                                            |
+| `src`                       | Interface, filtres et schéma des offres                                                   |
 | `scripts/validate-data.ts`  | Contrôle de la base avant construction                                                    |
 | `tests`                     | Recherche, dates, navigation, validation et absence d’appels réseau                       |
 | `wrangler.jsonc`            | Hébergement des fichiers statiques, sans serveur applicatif ni liaison de base de données |
+
+## Architecture statique
+
+Le dépôt contient une seule application : `src/`, `public/`, `index.html` et la configuration Vite à la racine. Les filtres et fiches lisent directement les données locales, sans façade API, état de chargement réseau ou validation répétée du catalogue dans le navigateur. La base est validée avant chaque construction. La mise en page utilise du CSS standard, sans Tailwind.
 
 ## Publication
 
 Le workflow **Publish static catalogue** utilise l’environnement GitHub existant `demo`, avec le secret `CLOUDFLARE_API_TOKEN` et la variable `CLOUDFLARE_ACCOUNT_ID`. Il remplace le contenu du site existant `academic-opportunities-demo` et retire sa dépendance à D1. L’adresse conserve son nom historique ; les données affichées sont réelles.
 
 Pour publier depuis un poste déjà authentifié auprès de Cloudflare : `npm run deploy`. Aucune migration, initialisation ou alimentation de base distante n’est nécessaire. Les anciennes ressources de stockage éventuelles ne sont plus utilisées par le site ; cette modification ne supprime pas de ressources Cloudflare indépendantes.
+
+## Audit Cloudflare
+
+Le workflow manuel **Audit Cloudflare resources (read only)** inventorie les ressources dont le nom commence par `academic-opportunities`. Il utilise uniquement des requêtes GET, ne consulte aucun courriel ni contenu de base et ne lit pas les valeurs des secrets. Son rapport est conservé sept jours comme artefact GitHub ; les permissions manquantes sont signalées comme des vérifications non réalisées, jamais comme une absence de ressources.
+
+Le Worker `academic-opportunities-demo` et l’accès servant les fichiers statiques doivent être conservés. Les anciens Workers de collecte/extraction, crons, consommateurs de queues et règles de routage d’e-mails sont à débrancher s’ils existent encore. D1, R2 et les queues historiques ne sont plus nécessaires au site ; vérifier leurs données et leurs autres utilisateurs avant suppression. Les redirections externes (Gmail, listes) et connexions OAuth se vérifient séparément. Le jeton de publication doit rester actif avec les seules permissions nécessaires au déploiement.
 
 ## Comportement
 

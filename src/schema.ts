@@ -78,12 +78,9 @@ export const OpportunitySchema = FieldsSchema.extend({
   title: text,
   jobType: JobTypeSchema,
   description: z.string().min(1).max(30000),
-  state: z.literal("published"),
-  publicationFormat: z.enum(["summary", "authorized_full_text"]),
   publishedAt: z.iso.datetime(),
   updatedAt: z.iso.datetime(),
   sources: z.array(PublicSourceSchema),
-  synthetic: z.boolean(),
 }).strict();
 export type Opportunity = z.infer<typeof OpportunitySchema>;
 export const QuerySchema = z
@@ -98,20 +95,5 @@ export const QuerySchema = z
     includeUnknownDeadline: z.enum(["true", "false"]).default("false"),
     page: z.coerce.number().int().min(1).max(1000).default(1),
     limit: z.coerce.number().int().min(1).max(50).default(12),
-  })
-  .strict();
-export const ListSchema = z
-  .object({
-    items: z.array(OpportunitySchema),
-    total: z.number().int().nonnegative(),
-    page: z.number().int().positive(),
-    limit: z.number().int().positive(),
-  })
-  .strict();
-export const FacetsSchema = z
-  .object({
-    countries: z.array(z.string()),
-    topics: z.array(TopicSchema),
-    types: z.array(JobTypeSchema),
   })
   .strict();

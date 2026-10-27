@@ -13,19 +13,16 @@ Copier une fiche existante puis compléter les champs ci-dessous. Conserver l’
 | `jobType`                    | `Internship`, `PhD`, `Postdoc`, `Research Engineer`, `Research Scientist`, `Faculty` ou `Other`                                                   |
 | `organization`, `laboratory` | Établissement et équipe/laboratoire explicitement identifiés                                                                                      |
 | `country`, `city`            | Pays et ville du poste ; conserver `null` en cas d’incertitude ou de sites internationaux multiples                                               |
-| `topics`                     | Une ou plusieurs valeurs du vocabulaire dans `packages/shared/src/index.ts` ; tableau vide si aucun domaine ne peut être établi                   |
+| `topics`                     | Une ou plusieurs valeurs du vocabulaire dans `src/schema.ts` ; tableau vide si aucun domaine ne peut être établi                                  |
 | `duration`, `compensation`   | Conditions annoncées, avec devise et distinction brut/net si connues ; sinon `null`                                                               |
 | `startDate`                  | Date exacte `YYYY-MM-DD`, sinon `null` ; ne pas transformer un mois en premier jour du mois                                                       |
 | `applicationDeadline`        | Clôture explicite `YYYY-MM-DD`, sinon `null` ; une date de priorité/examen est mentionnée dans le résumé, pas dans ce champ                       |
 | `contact`                    | Contact expressément proposé pour le recrutement, sinon `null` ; jamais le destinataire privé ou une adresse de désabonnement                     |
 | `applicationUrl`             | Lien HTTPS de l’offre ou de candidature figurant dans la source, sinon `null` ; ne pas inventer de lien                                           |
 | `description`                | Résumé factuel rédigé pour le site ; pas de copie du courriel, signature, en-tête, consigne destinée à un agent ou texte intégral de pièce jointe |
-| `state`                      | Toujours `published` : ce fichier est public ; conserver les brouillons ailleurs                                                                  |
-| `publicationFormat`          | Toujours `summary` pour les fiches de ce catalogue                                                                                                |
 | `publishedAt`                | Date de la première annonce connue, ISO UTC, par exemple `2026-10-27T12:00:00.000Z`                                                               |
 | `updatedAt`                  | Date de la mise à jour, ISO UTC, au moins égale à `publishedAt`                                                                                   |
 | `sources`                    | Références minimales : `label` public neutre, `url` HTTPS ou `null`, `receivedAt` ISO UTC ; aucune donnée originale du message                    |
-| `synthetic`                  | Toujours `false` pour une offre réelle                                                                                                            |
 
 Une information absente reste `null` ; ne pas écrire une supposition ou la chaîne « inconnu ». Pour les dates sans année, l’année peut être retenue seulement si le contexte de l’annonce l’établit sans ambiguïté. Des dates contradictoires restent `null` et sont signalées dans le résumé. Les dates affichées « Announced » correspondent à la première annonce connue, pas à la date d’import du catalogue.
 
