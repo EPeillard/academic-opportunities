@@ -96,11 +96,11 @@ export function App() {
   }, [location]);
   const items = data && "items" in data ? data : null;
   const item = data && "title" in data ? data : null;
-  function filter(event: React.SyntheticEvent<HTMLFormElement>) {
-    event.preventDefault();
+  function filter(form: HTMLFormElement) {
     const params = new URLSearchParams();
-    for (const [key, value] of new FormData(event.currentTarget))
-      if (String(value).trim()) params.append(key, String(value).trim());
+    for (const [key, value] of new FormData(form))
+      if (String(value).trim())
+        params.append(key, key === "q" ? String(value) : String(value).trim());
     navigate(params.size ? `/?${params}` : "/", true);
   }
   const pager = (page: number) => {
@@ -154,7 +154,13 @@ export function App() {
         {!id && !unknownPath && !sourcesPage && (
           <div className="content-grid">
             <aside>
-              <form onChange={filter} onSubmit={filter} className="filters">
+              <form
+                onSubmit={(event) => {
+                  event.preventDefault();
+                  filter(event.currentTarget);
+                }}
+                className="filters"
+              >
                 <div className="filter-heading">
                   <h2>Filter offers</h2>
                   <Link href="/" navigate={navigate}>
@@ -168,7 +174,7 @@ export function App() {
                     placeholder="Title, lab, or keyword"
                     maxLength={200}
                     value={url.searchParams.get("q") ?? ""}
-                    onChange={() => {}}
+                    onChange={(event) => filter(event.currentTarget.form!)}
                   />
                 </label>
                 <label>
@@ -176,7 +182,7 @@ export function App() {
                   <select
                     name="type"
                     value={url.searchParams.get("type") ?? ""}
-                    onChange={() => {}}
+                    onChange={(event) => filter(event.currentTarget.form!)}
                   >
                     <option value="">All positions</option>
                     {JOB_TYPES.map((v) => (
@@ -189,7 +195,7 @@ export function App() {
                   <select
                     name="topic"
                     value={url.searchParams.get("topic") ?? ""}
-                    onChange={() => {}}
+                    onChange={(event) => filter(event.currentTarget.form!)}
                   >
                     <option value="">All research areas</option>
                     {TOPICS.map((v) => (
@@ -214,7 +220,9 @@ export function App() {
                           checked={url.searchParams
                             .getAll("country")
                             .includes(country)}
-                          onChange={() => {}}
+                          onChange={(event) =>
+                            filter(event.currentTarget.form!)
+                          }
                         />
                         {country}
                       </label>
@@ -237,7 +245,7 @@ export function App() {
                       <select
                         name="deadlineStatus"
                         value={url.searchParams.get("deadlineStatus") ?? "all"}
-                        onChange={() => {}}
+                        onChange={(event) => filter(event.currentTarget.form!)}
                       >
                         <option value="all">All announcements</option>
                         <option value="upcoming">Upcoming deadlines</option>
@@ -250,7 +258,7 @@ export function App() {
                         type="date"
                         name="publishedSince"
                         value={url.searchParams.get("publishedSince") ?? ""}
-                        onChange={() => {}}
+                        onChange={(event) => filter(event.currentTarget.form!)}
                       />
                     </label>
                     <label>
@@ -259,7 +267,7 @@ export function App() {
                         type="date"
                         name="deadlineBefore"
                         value={url.searchParams.get("deadlineBefore") ?? ""}
-                        onChange={() => {}}
+                        onChange={(event) => filter(event.currentTarget.form!)}
                       />
                     </label>
                     <label className="checkbox">
@@ -271,7 +279,7 @@ export function App() {
                           url.searchParams.get("includeUnknownDeadline") ===
                           "true"
                         }
-                        onChange={() => {}}
+                        onChange={(event) => filter(event.currentTarget.form!)}
                       />
                       Include unspecified deadlines
                     </label>

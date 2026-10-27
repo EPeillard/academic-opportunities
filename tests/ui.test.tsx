@@ -27,6 +27,23 @@ afterEach(() => {
   vi.unstubAllGlobals();
 });
 describe("static public browsing", () => {
+  it("filters while typing without losing spaces, focus or scroll position", async () => {
+    window.history.replaceState(null, "", "/?page=2");
+    const user = userEvent.setup();
+    render(<App />);
+    const keywords = screen.getByLabelText("Keywords") as HTMLInputElement;
+    await user.type(keywords, "machine learning");
+    expect(keywords.value).toBe("machine learning");
+    expect(document.activeElement).toBe(keywords);
+    expect(new URLSearchParams(window.location.search).get("q")).toBe(
+      "machine learning",
+    );
+    expect(new URLSearchParams(window.location.search).has("page")).toBe(false);
+    expect(window.scrollTo).not.toHaveBeenCalled();
+    expect(screen.queryByRole("button", { name: "Apply filters" })).toBeNull();
+    await user.click(screen.getByRole("link", { name: "Reset" }));
+    expect(keywords.value).toBe("");
+  });
   it("opens the sources page, supports direct links, and returns to offers", async () => {
     const user = userEvent.setup();
     render(<App />);
