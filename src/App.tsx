@@ -1,6 +1,8 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { JOB_TYPES, TOPICS } from "./schema";
 import "./styles.css";
+import { Announcements } from "./Announcements";
+import { PositionDocuments } from "./PositionDocuments";
 import {
   getFacets,
   getOpportunity,
@@ -378,6 +380,8 @@ export function App() {
               <div>
                 <h2>About the opportunity</h2>
                 <p className="description">{item.description}</p>
+                <PositionDocuments attachments={item.attachments} />
+                <Announcements key={item.id} references={item.announcements} />
                 <h2>Vacancy information</h2>
                 <p className="muted">
                   {item.applicationUrl

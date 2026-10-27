@@ -1,0 +1,21 @@
+{
+  "parts": [
+    {
+      "text": "Nous proposons deux stages de Master 2 / fin d’études (5–6 mois) au sein du laboratoire LIPN (Université Sorbonne Paris Nord), portant sur la thématique suivante : Generative Reinforcement Learning for de novo Drug Design\n\nCe stage s’inscrit à l’intersection de :\n\n• Machine Learning,\n• Reinforcement Learning\n• Intelligence artificielle explicable,\n• Modèles Génératifs,\n\nL’objectif général de ce projet est la conception d’un modèle génératif efficace pour générer des composés potentiellement actifs contre l’enzyme NDM-1 en utilisant une approche d’Apprentissage par Renforcement (RL).\n\nUn modèle génératif efficace doit :\n\n• produire un taux élevé de molécules à la fois valides et actives contre NDM-1 ;\n• générer des molécules nouvelles (non présentes dans les jeux de données d'entraînement)\n• assurer une forte diversité parmi les molécules générées (c'est-à-dire que le modèle génératif ne doit pas produire des molécules similaires).\n\nCandidature Merci d’envoyer :\n\n• un CV,\n• les relevés de notes de M1 et M2 (si disponibles),\n\naux adresses suivantes :\n"
+    },
+    {
+      "text": "papastergiou@lipn.univ-paris13.fr",
+      "href": "mailto:papastergiou@lipn.univ-pais13.fr"
+    },
+    {
+      "text": " "
+    },
+    {
+      "text": "rouveirol@lipn.univ-paris13.fr",
+      "href": "mailto:rouveirol@lipn.univ-paris13.fr"
+    },
+    {
+      "text": "\n\nN’hésitez pas à diffuser cette offre auprès des étudiant(e)s potentiellement intéressé(e)s."
+    }
+  ]
+}

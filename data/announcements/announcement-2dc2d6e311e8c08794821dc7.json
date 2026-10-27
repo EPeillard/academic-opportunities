@@ -1,0 +1,14 @@
+{
+  "parts": [
+    {
+      "text": "I'm hiring a fully-funded PhD student to work on the topic of \"usable decentralization\", i.e. on making distributed and federated cloud services accessible to the everyday user. The PhD position is located in the Human-Centered Computing group at Aalborg University in Denmark. Official job advertisement below:\n\nPhD Position in Usable Decentralization at Aalborg University\n\nWe invite applications for a fully-funded 3-year PhD position on the topic of usable decentralization, i.e. on making distributed and federated cloud services accessible to the everyday user. Given the strong prevalence of centralized cloud services, e.g. from Google, Microsoft, or Apple, our digital resilience and sovereignty is built on questionable foundations. By enabling non-technical users to setup and use decentralized clouds on so-called “nanoservers”, we aim to strengthen our digital independence.\n\nThe stipend is open for appointment from April 1st, 2026, or soon hereafter. The duration of the position is three years. The PhD stipend is available within the general study program \"Computer Science\".\n\nYour work tasks\n\nThe main tasks for this PhD project consist of requirements analysis through online surveys and interviews, prototype development for accessible setup and operation of nanoservers (both on web and mobile platforms), and longitudinal evaluation of the prototypes through live deployments in users’ homes and offices.\n\nYour competencies\n\nRequired:\n\n• Frontend development (ideally both on web and mobile)\n\n• Conducting and analyzing user studies, such as online surveys and\nin-person experiments\n\nDesirable:\n\n• Backend development (Python, Ruby, …)\n\n• Linux system administration (deployment, networking)\n\n• Experience with decentralized/self-hosted services, e.g. Mastodon,\nNextcloud, Matrix, …\n\n• Experience with peer-to-peer networks (Tor, BitTorrent, WebRTC, …)\n\nWho we are\n\nThe position will be located in the Human-Centered Computing section at Aalborg University, which conducts empirical and solution-oriented research on interactive computing technologies across individuals, organisations, and society. The PhD will be supervised by Dr. Florian Echtler, whose research centers around the intersection of ubiquitous computing, peer-to-peer networking, and security/privacy.\n\nFor further details, see:\n\n"
+    },
+    {
+      "text": "https://www.vacancies.aau.dk/phd-positions/show-vacancy/vacancyId/895183",
+      "href": "https://www.vacancies.aau.dk/phd-positions/show-vacancy/vacancyId/895183"
+    },
+    {
+      "text": "\n\nFeel free to forward to any potential applicants!"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "parts": [
+    {
+      "text": "Fabriquer l’Empire : intelligence artificielle et matérialité des monnaies byzantines* Contexte\n\nLa monnaie byzantine constitue l’un des systèmes monétaires les plus continus et cohérents du monde médiéval. Pourtant, derrière l’abondance de ses réformes, la richesse de son iconographie et l’ampleur des séries conservées, un aspect essentiel demeure encore largement méconnu : sa *matérialité technique*, c’est-à-dire les conditions concrètes de fabrication qui ont donné forme, jour après jour, à la présence tangible de l’État impérial. Objectif scientifique\n\nCe projet en humanités numériques introduit, pour la première fois en numismatique byzantine, des techniques avancées d’intelligence artificielle pour l’analyse systématique des monnaies. Si les travaux fondamentaux de Grierson <"
+    },
+    {
+      "text": "https://www.persee.fr/doc/rebyz_0766-5598_2002_num_60_1_2266_t1_0243_0000_2",
+      "href": "https://www.persee.fr/doc/rebyz_0766-5598_2002_num_60_1_2266_t1_0243_0000_2"
+    },
+    {
+      "text": ">, Hendy <"
+    },
+    {
+      "text": "https://www.cambridge.org/fr/universitypress/subjects/history/european-history-450-1000/studies-byzantine-monetary-economy-c3001450?format=PB&isbn=9780521088527",
+      "href": "https://www.cambridge.org/fr/universitypress/subjects/history/european-history-450-1000/studies-byzantine-monetary-economy-c3001450?format=PB&isbn=9780521088527"
+    },
+    {
+      "text": ">, Morrisson <"
+    },
+    {
+      "text": "https://www.persee.fr/doc/numi_0484-8942_2017_num_6_174_3367_t16_0411_0000_2",
+      "href": "https://www.persee.fr/doc/numi_0484-8942_2017_num_6_174_3367_t16_0411_0000_2"
+    },
+    {
+      "text": "> ou Metcalf <"
+    },
+    {
+      "text": "https://www.persee.fr/doc/numi_0484-8942_1990_num_6_32_2032_t1_0324_0000_5",
+      "href": "https://www.persee.fr/doc/numi_0484-8942_1990_num_6_32_2032_t1_0324_0000_5"
+    },
+    {
+      "text": "> ont posé les bases de l’histoire monétaire byzantine, les die-studies demeurent fragmentaires, les répertoires non unifiés et les analyses métrologiques souvent limitées à des approches descriptives. En combinant techniques d'ingénierie des connaissances et apprentissage automatique sur graphes (*graph machine learning*), cette recherche vise à dépasser ces limites et proposer une lecture structurelle et dynamique de la production monétaire byzantine. Equipe scientifique\n\nL’équipe scientifique se compose de deux encadrantes (une historienne et une informaticienne) et de deux collaborateurs externes. Béatrice Caseau <"
+    },
+    {
+      "text": "https://www.orient-mediterranee.com/member/caseau-chevallier-beatrice/",
+      "href": "https://www.orient-mediterranee.com/member/caseau-chevallier-beatrice/"
+    },
+    {
+      "text": "> et Victoria Eyharabide <"
+    },
+    {
+      "text": "https://scai.sorbonne-universite.fr/public/profiles/view/1054051c4829bab27529/1",
+      "href": "https://scai.sorbonne-universite.fr/public/profiles/view/1054051c4829bab27529/1"
+    },
+    {
+      "text": "> encadreront le futur doctorant. B. Caseau est une historienne reconnue, dont les travaux se concentrent sur l'Antiquité tardive et de l'époque byzantine. Spécialiste en intelligence artificielle, V. Eyharabide se consacre aux méthodes hybrides d’IA. Elle travaille dans le domaine des humanités numériques et des approches fondées sur l’IA appliquées à la préservation du patrimoine. En tant que collaborateur externe en numismatique, Vivien Prigent participera se spécialise dans l’histoire de l’Italie byzantine, il consacre ses recherches à l’histoire monétaire et fiscale. Cécile Morrisson <"
+    },
+    {
+      "text": "https://aibl.fr/membres-academiciens/morrisson-cecile/",
+      "href": "https://aibl.fr/membres-academiciens/morrisson-cecile/"
+    },
+    {
+      "text": ">, numismate de renommée internationale, reconnue pour ses travaux majeurs sur la monnaie byzantine et l’histoire économique de l’Empire byzantin, sera consultée en tant que collaboratrice externe. Pour candidater\n\n"
+    },
+    {
+      "text": "https://institut-opus.sorbonne-universite.fr/actualites-opus/contrats-doctoraux-opus-2026-appel-candidatures",
+      "href": "https://institut-opus.sorbonne-universite.fr/actualites-opus/contrats-doctoraux-opus-2026-appel-candidatures"
+    }
+  ]
+}

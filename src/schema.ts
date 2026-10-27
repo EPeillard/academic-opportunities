@@ -73,6 +73,73 @@ export const PublicSourceSchema = z
     receivedAt: z.iso.datetime(),
   })
   .strict();
+export const AnnouncementReferenceSchema = z
+  .object({
+    id: z.string().regex(/^announcement-[a-f0-9]{24}$/),
+    announcedAt: z.iso.datetime(),
+  })
+  .strict();
+export const AnnouncementLinkSchema = z
+  .string()
+  .max(2048)
+  .refine((value) => {
+    if (/^mailto:[^\s@?]+@[^\s@?]+\.[^\s@?]+$/i.test(value))
+      return !/%0[ad]/i.test(value);
+    try {
+      const u = new URL(value);
+      return (
+        ["http:", "https:"].includes(u.protocol) &&
+        !u.username &&
+        !u.password &&
+        !u.port &&
+        /^[a-z0-9-]+(\.[a-z0-9-]+)+$/i.test(u.hostname) &&
+        !/^\d+(\.\d+)*$/.test(u.hostname) &&
+        !/(^|\.)(localhost|local|internal|test|invalid)$/i.test(u.hostname)
+      );
+    } catch {
+      return false;
+    }
+  }, "Expected a public web URL or a recruitment email address");
+export const AnnouncementDocumentSchema = z
+  .object({
+    parts: z
+      .array(
+        z
+          .object({
+            text: z.string().min(1).max(50000),
+            href: AnnouncementLinkSchema.optional(),
+          })
+          .strict(),
+      )
+      .min(1)
+      .max(1000),
+  })
+  .strict();
+export type AnnouncementReference = z.infer<typeof AnnouncementReferenceSchema>;
+export type AnnouncementDocument = z.infer<typeof AnnouncementDocumentSchema>;
+export const AttachmentSchema = z
+  .object({
+    name: z
+      .string()
+      .trim()
+      .min(1)
+      .max(250)
+      .regex(/^[^\x00-\x1f\\/]+$/),
+    url: z.string().regex(/^\/documents\/[a-f0-9]{24}\.(pdf|docx|png)$/),
+    mediaType: z.enum([
+      "application/pdf",
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "image/png",
+    ]),
+    size: z
+      .number()
+      .int()
+      .positive()
+      .max(25 * 1024 * 1024),
+    receivedAt: z.iso.datetime(),
+  })
+  .strict();
+export type Attachment = z.infer<typeof AttachmentSchema>;
 export const OpportunitySchema = FieldsSchema.extend({
   id: z.string().regex(/^[a-z0-9-]{1,100}$/),
   title: text,
@@ -81,6 +148,8 @@ export const OpportunitySchema = FieldsSchema.extend({
   publishedAt: z.iso.datetime(),
   updatedAt: z.iso.datetime(),
   sources: z.array(PublicSourceSchema),
+  announcements: z.array(AnnouncementReferenceSchema).default([]),
+  attachments: z.array(AttachmentSchema).default([]),
 }).strict();
 export type Opportunity = z.infer<typeof OpportunitySchema>;
 export const QuerySchema = z

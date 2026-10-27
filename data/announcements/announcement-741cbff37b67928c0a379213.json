@@ -1,0 +1,14 @@
+{
+  "parts": [
+    {
+      "text": "We are pleased to announce a PhD position at the Laboratoire d'Informatique de Grenoble (LIG) in the Marvin team (Université Grenoble Alpes, France): \"Robust HTN Planning Under Uncertainties\"\n\nContext and Objectives\n\nAutomated planning is a core area of AI, and Hierarchical Task Network (HTN) planning is widely used across robotics, logistics, and industrial workflows. However, classical HTN models rely on deterministic assumptions.\n\nThe main objective of this PhD is to develop a novel robust HTN planning framework based on an interval-based representation of uncertainties (such as temporal, quantitative resource, and boolean availability uncertainties). The candidate will address major scientific challenges including formal modeling, uncertainty propagation within hierarchical decompositions, and managing combinatorial complexity.\n\nProfile and Required Skills\n\n•\n\nMaster 2 or Engineering degree in Computer Science, with a specialization in Artificial Intelligence or Operations Research.\n\n•\n\nStrong knowledge of automated planning, constraint programming, or optimization.\n\n•\n\nStrong software development skills (Rust/C++).\n\n•\n\nProficiency in scientific English.\n\nPosition Details\n\n•\n\nFunding: CHAIR MIAI Hubot secured for 36 months.\n\n•\n\nStarting date: From September 1st, 2026.\n\n•\n\nLocation: LIG, Marvin Team, Université Grenoble Alpes (Grenoble, France).\n\nHow to Apply\n\nInterested candidates should send their application package (CV, cover letter, Master transcripts (M1/M2), and contact details of at least one academic reference) to Damien Pellier (Damien.Pellier@imag.fr).\n\nApplications will be reviewed on a rolling basis. Shortlisted candidates will be asked to complete a short programming assignment using the "
+    },
+    {
+      "text": "http://pddl4j.imag.fr/",
+      "href": "http://pddl4j.imag.fr/"
+    },
+    {
+      "text": " library to validate their understanding of the topic.\n\nDeadline: July 1st, 2026"
+    }
+  ]
+}

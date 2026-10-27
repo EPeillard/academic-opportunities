@@ -1,0 +1,25 @@
+{
+  "parts": [
+    {
+      "text": "We are looking for motivated individuals to Join the "
+    },
+    {
+      "text": "Formal Methods in AI",
+      "href": "https://fmailab.doc.ic.ac.uk/"
+    },
+    {
+      "text": " (FMAI) lab at Imperial College London, led by Dr. Francesco Belardinelli, in a fully funded postdoctoral research role to lead transformative research in formal methods for safe reinforcement learning.\n\nOverview. The "
+    },
+    {
+      "text": "FMAI",
+      "href": "https://fmailab.doc.ic.ac.uk/"
+    },
+    {
+      "text": " lab at Imperial is seeking highly motivated and talented Postdoctoral Research Associates (PDRAs/PostDocs), who have demonstrated competence in conducting cutting-edge research. The position is fully funded in the context of Dr. Francesco Belardinelli’s ARIA project Enforcing Safety in Cyber-Physical Systems via Proof Certificates, and focus on the design, development, and application of Safe RL algorithms as well as their verification via Proof Certificates, including monitoring and shielding of cyber-physical systems.\n\nWhat you would be doing\n\nWithin the project, you will conduct original research in the new and exciting field of Formal Methods for Safe RL and explore its applications across cyber-physical systems. You will develop novel algorithms that leverage proof certificates. In doing so, you will collaborate with a team of expert researchers in reinforcement learning, formal methods, strategy synthesis, multi-agent systems, and related fields. We strive in publishing in top-tier conferences and journals.\n\nWhat we are looking for\n\n• Self-driven and motivated individuals with genuine love for at least one of Formal Methods/Reinforcement Learning, possibly both, with a drive to learn about the other area.\n\n• The applicant is also expected to have a strong track record in top conferences and journals in the field of Formal Methods/Reinforcement Learning, such as AAAI, AAMAS, IJCAI, NeurIPS, ICML, ICLR etc.\n\n• We expect excellent skills in mathematics, especially knowledge in formal methods, stochastic systems and processes, the foundations of deep learning.\n• Experience coding with deep learning libraries such as Pytorch/JAX is essential.\n• Applicants must hold a PhD in computer science, mathematics or equivalent experience.\n\nPlease see job description for a full list of requirements: "
+    },
+    {
+      "text": "https://www.imperial.ac.uk/jobs/search-internal/description/index.php?jobId=29068&jobTitle=Research+Associate+in+Safe+Reinforcement+Learning%09",
+      "href": "https://www.imperial.ac.uk/jobs/search-internal/description/index.php?jobId=29068&jobTitle=Research+Associate+in+Safe+Reinforcement+Learning%09"
+    }
+  ]
+}

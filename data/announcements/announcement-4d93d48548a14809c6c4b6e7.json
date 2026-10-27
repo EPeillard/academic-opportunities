@@ -1,0 +1,21 @@
+{
+  "parts": [
+    {
+      "text": "[1] Location: ISIR (Institut des Systemes Intelligents et de Robotique), CNRS / Sorbonne Universite, Paris, France.\n\n[2] Job Titles:\n- PhD Position 1: GenAI as Cognitive Support -- Tools for Thought\n- PhD Position 2: New Interaction Paradigms for GenAI Systems\n\n[3] Requirements:\nWe seek candidates with a strong background in Human-Computer Interaction, Human-Centered AI, or a closely related field. Candidates should have experience with user research and/or system design, and an interest in empirical and design-oriented research. Some experience with AI/ML tools or systems is a plus but not required. The working language of the lab and supervision is English.\n\nPhD 1 -- Tools for Thought:\nThis project investigates how GenAI systems can support and extend human cognition rather than replace it. Research questions include:\nunder what conditions does GenAI support reasoning rather than displace it; how can systems use friction, expose unfinished, incomplete results; and how should cognitive support be evaluated beyond task completion. The work combines system design, interaction research, and empirical studies.\n\nPhD 2 -- New Interaction Paradigms for GenAI Systems:\nThis project rethinks fundamental interaction paradigms for systems in which GenAI functions as both a medium and a material. Research questions include: how can interaction languages move beyond linear chat dialogs; how do these new interaction paradigms shape user cognition and agency; and what new media emerges when GenAI mediates input and output. The work spans interaction design, systems engineering, and empirical studies.\n\nBoth positions are funded through the EDITE doctoral school (ED-130) at Sorbonne Universite, starting Fall 2026. Supervision will be provided by Gonzalo Ramos and Baptiste Caramiaux.\n\n[4] Contact and Application:\nApplications are submitted through the EDITE portal:\n"
+    },
+    {
+      "text": "https://edite-de-paris.fr/index.php/candidatures/",
+      "href": "https://edite-de-paris.fr/index.php/candidatures/"
+    },
+    {
+      "text": " Deadline: May 1, 2026 at 23:59 (Paris time).\n\nFor inquiries, contact: Gonzalo Ramos <"
+    },
+    {
+      "text": "gonzalo.ramos@sorbonne-universite.fr",
+      "href": "mailto:gonzalo.ramos@sorbonne-universite.fr"
+    },
+    {
+      "text": ">"
+    }
+  ]
+}

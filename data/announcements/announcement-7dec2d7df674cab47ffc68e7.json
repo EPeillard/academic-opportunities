@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "text": "Offre de post-doc / ingénieur : Développement de modèles hybrides guidés par la physique et l'apprentissage automatique pour la prédiction de la consommation énergétique des conteneurs frigorifiques\n\nContexte\n\nCe post-doc s’inscrit dans le cadre du projet TNTM (Transformation Numérique du Transport Maritime) inscrit au PIA (Programme d'Investissements d'Avenir). Ce projet a pour but de répondre à plusieurs problématiques inhérentes au transport maritime avec :\n\n• l’optimisation des différentes étapes de la partie maritime de la chaîne logistique, à savoir l’affectation optimale d’une flotte de navires sur un réseau, le remplissage optimal de conteneurs dans un navire, le routage optimal de navires en prenant en compte les contraintes environnementales;\n• l’utilisation de données de monitoring pour améliorer les performances des navires ;\n• l’optimisation des flux logistiques grâce aux données (IoT) conteneurs.\n\nPlus précisément, ce post-doc porte sur le développement de modèles hybrides visant l'optimisation de la consommation énergétique des conteneurs frigorifiques sur les navires.\n\nCette modélisation hybride réside dans le fait que les approches de prédiction purement données s’appuient, généralement, sur des techniques d’apprentissage automatique, capables de capturer la dynamique de la consommation. Toutefois, elles peuvent produire des prédictions qui ne respectent pas les lois physiques lorsque les données sont peu nombreuses ou de qualité insuffisante.\n\nDans ce contexte, les approches guidées par la physique offrent des solutions permettant de combiner l’apprentissage avec la modélisation physique. Cette hybridation permet d’exploiter pleinement les données disponibles tout en respectant les contraintes physiques, améliorant ainsi la cohérence des prédictions et la robustesse des modèles.\n\nObjectifs\n\nL’objectif de ce travail est le développement d'une approche hybride guidée par la physique pour la prédiction de la consommation d’énergie des reefers.\n\nLes résultats attendus dans le cadre de ce post-doc sont :\n\n• l'augmentation des données de consommation énergétique.\n• le développement de modèles hybrides guidés par la physique et l'apprentissage automatique pour la prédiction de la consommation énergétique.\n\nModalités\n\n• Financement : Projet TNTM\n• Laboratoire : Laboratoire d'Informatique et des Systèmes (LIS)\n• Équipes d'accueil : IACD et DIAPRO\n\nMarwa Boulakbech ("
+    },
+    {
+      "text": "marwa.boulakbech@lis-lab.fr",
+      "href": "mailto:marwa.boulakbech@lis-lab.fr"
+    },
+    {
+      "text": "), Sana Sellami ("
+    },
+    {
+      "text": "sana.sellami@lis-lab.fr",
+      "href": "mailto:sana.sellami@lis-lab.fr"
+    },
+    {
+      "text": ") et Guillaume Graton ("
+    },
+    {
+      "text": "guillaume.graton@centrale-med.fr",
+      "href": "mailto:guillaume.graton@centrale-med.fr"
+    },
+    {
+      "text": ")\n\n• Localisation : Site de St Jérôme Marseille\n• Date de début : Avril 2026\n• Date de fin : 31 décembre 2026\n• Rémunération : 2600 Euros brut\n\nProfil du candidat\n\n• Titulaire d’un doctorat en informatique ou en automatique avec une connaissance sur les aspects \"système\" et \"données\"\n• Solides compétences en apprentissage automatique (machine learning)\n• Solides compétences en programmation python pour la science de données\n• Bonne expérience en statistiques\n• Bonne communication orale et écrite en français et anglais\n\nLes dossiers de candidatures doivent comprendre un CV, une lettre de motivation, relevé de notes de master/ rapport de soutenance de thèse. Les candidatures sont à envoyées à Marwa Boulakbech ("
+    },
+    {
+      "text": "marwa.boulakbech@lis-lab.fr",
+      "href": "mailto:marwa.boulakbech@lis-lab.fr"
+    },
+    {
+      "text": "), Sana Sellami ("
+    },
+    {
+      "text": "sana.sellami@lis-lab.fr",
+      "href": "mailto:sana.sellami@lis-lab.fr"
+    },
+    {
+      "text": ") et Guillaume Graton ("
+    },
+    {
+      "text": "guillaume.graton@centrale-med.fr",
+      "href": "mailto:guillaume.graton@centrale-med.fr"
+    },
+    {
+      "text": ")."
+    }
+  ]
+}

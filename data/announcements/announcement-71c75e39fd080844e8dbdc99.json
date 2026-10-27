@@ -1,0 +1,28 @@
+{
+  "parts": [
+    {
+      "text": "Nous proposons un stage de M2 intitulé \"𝗔𝗽𝗽𝗿𝗲𝗻𝘁𝗶𝘀𝘀𝗮𝗴𝗲 𝗲𝘁 𝗽𝗿𝗲́𝗱𝗶𝗰𝘁𝗶𝗼𝗻 𝗱𝗲 𝗹𝗮 𝗿𝗲𝗽𝗿𝗶𝘀𝗲 𝘃𝗼𝗹𝗼𝗻𝘁𝗮𝗶𝗿𝗲 𝗱𝘂 𝗰𝗼𝗻𝘁𝗿𝗼̂𝗹𝗲 𝗲𝗻 𝗰𝗼𝗻𝗱𝘂𝗶𝘁𝗲 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘀𝗲́𝗲\".\n\nCe stage a pour objectifs de :\n- Développer des modèles et algorithmes d’intelligence artificielle pour détecter et prédire la reprise volontaire du contrôle de la conduite à partir de données physiologiques (ECG, oculométrie,...), collectées sur simulateur.\n- Contribuer au développement de systèmes de conduite automatisée plus sûrs, capables de s’adapter à l’état émotionnel du conducteur.\n\n💼 Missions :\n• Prise en main et analyse de données issues d’un simulateur de conduite\n• Prétraitement de données physiologiques (ECG, oculométrie)\n• Développement et évaluation de modèles d’apprentissage supervisés et séquentiels (Random Forest, LSTM,...)\n• Visualisation et analyse comparative des prédictions de reprise du contrôle\n\n👥 Ce stage est proposé par l'IRIT (Institut de Recherche en Informatique de Toulouse) et le CLLE (Cognition, Langues, Langage, Ergonomie) et financé par MIDOC\n\n📍 Lieu : Toulouse, IRIT 🕒 Durée : 5 ou 6 mois (jusqu'à fin juillet 2026)\n\nLes candidatures sont à adresser par mail à "
+    },
+    {
+      "text": "valerie.camps@irit.fr",
+      "href": "mailto:valerie.camps@irit.fr"
+    },
+    {
+      "text": ", "
+    },
+    {
+      "text": "robin.cazes@univ-tlse2.fr",
+      "href": "mailto:robin.cazes@univ-tlse2.fr"
+    },
+    {
+      "text": ", "
+    },
+    {
+      "text": "celine.lemercier@univ-tlse2.fr",
+      "href": "mailto:celine.lemercier@univ-tlse2.fr"
+    },
+    {
+      "text": " avec votre CV à jour, une lettre de motivation et vos relevés de notes (licence et master)\n\nMerci de le diffuser à vos étudiants."
+    }
+  ]
+}

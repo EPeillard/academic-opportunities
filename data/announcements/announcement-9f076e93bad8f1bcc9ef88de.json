@@ -1,0 +1,21 @@
+{
+  "parts": [
+    {
+      "text": "We are hiring two fully funded Research Associate positions with a PhD option in the HCIstudio lab at Humboldt University of Berlin. Both roles are full-time and based in Berlin-Adlershof.\n\nThe first position focuses on collaborative Human-AI fact-checking to combat disinformation. You will help develop and evaluate a dialog-based AI app that supports citizens in verifying information, strengthens media literacy, and integrates your findings into real-world fact-checking workflows. The second position focuses on AI assistance for interface operation. You will develop and evaluate AI agents that support users in complex visual user interfaces, enabling safer and more effective interaction with demanding GUI workflows.\n\nYou can find full details, including deadlines and how to apply, on the job pages:\n\nClaimGuard: "
+    },
+    {
+      "text": "https://hcistudio.org/jobs/claimguard/",
+      "href": "https://hcistudio.org/jobs/claimguard/"
+    },
+    {
+      "text": "\n\neasyTEM: "
+    },
+    {
+      "text": "https://hcistudio.org/jobs/easytem/",
+      "href": "https://hcistudio.org/jobs/easytem/"
+    },
+    {
+      "text": "\n\nFor both roles, we are looking for candidates with an excellent Master's degree in Computer Science, Human-Computer Interaction, Data Science, or a related field. Applicants should have very good English skills, an independent and collaborative working style, and hands-on experience with LLM integration and evaluation (e.g., prompting, tool-augmented workflows, RAG, fine-tuning). Experience in prototyping, software development, and empirical methods is a plus."
+    }
+  ]
+}

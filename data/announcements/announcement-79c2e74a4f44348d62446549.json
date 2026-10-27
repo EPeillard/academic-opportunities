@@ -1,0 +1,91 @@
+{
+  "parts": [
+    {
+      "text": "PROPOSITION DE THESE de doctorat sur « Révéler les types de biais dans les grands modèles de langage à l'aide de graphes de connaissances » - Sujet complet <"
+    },
+    {
+      "text": "https://www.info.univ-tours.fr/~soulet/download/PhD_bias_LRE_LIFAT.pdf",
+      "href": "https://www.info.univ-tours.fr/~soulet/download/PhD_bias_LRE_LIFAT.pdf"
+    },
+    {
+      "text": ">\n\nRésumé :\n\nLes grands modèles de langage (LLM) offrent des performances remarquables, mais présentent des biais issus des données d’entraînement et des inégalités sociales. Les méthodes actuelles de détection reposent sur des tests ciblés nécessitant de définir à l’avance les biais étudiés, ce qui limite la découverte de biais inattendus. Cette thèse propose de quantifier et de classer les biais des LLM en s’appuyant sur des graphes de connaissances. Les faits issus de ces graphes seront transformés en requêtes afin d’analyser les réponses des modèles et d’identifier des biais potentiels de manière plus systématique. Un défi majeur réside dans la taille de ces graphes, rendant impossible une exploration exhaustive. Le travail consistera donc à sélectionner les requêtes les plus informatives pour détecter efficacement les biais tout en limitant le coût d’interrogation.\n\nMots clés : LLMs, analyse de biais, graphes de connaissances, découverte de connaissances\n\nLaboratoires : LIFAT, Université de Tours - Laboratoire de Recherche de l’EPITA Lieu : antenne universitaire de Blois Durée : 3 ans Co-financement : Région Centre Val de Loire / Laboratoire de Recherche de l’EPITA\n\nProfil candidat.e : Master en informatique, expérience recherche (enseignement suivi, ou projet, ou stage), compétences en IA (compréhension des modèles, développement) et en graphes de connaissances\n\nLien dépôt dossier dans ADUM : Lien ADUM <"
+    },
+    {
+      "text": "https://collegedoctoral-cvl.fr/as/ed/voirproposition.pl?site=CDCVL&matricul",
+      "href": "https://collegedoctoral-cvl.fr/as/ed/voirproposition.pl?site=CDCVL&matricul="
+    },
+    {
+      "text": " e_prop=74279> Date limite dossier complet dans ADUM : 20/05/2026\n\nContacts : <"
+    },
+    {
+      "text": "mailto:arnaud.soulet@univ-tours.fr",
+      "href": "mailto:arnaud.soulet@univ-tours.fr"
+    },
+    {
+      "text": "> arnaud.soulet@univ-tours.fr ; <"
+    },
+    {
+      "text": "mailto:marc.plantevit@epita.fr",
+      "href": "mailto:marc.plantevit@epita.fr"
+    },
+    {
+      "text": "> marc.plantevit@epita.fr ; <"
+    },
+    {
+      "text": "mailto:lamine.diop@epita.fr",
+      "href": "mailto:lamine.diop@epita.fr"
+    },
+    {
+      "text": "> lamine.diop@epita.fr ; <"
+    },
+    {
+      "text": "mailto:valentin.nyzam@univ-tours.fr",
+      "href": "mailto:valentin.nyzam@univ-tours.fr"
+    },
+    {
+      "text": "> valentin.nyzam@univ-tours.fr\n\nPROPOSAL FOR A DOCTORAL THESIS on “Uncovering Biases in Large Language Models Using Knowledge Graphs” - <"
+    },
+    {
+      "text": "https://www.info.univ-tours.fr/~soulet/download/PhD_bias_LRE_LIFAT.pdf",
+      "href": "https://www.info.univ-tours.fr/~soulet/download/PhD_bias_LRE_LIFAT.pdf"
+    },
+    {
+      "text": "> Full topic\n\nAbstract:\n\nLarge language models (LLMs) offer remarkable performance, but exhibit biases stemming from training data and social inequalities. Current detection methods rely on targeted tests that require defining the biases under study in advance, which limits the discovery of unexpected biases. This PhD thesis proposal aims to quantify and classify LLM biases using knowledge graphs. Facts derived from these graphs will be transformed into queries to analyze model responses and identify potential biases more systematically. A major challenge lies in the size of these graphs, making exhaustive exploration impossible. The work will therefore consist of selecting the most informative queries to effectively detect biases while limiting the cost of querying.\n\nKeywords: LLMs, bias analysis, knowledge graphs, knowledge discovery\n\nLaboratories: LIFAT, University of Tours – LRE, EPITA\n\nLocation: Blois campus\n\nDuration: 3 years\n\nCo-funding: Centre-Val de Loire Region / EPITA\n\nCandidate profile: Master’s degree in Computer Science, experienced in research (coursework, project, or internship), skills in AI (understanding models, development) and knowledge graphs\n\nLink to submit application in ADUM:\n<"
+    },
+    {
+      "text": "https://collegedoctoral-cvl.fr/as/ed/voirproposition.pl?site=CDCVL&matricul",
+      "href": "https://collegedoctoral-cvl.fr/as/ed/voirproposition.pl?site=CDCVL&matricul="
+    },
+    {
+      "text": " e_prop=74279> ADUM link\n\nDeadline for submitting a complete application in ADUM: May 20, 2026\n\nContacts : arnaud.soulet@univ-tours.fr <"
+    },
+    {
+      "text": "mailto:arnaud.soulet@univ-tours.fr",
+      "href": "mailto:arnaud.soulet@univ-tours.fr"
+    },
+    {
+      "text": "> ; marc.plantevit@epita.fr <"
+    },
+    {
+      "text": "mailto:marc.plantevit@epita.fr",
+      "href": "mailto:marc.plantevit@epita.fr"
+    },
+    {
+      "text": "> ; lamine.diop@epita.fr <"
+    },
+    {
+      "text": "mailto:lamine.diop@epita.fr",
+      "href": "mailto:lamine.diop@epita.fr"
+    },
+    {
+      "text": "> ; valentin.nyzam@univ-tours.fr <"
+    },
+    {
+      "text": "mailto:valentin.nyzam@univ-tours.fr",
+      "href": "mailto:valentin.nyzam@univ-tours.fr"
+    },
+    {
+      "text": ">\n\nArnaud Soulet"
+    }
+  ]
+}

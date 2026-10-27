@@ -4,7 +4,7 @@ Catalogue public d’offres académiques et de recherche, maintenu manuellement.
 
 **[Consulter le site](https://jobs.etiennepeillard.com/)**
 
-Les fiches proviennent de `data/opportunities.json`. Le site est entièrement statique : recherche, filtres, pagination et détails fonctionnent dans le navigateur. Il ne dépend d’aucune API, base distante, connexion OAuth, réception de courriels, file d’attente, tâche planifiée ou service d’extraction. Aucun courriel original ni pièce jointe n’est publié.
+Les fiches proviennent de `data/opportunities.json`. Le site est entièrement statique : recherche, filtres, pagination et détails fonctionnent dans le navigateur. Il ne dépend d’aucune API, base distante, connexion OAuth, réception de courriels, file d’attente, tâche planifiée ou service d’extraction. Les fiches conservent le texte utile des annonces et ses liens. Les pièces jointes décrivant les postes sont consultables et téléchargeables depuis les fiches. Les fichiers de courriel originaux, les en-têtes et les signatures ne sont pas publiés.
 
 ## Mettre à jour les offres
 
@@ -12,7 +12,7 @@ Les fiches proviennent de `data/opportunities.json`. Le site est entièrement st
 2. Exécuter `npm run check`.
 3. Enregistrer et pousser sur **main**, la branche principale réelle de ce dépôt. Le workflow de publication vérifie et déploie les fichiers statiques vers l’adresse existante. Cette publication technique ne collecte et ne modifie aucune offre.
 
-Les exports et documents de travail restent hors du dépôt public. On y conserve seulement des fiches structurées et des résumés factuels. Les mises à jour ne demandent aucun abonnement de liste, compte de service ou clé de modèle.
+Les exports et documents de travail restent hors du dépôt public. On y conserve les fiches structurées, les résumés factuels et les descriptions originales utiles au recrutement, avec leurs liens. Les mises à jour ne demandent aucun abonnement de liste, compte de service ou clé de modèle.
 
 ## Développement
 
@@ -37,6 +37,8 @@ La prévisualisation est disponible sur http://127.0.0.1:4173. Les liens directs
 | Chemin                      | Rôle                                                                                      |
 | --------------------------- | ----------------------------------------------------------------------------------------- |
 | `data/opportunities.json`   | Base statique des offres                                                                  |
+| `public/documents/`         | PDF, document Word et illustrations utiles aux postes                                     |
+| `data/announcements/`       | Textes des annonces et liens, partagés entre les fiches concernées                        |
 | `data/README.md`            | Règles de mise à jour manuelle                                                            |
 | `data/import-2026-10-27.md` | Bilan du premier import                                                                   |
 | `src`                       | Interface, filtres et schéma des offres                                                   |
@@ -46,7 +48,7 @@ La prévisualisation est disponible sur http://127.0.0.1:4173. Les liens directs
 
 ## Architecture statique
 
-Le dépôt contient une seule application : `src/`, `public/`, `index.html` et la configuration Vite à la racine. Les filtres et fiches lisent directement les données locales, sans façade API, état de chargement réseau ou validation répétée du catalogue dans le navigateur. La base est validée avant chaque construction. La mise en page utilise du CSS standard, sans Tailwind.
+Le dépôt contient une seule application : `src/`, `public/`, `index.html` et la configuration Vite à la racine. Les filtres et fiches lisent directement les données locales, sans façade API ni validation répétée du catalogue dans le navigateur. Les textes complets sont des fichiers statiques chargés uniquement à l’ouverture d’une fiche ; les versions antérieures distinctes sont accessibles dans un volet replié. La base est validée avant chaque construction. La mise en page utilise du CSS standard, sans Tailwind.
 
 ## Publication
 
@@ -64,6 +66,6 @@ Le Worker `academic-opportunities` et l’accès servant les fichiers statiques 
 
 Les filtres se combinent : mots-clés, type, domaine, pays, date d’annonce, échéance maximale et état de l’échéance. Plusieurs pays peuvent être cochés : une offre correspond si elle appartient à l’un de ces pays. Sans pays coché, tous les pays restent inclus. Les paramètres figurent dans l’URL et les résultats sont triés par date d’annonce décroissante, puis identifiant stable. Toutes les annonces sont affichées par défaut, y compris celles dont l’échéance est passée. Une échéance inconnue n’est jamais présentée comme une candidature encore ouverte. Les dates de priorité ou de début d’examen ne sont pas assimilées à des dates de clôture.
 
-Le contrôle des données refuse les champs inconnus, les identifiants en double, les dates invalides, les liens publics non conformes et les résidus de courriels. Les descriptions restent du texte échappé par React.
+Le contrôle des données refuse les champs inconnus, les identifiants en double, les dates invalides, les liens publics non conformes et les résidus de courriels. Les descriptions restent du texte échappé par React. Les liens du corps des annonces sont des liens HTTP, HTTPS ou mailto validés ; aucun HTML de courriel ne s’exécute.
 
-Licence du code : MIT. Les offres sont présentées sous forme de résumés factuels ; les documents sources ne sont pas redistribués sous la licence du dépôt.
+Licence du code : MIT. Les textes des annonces restent attribuables à leurs auteurs et ne sont pas placés sous la licence du code. Les documents joints restent attribuables à leurs auteurs ; les archives de courriels ne sont pas redistribuées.

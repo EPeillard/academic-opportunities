@@ -1,0 +1,28 @@
+{
+  "parts": [
+    {
+      "text": "[Offre Post-doc] Modèles de substitution (surrogate models) pour l'exploration et la calibration de simulations multi-agents – IRIT/SMAC, Toulouse\n\nMerci de faire circuler cette offre de post-doctorat auprès des personnes intéressées.\n\nL'Université Toulouse Capitole / IRIT recrute un·e post-doctorant·e au sein de l'équipe SMAC (Systèmes Multi-Agents Coopératifs), dans le cadre du projet ANR-JCJC MIMICO. Ce recrutement fait suite au départ du précédent post-doctorant du projet, qui vient d'obtenir un poste de CR et participera à l’encadrement du post-doc.\n\nContexte du projet : MIMICO (ANR-JCJC, démarré en janvier 2025) vise à concevoir de nouvelles stratégies d'apprentissage actif pour construire des modèles de substitution capables d'émuler la relation entre un scénario et les résultats d'un modèle multi-agents. L'originalité du projet réside dans la capacité du modèle de substitution à observer son propre processus d'apprentissage pour choisir les exemples les plus informatifs, avec l'objectif de mieux explorer l'espace des paramètres avec moins de simulations. Les publications du projets peuvent être consulté sur le dépôt HAL suivant: "
+    },
+    {
+      "text": "https://anr.hal.science/search/index/?q=*&anrProjectReference_s=ANR-24-CE23-0380",
+      "href": "https://anr.hal.science/search/index/?q=%2A&anrProjectReference_s=ANR-24-CE23-0380"
+    },
+    {
+      "text": "\n\nThématiques de recherche : simulation multi-agents (risques naturels, écologie, économie, mobilité), exploration et calibration de modèles multi-agents.\n\nProfil recherché :\nDoctorat en informatique, intelligence artificielle ou mathématiques Expérience en simulation multi-agents ou en apprentissage automatique (apprentissage d'ensemble, apprentissage actif, modèles de substitution), attestée par des publications récentes Connaissances en modélisation agent et en problématiques de calibration de modèles appréciées Capacité à travailler en équipe et à encadrer des doctorants, ingénieurs de recherche et stagiaires Conditions :\nContrat à durée déterminée, droit public, temps plein, jusqu'en juin 2028 Rémunération : entre 2300 € et 3200 € brut mensuel selon expérience Date de début : 01/10/2026 Laboratoire : IRIT (UMR 5505), équipe SMAC, Université Toulouse Capitole Lieu d’exercice: Manufacture des Tabacs, Université Toulouse Capitole, Toulouse\n\nCandidature : CV et lettre de motivation à envoyer à nicolas.verstaevel@ut-capitole.fr <"
+    },
+    {
+      "text": "mailto:nicolas.verstaevel@ut-capitole.fr",
+      "href": "mailto:nicolas.verstaevel@ut-capitole.fr"
+    },
+    {
+      "text": "> ￼ Plus d'informations sur le projet : "
+    },
+    {
+      "text": "http://www.irit.fr/mimico",
+      "href": "http://www.irit.fr/mimico"
+    },
+    {
+      "text": " N'hésitez pas à me contacter pour toute question complémentaire."
+    }
+  ]
+}

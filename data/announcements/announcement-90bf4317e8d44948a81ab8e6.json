@@ -1,0 +1,39 @@
+{
+  "parts": [
+    {
+      "text": "Attribution d’auteurs de conversation de réseaux sociaux par classification de profils\n\nL’objectif du stage est d’enrichir et valider une plateforme permettant de réaliser et croiser plusieurs types d’analyses de données de réseaux sociaux (conversations et leurs métadonnées) à des fins d’enquête par des agences de sécurité. En particulier, il s’agit d’assister l’identification de comptes contrôlés par un même individu sur les réseaux sociaux grâce à plusieurs techniques permettant de fusionner et de corréler des informations extraites de leurs contributions, de leurs méta-données, et de leurs interactions.\n\nLe stage s’appuiera sur prototype réalisé par l’IRIT entre 2021 et 2025 au sein du projet H2020 "
+    },
+    {
+      "text": "STARLIGHT",
+      "href": "https://starlight-h2020.eu/"
+    },
+    {
+      "text": ". Ce prototype permet de parcourir rapidement des données de réseaux sociaux, en se focalisant sur les entités et les acteurs qui y sont identifiés et leurs similarités, et cela au cours du temps. Il propose plusieurs méthodes/critères de l’état de l’art pour faciliter la détection des comptes contrôlés par un seul individu, et cela pour des conversations au sein du réseau social X. Cette tâche, appelée authorship attribution, vise à attribuer un texte (ex. tweet, post de blog) dont l’auteur est inconnu à un unique auteur à partir d’exemples de textes produits par plusieurs auteurs.\n\nActuellement, la plateforme (i) charge le contenu et les caractéristiques de conversations au sein de fichiers CSV (dont le schéma est conforme à une ontologie) ; (ii) analyse le langage contenu dans les échanges effectués sur ces réseaux mais aussi la structure et les métadonnées caractérisant le contexte de ces échanges (membres des réseaux concernés, heures et dates des échanges, nature des données échangées, etc.) en fonction de caractéristiques sélectionnées parmi un ensemble de caractéristiques possibles; (iii) crée un modèle par apprentissage à partir des profils selon les diverses caractéristiques choisies ; (iv) permet aux utilisateurs d’évaluer la pertinence des résultats en visualisant les profils des auteurs similaires. Ces défis relèvent de la recherche en IA : traitement automatique des langues (TAL), analyse sémantique de contenus, et représentation des connaissances sous forme de graphes, avec utilisation des bibliothèques usuelles (pandas, numpy, scikit, etc.).\n\nLe/la candidat.e aura pour tâche d’ajouter de nouvelles caractéristiques au prototype existant afin d’en améliorer les performances. Ces nouvelles caractéristiques seront évaluées pour la tâche de comparaison des auteurs, en particulier les personnes en contact avec chaque auteur au sein du réseau social. Il/elle proposera des nouvelles méthodes d’apprentissage de modèles. Enfin, la dernière période sera consacrée à mener des expérimentations à visée d’évaluation avec les futurs utilisateurs, puis à mettre en ligne une version de démonstration s’appuyant sur un jeu de données préalablement rendues anonymes.\n\nLa/le stagiaire : Étudiant.e de Master 1 ou 2, vous collaborerez avec les chercheurs du "
+    },
+    {
+      "text": "département IA au sein de l’IRIT",
+      "href": "https://www.irit.fr/departement/intelligence-artificielle/"
+    },
+    {
+      "text": ". Stage rémunéré par une prime de stage, maximum 5 mois, jusqu’à fin juillet 2026.\n\nContacts : Y. Chevalier, Université Toulouse 3, "
+    },
+    {
+      "text": "chevalier@irit.fr",
+      "href": "mailto:chevallier@irit.fr"
+    },
+    {
+      "text": " , P. Zaraté, Université Toulouse 1 Capitole, "
+    },
+    {
+      "text": "zarate@irit.fr",
+      "href": "mailto:zarate@irit.fr"
+    },
+    {
+      "text": " ; N. Aussenac-Gilles, CNRS, "
+    },
+    {
+      "text": "aussenac@irit.fr",
+      "href": "mailto:aussenac@irit.fr"
+    }
+  ]
+}

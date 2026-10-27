@@ -1,0 +1,35 @@
+{
+  "parts": [
+    {
+      "text": "French version below ***\n\nWe are currently looking for candidates for a PhD position entitled: A systematic investigation on the design of landscape features for automated optimization.\n\nThis PhD project aims to better understand and design informative descriptors that characterize the structure of optimization problems in order to improve automatic algorithm selection and configuration. This PhD will focus on designing new theoretically grounded descriptors, learning landscape representations (autoencoders, GNNs, Point Cloud Transformers), and assessing their impact on automated optimization pipelines. The goal is to establish solid principles for creating informative, interpretable, and efficient landscape features. A more detailed description of the PhD project is available at this link: "
+    },
+    {
+      "text": "https://phd.cristal.univ-lille.fr/details.html?id=96118d537159473b9c8d568d51232b83",
+      "href": "https://phd.cristal.univ-lille.fr/details.html?id=96118d537159473b9c8d568d51232b83"
+    },
+    {
+      "text": ".\n\nThe PhD will be conducted within the BONUS team, which is a joint research group of the CRIStAL laboratory ("
+    },
+    {
+      "text": "https://sites.google.com/view/bonus-research-group/",
+      "href": "https://sites.google.com/view/bonus-research-group/"
+    },
+    {
+      "text": "), and the Inria research center at the University of Lille.\n\nInterested candidates with a strong background in optimization, machine learning, or theoretical computer science, and a genuine motivation for research, are invited to contact me by sending:\n\n- transcripts from the last two years of study;\n\n- a short statement of scientific motivation;\n\n- a CV.\n\nI look forward to hearing from you.\n\nKind regards,\n\n*** French version ***\n\nNous recherchons actuellement des candidats et candidates pour une thèse intitulée : Étude systématique de la conception de descripteurs de paysages pour l'optimisation automatisée.\n\nCette thèse vise à mieux comprendre et concevoir des descripteurs informatifs permettant de caractériser la structure des problèmes d'optimisation afin d'améliorer la sélection et la configuration automatiques d'algorithmes. Les travaux porteront sur la création de nouveaux descripteurs, l’apprentissage de représentations (autoencodeurs, GNN, Point Cloud Transformers) et leur intégration dans des cadres d’optimisation automatisée (sélection/configuration d’algorithmes). L’objectif étant d’établir des principes fiables pour construire des descripteurs informatifs, interprétables et efficaces. Une description plus détaillée du sujet est disponible en suivant le lien suivant : "
+    },
+    {
+      "text": "https://phd.cristal.univ-lille.fr/details.html?id=96118d537159473b9c8d568d51232b83",
+      "href": "https://phd.cristal.univ-lille.fr/details.html?id=96118d537159473b9c8d568d51232b83"
+    },
+    {
+      "text": ".\n\nLa thèse se déroulera au sein de l'équipe BONUS, qui est commune au laboratoire CRIStAL ("
+    },
+    {
+      "text": "https://sites.google.com/view/bonus-research-group/",
+      "href": "https://sites.google.com/view/bonus-research-group/"
+    },
+    {
+      "text": ") et au centre de recherche Inria de l'Université de Lille.\n\nLes candidat.e.s intéressé.e.s disposant d'une solide formation en optimisation, apprentissage automatique ou informatique théorique, et d'une réelle motivation pour la recherche peuvent me contacter en transmettant :\n\n- les relevés de notes des deux dernières années de formation ;\n\n- un court texte de motivation scientifique ;\n\n- un CV.\n\nAu plaisir d'échanger avec vous."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "parts": [
+    {
+      "text": "Veuillez nous excuser pour les éventuelles réceptions multiples de cette offre de contrat doctoral\n\nIntitulé du sujet : (POPCORN) Pratiques, Organisation, Pilotage et COoRdination Numérique\n\nDiscipline : Informatique\n\nMots-clés : CSCW, travail des données, soins primaires\n\nLieu de travail : Université de Technologie de Troyes (France) – www.utt.fr\n\nLaboratoire : LIST3N/Technologies et Pratiques - "
+    },
+    {
+      "text": "https://hal-lara.archives-ouvertes.fr/TECH-CICO",
+      "href": "https://hal-lara.archives-ouvertes.fr/TECH-CICO"
+    },
+    {
+      "text": "\n\nEncadrement : Myriam Lewkowicz (PU), Joris Falip (MCF)\n\nFinancement : Contrat doctoral (statut de salarié)\n\nÉcole doctorale : 361 (Sciences pour l'ingénieur)\n\nSpécialité : Systèmes socio-techniques\n\nPrise de poste : octobre 2026\n\nCandidature : au plus tard le 15 avril 2026\n\nContexte\n\nLes centres de santé occupent une place essentielle dans le système de soins français, rendant l’accès aux soins primaires plus facile, notamment pour les publics fragiles. Depuis la signature d’un nouvel accord national avec l’Assurance Maladie en août 2025 (« Communiqué », 2025), ces quelque 3 000 structures sont appelées à renforcer la coordination interne du personnel de santé et à mieux valoriser leurs actions collectives. Cependant, les logiciels actuels n'ayant pas été élaborés dans ce but, il existe un manque flagrant d'outils numériques adaptés permettant à ces structures de démontrer la valeur de leur travail en équipe et de piloter efficacement la gestion de leurs données quotidiennes (IJFR, 2025 ; Plegat, 2024).\n\nCette recherche s’inscrit dans un contexte inédit : (1) la signature du nouvel accord, associé à (2) une volonté des professionnels en centre de santé de faire évoluer leurs pratiques en matière de données, et en parallèle, (3) un partenariat stratégique entre La Poste, via sa filiale La Poste Santé & Autonomie, et les centres de santé pour développer un entrepôt de données spécifique aux centres de santé. Cette convergence entre enjeux politiques, attentes des praticiens, et innovations technologiques constitue un nœud d’interactions complexe, caractéristique du « policy knot » (Jackson et al., 2014), qu’il s’agit d’accompagner scientifiquement afin de soutenir la mise en place de systèmes numériques pertinents pour l’évolution des pratiques.\n\nLa thèse proposée associe l'Université de Technologie de Troyes (UTT) et l'Institut Jean François Rey (IJFR) dans un partenariat innovant au service de la santé de proximité. Elle vise à accompagner les centres de santé dans cette transition, en créant, en collaboration avec les soignants et gestionnaires, des outils numériques permettant de recueillir et exploiter les informations produites chaque jour. Ces outils ont pour but de simplifier le travail administratif, de valoriser l'action des équipes, de renforcer leur coordination et de faciliter le dialogue avec l'Assurance Maladie sur la base de résultats concrets et chiffrés, tout en respectant le secret médical et la vie privée des patients.\n\nSujet\n\nCe projet doctoral porte sur le travail des données (Bertelsen et al., 2024) en soins primaires dans les centres de santé, en mettant l’accent à la fois sur leurs usages primaires — la production et l’exploitation directe des données pour le suivi clinique, la coordination et la prise de décision au quotidien — et sur leurs usages secondaires, qui incluent recherche, évaluation et justification des activités auprès des financeurs (Dedman et al., 2020; Kalankesh et al., 2014). La mobilisation du concept de « data work » (Bonde et al., 2019) éclairera tout le travail invisible effectué autour de la création, manipulation, valorisation et circulation des données dans les centres de santé.\n\nLes objectifs de recherche sont les suivants :\n\n- Mobiliser les concepts des mécanismes de coordination (Schmidt & Simone, 1996) et du data work (Islind et al., 2019) pour analyser les pratiques de coordination et de gestion de données dans différents centres de santé afin d’identifier obstacles, besoins et leviers d’action.\n\n- En lien avec l’éditeur mobilisé par les centres de santé, concevoir, tester et évaluer des outils numériques co-développés avec les équipes des centres, visant à simplifier la collecte de données et leur utilisation. Par ce travail des données, renforcer aussi la valorisation du travail collectif auprès des tutelles et financeurs de ces centres.\n\n- Proposer un modèle conceptuel et pratique transposable, qui puisse s’étendre au-delà des centres de santé, afin d’accompagner la transformation numérique de toutes les structures de santé de proximité.\n\n- Publier des recommandations opérationnelles et scientifiques pour guider les centres de santé et alimenter les politiques publiques en matière d’innovation en santé (Yang et al., 2024).\n\nMéthodologie\n\nLe projet mobilisera une méthodologie combinant :\n\n- Une analyse documentaire des textes de lois et accords nationaux concernant les centres de santé, et des études existantes sur les systèmes informatiques pour la coordination pluriprofessionnelle en soin primaire, et en particulier en centre de santé.\n\n- Une analyse qualitative (entretiens, observations) des pratiques actuelles de coordination et de gestion des données ;\n\n- Des ateliers participatifs de co-conception impliquant soignants et gestionnaires pour élaborer des solutions adaptées ;\n\n- La mise en œuvre et l’expérimentation de prototypes numériques dans des centres pilotes, avec cycles itératifs d’évaluation, en suivant une approche de « data probes » (Zhang et al., 2024) ;\n\nContributions attendues\n\nDes contributions de plusieurs ordres sont attendues :\n\n- Empirique : Une description fine de l’usage du numérique pour soutenir la coordination au sein des collectifs pluri-professionnels en place. Cette description du travail collectif des soignants permettra de mieux valoriser les actions de coordination, en accord avec les exigences du nouvel accord des centres de santé avec l’Assurance Maladie.\n\n- Conceptuel : Une caractérisation du travail de données dans un contexte de soins primaires dont découlera des primitives de conception pour des dispositifs numériques support à ce travail en centres de santé.\n\n- Technologique : Des dispositifs numériques permettant une collecte et une analyse de données de coordination plus fluide et efficace, au service des centres de santé.\n\n- Méthodologique : Une méthode permettant de réaliser le « policy knot », assemblant et mettant en œuvre sur un cas concret et de grande ampleur les recommandations existantes (Cormi et al., 2022; Jackson et al., 2013, 2014; Plegat & Lewkowicz, 2025).\n\n- Industriel : Les contributions précédentes seront transférées vers les acteurs de terrain afin de faciliter la montée en compétences numériques et organisationnelles des centres de santé. Cela pourra prendre la forme de guides et recommandations pour les centres de santé.\n\nDeux articles de conférence et un article dans le Computer-Supported Cooperative Work Journal sont visés au cours de la thèse. Au vu de l'impact sociétal des questions de recherche, une démarche de science ouverte sera adoptée, avec des actions de communication auprès du grand public.\n\nModalités de candidature - Date limite 15 avril 2026\n\nLe/la candidat(e) devra obligatoirement :\n\n- être titulaire (ou en cours d’obtention) d’un diplôme de niveau bac+5 en informatique, de préférence en Interaction Humain-Machine,\n\n- être motivé.e par le travail de recherche pluridisciplinaire,\n\n- avoir suivi une formation d’initiation à la recherche (état de l’art, bibliographie, citations…).\n\nD’autres compétences seront appréciées :\n\n- capacités d’interaction et de communication avec des acteurs de terrain,\n\n- autonomie et capacité de prise de décisions,\n\n- compétences rédactionnelles (en français et en anglais)\n\n- expérience de conception et/ou d’application de méthodes d’observation/entretien.\n\nLes candidatures doivent être envoyées à myriam.lewkowicz@utt.fr et joris.falip@utt.fr et doivent comporter :\n\n- Un CV\n\n- Une lettre de motivation (où vous précisez votre intérêt pour le sujet et en quoi ce dernier est en adéquation avec votre formation)\n\n- Un relevé de notes (M1 et M2) avec classements (Master 2 également, éventuellement partiel),\n\n- Votre sujet de mémoire de master, la note obtenue si vous l'avez déjà soutenu et si vous n'avez pas encore soutenu, nous fournir votre travail en cours de finalisation.\n\n- Deux lettres de recommandation de vos enseignants de Master et/ou de superviseurs de vos travaux.\n\n- Voir "
+    },
+    {
+      "text": "https://www.utt.fr/formations/doctorat-sciences-pour-l-ingenieur/candidater-en-doctorat",
+      "href": "https://www.utt.fr/formations/doctorat-sciences-pour-l-ingenieur/candidater-en-doctorat"
+    },
+    {
+      "text": " pour le dossier et la notice à télécharger. Ce dossier devra être rempli début mai en cas de présélection par l’équipe de direction de thèse.\n\nProcédure (les dates exactes seront précisées ultérieurement)\n\nExamens des dossiers au fil de l’eau\n\n- Avant le 15 avril 2026 : entretiens (en ligne) de l’équipe de direction de thèse avec les candidat.e.s au dossier recevable (complet et profil pertinent)\n\n- Début mai 2026 : transmission à l’école doctorale (ED) des 3 dossiers de candidature retenus par l’équipe de direction de thèse.\n\n- Avant fin mai 2026 : entretien (en ligne) avec une commission d’audition de deux membres de l’ED.\n\n- Fin mai 2026 : Résultats des évaluations des candidats par l’ED (transmis à l’équipe de direction de thèse) et classement des candidat.es par l’équipe de direction de thèse.\n\n- Début juin 2026 : Conseil de l’École Doctorale pour l’attribution des contrats doctoraux.\n\n- Mi-juin 2026 : Communication des résultats aux candidats par l’Ecole Doctorale.\n\n- Acceptation du contrat doctoral par le.la candidat.e classé.e 1er.e ou le.la suivant.e si désistement.\n\n- Octobre 2026 : démarrage du contrat doctoral\n\nRéférences\n\nBertelsen, P. S., Bossen, C., Knudsen, C., & Pedersen, A. M. (2024). Data work and practices in healthcare : A scoping review. International Journal of Medical Informatics, 184, 105348. "
+    },
+    {
+      "text": "https://doi.org/10.1016/j.ijmedinf.2024.105348",
+      "href": "https://doi.org/10.1016/j.ijmedinf.2024.105348"
+    },
+    {
+      "text": "\n\nBonde, M., Bossen, C., & Danholt, P. (2019). Data-work and friction : Investigating the practices of repurposing healthcare data. Health Informatics Journal, 25(3), 558‑566. "
+    },
+    {
+      "text": "https://doi.org/10.1177/1460458219856462",
+      "href": "https://doi.org/10.1177/1460458219856462"
+    },
+    {
+      "text": "\n\nCommuniqué. (2025). La Veille Acteurs de Santé. "
+    },
+    {
+      "text": "https://toute-la.veille-acteurs-sante.fr/236140/signature-dun-nouvel-accord-national-des-centres-de-sante/",
+      "href": "https://toute-la.veille-acteurs-sante.fr/236140/signature-dun-nouvel-accord-national-des-centres-de-sante/"
+    },
+    {
+      "text": "\n\nCormi, C., Abou-Amsha, K., Tixier, M., & Lewkowicz, M. (2022). Considering the Artifact Ecology when Supporting the Evolution of Practices—Analyzing the Parallel Journeys of Two Teleconsultation Software in a General Hospital. Proceedings of the ACM on Human-Computer Interaction, 6(GROUP), 2:1-2:17. "
+    },
+    {
+      "text": "https://doi.org/10.1145/3492821",
+      "href": "https://doi.org/10.1145/3492821"
+    },
+    {
+      "text": "\n\nDedman, D., Cabecinha, M., Williams, R., Evans, S. J. W., Bhaskaran, K., & Douglas, I. J. (2020). Approaches for combining primary care electronic health record data from multiple sources : A systematic review of observational studies. "
+    },
+    {
+      "text": "https://doi.org/10.1136/bmjopen-2020-037405",
+      "href": "https://doi.org/10.1136/bmjopen-2020-037405"
+    },
+    {
+      "text": "\n\nIJFR (Réalisateur). (2025, mai 15). « IA et numérique en centre de santé » [Enregistrement vidéo]. "
+    },
+    {
+      "text": "https://ijfr.fr/lintegrale-du-seminaire-ia-et-numerique-en-centre-de-sante-est-en-ligne/",
+      "href": "https://ijfr.fr/lintegrale-du-seminaire-ia-et-numerique-en-centre-de-sante-est-en-ligne/"
+    },
+    {
+      "text": "\n\nIslind, A. S., Lindroth, T., Lundin, J., & Steineck, G. (2019). Shift in translations : Data work with patient-generated health data in clinical practice. Health Informatics Journal, 25(3), 577‑586. "
+    },
+    {
+      "text": "https://doi.org/10.1177/1460458219833097",
+      "href": "https://doi.org/10.1177/1460458219833097"
+    },
+    {
+      "text": "\n\nJackson, S. J., Gillespie, T., & Payette, S. (2014). The policy knot : Re-integrating policy, practice and design in cscw studies of social computing. Proceedings of the 17th ACM conference on Computer supported cooperative work & social computing, 588‑602. "
+    },
+    {
+      "text": "https://doi.org/10.1145/2531602.2531674",
+      "href": "https://doi.org/10.1145/2531602.2531674"
+    },
+    {
+      "text": "\n\nJackson, S. J., Steinhardt, S. B., & Buyuktur, A. (2013). Why CSCW needs science policy (and vice versa). Proceedings of the 2013 conference on Computer supported cooperative work, 1113‑1124. "
+    },
+    {
+      "text": "https://doi.org/10.1145/2441776.2441902",
+      "href": "https://doi.org/10.1145/2441776.2441902"
+    },
+    {
+      "text": "\n\nKalankesh, L. R., Farahbakhsh, M., & Rahimi, N. (2014). Data Content and Exchange in General Practice : A Review. Medical Archives, 68(6), 414‑418. "
+    },
+    {
+      "text": "https://doi.org/10.5455/medarh.2014.68.414-418",
+      "href": "https://doi.org/10.5455/medarh.2014.68.414-418"
+    },
+    {
+      "text": "\n\nLa Poste Santé & Autonomie. (2023, octobre 20). La Poste Groupe. "
+    },
+    {
+      "text": "https://www.lapostegroupe.com/fr/actualite/avec-la-creation-de-la-poste-sante-autonomie-laposte-se-positionne-dans-la-sante-a-domicile-et-accelere-dans-la-data-en-sante",
+      "href": "https://www.lapostegroupe.com/fr/actualite/avec-la-creation-de-la-poste-sante-autonomie-laposte-se-positionne-dans-la-sante-a-domicile-et-accelere-dans-la-data-en-sante"
+    },
+    {
+      "text": "\n\nPlegat, M. (2024). Reconfigurer le système des professions ? Les usages de l’informatique en maisons de santé pluriprofessionnelles. Université de Technologie de Troyes.\n\nPlegat, M., & Lewkowicz, M. (2025). “I do not see the point of using the system”. Understanding a Broken Policy Knot in the Primary Care Sector. Proceedings of the ACM Human-Computer Interaction, 9(2), Article CSCW 105. "
+    },
+    {
+      "text": "https://doi.org/10.1145/3711003",
+      "href": "https://doi.org/10.1145/3711003"
+    },
+    {
+      "text": "\n\nSchmidt, K., & Simone, C. (1996). Coordination mechanisms: Towards a conceptual foundation of CSCW systems design. Computer Supported Cooperative Work (CSCW), 5(2‑3), 155‑200. "
+    },
+    {
+      "text": "https://doi.org/10.1007/BF00133655",
+      "href": "https://doi.org/10.1007/BF00133655"
+    },
+    {
+      "text": "\n\nYang, Q., Wong, R. Y., Jackson, S., Junginger, S., Hagan, M. D., Gilbert, T., & Zimmerman, J. (2024). The Future of HCI-Policy Collaboration. Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems, 1‑15. "
+    },
+    {
+      "text": "https://doi.org/10.1145/3613904.3642771",
+      "href": "https://doi.org/10.1145/3613904.3642771"
+    },
+    {
+      "text": "\n\nZhang, A., Rana, R., Boltz, A., Dubal, V., & Lee, M. K. (2024). Data Probes as Boundary Objects for Technology Policy Design : Demystifying Technology for Policymakers and Aligning Stakeholder Objectives in Rideshare Gig Work. Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems, 1‑21. "
+    },
+    {
+      "text": "https://doi.org/10.1145/3613904.3642000",
+      "href": "https://doi.org/10.1145/3613904.3642000"
+    }
+  ]
+}

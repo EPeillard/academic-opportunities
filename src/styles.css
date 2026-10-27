@@ -559,3 +559,44 @@ h1 {
     gap: 12px;
   }
 }
+.announcements {
+  margin: 2rem 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border, #dce1e3);
+}
+.position-documents {
+  margin: 1.5rem 0;
+}
+.position-documents ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.position-documents li {
+  padding: 0.9rem 1rem;
+  margin-top: 0.6rem;
+  background: #f5f7f9;
+  border: 1px solid #dce1e3;
+  overflow-wrap: anywhere;
+}
+.document-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+}
+.announcement-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: 1.75;
+}
+.earlier-announcement {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--border, #dce1e3);
+  padding-top: 1rem;
+}
+.earlier-announcement summary {
+  cursor: pointer;
+  margin-bottom: 1rem;
+}

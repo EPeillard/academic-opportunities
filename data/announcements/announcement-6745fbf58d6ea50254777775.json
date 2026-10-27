@@ -1,0 +1,21 @@
+{
+  "parts": [
+    {
+      "text": "The VisLab at the Hong Kong University of Science and Technology seeks motivated PhD students in Computer Science / Data Visualization / Extended Reality to contribute to several digital twin projects. We aim to leverage real-world data to inform decision-making in scientific domains (e.g., ocean science and atmospheric science) through immersive visual analytics and AI solutions. These solutions will be integrated into two active digital twin initiatives in collaboration with interdisciplinary researchers: 1) a Hong Kong Coastline Digital Twin for real-time storm surge prediction and disaster management, and 2) a Greater Bay Area Earth System Digital Twin for assessing and quantifying the spatiotemporal nature of ocean-atmosphere processes. The projects involve cutting-edge technologies, including big data, AI, immersive visual analytics, and computer graphics.\n\nYour Tasks:\n\n• Process and analyze large, heterogeneous spatiotemporal datasets (e.g., sensor data, environmental simulation data, typhoon movement data).\n• Design and develop both non-immersive and immersive visual analytic systems combined with advanced AI methods (e.g., large models and agentic AI) for spatiotemporal datasets.\n• Integrate visual analytics and AI solutions with real-world 3D environments to build digital twin applications using game engines.\n• Collaborate closely with our partners from different domains, such as ocean science and civil engineering.\n\nRequirements:\n\n• A bachelor's or master’s degree in computer science or a related field.\n• Strong knowledge of and passion for data visualization, with proficiency in data processing, data analysis, and creating interactive visualizations.\n• Proficiency in Unity or Unreal Engine development, with a deep understanding of the engine's core 3D features and key technical implementation principles, including the rendering pipeline.\n• Preferred Experience: Familiarity with WebGL, Three.js, and using Cesium for 3D geospatial data visualizations; familiarity with advanced AI methods.\n\nHow to Apply:\n\nIf you are interested in this position, please send your resume and a cover letter to "
+    },
+    {
+      "text": "vislab-hiring@outlook.com",
+      "href": "mailto:vislab-hiring@outlook.com"
+    },
+    {
+      "text": " with the subject Digital Twin + [Job position] + [Your Name].\n\nIf you are attending CHI 2026 in Barcelona, feel free to reach out by sending emails to "
+    },
+    {
+      "text": "yuanlp@ust.hk",
+      "href": "mailto:yuanlp@ust.hk"
+    },
+    {
+      "text": " We are happy to discuss this opportunity in person."
+    }
+  ]
+}

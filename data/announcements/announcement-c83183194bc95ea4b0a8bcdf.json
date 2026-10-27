@@ -1,0 +1,28 @@
+{
+  "parts": [
+    {
+      "text": "PhD Position: Conversation-driven Generation of Personalized News Articles\n\nThe Dynamic and Distributed "
+    },
+    {
+      "text": "Information Systems (DDIS) Group at the University of Zurich",
+      "href": "https://www.ifi.uzh.ch/en/ddis.html"
+    },
+    {
+      "text": " is seeking a PhD candidate interested in Generative AI and Natural Language Processing (NLP) in the context of news recommender systems.\n\nProject description:\n\nA promising direction for improving news recommendation goes beyond the optimized selection of existing articles and instead generates new, personalized versions by rephrasing or piecing together existing ones. The personalized article must be tailored to the reader’s knowledge background (i.e. domain expertise, educational background, or prior exposure to a specific news topic) and readership preferences. Furthermore, generating such an article does not have to be a unidirectional delivery, but can be co-created interactively (during a conversation), reacting to the reader’s questions and comments. The result is a news article assembled collaboratively through dialogue, where coverage and depth are adjusted to the individual reader.\n\nThis PhD project focuses on three technical challenges:\n\n• Modelling the user's knowledge state from a profile and updating it through conversational signals\n• Incrementally generating news articles through user interaction while tracking the information that remains to be covered\n• Evaluating the quality of both the dialogue and the generated article in terms of factual accuracy, coherence, and personalization.\n\nThe project is aligned with DDIS’s broader research agenda on normative and responsible information systems in applications such as news recommendation. In the tradition of our group, we encourage applications seeking to explore both the technical and ethical dimensions of news recommendations.\n\nWhat we offer:\n\n• A societally relevant research topic at the intersection of generative AI and NLP\n• Access to the computational resources required for working with large language models\n• Real-world testbed via the "
+    },
+    {
+      "text": "Informfully",
+      "href": "https://informfully.com"
+    },
+    {
+      "text": " platform\n• Generous support for professional travel and research needs\n• Strong support for your professional/career development\n• A diverse and multi-disciplinary research group of highly motivated colleagues who are passionate about topics at the intersection of computer science, AI, and social science\n• Attractive work environment both within the research group and beyond: the University of Zurich is one of Switzerland's leading universities in the middle of a vibrant, cosmopolitan city that regularly ranks as one of the cities with the highest quality of life in the world\n\nWho we are looking for:\n\n• Hold (or are close to completing) a master’s degree in computer science, computational linguistics, or a related field\n• Demonstrate a strong interest in the field of NLP, including the nuances of personalized text generation\n• Demonstrate programming proficiency to fine-tune and evaluate open-source Large Language Models (LLMs)\n• Previous experience in the field of recommender systems is considered a plus but is not strictly necessary.\n\nApplication Process\n\nWe will be evaluating applications on a rolling basis, making a pre-selection by June 8th. Please apply as soon as possible.\n\nTo apply, please gather your curriculum vitae, cover letter, grade transcripts, a list of at least three references, and your BSc/MSc theses as PDF files and go to "
+    },
+    {
+      "text": "https://www.apply.dsi.uzh.ch/position/52953088",
+      "href": "https://www.apply.dsi.uzh.ch/position/52953088"
+    },
+    {
+      "text": "\n\nThe University of Zurich is committed to enhancing the number of women in scientific positions and, therefore, particularly invites women to apply. Women who are as qualified for the position in question as male applicants will be given priority."
+    }
+  ]
+}

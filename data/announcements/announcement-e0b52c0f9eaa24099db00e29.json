@@ -1,0 +1,7 @@
+{
+  "parts": [
+    {
+      "text": "Ci-joint une offre de stage niveau M2.\n\nContexte Les transitions entre différents modes de transport (métro, bus, vélo, marche, etc.) sont des moments critiques pour les usagers, souvent synonymes de stress et de charge mentale élevée. Un stage précédent a permis d’identifier des scénarios d’usage, des profils utilisateurs (personas), et de développer les premiers prototypes de la plateforme qui a pour objectif d’évaluer l’impact des interactions multimodales sur la cognition et l’utilisabilité.\n\nL’objectif de ce stage est de passer à l’étape supérieure : implémenter une plateforme technique robuste capable de simuler et d’évaluer ces interactions in vitro en temps réel. Cette plateforme devra intégrer des mécanismes d’adaptation contextuelle (ex : détection des phases génératrices de stress, personnalisation des notifications) et des algorithmes d’intelligence artificielle légers pour proposer des solutions dynamiques (ex : recommandation de trajets alternatifs en cas de perturbation).\n\nCe stage, mené en collaboration entre les laboratoires IRIT et CLLE, s’adresse à un profil technique capable de développer des solutions logicielles innovantes pour la mobilité intelligente."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "parts": [
+    {
+      "text": "English version below --\n\nESIEE Paris <"
+    },
+    {
+      "text": "https://www.esiee.fr/",
+      "href": "https://www.esiee.fr/"
+    },
+    {
+      "text": ">, membre de l'université Gustave Eiffel <"
+    },
+    {
+      "text": "https://www.univ-gustave-eiffel.fr/",
+      "href": "https://www.univ-gustave-eiffel.fr/"
+    },
+    {
+      "text": ">, recrute un ingénieur de recherche pour contribuer au développement et à la maintenance des logiciels issus de la recherche dans le domaine du traitement et de l'analyse d'images (laboratoire LIGM <"
+    },
+    {
+      "text": "https://ligm.univ-eiffel.fr/",
+      "href": "https://ligm.univ-eiffel.fr/"
+    },
+    {
+      "text": ">).\n\n*Profil recherché :*\n\nTitulaire d’un BAC+5 ou d’un doctorat en informatique, vous avez une expérience en analyse et traitement d’images et un intérêt marqué pour la recherche appliquée. Vous participerez à la conception, au développement et à la valorisation de logiciels de recherche, en lien étroit avec les enseignants-chercheurs. Vos missions incluent :\n\n- assurer la maintenance et l’évolution des architectures logicielles ;\n- mettre en œuvre des bonnes pratiques DevOps (tests, CI/CD) ;\n- développer de nouvelles fonctionnalités et industrialiser des\nprototypes ;\n- rédiger et mettre à jour les documentations techniques et utilisateurs\n;\n- participer à la diffusion scientifique (releases, communications,\npublications).\n\nVous contribuerez notamment à :\n\n- Higra <"
+    },
+    {
+      "text": "https://github.com/higra/Higra",
+      "href": "https://github.com/higra/Higra"
+    },
+    {
+      "text": ">, librairie d’analyse\nhiérarchique de graphes (C++/Python) ;\n- Pink, bibliothèque d’opérateurs de traitement d’images en C.\n\nVous pourrez également participer à l’émergence de nouvelles librairies, par exemple sur l’analyse topologique de données ou la mise en œuvre d’algorithmes massivement parallèles (GPU).\n\n*Compétences attendues :* maîtrise de Python, C, C++, des outils Git et CI/CD, et goût pour la recherche en traitement d’images.\n\n*Date de démarrage : *entre juin et septembre 2026\n\n*Durée : *12 mois\n\n*Salaire : *selon expérience et grilles de rémunération de l'Université Gustave Eiffel\n\n*Contact :* benjamin.perret@esiee.fr\n\nN'hésitez pas à diffuser cette offre à toute personne susceptible d'être intéressée.\n\nCordialement,\n\nBenjamin Perret\n\n===== English version =====\n\nESIEE Paris <"
+    },
+    {
+      "text": "https://www.esiee.fr/",
+      "href": "https://www.esiee.fr/"
+    },
+    {
+      "text": ">, a member of Université Gustave Eiffel <"
+    },
+    {
+      "text": "https://www.univ-gustave-eiffel.fr/",
+      "href": "https://www.univ-gustave-eiffel.fr/"
+    },
+    {
+      "text": ">, is recruiting a research engineer to contribute to the development and maintenance of research software in the field of image processing and analysis (LIGM <"
+    },
+    {
+      "text": "https://ligm.univ-eiffel.fr/",
+      "href": "https://ligm.univ-eiffel.fr/"
+    },
+    {
+      "text": "> laboratory).\n\n*Candidate Profile:*\n\nHolding a Master’s degree (MSc) or a PhD in Computer Science, you have proven experience in image analysis and processing, along with a strong interest in applied research. You will work closely with faculty members to design, develop, and promote research software.\n\nKey Responsibilities\n\n- Maintain and evolve software architectures;\n- Implement DevOps best practices (testing, CI/CD);\n- Develop new features and industrialize research prototypes;\n- Write and update technical and user documentation;\n- Participate in scientific dissemination (software releases,\ncommunications, publications).\n\nYou will primarily contribute to:\n\n- Higra <"
+    },
+    {
+      "text": "https://github.com/higra/Higra",
+      "href": "https://github.com/higra/Higra"
+    },
+    {
+      "text": ">: A library for hierarchical\ngraph analysis (C++/Python);\n- Pink: A library for image processing operators (C).\n\nYou may also participate in the development of new libraries, for example, in topological data analysis or the implementation of massively parallel algorithms (GPU).\n\n*Required Skills: *Proficiency in Python, C, and C++; experience with Git and CI/CD tools; and a strong interest in image processing research.\n\n*Start Date:* Between June and September 2026.\n\n*Duration:* 12 months.\n\n*Salary:* Based on experience and Université Gustave Eiffel salary scales.\n\n*Contact:* Benjamin Perret (benjamin.perret@esiee.fr)\n\nPlease feel free to share this offer with anyone who might be interested."
+    }
+  ]
+}

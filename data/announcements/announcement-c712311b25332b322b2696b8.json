@@ -1,0 +1,14 @@
+{
+  "parts": [
+    {
+      "text": "Vous trouverez sur ce lien l'annonce du sujet de thèse en Génie Logiciel \" Migration d’applications Java légataires vers des applications modulaires \" ainsi que pour candidater : "
+    },
+    {
+      "text": "https://amethis.doctorat.org/amethis-client/prd/consulter/offre/2900",
+      "href": "https://amethis.doctorat.org/amethis-client/prd/consulter/offre/2900"
+    },
+    {
+      "text": "\n\nLe dépôt de candidatures se fait uniquement par ce lien. La date limite est le 30/04/2026.\n\nLieu : Équipe NaoMod - Nantes Université.\n\nRésumé : Introduit en 2017 avec Java 9 (après 9 années de développement), le système de modules de Java ((Java Platform Module System, JPMS) offre trois bénéfices majeurs : une intégrité renforcée par une encapsulation stricte des paquetages, un contrôle explicite des dépendances et des accès — y compris réflexifs — ainsi qu’une réduction de l’empreinte mémoire et disque avec des démarrages plus rapides. À terme, Oracle rendra la modularisation incontournable, l’imposant comme standard d’exécution des applications Java. Son adoption reste toutefois complexe, car elle requiert des évolutions significatives de conception (design) et de construction (build). Faute de bénéfices immédiatement visibles et d’outils adaptés, de nombreuses entreprises hésitent à migrer leurs applications légataires, voire l’ignorent complètement. Nous proposons de les accompagner par des outils d’analyse statique et dynamique, ainsi que de transformation de code Java et de configuration Maven, afin de faciliter une conversion semi-automatique vers une architecture modulaire. La modularisation réduit ainsi l’empreinte environnementale tout en améliorant la qualité logicielle grâce à la refactorisation qu’elle induit."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "parts": [
+    {
+      "text": "Le laboratoire d'informatique de l'Université du Mans (LIUM) propose une thèse en Environnements Informatiques pour l’Apprentissage Humain (EIAH), débutant en octobre 2026 (site de Laval).\n\nCe travail de recherche se situe à l’intersection des EIAH, de la réalité virtuelle immersive et des sciences cognitives, avec un focus sur les troubles du spectre de l’autisme (TSA). Il vise la conception d’un système d’assistance adaptatif pour analyser et soutenir les stratégies de recherche visuelle d’objets en environnement virtuel.\n\nLa thèse porte notamment sur :\n\n• la génération adaptative d’activités via des approches inspirées des méthodes bayésiennes,\n• l’exploitation de données comportementales et oculométriques en RV,\n• l’articulation entre adaptation algorithmique et expertise humaine,\n• la modélisation du profil de traitement visuel.\n\nL’objectif est de concevoir un dispositif permettant d’explorer, caractériser et accompagner de manière personnalisée les stratégies de recherche visuelle, dans une perspective de transfert vers des situations réelles.\n\nEncadrement Sébastien George (PR, LIUM – IEIAH) Pierre Laforcade & Erwan David (MCF, LIUM – IEIAH) "
+    },
+    {
+      "text": "https://lium.univ-lemans.fr/lium/ieiah/",
+      "href": "https://lium.univ-lemans.fr/lium/ieiah/"
+    },
+    {
+      "text": "\n\nProfil recherché Master ou diplôme d’ingénieur en informatique, avec intérêt pour les EIAH, la RV ou les sciences cognitives. Bon niveau en programmation et en anglais attendu.\n\nOffre de thèse en version longue et précisions de candidature sur : "
+    },
+    {
+      "text": "https://amethis.doctorat.org/amethis-client/prd/consulter/offre/3461",
+      "href": "https://amethis.doctorat.org/amethis-client/prd/consulter/offre/3461"
+    }
+  ]
+}

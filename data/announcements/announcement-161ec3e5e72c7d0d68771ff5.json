@@ -1,0 +1,14 @@
+{
+  "parts": [
+    {
+      "text": "Veuillez trouver ci-joint une offre de stage. Je ne suis que l'intermédiaire, contacter Stéphane Debard :stephane.debard@ird.fr pour plus d'info.\n\nJe m'excuse par avance des multiples réceptions.\n\nTitle RAG Infrastructure & Knowledge Graph Engineering\n\nDescription The objective of this internship is to explore and implement an advanced Retrieval-Augmented Generation (RAG) infrastructure leveraging a Large Language Model (LLM) and a domain-specific knowledge graph. The knowledge graph will be based on the SEWERNET ontology ("
+    },
+    {
+      "text": "http://sewernet.msem.univ-montp2.fr/",
+      "href": "http://sewernet.msem.univ-montp2.fr/"
+    },
+    {
+      "text": "), commonly used for wastewater and sewer network modeling. The project will involve building the knowledge graph from existing datasets and evaluating how semantic structuring improves performance within a RAG pipeline. The objective is to develop a system for interacting with data in natural language and knowledge graphs to obtain the best results, and to identify and propose the best methodologies for this field."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "parts": [
+    {
+      "text": "MASTER 2 INTERNSHIP: ACTIVE INFERENCE FOR SOFT OBJECT MANIPULATION (6 MONTHS, MARCH-AUGUST 2027) @ LORIA, NANCY\n\nKeuwords:\n\nbio-inspired modeling, soft-object manipulation, social robotics, free energy principle theory, active-inference, predictive coding.\n\nContext:\n\nIn the field of artificial intelligence, state-of-the-art generative architectures have focused on learning direct sensory-motor mappings. This has led to the development of complex models requiring hundreds of millions to billions of parameters, which enta ils significant computational resources, is often environmentally detrimental, and makes local deployment difficult in most practical use cases.\n\nThis internship will be supervised by Hendry F. Chame and Alexandre Pitti and focused on a different approach. Inspired by brain predictive theory, such as the free energy principle (FEP) and predictive coding, its main objective is developing a behavioral architecture, structured as a dynamic system, where anticipatory sensory prediction is optimized in real time, drawing upon prior knowledge, acquired through embodied demonstrations of interactions with soft objects.\n\nFor more details, please follow the link below:\n\n[ "
+    },
+    {
+      "text": "https://members.loria.fr/HFerreiraChame/wp-content/blogs.dir/238/files/sites/238/2026/10/Internship-M2-LORIA-2027.pdf",
+      "href": "https://members.loria.fr/HFerreiraChame/wp-content/blogs.dir/238/files/sites/238/2026/10/Internship-M2-LORIA-2027.pdf"
+    },
+    {
+      "text": " | "
+    },
+    {
+      "text": "https://members.loria.fr/HFerreiraChame/wp-content/blogs.dir/238/files/sites/238/2026/10/Internship-M2-LORIA-2027.pdf",
+      "href": "https://members.loria.fr/HFerreiraChame/wp-content/blogs.dir/238/files/sites/238/2026/10/Internship-M2-LORIA-2027.pdf"
+    },
+    {
+      "text": " ]\n\nHow to apply:\n\nPlease send your CV, cover letter and academic transcripts of the last 2 years to hendry.ferreira-chame@loria.fr or alexandre.pitti@cyu.fr"
+    }
+  ]
+}

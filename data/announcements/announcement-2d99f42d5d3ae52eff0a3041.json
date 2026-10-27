@@ -1,0 +1,28 @@
+{
+  "parts": [
+    {
+      "text": "2 positions are open at the Swedish University of Agricultural Sciences to work on AI-driven Social Simulation (i.e. including Generative/LLMs agents):\n\n- Postdoctoral Researcher in Computational Social Science\n"
+    },
+    {
+      "text": "https://www.slu.se/en/about-slu/work-at-slu/jobs-and-vacancies/postdoktor4/",
+      "href": "https://www.slu.se/en/about-slu/work-at-slu/jobs-and-vacancies/postdoktor4/"
+    },
+    {
+      "text": "\n\n- Research Engineer in AI-driven Social Simulations\n"
+    },
+    {
+      "text": "https://www.slu.se/en/about-slu/work-at-slu/jobs-and-vacancies/forskningsingenjor/",
+      "href": "https://www.slu.se/en/about-slu/work-at-slu/jobs-and-vacancies/forskningsingenjor/"
+    },
+    {
+      "text": "\n\nThe 2 positions will be in the frame of the project:\n\nCan we foresee the outcomes of public policies, political choices and other decisions? We are finding out by developing serious games and running them using AI.\n\nWe are building large-scale simulations of societal processes (environmental negotiations, nature conservation policies, and hybrid-threat scenarios) in which every actor is an autonomous AI agent powered by Large Language Models (LLMs). These agents simulate real-world stakeholders, from government ministers to interest groups, and interact through natural language in complex strategic settings. We then run thousands of iterations to map the distribution of outcomes.\n\nThis effort is part of a new research program Articulating Complexity ( "
+    },
+    {
+      "text": "https://www.slu.se/articulating-complexity/",
+      "href": "https://www.slu.se/articulating-complexity/"
+    },
+    {
+      "text": " ) hosted at the Swedish University of Agricultural Sciences (SLU) and led by Guillaume Chapron (Docent). It is funded by grants from the Swedish Research Council (VR), the Swedish Foundation for Strategic Environmental Research (Mistra), and the Swedish Research Council for Sustainable Development (FORMAS).\n\nOur goal is to build a novel methodology at the intersection of AI, ecology, political science, and complex system analysis that may change how policies are designed and stress-tested and how governments prepare for crises. We are looking for ambitious research engineer to join this effort."
+    }
+  ]
+}

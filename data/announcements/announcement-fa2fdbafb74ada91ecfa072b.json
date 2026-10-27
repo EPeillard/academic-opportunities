@@ -1,0 +1,21 @@
+{
+  "parts": [
+    {
+      "text": "(Veuillez nous excuser pour les réceptions multiples)\n\nNous avons le plaisir de diffuser une proposition de thèse en Environnements Informatiques pour l'Apprentissage Humain (EIAH), qui débutera en octobre 2026 à Sorbonne Université (LIP6, équipe MOCAH), en collaboration avec l'Université de Genève (équipe IDEA).\n\nCe travail de recherche porte sur la génération dynamique d'exercices pédagogiquement fondés, en s'appuyant sur une architecture hybride articulant :\n\n• des modèles de langage de grande taille (LLM) couplés à des mécanismes de RAG,\n• un modèle de l'apprenant (BKT/DKT),\n• des contraintes issues de la psychologie cognitive des apprentissages, notamment le modèle de congruence sémantique (SECO).\n\nL'objectif est de concevoir, implémenter et évaluer des systèmes capables de produire des exercices adaptatifs dont la pertinence pédagogique est explicitement contrainte et mesurable, en lien avec les travaux en didactique et en sciences cognitives.\n\nLa thèse s'inscrit dans une approche interdisciplinaire à l'interface de l'intelligence artificielle en éducation, du machine learning et de la psychologie cognitive, avec une méthodologie combinant développement de systèmes, benchmarks et expérimentations contrôlées sur les apprentissages.\n\nEncadrement\n\n• Amel Yessad & François Bouchet (Sorbonne Université, LIP6 – MOCAH)\n• Emmanuel Sander (Université de Genève, FPSE – IDEA)\n\nProfil recherché Nous recherchons un·e candidat·e titulaire d'un Master (ou équivalent) en informatique, avec de solides compétences en apprentissage automatique et en programmation (Python). Un intérêt pour les EIAH, les sciences cognitives ou les systèmes adaptatifs sera particulièrement apprécié. Une bonne maîtrise de l'anglais scientifique est attendue.\n\nModalités de candidature Les personnes intéressées sont invitées à envoyer :\n\n• un curriculum vitae,\n• une lettre de motivation,\n• leurs relevés de notes (licence et master ou équivalent),\n\nà l'adresse suivante : "
+    },
+    {
+      "text": "contact.mocah@lip6.fr",
+      "href": "mailto:contact.mocah@lip6.fr"
+    },
+    {
+      "text": "\n\nLa personne retenue devra passer un entretien devant un jury du Sorbonne Center for Artificial Intelligence (SCAI).\n\nLe descriptif détaillé du sujet est disponible ici : "
+    },
+    {
+      "text": "https://nuage.lip6.fr/index.php/s/5QTPmCzTnYyeT6s",
+      "href": "https://nuage.lip6.fr/index.php/s/5QTPmCzTnYyeT6s"
+    },
+    {
+      "text": "\n\nNous vous remercions par avance pour la diffusion de cette offre auprès de vos réseaux."
+    }
+  ]
+}

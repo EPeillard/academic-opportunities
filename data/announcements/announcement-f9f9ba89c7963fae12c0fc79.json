@@ -1,0 +1,28 @@
+{
+  "parts": [
+    {
+      "text": "We are opening a funded PhD topic at LISN, Université Paris-Saclay, on Hybrid Evaluation of Natural Language Queries over Heterogeneous Data Lakes. The full PhD proposal is available here: "
+    },
+    {
+      "text": "https://phparis.net/uploads/topol_phd.pdf",
+      "href": "https://phparis.net/uploads/topol_phd.pdf"
+    },
+    {
+      "text": "\n\nThe PhD will be carried out in the LaHDAK team, in the context of the "
+    },
+    {
+      "text": "TopOL project",
+      "href": "https://topol.inria.fr/"
+    },
+    {
+      "text": ". The general objective is to design methods for answering natural language questions over heterogeneous data lakes combining structured and unstructured sources: relational databases, CSV/JSON/XML files, RDF and property graphs, PDF and text documents, Office documents, open data, and external knowledge sources.\n\nThe thesis will investigate how to combine:\n\n- natural language query interpretation, possibly using AMR-based graph representations;\n- graph-based query evaluation over entities and relationships;\n- vector-based retrieval and RAG over unstructured data;\n- reconciliation of symbolic and neural retrieval results;\n- provenance-aware and explainable answers;\n- estimation of the temporal validity of query answers.\n\nThe application context is data exploration for non-technical users, with a particular focus on investigative journalism, where traceability, confidentiality, and reliability are essential.\n\nThe candidate should have a strong background in computer science and an interest in one or several of the following areas: data management, knowledge graphs, semantic web technologies, information retrieval, natural language processing, retrieval-augmented generation, knowledge representation, or explainable AI.\n\nLocation: LISN, Université Paris-Saclay, France Doctoral school: STIC, Université Paris-Saclay Duration: 36 months Expected start: 2026 Supervision: Fatiha Saïs, Pierre-Henri Paris, and Benoît Groz\n\nInterested candidates may contact using this address: "
+    },
+    {
+      "text": "topol@lisn.upsaclay.fr",
+      "href": "mailto:topol@lisn.upsaclay.fr"
+    },
+    {
+      "text": "\n\nPlease feel free to circulate this announcement to potentially interested Master students or candidates."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "text": "Offre de Thèse de Doctorat en Emotion-Aware Agentic RAG\n\nLaboratoires impliqués :\n\n• LyRIDS de l'ECE Paris ("
+    },
+    {
+      "text": "https://www.ece.fr/lecole-2/le-centre-de-recherche/",
+      "href": "https://www.ece.fr/lecole-2/le-centre-de-recherche/"
+    },
+    {
+      "text": ")\n• IRIT – Université de Toulouse ( "
+    },
+    {
+      "text": "https://www.irit.fr/la-recherche/sujets-scientifiques",
+      "href": "https://www.irit.fr/IRIS/site/"
+    },
+    {
+      "text": ")\n\nDurée : 3 ans (thèse de doctorat)\n\nDébut de thèse : Idéalement Septembre\n\nLe Sujet\n\n•\n\nContexte : Les systèmes de Retrieval-Augmented Generation (RAG) actuels peinent à s'adapter à l'état émotionnel de l'utilisateur. Ils traitent les requêtes de manière uniforme, sans tenir compte de la détresse, de la confusion ou de l'urgence émotionnelle exprimées par l'utilisateur, ce qui limite leur pertinence et leur capacité à instaurer une relation de confiance, notamment dans des situations sensibles.\n\n•\n\nObjectif principal : Concevoir une nouvelle génération de systèmes RAG agentiques capables d'adapter dynamiquement leurs stratégies de recherche, de raisonnement et de génération en fonction de l'état émotionnel multimodal (texte, voix, vidéo) de l'utilisateur. L'enjeu est de développer un raisonnement empathique, explicable et robuste, y compris face à des scénarios impliquant une détresse psychologique.\n\n•\n\nCadre scientifique : Ce projet se situe à l'intersection du Retrieval-Augmented Generation (RAG), des architectures agentiques, des grands modèles de langage (LLMs), de la recherche d'information et de l'IA affective. Les travaux porteront sur la détection multimodale des émotions, leur intégration dans les mécanismes de retrieval, le développement d'architectures Agentic RAG émotionnellement adaptatives, ainsi que sur l'explicabilité des décisions du système.\n\nProfil du candidat\n\nLe candidat doit être titulaire ou en cours d'obtention d'un Master en Informatique, avec une spécialisation en Intelligence Artificielle, Traitement Automatique des Langues (NLP), Recherche d'Information ou Apprentissage Automatique. Une bonne maîtrise du français et de l'anglais (oral et écrit) est requise.\n\nPrincipales responsabilités\n\n• Concevoir et développer une architecture Agentic RAG intégrant des signaux émotionnels multimodaux.\n• Développer des méthodes de détection des émotions à partir du texte, de la voix et de la vidéo.\n• Intégrer ces signaux dans les mécanismes de retrieval et de raisonnement.\n• Étudier des scénarios sensibles impliquant des situations de détresse psychologique, avec une attention particulière à l'applicabilité et à la sécurité des réponses générées.\n• Évaluer l'efficacité du système et contribuer à la diffusion scientifique (publications, conférences).\n• Contribuer aux activités de recherche appliquée en IA, RAG et ingénierie du langage.\n• Participer à la rédaction d'articles scientifiques et autres documents liés aux travaux de recherche.\n\nEncadrement\n\n• Associate Professeur Faiza Belbachir (ECE Paris)\n• Pr Mohand Boughanem (IRIT – Université de Toulouse)\n\nDossier de candidature\n\n• Lettre de motivation\n• CV (incluant relevés de notes et, le cas échéant, liste de publications)\n• Relevés de notes\n\nContact\n\n• Faiza BELBACHIR – LyRIDS, ECE Paris : "
+    },
+    {
+      "text": "fbelbachir@ece.fr",
+      "href": "mailto:fbelbachir@ece.fr"
+    },
+    {
+      "text": "\n\nLe descriptif complet de la thèse est disponible sur demande. N'hésitez pas à diffuser cette offre dans vos réseaux.\n\nEnglish version\n\nPhD Thesis Offer in Emotion-Aware Agentic RAG\n\nInvolved Laboratories:\n\n• LyRIDS at ECE Paris ("
+    },
+    {
+      "text": "https://www.ece.fr/lecole-2/le-centre-de-recherche/",
+      "href": "https://www.ece.fr/lecole-2/le-centre-de-recherche/"
+    },
+    {
+      "text": ")\n• IRIT – University of Toulouse ("
+    },
+    {
+      "text": "https://www.irit.fr/la-recherche/sujets-scientifiques",
+      "href": "https://www.irit.fr/la-recherche/sujets-scientifiques"
+    },
+    {
+      "text": ")\n\nDuration: 3 years (PhD thesis)\n\nStart Date: September, though this may be flexible.\n\nThe Subject\n\n• Context: Current Retrieval-Augmented Generation (RAG) systems struggle to adapt to the user's emotional state. They process queries in a uniform manner, without taking into account the distress, confusion, or emotional urgency expressed by the user, which limits their relevance and their ability to build trust, particularly in sensitive situations.\n• Main Objective: Design a new generation of agentic RAG systems capable of dynamically adapting their retrieval, reasoning, and generation strategies based on the user's multimodal emotional state (text, voice, video). The goal is to develop empathetic, explainable, and robust reasoning, including in scenarios involving psychological distress.\n• Scientific Framework: This project lies at the intersection of Retrieval-Augmented Generation (RAG), agentic architectures, large language models (LLMs), information retrieval, and affective AI. The work will focus on multimodal emotion detection, its integration into retrieval mechanisms, the development of emotionally adaptive Agentic RAG architectures, as well as the explainability of the system's decisions.\n\nCandidate Profile\n\nThe applicant must hold or be nearing completion of a Master's degree in Computer Science, specializing in Artificial Intelligence, Natural Language Processing (NLP), Information Retrieval, or Machine Learning. Proficiency in both French and English (oral and written) is required.\n\nMain Responsibilities\n\n• Design and develop an Agentic RAG architecture integrating multimodal emotional signals.\n• Develop methods for emotion detection from text, voice, and video.\n• Integrate these signals into retrieval and reasoning mechanisms.\n• Study sensitive scenarios involving situations of psychological distress, with particular attention to the explainability and safety of generated responses.\n• Evaluate system effectiveness and contribute to scientific dissemination (publications, conferences).\n• Contribute to applied research activities in AI, RAG, and language engineering.\n• Participate in writing scientific articles and other documents related to research activities.\n\nSupervision\n\n• Associate Professor Faiza Belbachir (ECE Paris)\n• Pr Mohand Boughanem (IRIT – University of Toulouse)\n\nApplication Requirements\n\n• Cover letter\n• CV (including transcripts and, where applicable, a list of publications)\n• Transcripts\n\nContact\n\n• Faiza BELBACHIR – LyRIDS, ECE Paris: "
+    },
+    {
+      "text": "fbelbachir@ece.fr",
+      "href": "mailto:fbelbachir@ece.fr"
+    },
+    {
+      "text": "\n\nThe complete thesis description is available upon request. Feel free to share this offer within your networks."
+    }
+  ]
+}

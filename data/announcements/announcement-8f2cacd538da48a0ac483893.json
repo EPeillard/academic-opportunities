@@ -1,0 +1,70 @@
+{
+  "parts": [
+    {
+      "text": "PhD Student Position in Computer Science\n\nThesis Title: Robust Query Optimization for Parallel Multi-tenant DBMSs\n\nLaboratory: IRIT Lab. ("
+    },
+    {
+      "text": "http://www.irit.fr/",
+      "href": "http://www.irit.fr/"
+    },
+    {
+      "text": ") – University of Toulouse - Toulouse – France\n\nSpecialty of the Doctoral Program: Computer science\n\nSupervisor’s Name: Franck Morvan (morvan@irit.fr <"
+    },
+    {
+      "text": "mailto:morvan@irit.fr",
+      "href": "mailto:morvan@irit.fr"
+    },
+    {
+      "text": ">)\n\nCo-Supervisor’s Name: Marzieh Derakhshannia (Marzieh.derakhshannia@irit.fr <"
+    },
+    {
+      "text": "mailto:Marzieh.derakhshannia@irit.fr",
+      "href": "mailto:Marzieh.derakhshannia@irit.fr"
+    },
+    {
+      "text": ">)\n\nPyramid Team (Dynamic Query Optimization in Large-scale Distributed Environments; "
+    },
+    {
+      "text": "http://www.irit.fr/-Equipe-PYRAMIDE-",
+      "href": "http://www.irit.fr/-Equipe-PYRAMIDE-"
+    },
+    {
+      "text": ") is likely to get a PhD scholarship for 3 years (Doctoral School MITT, "
+    },
+    {
+      "text": "https://ed-mitt.univ-toulouse.fr/as/ed/edmitt/page.pl",
+      "href": "https://ed-mitt.univ-toulouse.fr/as/ed/edmitt/page.pl"
+    },
+    {
+      "text": " ).\n\nAbstract\n\nIn cloud environments, a Database Management System (DBMS) installed on a multi-processor machine and shared by multiple tenants is called a parallel multi-tenant DBMS. Sharing resources in such a DBMS allows tenants to pay only for the resources they consume, while maximizing system profitability. A contract, called a Service Level Agreement (SLA), is therefore established between the service provider and the tenant. This contract defines Service Level Objectives (SLOs) that correspond to the quality of services provided by the provider to the tenant. To achieve these objectives, the DBMS query optimizer generates a query execution plan that guarantees SLOs satisfaction while considering system profitability. For this reason, the optimizer relies on estimations derived from a cost model. These estimations are subject to errors due to parameter value obsolescence, calculation errors, or workload variations. These errors could, on the one hand, prevent the optimizer from achieving its objectives and, on the other hand, lead to excessive resource consumption. The objective of this thesis is to propose robust query optimization methods that allow the optimizer to satisfy defined SLOs while avoiding excessive resource consumption.\n\nKeywords: Parallel multi-tenant DBMS, Query optimization, Cost model, Robustness, SLA design\n\nRequirements & Application\n\nRequirements: The candidate must have a strong background in computer science, particularly in Distributed and Parallel Systems, Data Management Systems, Database Systems, Query Processing and Optimization, Cost Models, Cloud Systems, Programming Languages (e.g. C++, Java, Python).\n\nThe Application should include following documents (PDF format, see: "
+    },
+    {
+      "text": "http://www.edmitt.ups-tlse.fr/",
+      "href": "http://www.edmitt.ups-tlse.fr/"
+    },
+    {
+      "text": " <"
+    },
+    {
+      "text": "https://ed-mitt.univ-toulouse.fr/as/ed/edmitt/page.pl",
+      "href": "https://ed-mitt.univ-toulouse.fr/as/ed/edmitt/page.pl"
+    },
+    {
+      "text": ">):\n\n1- CV mentioning all your degrees\n\n2- Motivation letter from the applicant explaining his/her choice of the proposed thesis subject\n\n3- Recommendation letters\n\n4- Details of your grades since you started higher education with ranking.\n\nApplications in digital form (pdf) should be sent to: morvan@irit.fr <"
+    },
+    {
+      "text": "mailto:morvan@irit.fr",
+      "href": "mailto:morvan@irit.fr"
+    },
+    {
+      "text": "> and marzieh.derakhshannia@irit.fr <"
+    },
+    {
+      "text": "mailto:marzieh.derakhshannia@irit.fr",
+      "href": "mailto:marzieh.derakhshannia@irit.fr"
+    },
+    {
+      "text": ">\n\nFunding: Government scholarship\n\nApplication Deadline: June 22nd, 2026\n\nStart Date: October 1st, 2026\n\nRemuneration: The PhD Scholarship is approximatively 2300 Euros (Brut)."
+    }
+  ]
+}
