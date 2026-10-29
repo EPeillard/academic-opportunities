@@ -1,0 +1,14 @@
+{
+  "parts": [
+    {
+      "text": "Machine Learning for Cell Dynamics\n\nIn biomedicine, single-cell RNA sequencing (scRNA-seq) measures the \nactivity of thousands of genes in individual cells,\nproducing high-dimensional datasets that capture cellular diversity and \ntransitions between cell states.\nIn this internship we aim to reconstruct a dynamical system from noisy \nsnapshots of thousands of genes,\nwhen the underlying biological processes are only partially observed.\nThe challenge is to compress these data into a low-dimensional \nrepresentation while preserving\nthe structure of cell-state transitions, infer the stochastic dynamics \ngoverning these transitions,\nand identify a small set of variables and interactions that explain the \nobserved behaviour.\nThis requires going beyond standard prediction methods to build models \nthat are both interpretable\nand capable of predicting responses to perturbations.\n\nThe internship will develop machine-learning methods based on \nvariational autoencoders (VAEs),\ncombining deep learning, probabilistic modelling and dynamical systems. \nApplications include\ncell differentiation and glioma progression, with the goal of \nunderstanding how cells switch\nbetween states and how these transitions change during tumour \nprogression and treatment resistance.\n\nDetails about this internship are available upon request.\n\nHost team — LPHI, University of Montpellier, CNRS, INSERM\nAn interdisciplinary team specialising in multiscale dynamical modelling \nof biological systems\n(deterministic and probabilistic approaches), machine learning and \nartificial intelligence.\n\nPartner team — IGF, Montpellier\nA team specialising in gliomas, combining clinical data from \nneurosurgery (Prof. Hugues Duffau)\nwith multi-omics data and molecular neuroscience research (Prof. \nJean-Philippe Hugnot).\n\nLocation: LPHI, University of Montpellier, CNRS, INSERM, Montpellier, France\nProfile: Students in applied mathematics, computer science, machine \nlearning or related fields.\nApplication: Send your CV and academic transcripts to \n"
+    },
+    {
+      "text": "ovidiu.radulescu@umontpellier.fr",
+      "href": "mailto:ovidiu.radulescu@umontpellier.fr"
+    },
+    {
+      "text": "\nDeadline: 15 November 2026."
+    }
+  ]
+}

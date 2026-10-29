@@ -1,0 +1,21 @@
+{
+  "parts": [
+    {
+      "text": "Internship offer on \"Similarity measurement of deep latent \nrepresentations under various training configurations\"\n\n*Context*\n\nData acquisition is growing rapidly in fields such as Earth observation, \nmedicine and autonomous driving, driven by more sensors, higher \nacquisition rates and increasingly diverse modalities. In remote \nsensing, optical and radar imagery are now complemented by elevation \nmodels, hyperspectral images, meteorological data and even text. This \nabundance of data is an opportunity to build deep learning models that \nlearn general, structured and meaningful representations.\nHowever, the representation a neural network learns depends on many \nfactors: the input data, the architecture, the training task, and even \nthe random initialization. Two networks trained on the same data for the \nsame task may share some features while each capturing its own specific \nones. Understanding what is shared and what is specific is central to \nmodel robustness, transfer learning and multimodal fusion.\nFormally, we aim to compare two sets of representation vectors, with \noften high dimensionalities. Comparing them is a statistical problem. We \nneed reliable similarity measures that are not sensitive to non linear \ntransformation and noise induced by the learned deep models. Several \nmeasures have been proposed, some are based on canonical correlation \nanalysis (SVCCA, PWCCA) and some on kernel dependence measures (CKA). \nYet these measures can disagree with each other and are sensitive to \noutliers and to the choice of estimator.\n\n*Objectives*\n\nThis internship aims to study, both empirically and statistically, how \nrepresentation similarity measures behave when comparing networks \ntrained in different contexts. Experiments will rely on multimodal Earth \nobservation datasets combining Sentinel-1 (radar) and Sentinel-2 \n(optical) imagery and on standard vision architectures such as \nResNet-18. The work will be guided by two questions:\n\n   *  How can we measure similarity between representation spaces?\n   *  To what extent do the image features encoded in the latent space\n    depend on the training configuration?\n   *  How to identify which image features are common or specific to\n    each training configuration?\n\n*Work plan*\n\nThe intern will:\n\n  1.  Review the literature and implement the main similarity measures\n    (e.g. SVCCA~\\cite{raghu2017svcca}, CKA~\\cite{kornblith2019similarity}).\n  2.  Train a set of models on various scenarios: different monomodal\n    architectures, datasets, input modalities (S1, S2) and tasks.\n  3.  Build a pipeline to extract layer-wise representations and compute\n    the measures.\n  4.  Analyse the results: agreement between measures, statistical\n    significance, robustness to noise.\n  5.  Depending on the progress of the internship, the trainee could\n    also be in charge of exploring new methods to constrain the model\n    representation to focus on common features rather than specific ones.\n\n*Working environment*\n\nThis internship will take place at ICube's building in Illkirch (very \nclose to Strasbourg's southern suburbs).\nYou will be paid according to the regulations in force at the time of \nthe internship (approx. 600€/month net)\n\nDuration and dates :\n\n   * From 5 to 6 months\n  * It may start in February 2027\n\n*Profile and skills required*\n\nThe candidate must be an Msc student in mathematics or computer science.\nRequired skills:\n\n  * Knowledge in linear algebra, probability and statistics.\n  * Good programming skills in Python.\n  * Knowledge in machine learning, particularly deep learning is\n    strongly recommended.\n  * Initial experience with PyTorch is strongly recommended.\n\n*How to apply*\n\nTo apply, please send an e-mail to :\n\n  * "
+    },
+    {
+      "text": "lafabregue@unistra.fr",
+      "href": "mailto:lafabregue@unistra.fr"
+    },
+    {
+      "text": "\n  * "
+    },
+    {
+      "text": "abralet@unistra.fr",
+      "href": "mailto:abralet@unistra.fr"
+    },
+    {
+      "text": "\n\nThe e-mail must contain :\n\n  * CV\n   *  L3 and M1 transcripts (with grades)\n   *  a brief cover letter\n   *  a link to personal project repositories (e.g. GitHub)"
+    }
+  ]
+}

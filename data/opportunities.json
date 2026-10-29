@@ -3936,18 +3936,18 @@
       "Perception & Cognitive Science"
     ],
     "duration": null,
-    "compensation": null,
+    "compensation": "Selon le rôle : généralement 50 à 100 USD/h (PhD), 83 à 100 USD/h (psychologues), selon l’annonce",
     "startDate": null,
     "applicationDeadline": null,
     "contact": "hello@aitraining.jobs",
-    "applicationUrl": null,
+    "applicationUrl": "https://aitraining.jobs/ai-training-jobs-by-profession",
     "description": "Remote, part-time contract opportunities for researchers to evaluate AI answers and write challenging domain problems. The announcement links to a job board covering multiple hiring companies and US-resident roles.",
     "publishedAt": "2026-10-22T19:56:49.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
-        "url": null,
+        "url": "https://aitraining.jobs/ai-training-jobs-by-profession",
         "receivedAt": "2026-10-22T19:56:49.000Z"
       }
     ],
@@ -6472,27 +6472,41 @@
     "title": "Offre de thèse INRIA Grenoble - Chaire AKT-EXPLEARTH",
     "jobType": "PhD",
     "organization": "Inria",
-    "laboratory": "AKT-EXPLEARTH",
+    "laboratory": "mOeX — Inria / LIG, en coopération avec LaRAC",
     "country": "France",
-    "city": "Grenoble",
-    "topics": ["AI & Machine Learning", "Data Science"],
-    "duration": null,
+    "city": "Montbonnot-Saint-Martin",
+    "topics": [
+      "Human–Computer Interaction",
+      "AI & Machine Learning",
+      "Perception & Cognitive Science",
+      "Interdisciplinary"
+    ],
+    "duration": "36 mois",
     "compensation": null,
     "startDate": null,
     "applicationDeadline": null,
     "contact": "cassia.trojahn-dos-santos@univ-grenoble-alpes.fr; erica.devries@univ-grenoble-alpes.fr",
     "applicationUrl": null,
-    "description": "Study novice/expert understanding, computational thinking, trust, and knowledge transfer in AI for weather prediction within AKT-EXPLEARTH.",
+    "description": "Étudier les liens entre expertise, pensée informatique et confiance dans les systèmes d’IA pour la météorologie, dans la chaire AKT-EXPLEARTH. Les recherches impliquent des prévisionnistes de Météo-France et des élèves de l’École nationale de la météorologie.\n\nThèse de 36 mois à Inria Montbonnot, avec le LIG et LaRAC, sous la direction de Cássia Trojahn dos Santos et Erica De Vries. Master en informatique avec ouverture aux sciences sociales, ou informatique et mathématiques appliquées aux sciences sociales. Début et candidature dès que possible ; recrutement soumis à autorisation ZRR. Fournir CV, lettre et références ; rapport et relevés de master appréciés.",
     "publishedAt": "2026-06-30T15:48:18.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
     "sources": [
       {
         "label": "Research vacancy announcement · bulle-i3",
         "url": null,
         "receivedAt": "2026-06-30T15:48:18.000Z"
+      },
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-10-28T14:06:44.000Z"
       }
     ],
     "announcements": [
+      {
+        "id": "announcement-e2050c9ae4c2ae8dd6d6a9c7",
+        "announcedAt": "2026-10-28T14:06:44.000Z"
+      },
       {
         "id": "announcement-6faeb2a55247bbdf82cda824",
         "announcedAt": "2026-06-30T15:48:18.000Z"
@@ -11171,7 +11185,7 @@
       "Perception & Cognitive Science",
       "Human Factors"
     ],
-    "duration": null,
+    "duration": "2 ans, temps plein",
     "compensation": null,
     "startDate": null,
     "applicationDeadline": "2026-11-06",
@@ -11179,7 +11193,7 @@
     "applicationUrl": "https://www.findapostdoc.com/search/Job-Details.aspx?jobcode=12755",
     "description": "Research multimodal affect recognition for inclusive XR, integrating machine learning, computer vision, physiology, and human-participant studies in XR-SENSE.",
     "publishedAt": "2026-10-22T16:05:56.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
@@ -12736,7 +12750,7 @@
     "title": "Professor/Assoc Professor in Human-Centered Embodied AI - University of Michigan Robotics",
     "jobType": "Faculty",
     "organization": "University of Michigan",
-    "laboratory": null,
+    "laboratory": "Robotics Department",
     "country": "United States",
     "city": "Ann Arbor",
     "topics": [
@@ -12748,19 +12762,28 @@
     "compensation": null,
     "startDate": null,
     "applicationDeadline": null,
-    "contact": "-faculty-search@umich.edu",
+    "contact": "robotics-faculty-search@umich.edu",
     "applicationUrl": "https://robotics.umich.edu/jobs/",
-    "description": "Senior faculty appointment in human-centered embodied AI within the Robotics Department, combining research, teaching, and mentorship.",
+    "description": "Senior faculty appointment in human-centered embodied AI within the Robotics Department, combining research, teaching, and mentorship.\n\nLa relance du 28 octobre annonce le début de l’examen le 1er novembre 2026 et une pleine considération pour les candidatures reçues au 15 décembre 2026, puis un examen au fil de l’eau. Ces dates ne constituent pas une clôture définitive.",
     "publishedAt": "2026-10-12T18:57:03.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
         "url": "https://robotics.umich.edu/jobs/",
         "receivedAt": "2026-10-12T18:57:03.000Z"
+      },
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://robotics.umich.edu/jobs/",
+        "receivedAt": "2026-10-28T17:23:15.000Z"
       }
     ],
     "announcements": [
+      {
+        "id": "announcement-4da61e9b3dba214d1638cee6",
+        "announcedAt": "2026-10-28T17:23:15.000Z"
+      },
       {
         "id": "announcement-2bda373c62d1e1720cdc044e",
         "announcedAt": "2026-10-12T18:57:03.000Z"
@@ -16091,5 +16114,372 @@
         "receivedAt": "2026-01-20T12:00:00.000Z"
       }
     ]
+  },
+  {
+    "id": "director-of-the-interdisciplinary-program-in-computing-kenyon-college-2233b8ae",
+    "title": "Director of the Interdisciplinary Program in Computing — Kenyon College",
+    "jobType": "Faculty",
+    "organization": "Kenyon College",
+    "laboratory": "Interdisciplinary Program in Computing",
+    "country": "United States",
+    "city": "Gambier",
+    "topics": ["Interdisciplinary"],
+    "duration": "Poste avec tenure",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://www.dsgco.com/search/23528-kenyon-computing-director/",
+    "description": "Diriger et développer un programme interdisciplinaire reliant l’informatique aux disciplines d’un collège d’arts libéraux. Définir les orientations, développer les collaborations et préparer les étudiants à analyser le rôle de l’informatique dans la société.\n\nQualifications permettant un recrutement avec titularisation (tenure), probablement au rang de full professor ; solide parcours en enseignement, recherche, encadrement et direction de programme, et engagement pour un environnement inclusif. Les modalités figurent dans l’annonce et le profil de poste.",
+    "publishedAt": "2026-10-27T20:23:35.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://www.dsgco.com/search/23528-kenyon-computing-director/",
+        "receivedAt": "2026-10-27T20:23:35.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-399e248acd9e41579625c227",
+        "announcedAt": "2026-10-27T20:23:35.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "ingenieur-en-interoperabilite-semantique-eosc-data-terra-5adcafa5",
+    "title": "Ingénieur en interopérabilité sémantique — EOSC Data Terra",
+    "jobType": "Research Engineer",
+    "organization": "CNRS",
+    "laboratory": "Data Terra — nœud EOSC",
+    "country": "France",
+    "city": null,
+    "topics": ["Data Science", "Software Engineering"],
+    "duration": "CDD ; durée non précisée dans le courriel",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://emploi.cnrs.fr/Offres/CDD/UAR2013-KARLEJ-032/Default.aspx",
+    "description": "Mettre en œuvre des fonctionnalités d’interopérabilité sémantique du nœud EOSC Data Terra et intégrer des services dans la Fédération EOSC. Le poste contribue notamment aux projets CDIF4EOSC et EOSC CONNECT ainsi qu’aux groupes de travail de la fédération. Profil expérimenté en interopérabilité sémantique. Conditions détaillées et candidature sur le portail CNRS.",
+    "publishedAt": "2026-10-28T17:36:32.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": "https://emploi.cnrs.fr/Offres/CDD/UAR2013-KARLEJ-032/Default.aspx",
+        "receivedAt": "2026-10-28T17:36:32.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-5e1ec36586d439832bcd5953",
+        "announcedAt": "2026-10-28T17:36:32.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "postdoc-protection-des-documents-sensibles-par-inference-contextuelle-632e28ea",
+    "title": "Postdoc — Protection des documents sensibles par inférence contextuelle",
+    "jobType": "Postdoc",
+    "organization": "La Rochelle Université / Oodrive",
+    "laboratory": "L3i — laboratoire commun RESILIENCE",
+    "country": "France",
+    "city": "La Rochelle",
+    "topics": ["AI & Machine Learning", "Data Science", "Cybersecurity"],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-11-20",
+    "contact": "a.mokhtari@oodrive.com; ahmed.hamdi@irit.fr; yacine.ghamri@univ-lr.fr",
+    "applicationUrl": null,
+    "description": "Inférer automatiquement le niveau de sensibilité de documents en agrégeant les informations sensibles qu’ils contiennent. Le projet RESILIENCE associe IA, NLP, extraction d’information et cybersécurité. Doctorat en informatique, IA, NLP ou domaine proche ; compétences en analyse de données, modèles de langage et programmation appréciées.\n\nDébut attendu en janvier 2027. Envoyer CV, lettre de motivation, deux contacts de référence et relevés de notes aux trois contacts, avec le préfixe [Post-doc Application] dans l’objet.",
+    "publishedAt": "2026-10-21T09:54:17.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-10-21T09:54:17.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-59c41fd9d271e6f022ce3a2d",
+        "announcedAt": "2026-10-21T09:54:17.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "stage-m2-apprentissage-preservant-la-vie-privee-et-derives-comportementales-b47277e3",
+    "title": "Stage M2 — Apprentissage préservant la vie privée et dérives comportementales",
+    "jobType": "Internship",
+    "organization": "INSA Lyon / INSA Hauts-de-France",
+    "laboratory": "LIRIS / LAMIH — OpenLabs",
+    "country": "France",
+    "city": null,
+    "topics": [
+      "AI & Machine Learning",
+      "Cybersecurity",
+      "Data Science",
+      "Interdisciplinary"
+    ],
+    "duration": "6 mois",
+    "compensation": "Stage rémunéré ; montant non précisé",
+    "startDate": null,
+    "applicationDeadline": "2026-11-08",
+    "contact": "nadia.bennani@insa-lyon.fr; marie.thilliez@uphf.fr",
+    "applicationUrl": null,
+    "description": "Détecter les dérives comportementales à long terme chez les personnes âgées à partir des données de maisons intelligentes. Étudier des approches hybrides d’apprentissage fédéré et de split learning, simuler des architectures centralisées et distribuées, puis comparer performance et protection des données.\n\nStage au choix à l’INSA Lyon (LIRIS) ou à Valenciennes (LAMIH), 35 heures par semaine, début entre février et mars 2027. Profil M2 ; connaissances en apprentissage ou confidentialité appréciées. Candidature par courriel avec CV, relevés M1/M2 et lettre de motivation ; entretien possible fin novembre.",
+    "publishedAt": "2026-10-27T13:52:03.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-10-27T13:52:03.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-e5cef42b3946871f3e71a417",
+        "announcedAt": "2026-10-27T13:52:03.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stage M2 - Apprentissage préservant la vie privée.pdf",
+        "url": "/documents/85e7ff41d7cd7cc2cb7593b4.pdf",
+        "mediaType": "application/pdf",
+        "size": 362311,
+        "receivedAt": "2026-10-27T13:52:03.000Z"
+      }
+    ]
+  },
+  {
+    "id": "stage-m2-cartographie-magnetique-cardiovasculaire-et-jumeau-numerique-097a5ee2",
+    "title": "Stage M2 — Cartographie magnétique cardiovasculaire et jumeau numérique",
+    "jobType": "Internship",
+    "organization": "Université de Montpellier",
+    "laboratory": "PhyMedExp / LIRMM",
+    "country": "France",
+    "city": "Montpellier",
+    "topics": ["AI & Machine Learning", "Data Science", "Interdisciplinary"],
+    "duration": "5 à 6 mois (programme détaillé sur 6 mois)",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "jerome.aze@lirmm.fr; ferial.terki@umontpellier.fr",
+    "applicationUrl": null,
+    "description": "Développer une chaîne reproductible de traitement de signaux magnétiques cardiovasculaires pour estimer des paramètres hémodynamiques et préparer leur intégration dans un jumeau numérique. Le travail associe filtrage, extraction de caractéristiques, estimation de la vitesse de l’onde de pouls, modèles physiologiques et apprentissage interprétable, avec validation sur données cliniques.\n\nProfil M2 ou fin d’études en physique, signal, IA, données ou ingénierie biomédicale ; Python souhaité. Envoyer CV et relevés M1/M2 aux deux encadrants. Le courriel annonce 5 à 6 mois ; le document détaille un programme sur 6 mois.",
+    "publishedAt": "2026-10-23T10:07:41.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-10-23T10:07:41.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-5210cb43f00e83561355c490",
+        "announcedAt": "2026-10-23T10:07:41.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Sujet stage M2 - AAP Biologie-Santé 2027 PhyMedExp_LIRMM.pdf",
+        "url": "/documents/82e6978cefe87c05c287095a.pdf",
+        "mediaType": "application/pdf",
+        "size": 148069,
+        "receivedAt": "2026-10-23T10:07:41.000Z"
+      }
+    ]
+  },
+  {
+    "id": "stage-m2-detection-de-menaces-internes-et-controle-des-fausses-alertes-c2afeb4e",
+    "title": "Stage M2 — Détection de menaces internes et contrôle des fausses alertes",
+    "jobType": "Internship",
+    "organization": "Université de Strasbourg / CNRS",
+    "laboratory": "ICube — équipe SDC",
+    "country": "France",
+    "city": "Illkirch-Graffenstaden",
+    "topics": ["AI & Machine Learning", "Cybersecurity", "Data Science"],
+    "duration": "5 à 6 mois",
+    "compensation": "Selon la réglementation en vigueur",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "nicolas.lachiche@unistra.fr; g.frey@unistra.fr",
+    "applicationUrl": "https://seafile.unistra.fr/f/7e225498c33945ecaf8c/?dl=1",
+    "description": "Étudier la fiabilité de la détection conforme d’anomalies pour les menaces internes : contrôler les fausses alertes malgré les dérives de comportement, la contamination des données de calibration et les disparités entre groupes. Développer un pipeline reproductible, comparer des détecteurs et évaluer les corrections sur CERT, ChimeraLog et/ou LANL.\n\nProfil M2 ou dernière année d’école d’ingénieur en informatique, probabilités/statistiques et Python. Début à partir de février 2027, principalement sur site. Envoyer CV, diplômes, relevés, classement de première année (rang et effectif) et courte lettre aux deux encadrants. Poursuite en thèse possible selon le courriel. Le PDF précise une condition de titre de séjour autorisant le stage pour les candidatures hors UE.",
+    "publishedAt": "2026-10-29T11:02:12.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": "https://seafile.unistra.fr/f/7e225498c33945ecaf8c/?dl=1",
+        "receivedAt": "2026-10-29T11:02:12.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-218ca1025febdecd08728fa4",
+        "announcedAt": "2026-10-29T11:02:12.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stage M2 - Insider threat detection.pdf",
+        "url": "/documents/e1db9ed3b05d31d9209e0ae2.pdf",
+        "mediaType": "application/pdf",
+        "size": 93606,
+        "receivedAt": "2026-10-29T11:02:12.000Z"
+      }
+    ]
+  },
+  {
+    "id": "stage-m2-extraction-dinformation-par-llm-pour-la-surete-et-la-certification-0beffc2e",
+    "title": "Stage M2 — Extraction d’information par LLM pour la sûreté et la certification",
+    "jobType": "Internship",
+    "organization": "ONERA",
+    "laboratory": "DTIS",
+    "country": "France",
+    "city": "Palaiseau",
+    "topics": ["AI & Machine Learning", "Data Science", "Software Engineering"],
+    "duration": "4 à 6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "Christel.Seguin@onera.fr; Olivier.Poitou@onera.fr; valentina.dragos@onera.fr",
+    "applicationUrl": null,
+    "description": "Comparer des stratégies de prompting de grands modèles de langage pour extraire concepts et relations de documents de certification aéronautique. Construire une référence avec des méthodes traditionnelles, puis expérimenter et évaluer les résultats. Python, RAG et LLM attendus ; OWL/RDF et NLP appréciés.\n\nStage M2 ou fin d’études bac+5, sans prolongation en thèse prévue. Le courriel indique mars–août 2027 ; le PDF mentionne une période souhaitée février–août 2027 et une durée de 4 à 6 mois. La date exacte de début reste à convenir.",
+    "publishedAt": "2026-10-27T12:12:33.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-10-27T12:12:33.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-47a254a99f2cabb1dba6dc0a",
+        "announcedAt": "2026-10-27T12:12:33.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stage2026-2027_ONERA_Certif.pdf",
+        "url": "/documents/e7907de57852e07589ab99aa.pdf",
+        "mediaType": "application/pdf",
+        "size": 39113,
+        "receivedAt": "2026-10-27T12:12:33.000Z"
+      }
+    ]
+  },
+  {
+    "id": "stage-m2-machine-learning-for-cell-dynamics-b0056a89",
+    "title": "Stage M2 — Machine Learning for Cell Dynamics",
+    "jobType": "Internship",
+    "organization": "Université de Montpellier / CNRS / INSERM",
+    "laboratory": "LPHI — Computational Systems Biology, en partenariat avec l’IGF",
+    "country": "France",
+    "city": "Montpellier",
+    "topics": ["AI & Machine Learning", "Data Science", "Interdisciplinary"],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-11-15",
+    "contact": "ovidiu.radulescu@umontpellier.fr",
+    "applicationUrl": null,
+    "description": "Reconstruire des systèmes dynamiques interprétables à partir de données biologiques scRNA-seq bruitées et partiellement observées. Développer des méthodes fondées sur des autoencodeurs variationnels pour réduire la dimension, inférer les transitions cellulaires et prédire les réponses aux perturbations, avec des applications à la différenciation et à la progression des gliomes.\n\nProfil mathématiques appliquées, informatique, apprentissage automatique ou domaine proche. Envoyer CV et relevés de notes à Ovidiu Radulescu ; détails complémentaires sur demande.",
+    "publishedAt": "2026-10-29T10:01:28.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-10-29T10:01:28.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-e75989034b1f3d0b724680db",
+        "announcedAt": "2026-10-29T10:01:28.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "stage-m2-reconnaissance-dactivites-humaines-et-synthese-de-donnees-87795f40",
+    "title": "Stage M2 — Reconnaissance d’activités humaines et synthèse de données",
+    "jobType": "Internship",
+    "organization": "IMT Atlantique / IMT Nord Europe",
+    "laboratory": "Lab-STICC — RAMBO / CERI SN — HIDE",
+    "country": "France",
+    "city": "Plouzané",
+    "topics": ["AI & Machine Learning", "Data Science", "Interdisciplinary"],
+    "duration": "6 mois",
+    "compensation": "4,50 € par heure, soit environ 580 à 640 € par mois",
+    "startDate": null,
+    "applicationDeadline": "2026-12-01",
+    "contact": "christophe.lohr@imt-atlantique.fr; mihai.andries@imt-atlantique.fr; anthony.fleury@imt-nord-europe.fr",
+    "applicationUrl": null,
+    "description": "Le projet ObsAVQ vise à produire des rapports d’activités de la vie quotidienne pour le suivi à domicile. Générer des journaux synthétiques à partir de modèles comportementaux, puis entraîner et évaluer des méthodes d’apprentissage pour identifier les anomalies sur le sommeil, l’alimentation et les interactions sociales.\n\nProfil M2 informatique, programmation et apprentissage automatique, français et anglais. Stage sur le campus de Brest, début en janvier ou février 2027. Envoyer CV, lettre et relevés M1/M2 ; entretien d’environ 30 minutes.",
+    "publishedAt": "2026-10-22T13:09:00.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-10-22T13:09:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-5c0feca7f57e19721f6a2a3a",
+        "announcedAt": "2026-10-22T13:09:00.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "stage-m2-similarite-des-representations-latentes-profondes-51e196d8",
+    "title": "Stage M2 — Similarité des représentations latentes profondes",
+    "jobType": "Internship",
+    "organization": "Université de Strasbourg",
+    "laboratory": "ICube",
+    "country": "France",
+    "city": "Illkirch-Graffenstaden",
+    "topics": ["AI & Machine Learning", "Data Science", "Computer Vision"],
+    "duration": "5 à 6 mois",
+    "compensation": "Environ 600 € net par mois, selon la réglementation en vigueur",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "lafabregue@unistra.fr; abralet@unistra.fr",
+    "applicationUrl": null,
+    "description": "Étudier statistiquement et expérimentalement la similarité des représentations apprises par des réseaux de neurones selon les architectures, modalités et tâches. Comparer SVCCA, PWCCA et CKA sur des images Sentinel-1/Sentinel-2 et des architectures telles que ResNet-18, puis analyser robustesse au bruit, significativité et caractéristiques communes ou spécifiques.\n\nProfil master en mathématiques ou informatique, Python, algèbre linéaire, probabilités et statistiques ; deep learning et PyTorch recommandés. Début possible en février 2027. Envoyer CV, relevés L3/M1, courte lettre et liens vers des projets personnels aux deux encadrants.",
+    "publishedAt": "2026-10-28T16:08:36.000Z",
+    "updatedAt": "2026-10-29T14:52:12.316Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-10-28T16:08:36.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-ff33b530c0e23916663f799e",
+        "announcedAt": "2026-10-28T16:08:36.000Z"
+      }
+    ],
+    "attachments": []
   }
 ]

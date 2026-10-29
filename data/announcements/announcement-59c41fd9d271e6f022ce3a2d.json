@@ -1,0 +1,42 @@
+{
+  "parts": [
+    {
+      "text": "Dear colleagues,\nWe are seeking applications for a postdoctoral position in Computer Science, Artificial Intelligence, NLP or a related field, on the following topic:\n\"Sensitive Document Protection: Contextual Inference of Document Sensitivity Levels through the Aggregation of Sensitive Intra-document Information\"\nApplication deadline: November 20, 2026\nExpected starting date: January 2027\nThe postdoc will work on methods for automatically inferring document sensitivity levels by aggregating and analyzing sensitive information distributed throughout a document. The research lies at the intersection of Artificial Intelligence, NLP, Information Extraction, Data Science, and document analysis, with applications to sensitive document protection and cybersecurity.\nWe particularly welcome candidates with expertise in one or more of the following areas:\n * Data Science: data mining, information retrieval, and data analysis. * Artificial Intelligence: machine learning, deep learning, agentic AI, large language models (LLMs), and generative AI. * Document Analysis: document understanding, information extraction, and document classification. * Cybersecurity: knowledge of cybersecurity concepts and Cyber Threat Intelligence. * Programming: strong programming skills in Python and/or other languages such as Java or C/C++. * Communication: good written and spoken English skills.\nInterested candidates should submit the following documents:\n * A detailed CV. * A cover letter. * Contact details for two academic or professional references. * Academic transcripts.\nApplications should be sent by email to all three contacts below:\n * Amdjed Mokhtari, R&I Manager, Oodrive "
+    },
+    {
+      "text": "a.mokhtari@oodrive.com",
+      "href": "mailto:a.mokhtari@oodrive.com"
+    },
+    {
+      "text": " * Ahmed Hamdi, Associate Professor, Université Toulouse Capitole "
+    },
+    {
+      "text": "ahmed.hamdi@irit.fr",
+      "href": "mailto:ahmed.hamdi@irit.fr"
+    },
+    {
+      "text": "  * Yacine Ghamri-Doudane, Full Professor, La Rochelle Université "
+    },
+    {
+      "text": "yacine.ghamri@univ-lr.fr",
+      "href": "mailto:yacine.ghamri@univ-lr.fr"
+    },
+    {
+      "text": "\nPlease include [Post-doc Application] as the email subject prefix. Applications that do not include this prefix may be overlooked.\nThis postdoctoral position will be based at L3i lab (La Rochelle - France). It is part of RESILIENCE, a joint laboratory between La Rochelle Université and Oodrive, a French provider of sovereign cloud and SaaS solutions headquartered in Paris. The laboratory is funded by the French National Research Agency (ANR).\nFurther information about the RESILIENCE project is available at:\n * French: "
+    },
+    {
+      "text": "https://anr.fr/Projet-ANR-24-LCV2-0023",
+      "href": "https://anr.fr/Projet-ANR-24-LCV2-0023"
+    },
+    {
+      "text": " * English: "
+    },
+    {
+      "text": "https://anr.fr/en/funded-projects-and-impact/funded-projects/project/funded/project/b2d9d3668f92a3b9fbbf7866072501ef-298147309a/?tx_anrprojects_funded%5Bcontroller%5D=Funded&cHash=9818978829926582f83034816798bd44",
+      "href": "https://anr.fr/en/funded-projects-and-impact/funded-projects/project/funded/project/b2d9d3668f92a3b9fbbf7866072501ef-298147309a/?tx_anrprojects_funded%5Bcontroller%5D=Funded&cHash=9818978829926582f83034816798bd44"
+    },
+    {
+      "text": "\nWe would be grateful if you could circulate this announcement among colleagues, research groups, and potential candidates who may be interested in this opportunity."
+    }
+  ]
+}

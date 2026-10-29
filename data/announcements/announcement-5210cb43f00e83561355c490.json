@@ -1,0 +1,21 @@
+{
+  "parts": [
+    {
+      "text": "Bonjour,\n\nNous proposons un stage de Master 2 / fin d’études (5–6 mois) au sein \ndes laboratoires LIRMM et PhyMedExp, sur la thématique suivante : \n\"Cartographie magnétique cardiovasculaire non invasive et intelligence \nartificielle : vers le développement d’un jumeau numérique pour le suivi \ndes maladies chroniques\".\n\nLe ou la stagiaire participera notamment à :\n\n  * Analyser les signaux magnétiques cardiovasculaires et identifier les\n    informations pertinentes sur le plan physiologique.\n  * Extraire des caractéristiques temporelles et fréquentielles des\n    signaux : amplitude, temps de montée systolique, position des pics,\n    retards temporels entre capteurs, décalage de corrélation croisée et\n    composantes fréquentielles.\n  * Explorer des méthodes d’estimation de la vitesse de l’onde de pouls\n    (VOP) et de paramètres vasculaires associés.\n  * Développer un premier cadre de modélisation physiologique reliant\n    les caractéristiques magnétiques aux paramètres hémodynamiques.\n  * Comparer les estimations obtenues aux mesures de référence\n    disponibles, notamment aux paramètres issus de mesures Doppler,\n    lorsque celles-ci sont disponibles\n\nLe profil recherché est un étudiant ou une étudiante en Master 2 dans \nl’un des domaines suivants :\n\n  * Physique, physique biomédicale ou instrumentation.\n  * Traitement du signal et traitement de données expérimentales.\n  * Intelligence artificielle, apprentissage automatique ou science des\n    données.\n  * Ingénierie biomédicale ou modélisation des systèmes physiologiques.\n\nDes connaissances en programmation scientifique, notamment Python, ainsi \nqu’un intérêt pour les applications de l’intelligence artificielle à la \nsanté sont souhaités. Une appétence pour les approches \ninterdisciplinaires associant physique, numérique et médecine sera \nparticulièrement appréciée.\n\n*Candidature*\nMerci d’envoyer :\n\n  * un CV,\n  * les relevés de notes de M1 et M2 (si disponibles),\n\naux adresses suivantes : "
+    },
+    {
+      "text": "jerome.aze@lirmm.fr",
+      "href": "mailto:jerome.aze@lirmm.fr"
+    },
+    {
+      "text": " et \n"
+    },
+    {
+      "text": "ferial.terki@umontpellier.fr",
+      "href": "mailto:ferial.terki@umontpellier.fr"
+    },
+    {
+      "text": "**"
+    }
+  ]
+}
