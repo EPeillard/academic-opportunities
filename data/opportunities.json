@@ -12164,7 +12164,7 @@
   },
   {
     "id": "poste-mcf-en-informatique-cnu-27-universite-de-la-nouvelle-caledonie-del-916ef7d5",
-    "title": "Poste MCF en informatique (CNU 27) ? Université de la Nouvelle-Calédonie ? Délégation ? Rentrée février 2027",
+    "title": "Maître de conférences en informatique (CNU 27) — Délégation, Université de la Nouvelle-Calédonie",
     "jobType": "Faculty",
     "organization": "Université de la Nouvelle-Calédonie",
     "laboratory": null,
@@ -12172,22 +12172,31 @@
     "city": null,
     "topics": ["Interdisciplinary"],
     "duration": null,
-    "compensation": null,
+    "compensation": "Rémunération, primes et indemnités indexées à 1,73 ; indemnités d’éloignement et frais de changement de résidence",
     "startDate": "2027-02-01",
-    "applicationDeadline": "2026-11-01",
+    "applicationDeadline": "2026-11-15",
     "contact": "recrutement-enseignants@unc.nc; mathieu.buffet@unc.nc",
     "applicationUrl": "https://unc.nc/utile/recrutement/recrutement-emplois-stages/",
-    "description": "Computer science lectureship by delegation in the Sciences, Techniques et Santé department, intended for established MCF staff and starting in February 2027.",
+    "description": "Poste de maître ou maîtresse de conférences en informatique (CNU 27), au département Sciences, Techniques et Santé, ouvert par voie de délégation aux MCF titulaires. Prise de poste prévue au 1er février 2027.\n\nLa relance prolonge l’échéance au dimanche 15 novembre 2026. Envoyer lettre de motivation, CV, dernier arrêté de promotion et d’affectation et copie d’une pièce d’identité à recrutement-enseignants@unc.nc. Rémunération, primes et indemnités indexées à 1,73, avec indemnités d’éloignement et frais de changement de résidence.",
     "publishedAt": "2026-10-19T04:23:04.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-11-03T08:56:29.151Z",
     "sources": [
       {
         "label": "Research vacancy announcement · bulle-i3",
         "url": "https://unc.nc/utile/recrutement/recrutement-emplois-stages/",
         "receivedAt": "2026-10-19T04:23:04.000Z"
+      },
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": "https://unc.nc/utile/recrutement/recrutement-emplois-stages/",
+        "receivedAt": "2026-11-01T19:49:58.000Z"
       }
     ],
     "announcements": [
+      {
+        "id": "announcement-6aecd746a0c6fa929137b9fd",
+        "announcedAt": "2026-11-01T19:49:58.000Z"
+      },
       {
         "id": "announcement-cd782e1d1f7cc31e782a0ed0",
         "announcedAt": "2026-10-19T04:23:04.000Z"
@@ -16478,6 +16487,360 @@
       {
         "id": "announcement-ff33b530c0e23916663f799e",
         "announcedAt": "2026-10-28T16:08:36.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "lirmm-stage-diagrammes-stratigraphiques-21f400fc",
+    "title": "Stage M2 — Visualisation de diagrammes stratigraphiques pour l’archéologie",
+    "jobType": "Internship",
+    "organization": "Université de Montpellier",
+    "laboratory": "LIRMM — équipe ADVANSE",
+    "country": "France",
+    "city": "Montpellier",
+    "topics": ["Graphics & Visualization", "Data Science", "Interdisciplinary"],
+    "duration": "5 à 6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "arnaud.sallaberry@lirmm.fr; maximilien.servajean@lirmm.fr",
+    "applicationUrl": "https://www.lirmm.fr/~sallaberry/content-job/Stage_LIRMM_Diagrammes_stratigraphiques.pdf",
+    "description": "Répertorier les pratiques de représentation des matrices de Harris, proposer un modèle uniforme et concevoir un algorithme de dessin de diagrammes stratigraphiques. Le travail porte sur des graphes orientés acycliques et leurs dessins hiérarchiques, orthogonaux et planaires, puis sur une évaluation quantitative et qualitative avec les archéologues.\n\nProfil M2 ou dernière année d’école d’ingénieur, théorie des graphes, visualisation et solides bases en algorithmique et programmation ; bibliothèques graphiques et anglais appréciés. Stage de 5 ou 6 mois, début souhaité début mars, période adaptable ; le document ne précise pas l’année. Poursuite en thèse envisageable selon les résultats et un financement. Envoyer CV, lettre et relevés aux deux encadrants.",
+    "publishedAt": "2026-10-30T06:30:48.000Z",
+    "updatedAt": "2026-11-03T08:56:29.151Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · GDR IHM",
+        "url": "https://www.lirmm.fr/~sallaberry/content-job/Stage_LIRMM_Diagrammes_stratigraphiques.pdf",
+        "receivedAt": "2026-10-30T06:30:48.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-3db58c35047c350ec6fbaa2e",
+        "announcedAt": "2026-10-30T06:30:48.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stage_LIRMM_Diagrammes_stratigraphiques.pdf",
+        "url": "/documents/5effd99e3b131e33d0b1fbed.pdf",
+        "mediaType": "application/pdf",
+        "size": 216119,
+        "receivedAt": "2026-10-30T06:30:48.000Z"
+      }
+    ]
+  },
+  {
+    "id": "lirmm-stage-visualisation-assemblages-especes-40d71c37",
+    "title": "Stage M2 — Visualisation d’assemblages d’espèces et données environnementales",
+    "jobType": "Internship",
+    "organization": "Université de Montpellier",
+    "laboratory": "LIRMM — équipe ADVANSE",
+    "country": "France",
+    "city": "Montpellier",
+    "topics": [
+      "Human–Computer Interaction",
+      "Graphics & Visualization",
+      "AI & Machine Learning",
+      "Data Science",
+      "Interdisciplinary"
+    ],
+    "duration": "5 à 6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "arnaud.sallaberry@lirmm.fr; maximilien.servajean@lirmm.fr",
+    "applicationUrl": "https://www.lirmm.fr/~sallaberry/content-job/Stage_LIRMM_Visualisation_assemblages.pdf",
+    "description": "Concevoir et évaluer des visualisations interactives pour explorer et comparer des milliers d’assemblages d’espèces produits par des modèles génératifs. Le stage associe analyse des besoins des écologues, représentations à plusieurs niveaux de détail, visualisation de l’incertitude et comparaison de données séquentielles.\n\nProfil M2 ou dernière année d’école d’ingénieur, deep learning et/ou visualisation, programmation ; D3.js et anglais appréciés. Stage de 5 ou 6 mois, début souhaité début mars, période adaptable ; le document ne précise pas l’année. Poursuite en thèse envisageable selon les résultats et un financement. Envoyer CV, lettre et relevés aux deux encadrants.",
+    "publishedAt": "2026-10-30T06:30:48.000Z",
+    "updatedAt": "2026-11-03T08:56:29.151Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · GDR IHM",
+        "url": "https://www.lirmm.fr/~sallaberry/content-job/Stage_LIRMM_Visualisation_assemblages.pdf",
+        "receivedAt": "2026-10-30T06:30:48.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-3db58c35047c350ec6fbaa2e",
+        "announcedAt": "2026-10-30T06:30:48.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stage_LIRMM_Visualisation_assemblages.pdf",
+        "url": "/documents/753eab7a3c85208c35644ce4.pdf",
+        "mediaType": "application/pdf",
+        "size": 112577,
+        "receivedAt": "2026-10-30T06:30:48.000Z"
+      }
+    ]
+  },
+  {
+    "id": "sdu-postdoc-test-free-program-repair-0435fbb3",
+    "title": "Postdoc — Program Analysis and Repository Mining",
+    "jobType": "Postdoc",
+    "organization": "University of Southern Denmark",
+    "laboratory": "Software Engineering section",
+    "country": "Denmark",
+    "city": "Odense",
+    "topics": ["Software Engineering"],
+    "duration": "2 ans",
+    "compensation": null,
+    "startDate": "2027-02-01",
+    "applicationDeadline": "2026-11-15",
+    "contact": "Abhishek Tiwari — abti@mmmi.sdu.dk",
+    "applicationUrl": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4341",
+    "description": "Le projet VILLUM Experiment « Is Correctness Necessary? An Experiment in Test-Free Program Repair » étudie la réparation de défauts logiciels à partir des informations présentes dans le code, sans tests ou spécifications conventionnels. Travaux en langages de programmation, analyse de programmes et fouille de dépôts logiciels.\n\nProfil en langages de programmation, génie logiciel ou domaine proche ; analyse statique appréciée. Contrat de deux ans, début souhaité le 1er février 2027. Détails et candidature sur le portail SDU.",
+    "publishedAt": "2026-10-29T15:35:23.000Z",
+    "updatedAt": "2026-11-03T08:56:29.151Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4341",
+        "receivedAt": "2026-10-29T15:35:23.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-5c36bf57512ea52e8fe098d2",
+        "announcedAt": "2026-10-29T15:35:23.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "utah-faculty-teams-game-development-esports-26289519",
+    "title": "Associate / Full Professor — Teams in Game Development, Game Play and Esports",
+    "jobType": "Faculty",
+    "organization": "University of Utah",
+    "laboratory": "Division of Games",
+    "country": "United States",
+    "city": "Salt Lake City",
+    "topics": [
+      "Human–Computer Interaction",
+      "AI & Machine Learning",
+      "Interdisciplinary"
+    ],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://employment.utah.edu/salt-lake-city-ut/associatefull-professor-in-teams-in-game-development-game-play-andor-esports/2DA706E6B20B44369256BCC408E23A12/job/",
+    "description": "Étudier comment les équipes, groupes et organisations créent, se coordonnent et innovent dans le développement de jeux, le jeu collectif et les mondes virtuels. Les thèmes comprennent cognition collective, conception collaborative, IHM pour les équipes de création, processus de production, performance en esports et collaboration humain–IA.\n\nLa personne recrutée dirigera un programme de recherche financé sur ressources externes et contribuera aux recherches doctorales et interdisciplinaires. Recrutement Associate ou Full Professor dans le cadre de l’investissement PRESS PLAY ; prise de poste annoncée en juillet 2027.",
+    "publishedAt": "2026-11-01T21:26:47.000Z",
+    "updatedAt": "2026-11-03T08:56:29.151Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://employment.utah.edu/salt-lake-city-ut/associatefull-professor-in-teams-in-game-development-game-play-andor-esports/2DA706E6B20B44369256BCC408E23A12/job/",
+        "receivedAt": "2026-11-01T21:26:47.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-85b61f188b95af03e07f1144",
+        "announcedAt": "2026-11-01T21:26:47.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "arizona-faculty-computer-science-27440-2cfa963c",
+    "title": "Assistant / Associate / Full Professor — Computer Science, University of Arizona",
+    "jobType": "Faculty",
+    "organization": "University of Arizona",
+    "laboratory": "Department of Computer Science",
+    "country": "United States",
+    "city": null,
+    "topics": [
+      "Human–Computer Interaction",
+      "Graphics & Visualization",
+      "Interdisciplinary"
+    ],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://arizona.csod.com/ux/ats/careersite/4/home/requisition/27440?c=arizona",
+    "description": "Recrutement tenure-track ou avec tenure, ouvert à tous les domaines de l’informatique, notamment la visualisation et l’interaction humain–machine. Le département souhaite développer ses collaborations avec les sciences cognitives et d’autres disciplines.\n\nLa date préférentielle de candidature annoncée est le 15 novembre 2026 ; elle ne constitue pas une date de clôture définitive. Candidature sur le portail de l’université, référence 27440.",
+    "publishedAt": "2026-10-29T18:42:03.000Z",
+    "updatedAt": "2026-11-03T08:56:29.151Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://arizona.csod.com/ux/ats/careersite/4/home/requisition/27440?c=arizona",
+        "receivedAt": "2026-10-29T18:42:03.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-2d5d5f4d57ec30baff1942b4",
+        "announcedAt": "2026-10-29T18:42:03.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "arizona-faculty-director-cognitive-science-27388-8c3f76c0",
+    "title": "Associate / Full Professor — Computer Science and Director of Cognitive Science",
+    "jobType": "Faculty",
+    "organization": "University of Arizona",
+    "laboratory": "Department of Computer Science / Cognitive Science",
+    "country": "United States",
+    "city": null,
+    "topics": [
+      "Human–Computer Interaction",
+      "Graphics & Visualization",
+      "AI & Machine Learning",
+      "Perception & Cognitive Science",
+      "Interdisciplinary"
+    ],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://arizona.csod.com/ux/ats/careersite/4/home/requisition/27388?c=arizona",
+    "description": "Recrutement avec tenure associant un poste Associate ou Full Professor en informatique à la direction des sciences cognitives. Le profil recherché porte sur l’IA et les domaines associés, notamment l’IHM, la visualisation et la perception visuelle.\n\nLa date préférentielle de candidature annoncée est le 16 novembre 2026 ; elle ne constitue pas une date de clôture définitive. Candidature sur le portail de l’université, référence 27388.",
+    "publishedAt": "2026-10-29T18:42:03.000Z",
+    "updatedAt": "2026-11-03T08:56:29.151Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://arizona.csod.com/ux/ats/careersite/4/home/requisition/27388?c=arizona",
+        "receivedAt": "2026-10-29T18:42:03.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-2d5d5f4d57ec30baff1942b4",
+        "announcedAt": "2026-10-29T18:42:03.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "florida-state-phd-whales-human-ai-2027-4415ed01",
+    "title": "PhD positions — Human–AI Collaborative Visual Systems, WHALES Lab",
+    "jobType": "PhD",
+    "organization": "Florida State University",
+    "laboratory": "WHALES Lab — Department of Computer Science",
+    "country": "United States",
+    "city": null,
+    "topics": [
+      "Human–Computer Interaction",
+      "Graphics & Visualization",
+      "AI & Machine Learning"
+    ],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://wangyifang.top/recruitingPage",
+    "description": "Le groupe de Yifang Wang recrute plusieurs doctorants pour l’automne 2027. Ses recherches portent sur la collaboration entre humains et IA et sur les systèmes visuels collaboratifs pour la science. Les modalités de candidature sont indiquées sur la page de recrutement du laboratoire.\n\nLe groupe accueille également des stagiaires de recherche et des étudiants et chercheurs invités tout au long de l’année ; ces accueils ne sont pas décrits comme des postes distincts dans le courriel.",
+    "publishedAt": "2026-11-01T04:57:00.000Z",
+    "updatedAt": "2026-11-03T08:56:29.151Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://wangyifang.top/recruitingPage",
+        "receivedAt": "2026-11-01T04:57:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-e7b96fe000eec2c5457c4be0",
+        "announcedAt": "2026-11-01T04:57:00.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "liris-postdoc-eidos-rendu-differentiable-gaussian-splatting-589e9998",
+    "title": "Postdoc — Représentation 3D éditable, rendu différentiable et Gaussian Splatting",
+    "jobType": "Postdoc",
+    "organization": "Université Claude Bernard Lyon 1",
+    "laboratory": "LIRIS — équipe ORIGAMI, projet EIDOS",
+    "country": "France",
+    "city": null,
+    "topics": [
+      "Graphics & Visualization",
+      "Computer Vision",
+      "Extended Reality",
+      "Software Engineering"
+    ],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "jean-philippe.farrugia@univ-lyon1.fr; fabrice.jaillet@univ-lyon1.fr",
+    "applicationUrl": "https://annonces.asso-afig.fr/annonces/data_base/20260925/20260925_liris_villeurbanne_3.pdf",
+    "description": "Développer une représentation 3D unifiée associant 3D Gaussian Splatting et maillages opaques afin de rendre les scènes éditables, structurées et interopérables. Les travaux abordent reconstruction par rendu différentiable, édition sémantique et géométrique, apparence liée à la capture et performances Web. Les prototypes seront validés dans HERA puis contribueront à l’industrialisation par Speedernet, pour la formation et la valorisation du patrimoine.\n\nDoctorat en informatique graphique, vision, XR ou domaine proche ; géométrie 3D, reconstruction, rendu et autonomie scientifique appréciés. Travail à l’IUT Lyon 1 à Bourg-en-Bresse et/ou au LIRIS à Lyon/Villeurbanne. Envoyer CV et lettre à Jean-Philippe Farrugia et Fabrice Jaillet. Durée, rémunération et échéance non indiquées.",
+    "publishedAt": "2026-11-02T15:02:32.000Z",
+    "updatedAt": "2026-11-03T08:56:29.151Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://annonces.asso-afig.fr/annonces/data_base/20260925/20260925_liris_villeurbanne_3.pdf",
+        "receivedAt": "2026-11-02T15:02:32.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-eefdab0ab77e0aa38e0b11d8",
+        "announcedAt": "2026-11-02T15:02:32.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "20260925_liris_villeurbanne_3.pdf",
+        "url": "/documents/100dc1206da240801030d16a.pdf",
+        "mediaType": "application/pdf",
+        "size": 657614,
+        "receivedAt": "2026-11-02T15:02:32.000Z"
+      }
+    ]
+  },
+  {
+    "id": "innsbruck-postdoc-interactive-graphics-simulation-16032-47c96878",
+    "title": "Postdoc — Interactive Graphics and Simulation, University of Innsbruck",
+    "jobType": "Postdoc",
+    "organization": "University of Innsbruck",
+    "laboratory": "Interactive Graphics and Simulation (IGS) — Department of Computer Science",
+    "country": "Austria",
+    "city": "Innsbruck",
+    "topics": [
+      "Graphics & Visualization",
+      "Extended Reality",
+      "Interdisciplinary"
+    ],
+    "duration": "Jusqu’à 1 an, contrat de remplacement à temps plein",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-11-25",
+    "contact": "Matthias Harders — matthias.harders@uibk.ac.at",
+    "applicationUrl": "https://lfuonline.uibk.ac.at/public/karriereportal.details?asg_id_in=16032",
+    "description": "Postdoctorat à temps plein sur les thèmes du groupe IGS : informatique graphique, simulation physique, planification et assistance chirurgicales, formation et réalité virtuelle ou augmentée. Doctorat dans un domaine pertinent, publications, programmation C/C++/Python et bon anglais attendus ; enseignement et gestion de projet appréciés.\n\nContrat de remplacement initialement proposé pour une durée maximale d’un an. Le poste comprend des cours en licence et master ; un niveau d’allemand adapté à l’enseignement est souhaité. Candidature en ligne avec lettre, projet de recherche, CV et publications, liens vers 2 à 3 publications, au moins trois contacts de référence et diplômes.",
+    "publishedAt": "2026-10-29T16:41:17.000Z",
+    "updatedAt": "2026-11-03T08:56:29.151Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://lfuonline.uibk.ac.at/public/karriereportal.details?asg_id_in=16032",
+        "receivedAt": "2026-10-29T16:41:17.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-7f92a22775a69b16c349c694",
+        "announcedAt": "2026-10-29T16:41:17.000Z"
       }
     ],
     "attachments": []
