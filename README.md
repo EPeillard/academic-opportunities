@@ -1,10 +1,16 @@
 # Academic Opportunities
 
-Catalogue public d’offres académiques et de recherche, maintenu manuellement.
+Catalogue public d’offres académiques et de recherche, alimenté par imports et par une revue quotidienne des courriels transférés.
 
 **[Consulter le site](https://jobs.etiennepeillard.com/)**
 
-Les fiches proviennent de `data/opportunities.json`. Le site est entièrement statique : recherche, filtres, pagination et détails fonctionnent dans le navigateur. Il ne dépend d’aucune API, base distante, connexion OAuth, réception de courriels, file d’attente, tâche planifiée ou service d’extraction. Les fiches conservent le texte utile des annonces et ses liens. Les pièces jointes décrivant les postes sont consultables et téléchargeables depuis les fiches. Les fichiers de courriel originaux, les en-têtes et les signatures ne sont pas publiés.
+Les fiches proviennent de `data/opportunities.json`. Le site est entièrement statique : recherche, filtres, pagination et détails fonctionnent dans le navigateur. Une réception de courriels privée, indépendante du site public, conserve les messages transférés pour une revue quotidienne dans Codex. Les fiches conservent le texte utile des annonces et ses liens. Les pièces jointes décrivant les postes sont consultables et téléchargeables depuis les fiches. Les fichiers de courriel originaux, les en-têtes et les signatures ne sont pas publiés.
+
+## Réception et traitement quotidien
+
+Le Worker `academic-opportunities-inbox`, configuré dans `wrangler.inbox.jsonc`, reçoit les messages par Cloudflare Email Routing et conserve leur MIME complet, pièces jointes incluses, dans le bucket R2 privé du même nom. Le routage utilise un sous-domaine séparé ; les enregistrements MX OVH du domaine principal sont conservés. Le Worker n’expose aucune boîte aux lettres par HTTP. La limite applicative est de 20 Mio par message. La réception attend la fin du stockage ; les erreurs de stockage remontent pour permettre une nouvelle tentative de livraison.
+
+La tâche quotidienne Codex consulte les nouveaux messages, les compare au catalogue, extrait les recrutements et publie les mises à jour validées. Elle conserve dans R2 un reçu privé par message traité pour éviter les réimportations ; les erreurs restent à reprendre. Voir [le protocole de traitement](docs/inbox-processing.md). Les messages bruts restent privés et ne sont pas supprimés automatiquement.
 
 ## Mettre à jour les offres
 
@@ -62,7 +68,7 @@ Pour publier depuis un poste déjà authentifié auprès de Cloudflare : `npm ru
 
 Le workflow manuel **Audit Cloudflare resources (read only)** inventorie les ressources dont le nom commence par `academic-opportunities`. Il utilise uniquement des requêtes GET, ne consulte aucun courriel ni contenu de base et ne lit pas les valeurs des secrets. Son rapport est conservé sept jours comme artefact GitHub ; les permissions manquantes sont signalées comme des vérifications non réalisées, jamais comme une absence de ressources.
 
-Le Worker `academic-opportunities` et l’accès servant les fichiers statiques doivent être conservés. Les anciens Workers de collecte/extraction, crons, consommateurs de queues et règles de routage d’e-mails sont à débrancher s’ils existent encore. D1, R2 et les queues historiques ne sont plus nécessaires au site ; vérifier leurs données et leurs autres utilisateurs avant suppression. Les redirections externes (Gmail, listes) et connexions OAuth se vérifient séparément. Le jeton de publication doit rester actif avec les seules permissions nécessaires au déploiement.
+Le Worker `academic-opportunities` et l’accès servant les fichiers statiques doivent être conservés, ainsi que le Worker, le bucket R2 et la règle Email Routing `academic-opportunities-inbox`. Le sous-domaine de réception ne doit pas être désactivé. Les anciens Workers de collecte/extraction, crons et consommateurs de queues restent indépendants de ce nouveau circuit. Les ressources historiques D1, R2 et queues éventuelles ne doivent être supprimées qu’après vérification de leurs données et de leurs autres utilisateurs. Le jeton de publication doit rester actif avec les seules permissions nécessaires au déploiement.
 
 ## Comportement
 

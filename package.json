@@ -9,7 +9,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "npm run validate:data && vite build",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run",
+    "test": "vitest run && node --test tests/inbox.test.mjs",
     "check": "npm run format:check && npm run typecheck && npm test && npm run build",
     "preview": "vite preview --host 127.0.0.1",
     "validate:data": "tsx scripts/validate-data.ts",
