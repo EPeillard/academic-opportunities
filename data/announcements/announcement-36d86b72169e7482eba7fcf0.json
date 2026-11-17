@@ -1,0 +1,21 @@
+{
+  "parts": [
+    {
+      "text": "Titre : Planification d'itinéraires sous contraintes spatio-temporelles : vers une hybridation des LLM et du raisonnement symbolique \nLieu : Laboratoire GREYC, CNRS UMR 6072, Université de Caen Normandie , 14000, Caen. \nDurée : 6 mois \nContact : Maroua Bouzid, [ mailto:"
+    },
+    {
+      "text": "maroua.bouzid-mouaddib@unicaen.fr",
+      "href": "mailto:maroua.bouzid-mouaddib@unicaen.fr"
+    },
+    {
+      "text": " | "
+    },
+    {
+      "text": "maroua.bouzid-mouaddib@unicaen.fr",
+      "href": "mailto:maroua.bouzid-mouaddib@unicaen.fr"
+    },
+    {
+      "text": " ] \nDescription : Les modèles de langage (LLM) sont capables d'interpréter des demandes de construction d'itinéraires exprimées en langage naturel. Cependant, ils ne constituent pas, à eux seuls, des moteurs de planification fiables, notamment lorsqu'il s'agit de garantir la satisfaction de contraintes temporelles, spatiales ou combinatoires. Dans ce contexte, une approche hybride combinant IA générative et IA symbolique apparaît particulièrement pertinente. Elle consiste à exploiter les capacités des LLM pour extraire et structurer les connaissances, notamment les préférences et les contraintes exprimées en langage naturel, puis à s'appuyer \nsur des méthodes de raisonnement symbolique et des solveurs de contraintes pour calculer et adapter les itinéraires tout en garantissant le respect des contraintes définies. \n\nUne description plus détaillée du sujet ainsi que les modalités de candidature sont dans le document joint."
+    }
+  ]
+}

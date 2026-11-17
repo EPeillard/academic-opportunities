@@ -2147,30 +2147,53 @@
   },
   {
     "id": "faculty-opportunities-in-hci-at-vanderbilt-university-f7800daa-1",
-    "title": "Assistant Professor in HCI — Vanderbilt University",
+    "title": "Assistant Professor — HCI, Computing + Society et Computational Mind & Behavior",
     "jobType": "Faculty",
     "organization": "Vanderbilt University",
-    "laboratory": null,
+    "laboratory": "College of Connected Computing",
     "country": "United States",
     "city": "Nashville",
-    "topics": ["Human–Computer Interaction", "Interdisciplinary"],
+    "topics": [
+      "Human–Computer Interaction",
+      "AI & Machine Learning",
+      "Perception & Cognitive Science",
+      "Interdisciplinary"
+    ],
     "duration": null,
     "compensation": null,
     "startDate": null,
     "applicationDeadline": null,
-    "contact": null,
+    "contact": "Rachael E. Jack — rachael.e.jack@vanderbilt.edu (Computational Mind & Behavior)",
     "applicationUrl": "https://apply.interfolio.com/196229",
-    "description": "Develop an independent research and teaching programme in usable, accessible, and socially responsible computing.",
+    "description": "Recrutement au College of Connected Computing de Vanderbilt, couvrant notamment l’IHM, Computing + Society et Computational Mind & Behavior. Les nouvelles annonces mettent l’accent sur les perspectives sociales et humanistes de l’informatique, NeuroAI, cognition, langage et interaction, comportements sociaux et intelligence collective.\n\nPour Computing + Society et Computational Mind & Behavior, sélectionner « Humans, Computing and Society » comme domaine principal d’examen ; pour CMB, préciser cet intérêt dans la lettre. Contact CMB : Rachael E. Jack. La campagne CMB annonce une pleine considération pour les dossiers reçus au 1er décembre 2026, sans présenter cette date comme une clôture définitive.",
     "publishedAt": "2026-10-26T14:00:43.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
         "url": "https://apply.interfolio.com/196229",
         "receivedAt": "2026-10-26T14:00:43.000Z"
+      },
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://apply.interfolio.com/196229",
+        "receivedAt": "2026-11-06T16:28:05.000Z"
+      },
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://apply.interfolio.com/196229",
+        "receivedAt": "2026-11-13T19:50:28.000Z"
       }
     ],
     "announcements": [
+      {
+        "id": "announcement-6ccda64739893076962dbbb5",
+        "announcedAt": "2026-11-13T19:50:28.000Z"
+      },
+      {
+        "id": "announcement-7dce94bdc8ed666dce77e1a2",
+        "announcedAt": "2026-11-06T16:28:05.000Z"
+      },
       {
         "id": "announcement-54fb0db1f14db1ebb6485c0f",
         "announcedAt": "2026-10-26T14:00:43.000Z"
@@ -2180,30 +2203,53 @@
   },
   {
     "id": "faculty-opportunities-in-hci-at-vanderbilt-university-f7800daa-2",
-    "title": "Associate Professor in HCI — Vanderbilt University",
+    "title": "Associate / Full Professor — HCI, Computing + Society et Computational Mind & Behavior",
     "jobType": "Faculty",
     "organization": "Vanderbilt University",
-    "laboratory": null,
+    "laboratory": "College of Connected Computing",
     "country": "United States",
     "city": "Nashville",
-    "topics": ["Human–Computer Interaction"],
+    "topics": [
+      "Human–Computer Interaction",
+      "AI & Machine Learning",
+      "Perception & Cognitive Science",
+      "Interdisciplinary"
+    ],
     "duration": null,
     "compensation": null,
     "startDate": null,
     "applicationDeadline": null,
-    "contact": null,
+    "contact": "Rachael E. Jack — rachael.e.jack@vanderbilt.edu (Computational Mind & Behavior)",
     "applicationUrl": "https://apply.interfolio.com/196244",
-    "description": "Contribute research, teaching, and leadership to Vanderbilt’s growing human–computer interaction community.",
+    "description": "Recrutement au College of Connected Computing de Vanderbilt, couvrant notamment l’IHM, Computing + Society et Computational Mind & Behavior. Les nouvelles annonces mettent l’accent sur les perspectives sociales et humanistes de l’informatique, NeuroAI, cognition, langage et interaction, comportements sociaux et intelligence collective.\n\nPour Computing + Society et Computational Mind & Behavior, sélectionner « Humans, Computing and Society » comme domaine principal d’examen ; pour CMB, préciser cet intérêt dans la lettre. Contact CMB : Rachael E. Jack. La campagne CMB annonce une pleine considération pour les dossiers reçus au 1er décembre 2026, sans présenter cette date comme une clôture définitive.",
     "publishedAt": "2026-10-26T14:00:43.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
         "url": "https://apply.interfolio.com/196244",
         "receivedAt": "2026-10-26T14:00:43.000Z"
+      },
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://apply.interfolio.com/196244",
+        "receivedAt": "2026-11-06T16:28:05.000Z"
+      },
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://apply.interfolio.com/196244",
+        "receivedAt": "2026-11-13T19:50:28.000Z"
       }
     ],
     "announcements": [
+      {
+        "id": "announcement-6ccda64739893076962dbbb5",
+        "announcedAt": "2026-11-13T19:50:28.000Z"
+      },
+      {
+        "id": "announcement-7dce94bdc8ed666dce77e1a2",
+        "announcedAt": "2026-11-06T16:28:05.000Z"
+      },
       {
         "id": "announcement-54fb0db1f14db1ebb6485c0f",
         "announcedAt": "2026-10-26T14:00:43.000Z"
@@ -15582,17 +15628,27 @@
     "applicationDeadline": null,
     "contact": "Alexis Paljic — alexis.paljic@minesparis.psl.eu",
     "applicationUrl": "https://www.afxr.org/articles/222039-offre-de-stage-du-croquis-a-lespace-mines-paris-psl",
-    "description": "Le projet Sketch2space associe Mines Paris et l’ENSA Paris-Malaquais pour permettre de dessiner et d’explorer des propositions architecturales en réalité virtuelle. Le stage consiste à intégrer une scène Gaussian Splatting dans Unity, développer une interface de croquis, puis générer des volumes 3D cohérents avec la profondeur et l’échelle du lieu existant.\n\nProfil M2 informatique ou dernière année d’école d’ingénieur : programmation, Unity et bases en apprentissage profond. Une expérience en reconstruction 3D est appréciée. Stage prévu entre février et août 2027, avec début selon le calendrier de formation. Envoyer CV, lettre de motivation et relevés de notes à Alexis Paljic.",
+    "description": "Le projet Sketch2space associe Mines Paris et l’ENSA Paris-Malaquais pour permettre de dessiner et d’explorer des propositions architecturales en réalité virtuelle. Le stage consiste à intégrer une scène Gaussian Splatting dans Unity, développer une interface de croquis, puis générer des volumes 3D cohérents avec la profondeur et l’échelle du lieu existant.\n\nProfil M2 informatique ou dernière année d’école d’ingénieur : programmation, Unity et bases en apprentissage profond. Une expérience en reconstruction 3D est appréciée. Stage prévu entre février et août 2027, avec début selon le calendrier de formation. Envoyer CV, lettre de motivation et relevés de notes à Alexis Paljic.\n\nLa relance du 12 novembre confirme que le stage peut être réalisé en anglais. Le PDF joint demande également les coordonnées de deux personnes pouvant recommander le candidat.",
     "publishedAt": "2026-10-27T12:00:00.000Z",
-    "updatedAt": "2026-10-27T14:36:08.475Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
     "sources": [
       {
         "label": "AFXR — Emplois et Carrières",
         "url": "https://www.afxr.org/articles/222039-offre-de-stage-du-croquis-a-lespace-mines-paris-psl",
         "receivedAt": "2026-10-27T12:00:00.000Z"
+      },
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://www.afxr.org/articles/222039-offre-de-stage-du-croquis-a-lespace-mines-paris-psl",
+        "receivedAt": "2026-11-12T14:45:03.000Z"
       }
     ],
-    "announcements": [],
+    "announcements": [
+      {
+        "id": "announcement-abb59c5d62d440dcaa72fc8a",
+        "announcedAt": "2026-11-12T14:45:03.000Z"
+      }
+    ],
     "attachments": [
       {
         "name": "stage_sketch2space-1.pdf",
@@ -15600,6 +15656,13 @@
         "mediaType": "application/pdf",
         "size": 72772,
         "receivedAt": "2026-10-27T12:00:00.000Z"
+      },
+      {
+        "name": "stage_sketch2space-1.pdf",
+        "url": "/documents/accd5119aadd5deeb1bd1a67.pdf",
+        "mediaType": "application/pdf",
+        "size": 72952,
+        "receivedAt": "2026-11-12T14:45:03.000Z"
       }
     ]
   },
@@ -16844,5 +16907,1178 @@
       }
     ],
     "attachments": []
+  },
+  {
+    "id": "inrae-stage-segmentation-cultures-adventices-2027-d7ac62c1",
+    "title": "Stage M2 — Segmentation faiblement supervisée des cultures et adventices",
+    "jobType": "Internship",
+    "organization": "INRAE",
+    "laboratory": "UR TSCF / UMR TETIS",
+    "country": "France",
+    "city": "Aubière",
+    "topics": ["AI & Machine Learning", "Computer Vision", "Interdisciplinary"],
+    "duration": "6 mois",
+    "compensation": "4,50 € par heure ; repas subventionnés et remboursement partiel des abonnements de transport",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://grist.numerique.gouv.fr/o/docs/forms/hNn26zPBsfobkehJZ1JiCd/55",
+    "description": "Développer une chaîne de segmentation sémantique d’images agricoles à partir d’annotations au niveau de l’image. Étudier classification multi-label, cartes d’activation, pseudo-masques et, selon les résultats, raffinement avec SAM ; évaluer les erreurs selon la densité végétale et les espèces présentes.\n\nProfil M2 ou fin d’école d’ingénieur, Python, apprentissage automatique et framework de deep learning. Stage de six mois à partir de début 2027, date à convenir, encadré par Riccardo Bertoglio et Dino Ienco. Candidature via le formulaire ; liens vers des projets Python/ML appréciés.",
+    "publishedAt": "2026-11-10T15:51:35.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": "https://grist.numerique.gouv.fr/o/docs/forms/hNn26zPBsfobkehJZ1JiCd/55",
+        "receivedAt": "2026-11-10T15:51:35.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-8db1f2411d346eda558d5dde",
+        "announcedAt": "2026-11-10T15:51:35.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Offre_Stage_M2_2027_Segmentation_adventices.pdf",
+        "url": "/documents/5bd7fe51bd29d2539fba191f.pdf",
+        "mediaType": "application/pdf",
+        "size": 696254,
+        "receivedAt": "2026-11-10T15:51:35.000Z"
+      }
+    ]
+  },
+  {
+    "id": "loria-stage-dunne-microstructures-2027-6a620085",
+    "title": "Stage M2 — Génération de microstructures composites à propriétés mécaniques cibles",
+    "jobType": "Internship",
+    "organization": "Université de Lorraine",
+    "laboratory": "LORIA — projet DUNNE, avec EULER / ISAE-Supméca",
+    "country": "France",
+    "city": "Nancy",
+    "topics": ["AI & Machine Learning", "Interdisciplinary"],
+    "duration": "6 mois",
+    "compensation": "Environ 600 € par mois, selon le barème en vigueur",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "guenael.cabanes@univ-lorraine.fr; parisa.rastin@univ-lorraine.fr",
+    "applicationUrl": null,
+    "description": "Développer des modèles génératifs conditionnels, notamment GAN ou diffusion, pour produire des microstructures composites aux propriétés mécaniques souhaitées. Associer prédiction des propriétés, connaissances expertes et contraintes physiques ; étudier l’apport de LLM multimodaux pour formaliser les spécifications.\n\nProfil M2 ou ingénieur en informatique, IA ou mathématiques appliquées, Python et apprentissage profond, intérêt pour les matériaux. Stage de mars à août 2027. Envoyer au minimum CV complet et relevés M1/M2 disponibles aux encadrants.",
+    "publishedAt": "2026-11-09T11:45:39.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-11-09T11:45:39.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-5b0360960380442ffd4e8db8",
+        "announcedAt": "2026-11-09T11:45:39.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "DUNNE_Stage_M2_2027_EN.pdf",
+        "url": "/documents/f6e51fcc89eb4cc70eceb029.pdf",
+        "mediaType": "application/pdf",
+        "size": 277551,
+        "receivedAt": "2026-11-09T11:45:39.000Z"
+      },
+      {
+        "name": "DUNNE_Stage_M2_2027_FR.pdf",
+        "url": "/documents/95eff2623f52c4a170e5153d.pdf",
+        "mediaType": "application/pdf",
+        "size": 281186,
+        "receivedAt": "2026-11-09T11:45:39.000Z"
+      }
+    ]
+  },
+  {
+    "id": "centralesupelec-alten-phd-explications-multiagents-f998b857",
+    "title": "PhD — Explications vérifiables des décisions de systèmes d’IA multi-agents",
+    "jobType": "PhD",
+    "organization": "CentraleSupélec / ALTEN",
+    "laboratory": "MICS — chaire Trustworthy Multi-Agent Systems for Critical Industries",
+    "country": "France",
+    "city": "Gif-sur-Yvette",
+    "topics": ["AI & Machine Learning", "Software Engineering", "Data Science"],
+    "duration": "36 mois",
+    "compensation": "Contrat doctoral financé, salaire et protection sociale inclus ; montant non indiqué",
+    "startDate": null,
+    "applicationDeadline": "2026-12-11",
+    "contact": "wassila.ouerdane@centralesupelec.fr",
+    "applicationUrl": null,
+    "description": "Expliquer les décisions de systèmes multi-agents fondés sur des LLM en identifiant les informations qui les déterminent et les exigences concernées. Développer des graphes de provenance, vérifier les explications par perturbations et réexécutions, puis explorer des protocoles de dialogue et l’utilité pour l’audit industriel.\n\nContrat doctoral financé par la chaire pendant 36 mois, début souhaité fin janvier 2027. Profil M2/ingénieur en informatique, IA ou mathématiques appliquées ; compétences en IA générative, systèmes multi-agents ou XAI, Python et anglais scientifique. Envoyer lettre ciblée, CV, relevés et au moins un contact de référence à Wassila Ouerdane.",
+    "publishedAt": "2026-11-08T08:23:52.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-11-08T08:23:52.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-352aee75112783375d7b42f1",
+        "announcedAt": "2026-11-08T08:23:52.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "PhD_call_2026_TMAS.pdf",
+        "url": "/documents/52fccf2891c1fadbee8aff30.pdf",
+        "mediaType": "application/pdf",
+        "size": 148901,
+        "receivedAt": "2026-11-08T08:23:52.000Z"
+      }
+    ]
+  },
+  {
+    "id": "icube-stage-art-agent-conversationnel-b2386eee",
+    "title": "Stage bac+5 — Agent conversationnel et résonance avec les œuvres d’art",
+    "jobType": "Internship",
+    "organization": "Université de Strasbourg",
+    "laboratory": "ICube, avec Institut Pascal et LiLPa",
+    "country": "France",
+    "city": "Strasbourg",
+    "topics": [
+      "AI & Machine Learning",
+      "Human–Computer Interaction",
+      "Interdisciplinary"
+    ],
+    "duration": "6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "aurelie.leborgne@unistra.fr",
+    "applicationUrl": null,
+    "description": "Concevoir et tester un démonstrateur conversationnel qui accompagne des étudiants dans l’expression de difficultés ou de questionnements, puis leur propose des œuvres d’art susceptibles d’ouvrir d’autres perspectives. Évaluer si cette médiation aide les étudiants à prendre du recul.\n\nProfil bac+5 informatique, autonomie en Python et dans l’utilisation de modèles ou agents IA, intérêt marqué pour l’art. Stage de six mois encadré par Aurélie Leborgne, Antoine Vacavant et Hélène Vassiliadou. Contacter Aurélie Leborgne pour les modalités.",
+    "publishedAt": "2026-11-13T13:34:41.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-11-13T13:34:41.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-340c2a6722e1df5908207e8b",
+        "announcedAt": "2026-11-13T13:34:41.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "greyc-stage-itineraires-llm-symbolique-2027-176e2bbd",
+    "title": "Stage M2 — Planification d’itinéraires par hybridation LLM et raisonnement symbolique",
+    "jobType": "Internship",
+    "organization": "Université de Caen Normandie / CNRS",
+    "laboratory": "GREYC — équipes MAD et CODAG",
+    "country": "France",
+    "city": "Caen",
+    "topics": ["AI & Machine Learning", "Data Science"],
+    "duration": "5 à 6 mois (six mois annoncés dans le courriel)",
+    "compensation": "Environ 650 € par mois, selon les règles en vigueur",
+    "startDate": "2027-03-01",
+    "applicationDeadline": null,
+    "contact": "maroua.bouzid-mouaddib@unicaen.fr",
+    "applicationUrl": null,
+    "description": "Adapter dynamiquement des itinéraires touristiques aux perturbations tout en préservant les préférences et les contraintes spatio-temporelles. Utiliser les LLM pour extraire et structurer l’information, puis le raisonnement symbolique et des solveurs CSP pour construire des adaptations valides et minimales.\n\nLe courriel annonce six mois ; le PDF précise cinq à six mois à partir du 1er mars 2027. Profil M2 informatique ou mathématiques appliquées, intérêt pour IA hybride, graphes et programmation par contraintes. Envoyer lettre, CV, relevés L3/M1/M2 et liens de projets à Maroua Bouzid ; références appréciées. Poursuite en thèse envisageable.",
+    "publishedAt": "2026-11-10T10:00:19.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-11-10T10:00:19.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-36d86b72169e7482eba7fcf0",
+        "announcedAt": "2026-11-10T10:00:19.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Hybridation-LLM-IASymbolique.pdf",
+        "url": "/documents/0c4ddadcf4b495d1f2d0c038.pdf",
+        "mediaType": "application/pdf",
+        "size": 139234,
+        "receivedAt": "2026-11-10T10:00:19.000Z"
+      }
+    ]
+  },
+  {
+    "id": "uca-stage-lesions-cutanees-multimodal-2027-5ca8e275",
+    "title": "Stage M2 — Classification multimodale des lésions cutanées et incertitude",
+    "jobType": "Internship",
+    "organization": "Université Clermont Auvergne",
+    "laboratory": "LMBP / LIMOS — IUT Clermont Auvergne",
+    "country": "France",
+    "city": "Aurillac",
+    "topics": [
+      "AI & Machine Learning",
+      "Computer Vision",
+      "Data Science",
+      "Interdisciplinary"
+    ],
+    "duration": "5 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-12-15",
+    "contact": "Eya.Zougar@uca.fr; Ramzi.Benali@uca.fr",
+    "applicationUrl": null,
+    "description": "Étudier l’apport des données cliniques aux images dermoscopiques pour classifier les lésions cutanées. Comparer des modèles unimodaux et multimodaux sur HAM10000, analyser les performances, la calibration, l’incertitude et l’interprétabilité, en prévenant les fuites de données.\n\nStage de cinq mois, début prévisionnel en février 2027. Profil M2 données, statistiques, mathématiques appliquées ou informatique ; statistique inférentielle, apprentissage et Python, PyTorch apprécié. Aucune connaissance médicale préalable requise. Envoyer CV, lettre et relevés aux deux encadrants.",
+    "publishedAt": "2026-11-12T14:18:24.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-11-12T14:18:24.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-9721eb6446dbd061bf1c1e85",
+        "announcedAt": "2026-11-12T14:18:24.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Offre de stage -imagerie médicale.pdf",
+        "url": "/documents/8dfac570bcaa64e427ffc740.pdf",
+        "mediaType": "application/pdf",
+        "size": 188136,
+        "receivedAt": "2026-11-12T14:18:24.000Z"
+      }
+    ]
+  },
+  {
+    "id": "lip6-ouiactive-cifre-etayage-pedagogique-280f3ece",
+    "title": "Thèse CIFRE — Agent conversationnel et étayage pédagogique personnalisé",
+    "jobType": "PhD",
+    "organization": "Sorbonne Université / OuiActive",
+    "laboratory": "LIP6 — équipe MOCAH",
+    "country": "France",
+    "city": null,
+    "topics": [
+      "AI & Machine Learning",
+      "Human–Computer Interaction",
+      "Interdisciplinary"
+    ],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-12-15",
+    "contact": "vanda.luengo@lip6.fr; Sebastien.Jolivet@unige.ch; amel.yessad@lip6.fr; info@ouiactive.com",
+    "applicationUrl": null,
+    "description": "Adapter les interactions d’un agent conversationnel en couplant un modèle dynamique de l’apprenant, un modèle praxéologique du domaine et un LLM. Concevoir le suivi des connaissances, le mécanisme de couplage et des aides graduées, puis évaluer les apprentissages et la qualité des interactions sur la plateforme OuiActive.\n\nThèse CIFRE entre OuiActive à Givors et le LIP6 à Paris-Jussieu. Début souhaité au printemps 2027 selon le traitement ANRT. Profil M2/ingénieur informatique, IA, TAL ou apprentissage, avec intérêt pour l’éducation. Envoyer CV, lettre et relevés M1/M2 aux quatre contacts.",
+    "publishedAt": "2026-11-09T17:06:30.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-11-09T17:06:30.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-fb30ac5bc909afbc1296d4e8",
+        "announcedAt": "2026-11-09T17:06:30.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SujetThese_Cifre_OuiActive_SorbonneUniversite_LIP6_ADiffuser.pdf",
+        "url": "/documents/5106bbd625a6a1a49f7a31af.pdf",
+        "mediaType": "application/pdf",
+        "size": 192547,
+        "receivedAt": "2026-11-09T17:06:30.000Z"
+      }
+    ]
+  },
+  {
+    "id": "cea-liide-stage-electronique-2027-b9610f3e",
+    "title": "Stage — Conception d’une carte électronique d’instrumentation",
+    "jobType": "Internship",
+    "organization": "CEA LIST",
+    "laboratory": "LIIDE — Département d’instrumentation numérique",
+    "country": "France",
+    "city": "Saclay",
+    "topics": ["Software Engineering", "Interdisciplinary"],
+    "duration": "6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-12-17",
+    "contact": "mickael.cartron@cea.fr",
+    "applicationUrl": null,
+    "description": "Concevoir et faire fabriquer une carte de réflectométrie pour un capteur embarqué, puis développer le firmware FPGA de contrôle. Schéma et routage sous OrCAD, nomenclature, suivi de fabrication et tests dans l’environnement Xilinx. Profil fin d’école d’ingénieur en systèmes embarqués, CAO électronique et FPGA. Début prévu en mars 2027.\n\nStage de six mois au CEA Saclay en 2027. Le recueil PDF fixe les candidatures au 17 décembre 2026 ; il décrit les sept sujets, dont une fiche distincte pour celui-ci. Contacter les encadrants et/ou utiliser le portail CEA lorsque le lien est indiqué.",
+    "publishedAt": "2026-11-03T19:09:09.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-7c1586ad3f604c06d8ad8c89",
+        "announcedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stages_LIIDE_2027.pdf",
+        "url": "/documents/79a86c0bf082beb636205322.pdf",
+        "mediaType": "application/pdf",
+        "size": 744415,
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ]
+  },
+  {
+    "id": "cea-liide-stage-gpu-2027-5fc4131b",
+    "title": "Stage — Calcul GPU embarqué pour l’imagerie ultrasonore temps réel",
+    "jobType": "Internship",
+    "organization": "CEA LIST",
+    "laboratory": "LIIDE — Département d’instrumentation numérique",
+    "country": "France",
+    "city": "Saclay",
+    "topics": ["Software Engineering", "Graphics & Visualization"],
+    "duration": "6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-12-17",
+    "contact": "thomas.desrez@cea.fr",
+    "applicationUrl": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-acceleration-gpu-embarquee-pour-l-imagerie-ultrasonore-temps-reel-saclay-h-f_42317.aspx",
+    "description": "Porter et optimiser des algorithmes TFM/PWI sur un GPU basse consommation NVIDIA Jetson, comparer CPU/FPGA/GPU et développer un démonstrateur temps réel. Profil fin d’études en informatique, électronique ou signal ; C/C++, CUDA, Linux et systèmes embarqués.\n\nStage de six mois au CEA Saclay en 2027. Le recueil PDF fixe les candidatures au 17 décembre 2026 ; il décrit les sept sujets, dont une fiche distincte pour celui-ci. Contacter les encadrants et/ou utiliser le portail CEA lorsque le lien est indiqué.",
+    "publishedAt": "2026-11-03T19:09:09.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-acceleration-gpu-embarquee-pour-l-imagerie-ultrasonore-temps-reel-saclay-h-f_42317.aspx",
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-7c1586ad3f604c06d8ad8c89",
+        "announcedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stages_LIIDE_2027.pdf",
+        "url": "/documents/79a86c0bf082beb636205322.pdf",
+        "mediaType": "application/pdf",
+        "size": 744415,
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ]
+  },
+  {
+    "id": "cea-liide-stage-calibration-2027-be86aac0",
+    "title": "Stage — IA multimodale et détection de désalignement de capteurs",
+    "jobType": "Internship",
+    "organization": "CEA LIST",
+    "laboratory": "LIIDE — Département d’instrumentation numérique",
+    "country": "France",
+    "city": "Saclay",
+    "topics": ["AI & Machine Learning", "Computer Vision"],
+    "duration": "6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-12-17",
+    "contact": "imane.meddour@cea.fr; andrea.barros@cea.fr",
+    "applicationUrl": "https://www.emploi.cea.fr/Pages/Offre/detailoffre.aspx?idOffre=42218&idOrigine=1858&LCID=1036&offerReference=2026-42218",
+    "description": "Détecter la nécessité de recalibrer des capteurs à partir de leurs données courantes, d’abord en stéréovision puis pour une caméra couplée à des microphones. Concevoir un classifieur et le comparer aux références. Profil M2/ingénieur signal, vision ou IA, deep learning, Python et Linux. Début souhaité en février ou mars 2027.\n\nStage de six mois au CEA Saclay en 2027. Le recueil PDF fixe les candidatures au 17 décembre 2026 ; il décrit les sept sujets, dont une fiche distincte pour celui-ci. Contacter les encadrants et/ou utiliser le portail CEA lorsque le lien est indiqué.",
+    "publishedAt": "2026-11-03T19:09:09.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": "https://www.emploi.cea.fr/Pages/Offre/detailoffre.aspx?idOffre=42218&idOrigine=1858&LCID=1036&offerReference=2026-42218",
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-7c1586ad3f604c06d8ad8c89",
+        "announcedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stages_LIIDE_2027.pdf",
+        "url": "/documents/79a86c0bf082beb636205322.pdf",
+        "mediaType": "application/pdf",
+        "size": 744415,
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ]
+  },
+  {
+    "id": "cea-liide-stage-agentique-2027-5bafca9f",
+    "title": "Stage — Framework modulaire d’IA agentique",
+    "jobType": "Internship",
+    "organization": "CEA LIST",
+    "laboratory": "LIIDE — Département d’instrumentation numérique",
+    "country": "France",
+    "city": "Saclay",
+    "topics": ["AI & Machine Learning", "Software Engineering"],
+    "duration": "6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-12-17",
+    "contact": "aurelien.mayoue@cea.fr",
+    "applicationUrl": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-m1-m2-pour-le-developpement-d-un-framework-d-ia-agentique-saclay-h-f_42301.aspx",
+    "description": "Concevoir et implémenter un framework extensible pour configurer et orchestrer des agents, intégrer LLM et outils, suivre et évaluer les exécutions. Développement avec LangChain/LangGraph et démonstrations sur des cas du laboratoire, notamment le contrôle de cartes FPGA. Profil M1/M2 ou ingénieur IA ; Python indispensable.\n\nStage de six mois au CEA Saclay en 2027. Le recueil PDF fixe les candidatures au 17 décembre 2026 ; il décrit les sept sujets, dont une fiche distincte pour celui-ci. Contacter les encadrants et/ou utiliser le portail CEA lorsque le lien est indiqué.",
+    "publishedAt": "2026-11-03T19:09:09.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-m1-m2-pour-le-developpement-d-un-framework-d-ia-agentique-saclay-h-f_42301.aspx",
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-7c1586ad3f604c06d8ad8c89",
+        "announcedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stages_LIIDE_2027.pdf",
+        "url": "/documents/79a86c0bf082beb636205322.pdf",
+        "mediaType": "application/pdf",
+        "size": 744415,
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ]
+  },
+  {
+    "id": "cea-liide-stage-federe-2027-37a46d3d",
+    "title": "Stage — Apprentissage fédéré hiérarchique et hétérogénéité des équipements",
+    "jobType": "Internship",
+    "organization": "CEA LIST",
+    "laboratory": "LIIDE — Département d’instrumentation numérique",
+    "country": "France",
+    "city": "Saclay",
+    "topics": ["AI & Machine Learning", "Data Science"],
+    "duration": "6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-12-17",
+    "contact": "aurelien.mayoue@cea.fr; mehdi.acheli@cea.fr",
+    "applicationUrl": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-m1-m2-pour-l-apprentissage-federe-hierarchique-sous-contraintes-d-heterogeneite-saclay-h-f_42298.aspx",
+    "description": "Définir et simuler une architecture d’apprentissage fédéré hiérarchique dans un continuum cloud–edge–IoT, puis concevoir des stratégies de suivi et de sélection des participants tenant compte de leurs capacités et de la connectivité. Profil M2/ingénieur apprentissage/IA, optimisation et Python ; apprentissage fédéré apprécié.\n\nStage de six mois au CEA Saclay en 2027. Le recueil PDF fixe les candidatures au 17 décembre 2026 ; il décrit les sept sujets, dont une fiche distincte pour celui-ci. Contacter les encadrants et/ou utiliser le portail CEA lorsque le lien est indiqué.",
+    "publishedAt": "2026-11-03T19:09:09.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-m1-m2-pour-l-apprentissage-federe-hierarchique-sous-contraintes-d-heterogeneite-saclay-h-f_42298.aspx",
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-7c1586ad3f604c06d8ad8c89",
+        "announcedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stages_LIIDE_2027.pdf",
+        "url": "/documents/79a86c0bf082beb636205322.pdf",
+        "mediaType": "application/pdf",
+        "size": 744415,
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ]
+  },
+  {
+    "id": "cea-liide-stage-inversion-2027-886d028d",
+    "title": "Stage — Inversion locale pour l’imagerie ultrasonore temps réel",
+    "jobType": "Internship",
+    "organization": "CEA LIST",
+    "laboratory": "LIIDE — Département d’instrumentation numérique",
+    "country": "France",
+    "city": "Saclay",
+    "topics": [
+      "AI & Machine Learning",
+      "Graphics & Visualization",
+      "Data Science"
+    ],
+    "duration": "6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-12-17",
+    "contact": "fred.ngole-mboula@cea.fr",
+    "applicationUrl": "https://www.emploi.cea.fr/Pages/Offre/detailoffre.aspx?idOffre=42210&idOrigine=516&LCID=2057&offerReference=2026-42210",
+    "description": "Rendre une méthode locale d’inversion ultrasonore extensible à des zones d’inspection étendues : réutilisation des opérateurs, raccordement de fenêtres et transfert des paramètres appris. Optimiser latence, mémoire et reconstruction. Profil M2/ingénieur en mathématiques appliquées, signal ou calcul scientifique ; Python, optimisation, PyTorch/GPU appréciés. Début souhaité en mars ou avril 2027.\n\nStage de six mois au CEA Saclay en 2027. Le recueil PDF fixe les candidatures au 17 décembre 2026 ; il décrit les sept sujets, dont une fiche distincte pour celui-ci. Contacter les encadrants et/ou utiliser le portail CEA lorsque le lien est indiqué.",
+    "publishedAt": "2026-11-03T19:09:09.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": "https://www.emploi.cea.fr/Pages/Offre/detailoffre.aspx?idOffre=42210&idOrigine=516&LCID=2057&offerReference=2026-42210",
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-7c1586ad3f604c06d8ad8c89",
+        "announcedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stages_LIIDE_2027.pdf",
+        "url": "/documents/79a86c0bf082beb636205322.pdf",
+        "mediaType": "application/pdf",
+        "size": 744415,
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ]
+  },
+  {
+    "id": "cea-liide-stage-self-aware-2027-3f586817",
+    "title": "Stage — Framework self-aware pour l’instrumentation autonome",
+    "jobType": "Internship",
+    "organization": "CEA LIST",
+    "laboratory": "LIIDE — Département d’instrumentation numérique",
+    "country": "France",
+    "city": "Saclay",
+    "topics": ["AI & Machine Learning", "Software Engineering"],
+    "duration": "6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-12-17",
+    "contact": "guillaume.trannoy@cea.fr",
+    "applicationUrl": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-mise-en-place-d-un-framework-self-aware-pour-l-instrumentation-autonome-saclay-h-f_42423.aspx",
+    "description": "Implémenter et évaluer un framework de conscience de l’état et des ressources pour accroître l’autonomie de systèmes d’instrumentation, en contrôle non destructif et suivi de structures. Tester le comportement en environnement dégradé. Profil fin d’études informatique ou systèmes embarqués ; C/C++, Linux et concepts multi-agents.\n\nStage de six mois au CEA Saclay en 2027. Le recueil PDF fixe les candidatures au 17 décembre 2026 ; il décrit les sept sujets, dont une fiche distincte pour celui-ci. Contacter les encadrants et/ou utiliser le portail CEA lorsque le lien est indiqué.",
+    "publishedAt": "2026-11-03T19:09:09.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-mise-en-place-d-un-framework-self-aware-pour-l-instrumentation-autonome-saclay-h-f_42423.aspx",
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-7c1586ad3f604c06d8ad8c89",
+        "announcedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stages_LIIDE_2027.pdf",
+        "url": "/documents/79a86c0bf082beb636205322.pdf",
+        "mediaType": "application/pdf",
+        "size": 744415,
+        "receivedAt": "2026-11-03T19:09:09.000Z"
+      }
+    ]
+  },
+  {
+    "id": "mistea-stage-ontoportal-variables-2027-0dfc41e0",
+    "title": "Stage M2 — Représentation harmonisée des variables scientifiques dans OntoPortal",
+    "jobType": "Internship",
+    "organization": "INRAE / Institut Agro Montpellier",
+    "laboratory": "MISTEA",
+    "country": "France",
+    "city": "Montpellier",
+    "topics": ["Data Science", "Software Engineering"],
+    "duration": "5 à 6 mois (six mois dans les PDF)",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "kawther.djouad@inrae.fr; clement.jonquet@inrae.fr",
+    "applicationUrl": null,
+    "description": "Étudier et aligner les approches de représentation des variables scientifiques (I-ADOPT, OBOE, SOSA/SSN, Crop Ontology et OpenSILEX), puis implémenter leur gestion et leur recherche dans AgroPortal et EarthPortal. Modifier le modèle applicatif et développer de nouvelles interfaces OntoPortal.\n\nProfil développeur web full-stack en master/école d’ingénieur, bases ou motivation pour le Web sémantique, Ruby on Rails, GitHub et communication français/anglais. Début souhaité début 2027. Le courriel indique cinq à six mois, les PDF six mois, en présentiel avec possibilité de démarrer à distance.",
+    "publishedAt": "2026-11-04T09:33:28.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · bulle-i3",
+        "url": null,
+        "receivedAt": "2026-11-04T09:33:28.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-f5198053b7e1cbc2bb9e1c0d",
+        "announcedAt": "2026-11-04T09:33:28.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Fiche_Stage_Variables_Scientifiques_OntoPortal_FR.pdf",
+        "url": "/documents/5cf266c946639127b94271b0.pdf",
+        "mediaType": "application/pdf",
+        "size": 5760,
+        "receivedAt": "2026-11-04T09:33:28.000Z"
+      },
+      {
+        "name": "Internship_Offer_Semantic_Management_Scientific_Variables.pdf",
+        "url": "/documents/85ef71622f82cfc417db6e73.pdf",
+        "mediaType": "application/pdf",
+        "size": 6586,
+        "receivedAt": "2026-11-04T09:33:28.000Z"
+      }
+    ]
+  },
+  {
+    "id": "centrale-nantes-postdoc-gestion-energie-v2h-v2g-87036247",
+    "title": "Postdoc — Gestion énergétique optimisée des véhicules électriques V2H et V2G",
+    "jobType": "Postdoc",
+    "organization": "Centrale Nantes",
+    "laboratory": "LS2N",
+    "country": "France",
+    "city": "Nantes",
+    "topics": ["Interdisciplinary"],
+    "duration": "12 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://jobs.ec-nantes.fr/o/post-doctorat-en-gestion-energetique-optimisee-des-vehicules-electriques-en-modes-v2h-et-v2g-hf-ref-1275",
+    "description": "Postdoctorat en gestion énergétique optimisée des véhicules électriques en modes Vehicle-to-Home et Vehicle-to-Grid au LS2N. CDD de douze mois ouvert au recrutement interne et externe. La candidature doit être déposée sur le site carrière de Centrale Nantes. Le délai de quinze jours mentionné dans le courriel concerne uniquement la prise de contact des candidatures internes.",
+    "publishedAt": "2026-11-04T15:24:58.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://jobs.ec-nantes.fr/o/post-doctorat-en-gestion-energetique-optimisee-des-vehicules-electriques-en-modes-v2h-et-v2g-hf-ref-1275",
+        "receivedAt": "2026-11-04T15:24:58.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-a5905f95c95af1fb70ad7c22",
+        "announcedAt": "2026-11-04T15:24:58.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "ircam-stage-phenotypage-preferences-sonores-2027-c4754032",
+    "title": "Stage M1/M2 — Phénotypage digital des préférences sonores sur smartphone",
+    "jobType": "Internship",
+    "organization": "IRCAM / Sorbonne Université",
+    "laboratory": "STMS — équipe Espaces Acoustiques et Cognitifs",
+    "country": "France",
+    "city": "Paris",
+    "topics": [
+      "Human–Computer Interaction",
+      "Software Engineering",
+      "Perception & Cognitive Science",
+      "Interdisciplinary"
+    ],
+    "duration": "6 mois préférés ; ajustable à 3 mois minimum",
+    "compensation": "Gratification selon la législation en vigueur",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "valentin.bauer@ircam.fr",
+    "applicationUrl": null,
+    "description": "Concevoir et développer une application sonore pour mieux comprendre les préférences d’enfants autistes peu ou non verbaux à travers leur usage du smartphone. Construire le cahier des charges, développer avec WebAudioAPI et Node.js, déployer dans les centres partenaires et analyser les données.\n\nProfil M1/M2, JavaScript et développement, Python ou R pour l’analyse ; intérêt pour perception auditive et neurodéveloppement. Début prévu début 2027, six mois préférés ; trois mois minimum possibles en limitant les travaux au développement. Candidature ou renseignements auprès de Valentin Bauer.",
+    "publishedAt": "2026-11-02T09:04:50.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement · GDR IHM",
+        "url": null,
+        "receivedAt": "2026-11-02T09:04:50.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-a98bc3d4fe6374a812c5c58f",
+        "announcedAt": "2026-11-02T09:04:50.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "2026_10_28_phenotyping.pdf",
+        "url": "/documents/b2190823c60e4ae720ef3c8c.pdf",
+        "mediaType": "application/pdf",
+        "size": 193575,
+        "receivedAt": "2026-11-02T09:04:50.000Z"
+      }
+    ]
+  },
+  {
+    "id": "potsdam-postdoc-human-ai-empirical-llm-f2e6f3c8",
+    "title": "Postdoc — Human–AI Interaction and Empirical LLM Research",
+    "jobType": "Postdoc",
+    "organization": "University of Potsdam",
+    "laboratory": "Professorship of Medical Ethics with a Focus on Digitalization",
+    "country": "Germany",
+    "city": "Potsdam",
+    "topics": [
+      "Human–Computer Interaction",
+      "AI & Machine Learning",
+      "Robotics & HRI",
+      "Interdisciplinary"
+    ],
+    "duration": "3 ans à 50–75 % (20–30 heures par semaine)",
+    "compensation": "TV-L E13 ; environ 2 380 à 5 070 € brut par mois selon quotité et expérience",
+    "startDate": null,
+    "applicationDeadline": "2026-11-30",
+    "contact": "medizinethik@uni-potsdam.de; clara.keusgen@uni-potsdam.de",
+    "applicationUrl": "https://www.fgw-brandenburg.de/mitglieder/professuren/medizinische-ethik/",
+    "description": "Mener des recherches empiriques sur les usages, perceptions et enjeux sociaux et éthiques des LLM, chatbots, assistants numériques et robots sociaux. Concevoir et analyser des études, publier, contribuer aux projets et enseigner ; au moins un tiers du temps est réservé à la recherche et à la qualification indépendantes.\n\nDoctorat pertinent, méthodes qualitatives et/ou quantitatives, publications, première expérience d’enseignement et excellent anglais ; volonté d’apprendre l’allemand. Expertise préalable en éthique médicale non requise. Poste à 50–75 % pour trois ans, dès que possible, présence régulière à Potsdam avec télétravail partiel. Envoyer un PDF regroupant lettre, CV, diplômes, publications et preuves d’enseignement aux deux contacts.",
+    "publishedAt": "2026-11-11T14:30:38.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://www.fgw-brandenburg.de/mitglieder/professuren/medizinische-ethik/",
+        "receivedAt": "2026-11-11T14:30:38.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-17cb6e80639bca1ae6a1ecd8",
+        "announcedAt": "2026-11-11T14:30:38.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "PostDoc-long-ENG.pdf",
+        "url": "/documents/fd7af4e397c480c1e2a21aee.pdf",
+        "mediaType": "application/pdf",
+        "size": 190912,
+        "receivedAt": "2026-11-11T14:30:38.000Z"
+      }
+    ]
+  },
+  {
+    "id": "cyprus-faculty-hci-2027-2fe196c8",
+    "title": "Lecturer / Assistant Professor — Human–Computer Interaction",
+    "jobType": "Faculty",
+    "organization": "University of Cyprus",
+    "laboratory": "Department of Computer Science",
+    "country": "Cyprus",
+    "city": null,
+    "topics": ["Human–Computer Interaction"],
+    "duration": null,
+    "compensation": "Brut annuel, 13e salaire inclus : Lecturer 50 164,04–81 628,11 € ; Assistant Professor 65 998,93–89 007,73 €",
+    "startDate": null,
+    "applicationDeadline": "2027-02-12",
+    "contact": "cs@ucy.ac.cy",
+    "applicationUrl": "https://applications.ucy.ac.cy/recruitment",
+    "description": "Un poste en interaction humain–machine au rang de Lecturer ou Assistant Professor. Doctorat en informatique ou domaine proche requis ; maîtrise du grec et de l’anglais pour enseigner dans les deux langues.\n\nDéposer les pièces en anglais, en PDF séparés, sur le portail de recrutement : lettre, CV, diplômes, projet de recherche, publications et trois références. Les lettres de recommandation peuvent arriver dans les sept jours suivant la clôture. La nationalité chypriote n’est pas requise.",
+    "publishedAt": "2026-11-10T11:10:16.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://applications.ucy.ac.cy/recruitment",
+        "receivedAt": "2026-11-10T11:10:16.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-b2c984f457844db587fb4675",
+        "announcedAt": "2026-11-10T11:10:16.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "wisconsin-ischool-faculty-2027-a073fe55",
+    "title": "Assistant / Associate / Full Professors — Information School, UW–Madison",
+    "jobType": "Faculty",
+    "organization": "University of Wisconsin–Madison",
+    "laboratory": "Information School — College of Computing and Artificial Intelligence",
+    "country": "United States",
+    "city": "Madison",
+    "topics": [
+      "Human–Computer Interaction",
+      "AI & Machine Learning",
+      "Data Science",
+      "Interdisciplinary"
+    ],
+    "duration": "Contrat académique de 9 mois, tenure-track ou avec tenure",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://jobs.wisc.edu/jobs/assistant-associate-full-professor-madison-wisconsin-united-states-4be8a3be-7798-4484-a63a-350866537334",
+    "description": "Plusieurs recrutements tenure-track ou avec tenure, ouverts à l’ensemble des sciences de l’information et des bibliothèques, dont l’IHM. Les thèmes comprennent les interactions entre information, personnes, technologie et société, l’IA, les systèmes algorithmiques, les infrastructures informationnelles et les technologies civiques.\n\nContrats académiques de neuf mois, prise de poste en août 2027. La relance du 5 novembre précise une pleine considération pour les candidatures reçues au 1er décembre 2026 ; cette date n’est pas présentée comme une clôture définitive.",
+    "publishedAt": "2026-11-02T15:11:28.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://jobs.wisc.edu/jobs/assistant-associate-full-professor-madison-wisconsin-united-states-4be8a3be-7798-4484-a63a-350866537334",
+        "receivedAt": "2026-11-02T15:11:28.000Z"
+      },
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://jobs.wisc.edu/jobs/assistant-associate-full-professor-madison-wisconsin-united-states-4be8a3be-7798-4484-a63a-350866537334",
+        "receivedAt": "2026-11-05T15:39:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-124b82c0f7412cefbcbde973",
+        "announcedAt": "2026-11-05T15:39:00.000Z"
+      },
+      {
+        "id": "announcement-801af4e7bd96a1359c9347ef",
+        "announcedAt": "2026-11-02T15:11:28.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "jku-postdoc-game-computing-2027-751161fb",
+    "title": "University Assistant / Postdoc — Game Computing, JKU Linz",
+    "jobType": "Postdoc",
+    "organization": "Johannes Kepler University Linz",
+    "laboratory": "Game Computing Group — Institute of Computer Graphics",
+    "country": "Austria",
+    "city": "Linz",
+    "topics": [
+      "Human–Computer Interaction",
+      "Graphics & Visualization",
+      "Data Science"
+    ],
+    "duration": "6 ans, temps plein",
+    "compensation": null,
+    "startDate": "2027-03-31",
+    "applicationDeadline": "2026-12-01",
+    "contact": null,
+    "applicationUrl": "https://karriere.jku.at/hcm/jobexchange/showJobOfferDetail.do?jobOfferId=8a7ec441a159a97601a167afa5e14ba5&j=&languageChanged=true",
+    "description": "Concevoir, implémenter et évaluer des prototypes, outils analytiques et systèmes ludiques pour comprendre les joueurs. Recherches en games user research, analyse de jeux et visualisation du gameplay ; profils informatique, IHM, données ou visualisation particulièrement encouragés.\n\nPoste à temps plein pour six ans, début au plus tôt le 31 mars 2027. L’allemand n’est pas obligatoire. Détails et candidature sur le portail JKU.",
+    "publishedAt": "2026-11-09T15:55:51.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://karriere.jku.at/hcm/jobexchange/showJobOfferDetail.do?jobOfferId=8a7ec441a159a97601a167afa5e14ba5&j=&languageChanged=true",
+        "receivedAt": "2026-11-09T15:55:51.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-0153fb421a1e85f1942a1a1f",
+        "announcedAt": "2026-11-09T15:55:51.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "nih-postdoc-medical-xr-2027-fd1fda3e",
+    "title": "Postdoctoral Fellowship — Medical XR and Immersive Simulation, NIH",
+    "jobType": "Postdoc",
+    "organization": "National Institutes of Health / NHGRI",
+    "laboratory": "Immersive Simulation Program — Social and Behavioral Research Branch",
+    "country": "United States",
+    "city": "Bethesda",
+    "topics": [
+      "Extended Reality",
+      "Human–Computer Interaction",
+      "AI & Machine Learning",
+      "Data Science",
+      "Interdisciplinary"
+    ],
+    "duration": "1 an initialement, renouvelable, temps plein sur site",
+    "compensation": "Allocation et avantages selon les règles des nominations postdoctorales NIH",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "perskys@nih.gov",
+    "applicationUrl": null,
+    "description": "Développer, implémenter et évaluer des environnements immersifs, agents virtuels et outils de recherche et d’intervention en santé, avec analyse de données comportementales, physiologiques et multimodales. Encadrement par Susan Persky, avec possibilités de recherche fondamentale, translationnelle et clinique.\n\nDoctorat obtenu dans les cinq années précédant la prise de poste, expérience de recherche avec participants, méthodes computationnelles/IA, données et Python ou R. Fellowship à temps plein sur site, engagement initial d’un an renouvelable, début anticipé été 2027 ou plus tôt. Envoyer CV, projet de recherche et trois références à Susan Persky, en mentionnant « immersive simulation position ». Examen au fil de l’eau ; priorité aux dossiers reçus au 1er décembre 2026.",
+    "publishedAt": "2026-11-13T15:11:43.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": null,
+        "receivedAt": "2026-11-13T15:11:43.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-454c885fd59923c5799ca3cd",
+        "announcedAt": "2026-11-13T15:11:43.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "postdoc ad Persky ISP 26-27.pdf",
+        "url": "/documents/503b85304d3346317b9d859c.pdf",
+        "mediaType": "application/pdf",
+        "size": 138679,
+        "receivedAt": "2026-11-13T15:11:43.000Z"
+      }
+    ]
+  },
+  {
+    "id": "bordeaux-stage-visual-analytics-proteomique-2027-249502a1",
+    "title": "Stage M2 — Visualisation et intégration de données multi-protéomiques",
+    "jobType": "Internship",
+    "organization": "Université de Bordeaux",
+    "laboratory": "LaBRI — équipe BKB / BRIC",
+    "country": "France",
+    "city": "Bordeaux",
+    "topics": [
+      "Graphics & Visualization",
+      "Human–Computer Interaction",
+      "Data Science",
+      "Interdisciplinary"
+    ],
+    "duration": "6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "loann.giovannangeli@u-bordeaux.fr; armelle.menard@u-bordeaux.fr; anne-aurelie.raymond@inserm.fr; elodie.darbo@u-bordeaux.fr",
+    "applicationUrl": "https://loanngio.github.io/perso/data/Stage_VisualAnalytics_proteomique_PTM.pdf",
+    "description": "Développer une plateforme interactive d’exploration de données multi-protéomiques et de modifications post-traductionnelles. Intégrer des bases publiques et croiser les données expérimentales pour identifier les voies de signalisation affectées par une génotoxine, dans un contexte tumoral.\n\nProfil M2 informatique, bio-informatique ou équivalent, programmation, visualisation de données et interfaces interactives ; intégration de bases appréciée. Six mois, démarrage flexible entre janvier et avril 2027. Envoyer CV et relevés des deux dernières années aux encadrants, avec motivations dans le courriel.",
+    "publishedAt": "2026-11-03T13:26:05.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://loanngio.github.io/perso/data/Stage_VisualAnalytics_proteomique_PTM.pdf",
+        "receivedAt": "2026-11-03T13:26:05.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-d8b5947f388740c786b925c1",
+        "announcedAt": "2026-11-03T13:26:05.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stage_VisualAnalytics_proteomique_PTM.pdf",
+        "url": "/documents/07be0cb410012ab098441c73.pdf",
+        "mediaType": "application/pdf",
+        "size": 190787,
+        "receivedAt": "2026-11-03T13:26:05.000Z"
+      }
+    ]
+  },
+  {
+    "id": "copenhagen-phd-selftracking-chronic-conditions-bce2a296",
+    "title": "PhD — Designing Self-Tracking Technologies for Chronic Health Conditions",
+    "jobType": "PhD",
+    "organization": "University of Copenhagen",
+    "laboratory": "Human-Centred Computing Section — Department of Computer Science",
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "topics": ["Human–Computer Interaction", "Interdisciplinary"],
+    "duration": "3 ans",
+    "compensation": "Poste entièrement financé ; montant non indiqué",
+    "startDate": "2027-03-01",
+    "applicationDeadline": "2026-11-29",
+    "contact": null,
+    "applicationUrl": "https://candidate.hr-manager.net/ApplicationInit.aspx?cid=3010&departmentId=19976&ProjectId=172732&MediaId=4917&SkipAdvertisement=false",
+    "description": "Étudier les relations entre corps, technologies et maladies chroniques à travers les outils d’auto-suivi. Explorer leurs usages et leurs effets sur les relations avec proches aidants et professionnels de santé, ainsi que les normes sociales, culturelles et politiques associées. Méthodes de recherche par le design et de co-conception.\n\nDoctorat entièrement financé pour trois ans, sous la direction de Sarah Homewood et Tariq Andersen. Début au plus tôt le 1er mars 2027. Candidature selon l’appel sur le portail de l’université.",
+    "publishedAt": "2026-11-09T09:00:30.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://candidate.hr-manager.net/ApplicationInit.aspx?cid=3010&departmentId=19976&ProjectId=172732&MediaId=4917&SkipAdvertisement=false",
+        "receivedAt": "2026-11-09T09:00:30.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-60c2a64291649f81a05ce7f7",
+        "announcedAt": "2026-11-09T09:00:30.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "berkeley-phd-human-centered-ai-education-2027-0c9d64d5",
+    "title": "PhD — Human-Centered AI in Education and Learning, UC Berkeley",
+    "jobType": "PhD",
+    "organization": "University of California, Berkeley",
+    "laboratory": "Berkeley School of Education — laboratoire de Qiaosi « Chelsea » Wang",
+    "country": "United States",
+    "city": "Berkeley",
+    "topics": [
+      "Human–Computer Interaction",
+      "AI & Machine Learning",
+      "Perception & Cognitive Science",
+      "Interdisciplinary"
+    ],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-12-01",
+    "contact": null,
+    "applicationUrl": "https://bse.berkeley.edu/admissions/phd",
+    "description": "Un recrutement doctoral pour l’automne 2027 sur l’IA centrée sur l’humain dans l’enseignement supérieur et l’apprentissage en ligne. Thèmes : dynamiques sociales, expériences et bien-être des étudiants, interactions étudiant–IA mutuellement adaptatives et enjeux d’IA responsable.\n\nExpérience en sciences cognitives, IHM, informatique, psychologie ou sciences sociales appréciée. Candidater au programme BSE, cluster Learning Sciences and Human Development, en mentionnant Qiaosi « Chelsea » Wang. Clôture le 1er décembre 2026 à 20 h 59, heure du Pacifique.",
+    "publishedAt": "2026-11-13T18:35:48.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://bse.berkeley.edu/admissions/phd",
+        "receivedAt": "2026-11-13T18:35:48.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-815c2a81403b38595891d774",
+        "announcedAt": "2026-11-13T18:35:48.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "kennesaw-aiology-phd-fall-2027-6886e0a0",
+    "title": "PhD positions — AIology Lab, Data Science, rentrée 2027",
+    "jobType": "PhD",
+    "organization": "Kennesaw State University",
+    "laboratory": "AIology Lab — School of Data Science and Analytics",
+    "country": "United States",
+    "city": "Marietta",
+    "topics": [
+      "AI & Machine Learning",
+      "Human–Computer Interaction",
+      "Data Science",
+      "Interdisciplinary"
+    ],
+    "duration": null,
+    "compensation": "3 000 USD par mois ; exonération complète des frais de scolarité et assurance santé",
+    "startDate": null,
+    "applicationDeadline": "2027-02-01",
+    "contact": "akarami@kennesaw.edu",
+    "applicationUrl": "https://www.kennesaw.edu/degrees-programs/doctoral-degrees/data-science-analytics.php",
+    "description": "Campagne doctorale pour l’automne 2027 sur interaction humain–IA, comportement des machines, IA anthropomorphe, désordre informationnel, fouille de textes/NLP et informatique de santé. Profil en données, informatique, information, statistiques, IHM ou domaines proches, avec solides compétences en programmation et apprentissage.\n\nSoutien annoncé de 3 000 USD/mois, exonération complète des frais de scolarité et assurance santé. Envoyer CV, relevés BS/MS, résultats GRE et TOEFL/IELTS pour les candidatures internationales, bref projet de recherche et publication éventuelle à akarami@kennesaw.edu. Cette campagne est distincte de celle clôturée en février 2026.",
+    "publishedAt": "2026-11-10T07:55:28.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://www.kennesaw.edu/degrees-programs/doctoral-degrees/data-science-analytics.php",
+        "receivedAt": "2026-11-10T07:55:28.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-4e7643f1756f02dbf10ddc0a",
+        "announcedAt": "2026-11-10T07:55:28.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "penn-postdoc-human-ai-health-education-4fe67d4b",
+    "title": "Postdoc — Human–AI Interaction for Health and Education, Penn",
+    "jobType": "Postdoc",
+    "organization": "University of Pennsylvania",
+    "laboratory": "Department of Computer and Information Science",
+    "country": "United States",
+    "city": null,
+    "topics": [
+      "Human–Computer Interaction",
+      "AI & Machine Learning",
+      "Interdisciplinary"
+    ],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://docs.google.com/document/d/e/2PACX-1vQsBbqF8R9bx6E7MEtem0ZwINBYYJL8LZM3wsy433ZuZ5eh0M-Q5_lCCMGoaxjsgJB6GuxX3_drRor7/pub",
+    "description": "Concevoir, déployer et évaluer des systèmes conversationnels de jeu de rôle et de retour pédagogique pour l’éducation et la santé, avec un premier terrain en Inde. Étudier l’adaptation linguistique et culturelle, les personas simulés et les apprentissages en situation réelle, avec Sharath Chandra Guntuku et Lyle Ungar et leurs partenaires.\n\nDoctorat pertinent à la prise de poste, solides compétences computationnelles, programmation et études empiriques avec des personnes, notamment sur le terrain. Candidature via le formulaire lié dans le descriptif : CV, projet de recherche, publications et références. Examen au fil de l’eau jusqu’à recrutement.",
+    "publishedAt": "2026-11-02T14:11:37.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": "https://docs.google.com/document/d/e/2PACX-1vQsBbqF8R9bx6E7MEtem0ZwINBYYJL8LZM3wsy433ZuZ5eh0M-Q5_lCCMGoaxjsgJB6GuxX3_drRor7/pub",
+        "receivedAt": "2026-11-02T14:11:37.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-3359d055ad69228d180ab623",
+        "announcedAt": "2026-11-02T14:11:37.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "irisa-stage-simultart-mouvement-2027-edc4e04e",
+    "title": "Stage M2 — Contrôle de simulations multisensorielles par le mouvement, Simult’Art",
+    "jobType": "Internship",
+    "organization": "Université Bretagne Sud",
+    "laboratory": "IRISA — équipe EXPRESSION, projet Simult’Art / PEPR ICCARE",
+    "country": "France",
+    "city": "Vannes",
+    "topics": [
+      "AI & Machine Learning",
+      "Human–Computer Interaction",
+      "Extended Reality",
+      "Graphics & Visualization",
+      "Interdisciplinary"
+    ],
+    "duration": "6 mois",
+    "compensation": null,
+    "startDate": "2027-01-25",
+    "applicationDeadline": null,
+    "contact": "caroline.larboulette@univ-ubs.fr",
+    "applicationUrl": null,
+    "description": "Développer un système temps réel de capture et d’analyse du mouvement pour permettre à une danseuse de piloter un environnement visuel et sonore, avec participation du public. Choisir les capteurs, extraire des descripteurs expressifs, apprendre les correspondances avec les paramètres de simulation et évaluer les interactions avec artistes et spectateurs.\n\nProfil M2/ingénieur informatique ou IA, apprentissage, traitement des données et intérêt pour IHM, capture du mouvement et projets art-science. Stage de six mois, début possible à partir du 25 janvier 2027 selon le candidat. Candidatures au fil de l’eau auprès de Caroline Larboulette ; poursuite en thèse éventuelle. Accueil soumis à autorisation dans le cadre PPST.",
+    "publishedAt": "2026-11-12T13:45:58.000Z",
+    "updatedAt": "2026-11-17T00:38:27.817Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": null,
+        "receivedAt": "2026-11-12T13:45:58.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-c07f1d20f87cf110ae8de332",
+        "announcedAt": "2026-11-12T13:45:58.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "ICCARE-stage2027-Annonce-EV.pdf",
+        "url": "/documents/076da4ce36cc67f3b14d52b6.pdf",
+        "mediaType": "application/pdf",
+        "size": 94259,
+        "receivedAt": "2026-11-12T13:45:58.000Z"
+      },
+      {
+        "name": "ICCARE-stage2027-Annonce.pdf",
+        "url": "/documents/c1d37df354092c7871c5cd41.pdf",
+        "mediaType": "application/pdf",
+        "size": 93243,
+        "receivedAt": "2026-11-12T13:45:58.000Z"
+      }
+    ]
   }
 ]
