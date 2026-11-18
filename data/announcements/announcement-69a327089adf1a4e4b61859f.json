@@ -1,0 +1,11 @@
+{
+  "parts": [
+    {
+      "text": "Research internship on detecting artificial LiDAR landmarks and estimating observed free space with quantified uncertainty for active collaborative SLAM. Implement and evaluate the method on Nvidia Jetson Orin and real robots in indoor and outdoor scenarios. Hosted by LAAS-CNRS RAP in Toulouse. Requires a Master’s or engineering student with programming and computer vision skills. Apply with CV, motivation letter and Master’s grades using the source page. Applications are reviewed continuously; no closing date is specified. Appointment requires restricted-zone approval.\n\nFull recruitment notice and application: "
+    },
+    {
+      "text": "https://www.laas.fr/fr/offres/internship-lidar-markers-detector/",
+      "href": "https://www.laas.fr/fr/offres/internship-lidar-markers-detector/"
+    }
+  ]
+}

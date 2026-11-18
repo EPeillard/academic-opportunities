@@ -11,12 +11,12 @@
     "duration": null,
     "compensation": null,
     "startDate": null,
-    "applicationDeadline": null,
+    "applicationDeadline": "2026-04-03",
     "contact": null,
-    "applicationUrl": "https://www.cristal.univ-lille.fr/recrutement",
-    "description": "The CRIStAL faculty campaign announces two professorships and eight lectureships, covering computing, learning technologies, and sustainable digital technology.",
+    "applicationUrl": "https://www.cristal.univ-lille.fr/spip.php?id_article=25&page=article",
+    "description": "The CRIStAL faculty campaign announces two professorships and eight lectureships, covering computing, learning technologies, and sustainable digital technology. The official 2026 recruitment page states applications closed on 3 April 2026 at 16:00; this is an archived campaign.",
     "publishedAt": "2026-02-23T07:12:44.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z",
+    "updatedAt": "2026-11-18T00:04:34.577Z",
     "sources": [
       {
         "label": "Research vacancy announcement · bulle-i3",
@@ -32,6 +32,11 @@
         "label": "Research vacancy announcement · bulle-i3",
         "url": "https://www.cristal.univ-lille.fr/recrutement",
         "receivedAt": "2026-03-02T10:39:59.000Z"
+      },
+      {
+        "label": "CRIStAL · 2026 faculty recruitment campaign",
+        "url": "https://www.cristal.univ-lille.fr/spip.php?id_article=25&page=article",
+        "receivedAt": "2026-11-18T00:04:34.577Z"
       }
     ],
     "announcements": [
@@ -18078,6 +18083,317 @@
         "mediaType": "application/pdf",
         "size": 93243,
         "receivedAt": "2026-11-12T13:45:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "lip6-limics-m2-temporal-gradual-argumentation-2027",
+    "title": "Dynamique temporelle des débats en ligne : une analyse par l’argumentation graduée",
+    "jobType": "Internship",
+    "organization": "Sorbonne Université / Sorbonne Paris Nord",
+    "laboratory": "LIP6 · SMA / LIMICS",
+    "country": "France",
+    "city": "Paris",
+    "topics": ["AI & Machine Learning"],
+    "duration": "5–6 months (attached subjects); 6 months in the announcement",
+    "compensation": "Funded; amount not stated",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "caren.alanaissy@univ-paris13.fr; aurelie.beynier@lip6.fr",
+    "applicationUrl": null,
+    "description": "Funded Master’s internship on the temporal evolution of Kialo debates using quantitative bipolar argumentation frameworks: graph dynamics, argument scores and polarization. Hosted by LIP6/SMA with LIMICS, within PAC AI for Augmented Deliberation / PostGenAI. The attached subjects indicate 5–6 months starting spring 2027; the accompanying announcement mentions February 2027. Apply by email with a CV and cover letter; transcripts are recommended. No closing date is stated.",
+    "publishedAt": "2026-11-14T19:34:05.000Z",
+    "updatedAt": "2026-11-18T00:04:34.577Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": null,
+        "receivedAt": "2026-11-18T00:04:34.577Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-00e487cb847c50c3ed6677fc",
+        "announcedAt": "2026-11-14T19:34:05.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stage_M2_QBAF_temporels_KialoV2.pdf",
+        "url": "/documents/04a15cc09dd50de27a90e105.pdf",
+        "mediaType": "application/pdf",
+        "size": 77557,
+        "receivedAt": "2026-11-18T00:04:34.577Z"
+      },
+      {
+        "name": "Internship_M2_temporal_QBAF_Kialo_EN.pdf",
+        "url": "/documents/ff358a80202bd8772e9643ab.pdf",
+        "mediaType": "application/pdf",
+        "size": 73531,
+        "receivedAt": "2026-11-18T00:04:34.577Z"
+      }
+    ]
+  },
+  {
+    "id": "inrae-miat-m2-argumentative-reinforcement-learning-2027",
+    "title": "Apprentissage par renforcement argumentatif",
+    "jobType": "Internship",
+    "organization": "INRAE",
+    "laboratory": "MIAT",
+    "country": "France",
+    "city": "Auzeville-Tolosane",
+    "topics": ["AI & Machine Learning"],
+    "duration": "5–6 months (subject); 6 months in the announcement",
+    "compensation": "Paid; amount not stated",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "leo.saulieres@inrae.fr",
+    "applicationUrl": null,
+    "description": "Paid Master’s internship at INRAE MIAT near Toulouse on agents exchanging arguments and explanations to improve their decisions. The project combines explainable AI, a PettingZoo architecture, MNIST experiments and reinforcement learning. Supervised by Léo Saulières, Meritxell Vinyals and Régis Sabbadin. The email announces six months from March 2027; the subject states 5–6 months. Apply with CV and cover letter; no deadline is given.",
+    "publishedAt": "2026-11-16T16:57:35.000Z",
+    "updatedAt": "2026-11-18T00:04:34.577Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": null,
+        "receivedAt": "2026-11-18T00:04:34.577Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-85defd7c7cdda6c2a86a2129",
+        "announcedAt": "2026-11-16T16:57:35.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Offre_stage_RL_argumentatif.pdf",
+        "url": "/documents/241ab0c857603b35cd5fca60.pdf",
+        "mediaType": "application/pdf",
+        "size": 93623,
+        "receivedAt": "2026-11-18T00:04:34.577Z"
+      }
+    ]
+  },
+  {
+    "id": "inrae-miat-m2-reinforcement-learning-root-development-2027",
+    "title": "Apprentissage par renforcement pour la simulation de développement du système racinaire",
+    "jobType": "Internship",
+    "organization": "INRAE",
+    "laboratory": "MIAT",
+    "country": "France",
+    "city": "Auzeville-Tolosane",
+    "topics": ["AI & Machine Learning", "Interdisciplinary"],
+    "duration": "5–6 months (subject); 6 months in the announcement",
+    "compensation": "Paid; amount not stated",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "meritxell.vinyals@inrae.fr",
+    "applicationUrl": null,
+    "description": "Paid Master’s internship at INRAE MIAT near Toulouse modelling root development as a partially observable decision process. Build a Gymnasium simulation, train reinforcement learning policies and validate simulated Arabidopsis root architectures against experimental RSML data. Supervised by Meritxell Vinyals, Anne Goelzer, Léo Saulières and Sandrine Ruffel (IPSIM). The email announces six months from March 2027; the subject states 5–6 months. Apply with CV and cover letter; no deadline is given.",
+    "publishedAt": "2026-11-16T16:57:35.000Z",
+    "updatedAt": "2026-11-18T00:04:34.577Z",
+    "sources": [
+      {
+        "label": "Research vacancy announcement",
+        "url": null,
+        "receivedAt": "2026-11-18T00:04:34.577Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-18d2002ddbc8c85649dac2b6",
+        "announcedAt": "2026-11-16T16:57:35.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Offre_stage_RL_to_Simulate_Root_System_Development.pdf",
+        "url": "/documents/569ac655a3b37e9693ed74f5.pdf",
+        "mediaType": "application/pdf",
+        "size": 93960,
+        "receivedAt": "2026-11-18T00:04:34.577Z"
+      }
+    ]
+  },
+  {
+    "id": "laas-m2-runtime-neural-network-monitors-2027",
+    "title": "Runtime Monitors of Neural Network in Aerospace Applications",
+    "jobType": "Internship",
+    "organization": "CNRS",
+    "laboratory": "LAAS-CNRS · TRUST",
+    "country": "France",
+    "city": "Toulouse",
+    "topics": ["AI & Machine Learning", "Software Engineering"],
+    "duration": "5–6 months",
+    "compensation": "Approximately EUR 600/month (gross/net not specified)",
+    "startDate": "2027-02-01",
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://www.laas.fr/fr/offres/master-2-internship-runtime-monitors-of-neural-network-in-aerospace-applications/",
+    "description": "Research internship on generating and selecting data to assess runtime monitors for neural networks, using runway detection during landing as an aviation case study. Work builds on LARD and Lardon-x at ANITI and LAAS-CNRS. Requires Master’s-level computer science/AI and Python. Submit CV, cover letter and transcripts for the last two academic years through the application link on the source page. Supervisor: Jérémie Guiochet. No closing date is stated.",
+    "publishedAt": "2026-11-13T12:00:00.000Z",
+    "updatedAt": "2026-11-18T00:04:34.577Z",
+    "sources": [
+      {
+        "label": "Recruitment notice · LAAS-CNRS",
+        "url": "https://www.laas.fr/fr/offres/master-2-internship-runtime-monitors-of-neural-network-in-aerospace-applications/",
+        "receivedAt": "2026-11-18T00:04:34.577Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-60942b977e728b35e616efed",
+        "announcedAt": "2026-11-13T12:00:00.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "laas-m2-perception-object-tracking-2027",
+    "title": "Characterization of perception methods for object tracking in robotics",
+    "jobType": "Internship",
+    "organization": "CNRS",
+    "laboratory": "LAAS-CNRS · RAP",
+    "country": "France",
+    "city": "Toulouse",
+    "topics": ["Robotics & HRI", "Computer Vision"],
+    "duration": null,
+    "compensation": null,
+    "startDate": "2027-03-01",
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://www.laas.fr/fr/offres/internship-characterization-of-perception-methods-for-object-tracking-in-robotics/",
+    "description": "Research internship to quantify localization errors in camera-based object detection, with potential extensions to LiDAR and multi-sensor fusion. Work uses simulated and real data in the RAP team at LAAS-CNRS, Toulouse. Requires a Master’s or engineering student with Python/C++, machine learning and computer vision skills. Apply with CV, motivation letter and Master’s grades using the source page. Applications are reviewed continuously; no closing date is specified. Appointment requires approval for access to the restricted research zone.",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "updatedAt": "2026-11-18T00:04:34.577Z",
+    "sources": [
+      {
+        "label": "Recruitment notice · LAAS-CNRS",
+        "url": "https://www.laas.fr/fr/offres/internship-characterization-of-perception-methods-for-object-tracking-in-robotics/",
+        "receivedAt": "2026-11-18T00:04:34.577Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-f2602b70311bcaf40052336c",
+        "announcedAt": "2026-11-09T12:00:00.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "laas-m2-lidar-markers-detector-2027",
+    "title": "LiDAR Markers Detector",
+    "jobType": "Internship",
+    "organization": "CNRS",
+    "laboratory": "LAAS-CNRS · RAP",
+    "country": "France",
+    "city": "Toulouse",
+    "topics": ["Robotics & HRI", "Computer Vision"],
+    "duration": null,
+    "compensation": null,
+    "startDate": "2027-03-01",
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://www.laas.fr/fr/offres/internship-lidar-markers-detector/",
+    "description": "Research internship on detecting artificial LiDAR landmarks and estimating observed free space with quantified uncertainty for active collaborative SLAM. Implement and evaluate the method on Nvidia Jetson Orin and real robots in indoor and outdoor scenarios. Hosted by LAAS-CNRS RAP in Toulouse. Requires a Master’s or engineering student with programming and computer vision skills. Apply with CV, motivation letter and Master’s grades using the source page. Applications are reviewed continuously; no closing date is specified. Appointment requires restricted-zone approval.",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "updatedAt": "2026-11-18T00:04:34.577Z",
+    "sources": [
+      {
+        "label": "Recruitment notice · LAAS-CNRS",
+        "url": "https://www.laas.fr/fr/offres/internship-lidar-markers-detector/",
+        "receivedAt": "2026-11-18T00:04:34.577Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-69a327089adf1a4e4b61859f",
+        "announcedAt": "2026-11-09T12:00:00.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "lastig-m2-multimodal-2d-3d-geolocalization-2027",
+    "title": "Geolocalization of 2D and 3D data using Multimodal Large Language Models",
+    "jobType": "Internship",
+    "organization": "Université Gustave Eiffel / IGN",
+    "laboratory": "LASTIG",
+    "country": "France",
+    "city": null,
+    "topics": ["Computer Vision", "AI & Machine Learning"],
+    "duration": "6 months",
+    "compensation": "Approximately EUR 600/month (French statutory internship allowance; gross/net not specified)",
+    "startDate": null,
+    "applicationDeadline": "2026-12-15",
+    "contact": "valerie.gouet@ign.fr; florent.le-clerc@ign.fr",
+    "applicationUrl": "https://gdr-iasis.cnrs.fr/kiosque/masters-internship-geolocalization-of-2d-and-3d-data-using-multimodal-large-language-models-uge-ign-france/",
+    "description": "Master’s research internship at Université Gustave Eiffel / IGN, LASTIG, on visual geolocalization combining multimodal language models and 3D LiDAR data. Extend the G3 pipeline, explore 3D foundation models and evaluate on historical aerial images and national LiDAR scans. Six months beginning in the first quarter of 2027, in the Paris area. Requires Master’s or final-year engineering studies, computer vision/deep learning and Python. Apply before 15 December 2026 with CV, motivation letter, references, transcripts and course list. Contacts: Valérie Gouet-Brunet and Florent Le Clerc.",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "updatedAt": "2026-11-18T00:04:34.577Z",
+    "sources": [
+      {
+        "label": "Recruitment notice · GdR IASIS",
+        "url": "https://gdr-iasis.cnrs.fr/kiosque/masters-internship-geolocalization-of-2d-and-3d-data-using-multimodal-large-language-models-uge-ign-france/",
+        "receivedAt": "2026-11-18T00:04:34.577Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-a789794f05414ca0df414f01",
+        "announcedAt": "2026-11-12T12:00:00.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "sujet_stage_2027-G3-ext-EN.pdf",
+        "url": "/documents/efffb8837e78ece36bd86915.pdf",
+        "mediaType": "application/pdf",
+        "size": 1084192,
+        "receivedAt": "2026-11-18T00:04:34.577Z"
+      }
+    ]
+  },
+  {
+    "id": "centrale-mediterranee-mcf61-cybersecurity-fresnel-2026",
+    "title": "Maître de conférences 61 — Cybersécurité des systèmes complexes",
+    "jobType": "Faculty",
+    "organization": "Centrale Méditerranée",
+    "laboratory": "Institut Fresnel",
+    "country": "France",
+    "city": null,
+    "topics": ["Cybersecurity", "AI & Machine Learning"],
+    "duration": "Permanent (CDI)",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-11-30",
+    "contact": "rh@centrale-med.fr; sophie.brasselet@fresnel.fr; caroline.fossati@centrale-med.fr",
+    "applicationUrl": "https://gdr-iasis.cnrs.fr/kiosque/poste-de-mcf-61-cdi-ecole-centrale-mediterranee-30-11-26/",
+    "description": "Permanent lecturer position (French section 61) at Centrale Méditerranée, with research at Institut Fresnel in signal processing, deep learning and cybersecurity for complex industrial systems. Teaching includes industrial cybersecurity, embedded and cyber-physical system security, dependability and signal processing. Applications by email to rh@centrale-med.fr must arrive by 30 November 2026 at 16:00 Paris time. Provide one PDF with CV, degrees and PhD reports, integration project and identity document. Recruitment is planned for January 2027; no exact start date is specified.",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "updatedAt": "2026-11-18T00:04:34.577Z",
+    "sources": [
+      {
+        "label": "Recruitment notice · GdR IASIS",
+        "url": "https://gdr-iasis.cnrs.fr/kiosque/poste-de-mcf-61-cdi-ecole-centrale-mediterranee-30-11-26/",
+        "receivedAt": "2026-11-18T00:04:34.577Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-35d64ec58d98ba65959ea16a",
+        "announcedAt": "2026-11-12T12:00:00.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "profil-cyber_MCF61_ECM.pdf",
+        "url": "/documents/f1f5ef9ae3a2385f1525a073.pdf",
+        "mediaType": "application/pdf",
+        "size": 91185,
+        "receivedAt": "2026-11-18T00:04:34.577Z"
       }
     ]
   }
