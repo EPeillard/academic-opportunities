@@ -1,0 +1,11 @@
+{
+  "parts": [
+    {
+      "text": "Master’s research internship combining constraint-based generation of valid test cases with machine-learning predictions to prioritize cases likely to expose defects or meet testing objectives. Work should deliver a TAF prototype, experimental dataset and assessment of benefits and limitations for dependable autonomous systems. Hosted at LAAS-CNRS in Toulouse, supervised by Hélène Waeselynck and Jérémie Guiochet. Requires Python and basic machine learning; constraint solving or simulator experience is an advantage. Apply with CV, cover letter and two years of transcripts through the source page. No closing date is stated.\n\n"
+    },
+    {
+      "text": "Full recruitment notice and application",
+      "href": "https://www.laas.fr/fr/offres/master-2-internship-neurosymbolic-test-case-generation-and-selection/"
+    }
+  ]
+}

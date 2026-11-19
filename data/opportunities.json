@@ -18396,5 +18396,164 @@
         "receivedAt": "2026-11-18T00:04:34.577Z"
       }
     ]
+  },
+  {
+    "id": "cnrs-lisn-immersaxr-vision-augmentee-2026",
+    "title": "Ingénieur·e de Recherche en Vision Augmentée — ImmersaXR",
+    "jobType": "Research Engineer",
+    "organization": "CNRS / Université Paris-Saclay",
+    "laboratory": "LISN · VENISE",
+    "country": "France",
+    "city": "Gif-sur-Yvette",
+    "topics": ["Extended Reality", "Computer Vision", "Software Engineering"],
+    "duration": "12 months",
+    "compensation": "EUR 3,237.95–3,505.83 (CNRS salary scale; gross/net and periodicity not explicitly stated)",
+    "startDate": "2027-01-01",
+    "applicationDeadline": "2026-12-08",
+    "contact": null,
+    "applicationUrl": "https://emploi.cnrs.fr/Offres/CDD/UMR9015-JEAVEZ-002/Default.aspx",
+    "description": "Research engineering role developing the perception and augmented-vision engine for ImmersaXR on standalone XR devices. Work includes 3D geometry, object recognition, pose estimation, markerless tracking, video/depth processing and real-time integration with Unity, C#/C++, OpenXR and Android XR. The 12-month contract targets a TRL 4 demonstrator. Requires computer vision, embedded systems and software engineering experience. The CNRS lists a January 2027 start and an 8 December 2026 application deadline; the regional listing explicitly dates publication to 17 November 2026. Ref. UMR9015-JEAVEZ-002.",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "updatedAt": "2026-11-19T00:06:10.105Z",
+    "sources": [
+      {
+        "label": "Official recruitment notice",
+        "url": "https://emploi.cnrs.fr/Offres/CDD/UMR9015-JEAVEZ-002/Default.aspx",
+        "receivedAt": "2026-11-19T00:06:10.105Z"
+      },
+      {
+        "label": "CNRS · dated regional recruitment listing",
+        "url": "https://emploi.cnrs.fr/Bassins/Ile-de-France/Offres.aspx",
+        "receivedAt": "2026-11-19T00:06:10.105Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-a056ae55836413abe3fcff30",
+        "announcedAt": "2026-11-17T12:00:00.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "laas-m2-combinatorial-testing-autonomous-vehicles-2027",
+    "title": "Combinatorial testing for autonomous vehicles",
+    "jobType": "Internship",
+    "organization": "CNRS",
+    "laboratory": "LAAS-CNRS · TRUST",
+    "country": "France",
+    "city": "Toulouse",
+    "topics": ["Software Engineering", "Robotics & HRI"],
+    "duration": "5–6 months",
+    "compensation": "Approximately EUR 600/month (gross/net not specified)",
+    "startDate": "2027-02-01",
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://www.laas.fr/fr/offres/master-2-internship-subject-combinatorial-testing-for-autonomous-vehicles/",
+    "description": "Master’s research internship studying how t-way combinatorial testing can support structured scenario generation within the TAF framework. The case study evaluates autonomous-driving software in CARLA, with attention to parameter choices, constraints and coverage. Hosted at LAAS-CNRS in Toulouse and supervised by Jérémie Guiochet and Hélène Waeselynck. Computer science profile expected. Apply through the source page with CV, cover letter and transcripts for the last two academic years. No closing date is stated.",
+    "publishedAt": "2026-11-03T12:00:00.000Z",
+    "updatedAt": "2026-11-19T00:06:10.105Z",
+    "sources": [
+      {
+        "label": "Official recruitment notice",
+        "url": "https://www.laas.fr/fr/offres/master-2-internship-subject-combinatorial-testing-for-autonomous-vehicles/",
+        "receivedAt": "2026-11-19T00:06:10.105Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-05b6e3704bc799786914f664",
+        "announcedAt": "2026-11-03T12:00:00.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "laas-m2-neurosymbolic-test-generation-selection-2027",
+    "title": "Neurosymbolic Test Case Generation and Selection",
+    "jobType": "Internship",
+    "organization": "CNRS",
+    "laboratory": "LAAS-CNRS · TRUST",
+    "country": "France",
+    "city": "Toulouse",
+    "topics": [
+      "Software Engineering",
+      "AI & Machine Learning",
+      "Robotics & HRI"
+    ],
+    "duration": "5–6 months",
+    "compensation": "Approximately EUR 600/month (gross/net not specified)",
+    "startDate": "2027-02-01",
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://www.laas.fr/fr/offres/master-2-internship-neurosymbolic-test-case-generation-and-selection/",
+    "description": "Master’s research internship combining constraint-based generation of valid test cases with machine-learning predictions to prioritize cases likely to expose defects or meet testing objectives. Work should deliver a TAF prototype, experimental dataset and assessment of benefits and limitations for dependable autonomous systems. Hosted at LAAS-CNRS in Toulouse, supervised by Hélène Waeselynck and Jérémie Guiochet. Requires Python and basic machine learning; constraint solving or simulator experience is an advantage. Apply with CV, cover letter and two years of transcripts through the source page. No closing date is stated.",
+    "publishedAt": "2026-11-03T12:00:00.000Z",
+    "updatedAt": "2026-11-19T00:06:10.105Z",
+    "sources": [
+      {
+        "label": "Official recruitment notice",
+        "url": "https://www.laas.fr/fr/offres/master-2-internship-neurosymbolic-test-case-generation-and-selection/",
+        "receivedAt": "2026-11-19T00:06:10.105Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-9f9036fca9b9eca71ac2c810",
+        "announcedAt": "2026-11-03T12:00:00.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "imt-atlantique-postdoc-3dfacebias-2026",
+    "title": "Post-doctorat — Évaluation et réduction des biais en reconstruction faciale 3D",
+    "jobType": "Postdoc",
+    "organization": "IMT Atlantique",
+    "laboratory": "Département Data Science",
+    "country": "France",
+    "city": "Plouzané",
+    "topics": ["AI & Machine Learning", "Computer Vision"],
+    "duration": "36 months (CDD)",
+    "compensation": "Indicative EUR 35,800 gross/year, depending on profile and experience",
+    "startDate": "2027-03-01",
+    "applicationDeadline": "2026-11-20",
+    "contact": "sarah.matta@imt-atlantique.fr; melissandre.morvan@imt-atlantique.fr",
+    "applicationUrl": "https://institutminestelecom.recruitee.com/o/post-doctorat-en-evaluation-et-reduction-des-biais-en-reconstruction-faciale-3dcdd-36-mois/c/new",
+    "description": "Three-year postdoctoral position in the ANR–DFG 3DFaceBias project, auditing disparities in 3D facial reconstruction from 2D images, identifying causes and evaluating data-centric mitigation. Based at the Brest campus, collaborating with FAU under Sarah Matta and Tinashe Mutsvangwa. Requires strong empirical machine learning, statistics, Python/PyTorch and a relevant doctorate obtained less than three years before recruitment. The official employer page gives a 20 November 2026 deadline and 1 March 2027 start; interviews take place on a rolling basis. Indicative annual gross salary depends on profile and experience.",
+    "publishedAt": "2026-10-30T12:00:00.000Z",
+    "updatedAt": "2026-11-19T00:06:10.105Z",
+    "sources": [
+      {
+        "label": "Official recruitment notice",
+        "url": "https://institutminestelecom.recruitee.com/o/post-doctorat-en-evaluation-et-reduction-des-biais-en-reconstruction-faciale-3dcdd-36-mois/c/new",
+        "receivedAt": "2026-11-19T00:06:10.105Z"
+      },
+      {
+        "label": "GdR IASIS · announcement dated 30 October 2026",
+        "url": "https://gdr-iasis.cnrs.fr/kiosque/post-doctoral-researcher-in-bias-evaluation-and-mitigation-for-3d-facial-reconstruction-36-month-fixed-term-contract/",
+        "receivedAt": "2026-11-19T00:06:10.105Z"
+      },
+      {
+        "label": "IMT · detailed recruitment document",
+        "url": "https://partage.imt.fr/index.php/s/eZ6KfizQC5GZST7",
+        "receivedAt": "2026-11-19T00:06:10.105Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-7926be5aaca69ce080b0fe7f",
+        "announcedAt": "2026-10-30T12:00:00.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "DP Post-Doc 3DFaceBias_Sarah Matta english.pdf",
+        "url": "/documents/0cde4b65a289797a57ae7e3d.pdf",
+        "mediaType": "application/pdf",
+        "size": 691896,
+        "receivedAt": "2026-11-19T00:06:10.105Z"
+      }
+    ]
   }
 ]
