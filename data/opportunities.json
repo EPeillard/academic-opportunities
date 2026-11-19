@@ -18555,5 +18555,43 @@
         "receivedAt": "2026-11-19T00:06:10.105Z"
       }
     ]
+  },
+  {
+    "id": "tu-darmstadt-phd-xr-trust-traces-2026",
+    "title": "PhD in Human–Computer Interaction and XR — AI impersonation and trust",
+    "jobType": "PhD",
+    "organization": "Technische Universität Darmstadt",
+    "laboratory": "Urban Interaction Lab",
+    "country": "Germany",
+    "city": "Darmstadt",
+    "topics": [
+      "Human–Computer Interaction",
+      "Extended Reality",
+      "AI & Machine Learning",
+      "Cybersecurity"
+    ],
+    "duration": "3 years, full-time",
+    "compensation": "TV-TU Darmstadt E13",
+    "startDate": null,
+    "applicationDeadline": "2026-12-01",
+    "contact": "florian.mueller@tu-darmstadt.de",
+    "applicationUrl": "https://www.career.tu-darmstadt.de/tu-darmstadt/job/58820?lang=en",
+    "description": "Three-year, full-time doctoral position in the Urban Interaction Lab within ATHENE’s TRACES project. The research examines how people assess identity and trust in extended reality, and how they respond to identity verification measures. The candidate will build XR research prototypes and run empirical studies with collaborators in usable security and computer vision. Applicants should have a relevant master’s degree, experience in empirical HCI and XR development, and very good English. The position can start as soon as possible.",
+    "publishedAt": "2026-11-17T14:01:41.000Z",
+    "updatedAt": "2026-11-19T00:44:25.866Z",
+    "sources": [
+      {
+        "label": "Official recruitment notice",
+        "url": "https://www.career.tu-darmstadt.de/tu-darmstadt/job/58820?lang=en",
+        "receivedAt": "2026-11-18T02:10:05.436Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-319449f238a719c2fbc0e3a5",
+        "announcedAt": "2026-11-17T14:01:41.000Z"
+      }
+    ],
+    "attachments": []
   }
 ]
