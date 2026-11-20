@@ -18593,5 +18593,51 @@
       }
     ],
     "attachments": []
+  },
+  {
+    "id": "northeastern-phd-animal-computer-interaction-2027",
+    "title": "PhD in Animal–Computer Interaction",
+    "jobType": "PhD",
+    "organization": "Northeastern University",
+    "laboratory": "INTERACT Animal Lab",
+    "country": "United States",
+    "city": "Boston",
+    "topics": ["Human–Computer Interaction", "Interdisciplinary"],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": "2026-12-01",
+    "contact": "r.kleinberger@northeastern.edu",
+    "applicationUrl": "https://camd.northeastern.edu/programs/interdisciplinary-design-and-media-phd/",
+    "description": "The INTERACT Animal Lab at Northeastern University is recruiting a PhD student for Fall 2027 through the Interdisciplinary Design and Media program. The research involves designing, prototyping, and evaluating interactive technologies that support animal agency and wellbeing.",
+    "publishedAt": "2026-11-10T00:00:00.000Z",
+    "updatedAt": "2026-11-20T00:05:00.000Z",
+    "sources": [
+      {
+        "label": "Northeastern University · Fall 2027 faculty recruitment guide",
+        "url": "https://d3tvevvhad9ws1.cloudfront.net/wp-content/uploads/2026/11/IDM_Faculty_Recruiting_Fall2027.pdf",
+        "receivedAt": "2026-11-20T00:05:00.000Z"
+      },
+      {
+        "label": "Northeastern University · Interdisciplinary Design and Media PhD",
+        "url": "https://camd.northeastern.edu/programs/interdisciplinary-design-and-media-phd/",
+        "receivedAt": "2026-11-20T00:05:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-a6edbbf327e937a605d00c2f",
+        "announcedAt": "2026-11-10T00:00:00.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Northeastern - Fall 2027 PhD recruitment guide.pdf",
+        "url": "/documents/c05528316d035a4bc0313bd1.pdf",
+        "mediaType": "application/pdf",
+        "size": 187094,
+        "receivedAt": "2026-11-20T00:05:00.000Z"
+      }
+    ]
   }
 ]
