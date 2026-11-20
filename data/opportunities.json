@@ -18705,5 +18705,124 @@
       }
     ],
     "attachments": []
+  },
+  {
+    "id": "ucph-phd-traction-hci-theory-2027",
+    "title": "PhD fellowships in Human–Computer Interaction theory",
+    "jobType": "PhD",
+    "organization": "University of Copenhagen",
+    "laboratory": "Human-Centred Computing",
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "topics": ["Human–Computer Interaction"],
+    "duration": "3 years (regular PhD) or up to 5 years (integrated MSc–PhD)",
+    "compensation": null,
+    "startDate": "2027-04-01",
+    "applicationDeadline": "2026-12-01",
+    "contact": null,
+    "applicationUrl": "https://employment.ku.dk/all-vacancies/?show=171281",
+    "description": "The TRACTION project is recruiting one or two doctoral fellows to study and develop theories that explain how people use interactive systems and inform their design and evaluation.",
+    "publishedAt": "2026-11-19T18:05:55.000Z",
+    "updatedAt": "2026-11-21T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "Official vacancy (first verified 2026-11-21)",
+        "url": "https://employment.ku.dk/all-vacancies/?show=171281",
+        "receivedAt": "2026-11-21T00:00:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-975c1d6cd92c1fbb2157f0bb",
+        "announcedAt": "2026-11-19T18:05:55.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "icube-m2-demain-infant-movement-2027",
+    "title": "Stage M2 DEMAIN — Analyse vidéo du mouvement du nourrisson",
+    "jobType": "Internship",
+    "organization": "Université de Strasbourg",
+    "laboratory": "ICube / MLMS",
+    "country": "France",
+    "city": "Strasbourg",
+    "topics": ["Computer Vision", "AI & Machine Learning"],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "seo@unistra.fr",
+    "applicationUrl": "https://mlms.icube.unistra.fr/index.php?title=Offres_d%27emplois",
+    "description": "Développer une méthode de vision par ordinateur pour mesurer le mouvement spontané des nourrissons à partir de vidéos. Le stage porte sur l’acquisition, l’estimation de pose et l’analyse du mouvement.",
+    "publishedAt": "2026-11-19T13:56:45.000Z",
+    "updatedAt": "2026-11-21T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "Official vacancy (first verified 2026-11-21)",
+        "url": "https://mlms.icube.unistra.fr/index.php?title=Offres_d%27emplois",
+        "receivedAt": "2026-11-21T00:00:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-efc108800dc164ffe608a983",
+        "announcedAt": "2026-11-19T13:56:45.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SUJET2027-Demain.pdf",
+        "url": "/documents/7d00a2d3ba4df1b3471c9c6e.pdf",
+        "mediaType": "application/pdf",
+        "size": 98486,
+        "receivedAt": "2026-11-21T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "inria-irit-internship-collaborative-3d-sketching-ar-2027",
+    "title": "Collaborative 3D Sketching in Augmented Reality",
+    "jobType": "Internship",
+    "organization": "Inria",
+    "laboratory": "IRIT / ELISE",
+    "country": "France",
+    "city": "Toulouse",
+    "topics": [
+      "Extended Reality",
+      "Human–Computer Interaction",
+      "Graphics & Visualization"
+    ],
+    "duration": "5–6 months",
+    "compensation": "Approximately €660 per month",
+    "startDate": "2027-03-01",
+    "applicationDeadline": "2027-01-31",
+    "contact": "theophanis.tsandilas@inria.fr",
+    "applicationUrl": "https://jobs.inria.fr/public/classic/fr/offres/2026-10727",
+    "description": "Design and prototype interaction techniques that help collaborators sketch in augmented reality while tracking and reconciling changes to shared 3D content.",
+    "publishedAt": "2026-11-21T00:00:00.000Z",
+    "updatedAt": "2026-11-21T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "Official vacancy (first verified 2026-11-21)",
+        "url": "https://jobs.inria.fr/public/classic/fr/offres/2026-10727",
+        "receivedAt": "2026-11-21T00:00:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-fd39085e3e56107d2ce78e8b",
+        "announcedAt": "2026-11-21T00:00:00.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Inria 2026-10727.pdf",
+        "url": "/documents/844e3d73ce7e3c219f7e0da6.pdf",
+        "mediaType": "application/pdf",
+        "size": 20696,
+        "receivedAt": "2026-11-21T00:00:00.000Z"
+      }
+    ]
   }
 ]
