@@ -18639,5 +18639,71 @@
         "receivedAt": "2026-11-20T00:05:00.000Z"
       }
     ]
+  },
+  {
+    "id": "cnrs-cran-research-engineer-neuroscience-instrumentation-2026",
+    "title": "Ingénieur de recherche en traitement du signal et instrumentation pour les neurosciences",
+    "jobType": "Research Engineer",
+    "organization": "CNRS",
+    "laboratory": "Centre de recherche en automatique de Nancy (CRAN)",
+    "country": "France",
+    "city": "Vandœuvre-lès-Nancy",
+    "topics": ["Extended Reality", "Perception & Cognitive Science"],
+    "duration": "12 mois, temps plein",
+    "compensation": "3 175 € brut par mois, ajustable selon expérience",
+    "startDate": "2027-01-04",
+    "applicationDeadline": "2026-12-10",
+    "contact": null,
+    "applicationUrl": "https://emploi.cnrs.fr/Offres/CDD/UMR7039-GILMIL-002/Default.aspx?lang=FR",
+    "description": "Développer et valider une plateforme expérimentale de stimulation sensorielle multimodale qui associe un casque de réalité virtuelle à des mesures EEG et ERG. Le poste porte en particulier sur la synchronisation des stimulations et des enregistrements.",
+    "publishedAt": "2026-11-20T00:09:00.000Z",
+    "updatedAt": "2026-11-20T00:09:00.000Z",
+    "sources": [
+      {
+        "label": "CNRS · annonce officielle consultée le 20 novembre 2026",
+        "url": "https://emploi.cnrs.fr/Offres/CDD/UMR7039-GILMIL-002/Default.aspx?lang=FR",
+        "receivedAt": "2026-11-20T00:09:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-88b89fdfb77b9dafc25073fb",
+        "announcedAt": "2026-11-20T00:09:00.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "paris8-liasd-m2-dysgraphia-multimodal-learning-2027",
+    "title": "Stage M2 en apprentissage multimodal pour la détection de la dysgraphie",
+    "jobType": "Internship",
+    "organization": "Université Paris 8 Vincennes–Saint-Denis",
+    "laboratory": "LIASD",
+    "country": "France",
+    "city": null,
+    "topics": ["AI & Machine Learning", "Perception & Cognitive Science"],
+    "duration": null,
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "yassine.ouzar@univ-paris8.fr",
+    "applicationUrl": "https://gdr-iasis.cnrs.fr/kiosque/developpement-dune-approche-de-deep-learning-multimodale-et-interpretable-pour-lanalyse-graphomotrice-et-cognitive-dans-la-detection-de-la-dysgraphie/",
+    "description": "Concevoir et évaluer un modèle interprétable qui combine les séries temporelles issues de l’écriture manuscrite et les évaluations cognitives du jeu de données DiaGraMo.",
+    "publishedAt": "2026-11-13T00:00:00.000Z",
+    "updatedAt": "2026-11-20T00:09:00.000Z",
+    "sources": [
+      {
+        "label": "GdR IASIS · annonce de recrutement",
+        "url": "https://gdr-iasis.cnrs.fr/kiosque/developpement-dune-approche-de-deep-learning-multimodale-et-interpretable-pour-lanalyse-graphomotrice-et-cognitive-dans-la-detection-de-la-dysgraphie/",
+        "receivedAt": "2026-11-20T00:09:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-d83840b38fad528db08243b9",
+        "announcedAt": "2026-11-13T00:00:00.000Z"
+      }
+    ],
+    "attachments": []
   }
 ]
