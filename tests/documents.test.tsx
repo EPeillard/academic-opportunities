@@ -50,7 +50,7 @@ describe("position document attachments", () => {
           attachment.url.startsWith("/documents/"),
         ),
       ).length,
-    ).toBe(112);
+    ).toBe(113);
     const documents = new Map(
       opportunities.flatMap((offer) =>
         offer.attachments
@@ -58,10 +58,10 @@ describe("position document attachments", () => {
           .map((attachment) => [attachment.url, attachment] as const),
       ),
     );
-    expect(documents.size).toBe(113);
+    expect(documents.size).toBe(114);
     expect(
       [...documents.keys()].filter((url) => url.endsWith(".pdf")).length,
-    ).toBe(109);
+    ).toBe(110);
     for (const [url, attachment] of documents) {
       const bytes = readFileSync(`public${url}`);
       expect(bytes.length).toBe(attachment.size);

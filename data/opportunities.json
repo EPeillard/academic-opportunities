@@ -18894,5 +18894,46 @@
       }
     ],
     "attachments": []
+  },
+  {
+    "id": "imt-atlantique-m2-mo2saic-collaborative-immersive-platform-2027",
+    "title": "Stage M2 MO2SAIC — Plateforme immersive collaborative RA/RV/2D",
+    "jobType": "Internship",
+    "organization": "IMT Atlantique",
+    "laboratory": "Lab-STICC / INUIT",
+    "country": "France",
+    "city": "Plouzané",
+    "topics": ["Extended Reality", "Human–Computer Interaction"],
+    "duration": "4 à 6 mois",
+    "compensation": "Gratification selon la réglementation en vigueur",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "cedric.fleury@imt-atlantique.fr",
+    "applicationUrl": null,
+    "description": "Développer une extension collaborative multi-utilisateur pour une plateforme immersive modulaire en RA, RV et 2D. Plusieurs participants pourront coopérer dans une même simulation en utilisant des dispositifs et des vues adaptés à leurs rôles. Le stage est mené en collaboration avec Thales DMS.",
+    "publishedAt": "2026-11-20T21:56:39.000Z",
+    "updatedAt": "2026-11-22T00:02:00.000Z",
+    "sources": [
+      {
+        "label": "IMT Atlantique · annonce de recrutement MO2SAIC",
+        "url": null,
+        "receivedAt": "2026-11-22T00:02:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-69e3b82cc8efa0467818f479",
+        "announcedAt": "2026-11-20T21:56:39.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Sujet_stage_MO2SAIC.pdf",
+        "url": "/documents/b3db0db4e8f2d8f1a24c4598.pdf",
+        "mediaType": "application/pdf",
+        "size": 484984,
+        "receivedAt": "2026-11-22T00:02:00.000Z"
+      }
+    ]
   }
 ]
