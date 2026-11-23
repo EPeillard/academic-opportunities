@@ -18935,5 +18935,47 @@
         "receivedAt": "2026-11-22T00:02:00.000Z"
       }
     ]
+  },
+  {
+    "id": "cnrs-lirmm-phd-human-aware-robot-control-2027",
+    "title": "Doctorat — Contrôle robotique et perception humaine en collaboration",
+    "jobType": "PhD",
+    "organization": "CNRS",
+    "laboratory": "LIRMM",
+    "country": "France",
+    "city": "Montpellier",
+    "topics": [
+      "Robotics & HRI",
+      "Extended Reality",
+      "Perception & Cognitive Science"
+    ],
+    "duration": "36 mois, temps plein",
+    "compensation": "Au moins 2 300 € par mois",
+    "startDate": "2027-03-01",
+    "applicationDeadline": "2026-12-04",
+    "contact": null,
+    "applicationUrl": "https://emploi.cnrs.fr/Offres/Doctorant/UMR5506-GANGOW-021/Default.aspx?lang=FR",
+    "description": "Le doctorat étudie comment adapter le comportement d’un robot collaboratif au confort perçu par ses utilisateurs. Le projet PEPR AS3 O2R combine des expérimentations en réalité virtuelle, la modélisation de la perception humaine et des essais sur des robots physiques.",
+    "publishedAt": "2026-11-13T00:00:00.000Z",
+    "updatedAt": "2026-11-23T00:03:00.000Z",
+    "sources": [
+      {
+        "label": "CNRS · annonce officielle UMR5506-GANGOW-021",
+        "url": "https://emploi.cnrs.fr/Offres/Doctorant/UMR5506-GANGOW-021/Default.aspx?lang=FR",
+        "receivedAt": "2026-11-23T00:03:00.000Z"
+      },
+      {
+        "label": "CNRS Occitanie Est · date de parution",
+        "url": "https://emploi.cnrs.fr/Bassins/Occitanie-Est/Offres.aspx?lang=FR",
+        "receivedAt": "2026-11-23T00:03:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-77e4702543fc569fde4e0c87",
+        "announcedAt": "2026-11-13T00:00:00.000Z"
+      }
+    ],
+    "attachments": []
   }
 ]
