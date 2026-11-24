@@ -16810,19 +16810,28 @@
     "compensation": null,
     "startDate": null,
     "applicationDeadline": null,
-    "contact": null,
-    "applicationUrl": "https://wangyifang.top/recruitingPage",
-    "description": "Le groupe de Yifang Wang recrute plusieurs doctorants pour l’automne 2027. Ses recherches portent sur la collaboration entre humains et IA et sur les systèmes visuels collaboratifs pour la science. Les modalités de candidature sont indiquées sur la page de recrutement du laboratoire.\n\nLe groupe accueille également des stagiaires de recherche et des étudiants et chercheurs invités tout au long de l’année ; ces accueils ne sont pas décrits comme des postes distincts dans le courriel.",
+    "contact": "yifang.wang@fsu.edu",
+    "applicationUrl": "https://www.cs.fsu.edu/admissions/graduate-admissions/fsu-computer-science-department-graduate-study-application-information/",
+    "description": "Le WHALES Lab recrute plusieurs doctorants pour l’automne 2027 en collaboration humain–IA, systèmes agentiques, visualisation et découverte scientifique. Le département indique le 1er janvier pour les candidats internationaux ou demandant un assistantship, et le 1er avril pour les autres candidats américains.",
     "publishedAt": "2026-11-01T04:57:00.000Z",
-    "updatedAt": "2026-11-03T08:56:29.151Z",
+    "updatedAt": "2026-11-24T00:07:00.000Z",
     "sources": [
       {
         "label": "Research vacancy announcement",
         "url": "https://wangyifang.top/recruitingPage",
         "receivedAt": "2026-11-01T04:57:00.000Z"
+      },
+      {
+        "label": "Florida State University · admissions en informatique",
+        "url": "https://www.cs.fsu.edu/admissions/graduate-admissions/fsu-computer-science-department-graduate-study-application-information/",
+        "receivedAt": "2026-11-24T00:07:00.000Z"
       }
     ],
     "announcements": [
+      {
+        "id": "announcement-8f1c619c4d9a13793dab668f",
+        "announcedAt": "2026-11-21T22:26:35.000Z"
+      },
       {
         "id": "announcement-e7b96fe000eec2c5457c4be0",
         "announcedAt": "2026-11-01T04:57:00.000Z"
@@ -18974,6 +18983,80 @@
       {
         "id": "announcement-77e4702543fc569fde4e0c87",
         "announcedAt": "2026-11-13T00:00:00.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "xlim-m2-reactive-multiphase-flow-visualization-2027",
+    "title": "Stage M2 — Simulation et visualisation 3D d’écoulements dans les céramiques microporeuses",
+    "jobType": "Internship",
+    "organization": "Université de Limoges",
+    "laboratory": "XLIM / SIR, avec IRCER",
+    "country": "France",
+    "city": "Limoges",
+    "topics": ["Graphics & Visualization"],
+    "duration": "5 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "benoit.crespin@unilim.fr",
+    "applicationUrl": null,
+    "description": "Étendre un simulateur 3D sur GPU pour représenter la formation et le transport de bulles dans une céramique microporeuse, puis développer un rendu volumique pour analyser les écoulements.",
+    "publishedAt": "2026-11-23T09:07:12.000Z",
+    "updatedAt": "2026-11-24T00:07:00.000Z",
+    "sources": [
+      {
+        "label": "Université de Limoges · recruitment announcement",
+        "url": null,
+        "receivedAt": "2026-11-24T00:07:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-0f79ecb8303f5a592b4edb01",
+        "announcedAt": "2026-11-23T09:07:12.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "AFIG-STAGE-2026-bc.pdf",
+        "url": "/documents/08c65252451f450edd51b03e.pdf",
+        "mediaType": "application/pdf",
+        "size": 128106,
+        "receivedAt": "2026-11-24T00:07:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "google-deepmind-student-researcher-pluralistic-ai-hci-paris-2027",
+    "title": "Student Researcher — Pluralistic AI alignment, user modelling and HCI",
+    "jobType": "Internship",
+    "organization": "Google DeepMind",
+    "laboratory": null,
+    "country": "France",
+    "city": "Paris",
+    "topics": ["Human–Computer Interaction", "AI & Machine Learning"],
+    "duration": "24 weeks, full time",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "arannen+sr27@google.com",
+    "applicationUrl": "https://www.google.com/about/careers/applications/jobs/results/86733690079453894-student-researcher-2027",
+    "description": "Research placement for PhD students on how AI systems can accommodate culturally diverse perspectives. The work involves user modelling and evaluation of adaptive conversational methods.",
+    "publishedAt": "2026-11-23T11:19:38.000Z",
+    "updatedAt": "2026-11-24T00:07:00.000Z",
+    "sources": [
+      {
+        "label": "Google DeepMind · recruitment announcement",
+        "url": "https://www.google.com/about/careers/applications/jobs/results/86733690079453894-student-researcher-2027",
+        "receivedAt": "2026-11-24T00:07:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-7a308b40393f15dbed0c4045",
+        "announcedAt": "2026-11-23T11:19:38.000Z"
       }
     ],
     "attachments": []
