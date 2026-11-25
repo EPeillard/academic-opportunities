@@ -19060,5 +19060,91 @@
       }
     ],
     "attachments": []
+  },
+  {
+    "id": "imt-atlantique-paeiar-internship-ar-perception-grasping-2027",
+    "title": "Stage M2 PAEIAR — Réalité augmentée, perception et préhension",
+    "jobType": "Internship",
+    "organization": "IMT Atlantique",
+    "laboratory": "LS2N / PACCE",
+    "country": "France",
+    "city": "Nantes",
+    "topics": [
+      "Extended Reality",
+      "Perception & Cognitive Science",
+      "Human–Computer Interaction"
+    ],
+    "duration": "4 à 6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "yutaro.tanaka@imt-atlantique.fr",
+    "applicationUrl": null,
+    "description": "Développer sous Godot un système expérimental de réalité augmentée qui modifie la géométrie apparente d’objets physiques. Le projet étudie les effets de ces modifications sur les possibilités d’action perçues et les gestes de préhension.",
+    "publishedAt": "2026-11-24T14:09:49.000Z",
+    "updatedAt": "2026-11-25T00:04:00.000Z",
+    "sources": [
+      {
+        "label": "IMT Atlantique · annonce de recrutement",
+        "url": null,
+        "receivedAt": "2026-11-25T00:04:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-0b85c1e22b6fbed875087923",
+        "announcedAt": "2026-11-24T14:09:49.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "PAEIAR-Internship_Offer.pdf",
+        "url": "/documents/2b15f8c80394014591df17f3.pdf",
+        "mediaType": "application/pdf",
+        "size": 1472169,
+        "receivedAt": "2026-11-25T00:04:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "inria-reachy-mini-socratic-tutor-internship-2027",
+    "title": "Stage — Reachy Mini, robot tuteur socratique",
+    "jobType": "Internship",
+    "organization": "Inria",
+    "laboratory": "HUCEBOT",
+    "country": "France",
+    "city": "Villers-lès-Nancy",
+    "topics": ["Robotics & HRI", "Perception & Cognitive Science"],
+    "duration": "6 mois",
+    "compensation": "4,50 € par heure",
+    "startDate": "2027-02-01",
+    "applicationDeadline": "2026-12-10",
+    "contact": "serena.ivaldi@inria.fr",
+    "applicationUrl": "https://jobs.inria.fr/public/classic/fr/offres/2026-10696",
+    "description": "Étudier comment l’expression de l’incertitude par un robot tuteur influence le raisonnement et la confiance des enfants. Le stage combine tests pilotes, expérimentations en milieu scolaire et analyse des échanges.",
+    "publishedAt": "2026-11-25T00:04:00.000Z",
+    "updatedAt": "2026-11-25T00:04:00.000Z",
+    "sources": [
+      {
+        "label": "Inria · annonce de recrutement",
+        "url": "https://jobs.inria.fr/public/classic/fr/offres/2026-10696",
+        "receivedAt": "2026-11-25T00:04:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-1bc95dc7c03b5a115bea0ee5",
+        "announcedAt": "2026-11-25T00:04:00.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Inria 2026-10696.pdf",
+        "url": "/documents/fc264cd4610e5f6b89326b44.pdf",
+        "mediaType": "application/pdf",
+        "size": 23413,
+        "receivedAt": "2026-11-25T00:04:00.000Z"
+      }
+    ]
   }
 ]
