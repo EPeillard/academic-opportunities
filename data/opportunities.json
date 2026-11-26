@@ -19146,5 +19146,157 @@
         "receivedAt": "2026-11-25T00:04:00.000Z"
       }
     ]
+  },
+  {
+    "id": "umbc-assistant-professor-trustworthy-ai-2027",
+    "title": "Tenure-track Assistant Professor in Trustworthy AI",
+    "jobType": "Faculty",
+    "organization": "University of Maryland, Baltimore County",
+    "laboratory": "Department of Information Systems",
+    "country": "United States",
+    "city": null,
+    "topics": ["AI & Machine Learning", "Interdisciplinary"],
+    "duration": null,
+    "compensation": "USD 120,000–140,000",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "coeit-hiring@umbc.edu",
+    "applicationUrl": "https://facultyjobs.umbc.edu/cwfac/en-us/job/495406/tenuretrack-assistant-professor-in-trustworthy-ai",
+    "description": "Tenure-track faculty position in trustworthy AI, with research areas including robustness, governance, fairness, transparency and explainability.",
+    "publishedAt": "2026-11-25T02:00:36.000Z",
+    "updatedAt": "2026-11-26T00:05:00.000Z",
+    "sources": [
+      {
+        "label": "University of Maryland, Baltimore County · official recruitment notice",
+        "url": "https://facultyjobs.umbc.edu/cwfac/en-us/job/495406/tenuretrack-assistant-professor-in-trustworthy-ai",
+        "receivedAt": "2026-11-26T00:05:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-3377f20e683a08893433aa99",
+        "announcedAt": "2026-11-25T02:00:36.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "mpi-sp-rub-imprs-privacy-enhancing-tech-phd-2026",
+    "title": "Fully funded PhD positions in Privacy-Enhancing Technologies",
+    "jobType": "PhD",
+    "organization": "Max Planck Institute for Security and Privacy / Ruhr University Bochum",
+    "laboratory": "IMPRS PET-DS",
+    "country": "Germany",
+    "city": "Bochum",
+    "topics": [
+      "Cybersecurity",
+      "Human–Computer Interaction",
+      "AI & Machine Learning"
+    ],
+    "duration": null,
+    "compensation": "Fully funded",
+    "startDate": null,
+    "applicationDeadline": "2026-12-15",
+    "contact": "sarah.imtiaz@mpi-sp.org",
+    "applicationUrl": "https://www.mpi-sp.org/imprs",
+    "description": "Funded doctoral research on privacy-enhancing technologies, including human-centred privacy, privacy in machine learning and privacy-preserving systems.",
+    "publishedAt": "2026-11-25T13:35:04.000Z",
+    "updatedAt": "2026-11-26T00:05:00.000Z",
+    "sources": [
+      {
+        "label": "Max Planck Institute for Security and Privacy / Ruhr University Bochum · official recruitment notice",
+        "url": "https://www.mpi-sp.org/imprs",
+        "receivedAt": "2026-11-26T00:05:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-8060183a9a635c5938af3e0c",
+        "announcedAt": "2026-11-25T13:35:04.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "IMPRS_PET-DS_Call_Dec2026.pdf",
+        "url": "/documents/a05fc946d3ba1d70ac1a5dc6.pdf",
+        "mediaType": "application/pdf",
+        "size": 253601,
+        "receivedAt": "2026-11-26T00:05:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "umbc-postdoc-flood-risk-community-mapping-2027",
+    "title": "Postdoctoral Fellowship in Community-Engaged Flood Risk Geography",
+    "jobType": "Postdoc",
+    "organization": "University of Maryland, Baltimore County",
+    "laboratory": "Flood Lab / Department of Geography and Environmental Systems",
+    "country": "United States",
+    "city": null,
+    "topics": ["Graphics & Visualization", "Interdisciplinary"],
+    "duration": "1 year",
+    "compensation": null,
+    "startDate": "2027-01-04",
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://facultyjobs.umbc.edu/en-us/job/495431/postdoctoral-fellowship-communityengaged-flood-risk-geography-in-the-chesapeake-bay-watershed",
+    "description": "Lead community-engaged research on flood risk and adaptation in the Chesapeake Bay watershed. The project uses digital mapping, 3D-printed terrain and projected scenarios to discuss risk with Maryland communities.",
+    "publishedAt": "2026-11-24T17:10:03.000Z",
+    "updatedAt": "2026-11-26T00:05:00.000Z",
+    "sources": [
+      {
+        "label": "University of Maryland, Baltimore County · official recruitment notice",
+        "url": "https://facultyjobs.umbc.edu/en-us/job/495431/postdoctoral-fellowship-communityengaged-flood-risk-geography-in-the-chesapeake-bay-watershed",
+        "receivedAt": "2026-11-26T00:05:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-54cca1a5cbf69b166855fb4f",
+        "announcedAt": "2026-11-24T17:10:03.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "inria-multi-view-vision-systems-internship-2027",
+    "title": "Internship — Characterizing and Optimizing Multi-View Vision Systems",
+    "jobType": "Internship",
+    "organization": "Inria",
+    "laboratory": "KINETIX",
+    "country": "France",
+    "city": "Montbonnot-Saint-Martin",
+    "topics": ["Computer Vision", "Graphics & Visualization"],
+    "duration": "5 months",
+    "compensation": null,
+    "startDate": "2027-02-01",
+    "applicationDeadline": "2026-12-04",
+    "contact": "edmond.boyer@inria.fr",
+    "applicationUrl": "https://jobs.inria.fr/public/classic/fr/offres/2026-10674",
+    "description": "Develop methods to assess and optimize camera configurations for recovering 3D scene geometry from multiple viewpoints.",
+    "publishedAt": "2026-11-26T00:05:00.000Z",
+    "updatedAt": "2026-11-26T00:05:00.000Z",
+    "sources": [
+      {
+        "label": "Inria · official recruitment notice",
+        "url": "https://jobs.inria.fr/public/classic/fr/offres/2026-10674",
+        "receivedAt": "2026-11-26T00:05:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-eab901bf4bea99b9a4cc3f85",
+        "announcedAt": "2026-11-26T00:05:00.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Inria 2026-10674.pdf",
+        "url": "/documents/52be06d2b5dab2c229dbc0c2.pdf",
+        "mediaType": "application/pdf",
+        "size": 20369,
+        "receivedAt": "2026-11-26T00:05:00.000Z"
+      }
+    ]
   }
 ]
