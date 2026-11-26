@@ -19298,5 +19298,101 @@
         "receivedAt": "2026-11-26T00:05:00.000Z"
       }
     ]
+  },
+  {
+    "id": "tsp-internship-physics-aware-human-motion-interaction-2027",
+    "title": "Internship — Unified Physics-Aware Adaptation for Human Motion Generation and Interaction",
+    "jobType": "Internship",
+    "organization": "Télécom SudParis",
+    "laboratory": null,
+    "country": "France",
+    "city": "Évry-Courcouronnes",
+    "topics": ["Graphics & Visualization", "AI & Machine Learning"],
+    "duration": "6 months",
+    "compensation": null,
+    "startDate": "2027-02-01",
+    "applicationDeadline": "2026-12-31",
+    "contact": "decky.aspandi_latif@telecom-sudparis.eu",
+    "applicationUrl": null,
+    "description": "Study how physics-aware adaptation of a pretrained generator improves human motion synthesis and contact with objects. Evaluate physical plausibility and interaction quality against baseline methods.",
+    "publishedAt": "2026-11-25T13:38:57.000Z",
+    "updatedAt": "2026-11-26T00:05:00.000Z",
+    "sources": [
+      {
+        "label": "GdR IASIS · publication dans le flux des recrutements",
+        "url": "https://gdr-iasis.cnrs.fr/type-annonces/postes/feed/",
+        "receivedAt": "2026-11-26T00:05:00.000Z"
+      },
+      {
+        "label": "GdR IASIS · page de l’annonce",
+        "url": "https://gdr-iasis.cnrs.fr/kiosque/unified-physics-aware-adaptation-for-human-motion-generation-and-interaction/",
+        "receivedAt": "2026-11-26T00:05:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-529341b567441958a2352009",
+        "announcedAt": "2026-11-25T13:38:57.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Call_for_Internship_Physics_Aware_Motion.pdf",
+        "url": "/documents/780bed2c0d66a783ee61f591.pdf",
+        "mediaType": "application/pdf",
+        "size": 103898,
+        "receivedAt": "2026-11-26T00:05:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "tsp-internship-egocentric-human-motion-data-augmentation-2027",
+    "title": "Internship — Physics-Guided Generative Data Augmentation for Egocentric Human Motion Generation",
+    "jobType": "Internship",
+    "organization": "Télécom SudParis",
+    "laboratory": null,
+    "country": "France",
+    "city": "Évry-Courcouronnes",
+    "topics": [
+      "AI & Machine Learning",
+      "Computer Vision",
+      "Graphics & Visualization"
+    ],
+    "duration": "6 months",
+    "compensation": null,
+    "startDate": "2027-02-01",
+    "applicationDeadline": "2026-12-31",
+    "contact": "decky.aspandi_latif@telecom-sudparis.eu",
+    "applicationUrl": null,
+    "description": "Generate and filter synthetic 3D motion samples to study whether physically plausible training data improve full-body motion generation from first-person observations.",
+    "publishedAt": "2026-11-25T13:36:46.000Z",
+    "updatedAt": "2026-11-26T00:05:00.000Z",
+    "sources": [
+      {
+        "label": "GdR IASIS · publication dans le flux des recrutements",
+        "url": "https://gdr-iasis.cnrs.fr/type-annonces/postes/feed/",
+        "receivedAt": "2026-11-26T00:05:00.000Z"
+      },
+      {
+        "label": "GdR IASIS · page de l’annonce",
+        "url": "https://gdr-iasis.cnrs.fr/kiosque/physics-guided-generative-data-augmentation-for-egocentric-human-motion-generation/",
+        "receivedAt": "2026-11-26T00:05:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-8da39b5b9ded045c155d2ac8",
+        "announcedAt": "2026-11-25T13:36:46.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Intern_PGG_M2_Internship_Call.pdf",
+        "url": "/documents/6d19ad749fef751b5e6c74da.pdf",
+        "mediaType": "application/pdf",
+        "size": 118481,
+        "receivedAt": "2026-11-26T00:05:00.000Z"
+      }
+    ]
   }
 ]
