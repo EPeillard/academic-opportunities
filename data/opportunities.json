@@ -19394,5 +19394,87 @@
         "receivedAt": "2026-11-26T00:05:00.000Z"
       }
     ]
+  },
+  {
+    "id": "icb-m2-event-camera-stream-processing-2027",
+    "title": "Stage M2 — Traitement en flux pour les caméras événementielles",
+    "jobType": "Internship",
+    "organization": "Université Bourgogne Europe",
+    "laboratory": "Laboratoire Interdisciplinaire Carnot de Bourgogne (ICB)",
+    "country": "France",
+    "city": "Dijon",
+    "topics": ["Computer Vision", "Data Science"],
+    "duration": "4 à 6 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "annabelle.gillet@ube.fr",
+    "applicationUrl": "https://www.madics.fr/event/offre1828/?instance_id=3808",
+    "description": "Concevoir et évaluer des fenêtres temporelles adaptatives pour traiter les événements d’une caméra à faible latence. Le stage compare la qualité des traitements d’image et le délai d’émission des fenêtres.",
+    "publishedAt": "2026-11-20T00:00:00.000Z",
+    "updatedAt": "2026-11-27T00:03:00.000Z",
+    "sources": [
+      {
+        "label": "MaDICS · annonce et PDF du laboratoire ICB",
+        "url": "https://www.madics.fr/event/offre1828/?instance_id=3808",
+        "receivedAt": "2026-11-27T00:03:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-94a3d1024512eee1834a7d20",
+        "announcedAt": "2026-11-20T00:00:00.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "StageEventVision2027.pdf",
+        "url": "/documents/f5055d1db184b0d8815ee43c.pdf",
+        "mediaType": "application/pdf",
+        "size": 823216,
+        "receivedAt": "2026-11-27T00:03:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "irisa-envol-m2-ai-environmental-remote-sensing-2027",
+    "title": "Stage M2 — IA et télédétection pour la cartographie environnementale",
+    "jobType": "Internship",
+    "organization": "Envol Environnement / Université Bretagne Sud",
+    "laboratory": "IRISA / OBELIX",
+    "country": "France",
+    "city": "Séné",
+    "topics": ["Computer Vision", "AI & Machine Learning"],
+    "duration": "6 mois",
+    "compensation": "Gratification réglementaire",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "minh-tan.pham@univ-ubs.fr",
+    "applicationUrl": "https://www-obelix.irisa.fr/files/2026/11/Stage-M2_IA-teledetection.pdf",
+    "description": "Évaluer la fusion de données de télédétection et l’apprentissage automatique pour cartographier les habitats naturels, notamment les zones humides du golfe du Morbihan.",
+    "publishedAt": "2026-11-25T13:44:03.000Z",
+    "updatedAt": "2026-11-27T00:03:00.000Z",
+    "sources": [
+      {
+        "label": "IRISA / OBELIX · avis de recrutement",
+        "url": "https://www-obelix.irisa.fr/files/2026/11/Stage-M2_IA-teledetection.pdf",
+        "receivedAt": "2026-11-27T00:03:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-f5ff2931a7b5a26ce29a10ad",
+        "announcedAt": "2026-11-25T13:44:03.000Z"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Stage-M2_IA-teledetection.pdf",
+        "url": "/documents/c7f1443cc39dd4098407f50e.pdf",
+        "mediaType": "application/pdf",
+        "size": 197625,
+        "receivedAt": "2026-11-27T00:03:00.000Z"
+      }
+    ]
   }
 ]

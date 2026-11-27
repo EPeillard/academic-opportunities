@@ -72,13 +72,13 @@ describe("original announcement details", () => {
   it("covers every available body and keeps shared documents consistent", () => {
     expect(
       opportunities.filter((offer) => offer.announcements.length).length,
-    ).toBe(503);
+    ).toBe(505);
     const ids = new Set(
       opportunities.flatMap((offer) =>
         offer.announcements.map((ref) => ref.id),
       ),
     );
-    expect(ids.size).toBe(476);
+    expect(ids.size).toBe(478);
     for (const id of ids) {
       const source = JSON.parse(
         readFileSync(`data/announcements/${id}.json`, "utf8"),
