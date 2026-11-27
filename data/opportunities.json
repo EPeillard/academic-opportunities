@@ -19476,5 +19476,76 @@
         "receivedAt": "2026-11-27T00:03:00.000Z"
       }
     ]
+  },
+  {
+    "id": "paris-saclay-m2-semi-supervised-pigment-detection-2027",
+    "title": "Stage M2 — Apprentissage semi-supervisé pour la détection de pigments",
+    "jobType": "Internship",
+    "organization": "Université Paris-Saclay / CentraleSupélec",
+    "laboratory": "L2S / SATIE",
+    "country": "France",
+    "city": null,
+    "topics": ["Computer Vision", "AI & Machine Learning"],
+    "duration": null,
+    "compensation": "Environ 600 € par mois",
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": "aurelia.fraysse@universite-paris-saclay.fr",
+    "applicationUrl": "https://gdr-iasis.cnrs.fr/kiosque/stagem2-etude-de-la-robustesse-des-methodes-semi-supervisees-pour-la-classification-application-pour-la-detection-de-pigments-dans-les-oeuvres-dart-2/",
+    "description": "Adapter des méthodes de classification et de segmentation semi-supervisées à des images de fluorescence X pour identifier les pigments dans des œuvres d’art. Le stage étudie la robustesse au bruit et aux erreurs d’étiquetage.",
+    "publishedAt": "2026-11-25T13:39:55.000Z",
+    "updatedAt": "2026-11-28T00:04:00.000Z",
+    "sources": [
+      {
+        "label": "GdR IASIS · annonce L2S et SATIE",
+        "url": "https://gdr-iasis.cnrs.fr/kiosque/stagem2-etude-de-la-robustesse-des-methodes-semi-supervisees-pour-la-classification-application-pour-la-detection-de-pigments-dans-les-oeuvres-dart-2/",
+        "receivedAt": "2026-11-28T00:04:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-e78f664c7da817813e01d8bd",
+        "announcedAt": "2026-11-25T13:39:55.000Z"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "totalenergies-postdoc-jepa-world-models-forecasting-2026",
+    "title": "Postdoctorat — World Models JEPA et prévision",
+    "jobType": "Postdoc",
+    "organization": "TotalEnergies",
+    "laboratory": "OneTech / Forecast, Integrated Power Management",
+    "country": "France",
+    "city": "Palaiseau",
+    "topics": ["AI & Machine Learning", "Computer Vision"],
+    "duration": "24 mois",
+    "compensation": null,
+    "startDate": null,
+    "applicationDeadline": null,
+    "contact": null,
+    "applicationUrl": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDD-Post-doctorant-World-Models-JEPA-Forecast-IA-H-F-X/86446",
+    "description": "Évaluer les architectures JEPA et l’apprentissage auto-supervisé pour la prévision à partir de données météorologiques et énergétiques. Le projet étudie la qualité des représentations apprises et leur apport aux performances prédictives.",
+    "publishedAt": "2026-11-25T13:33:38.000Z",
+    "updatedAt": "2026-11-28T00:04:00.000Z",
+    "sources": [
+      {
+        "label": "TotalEnergies · annonce officielle 86446",
+        "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDD-Post-doctorant-World-Models-JEPA-Forecast-IA-H-F-X/86446",
+        "receivedAt": "2026-11-28T00:04:00.000Z"
+      },
+      {
+        "label": "GdR IASIS · diffusion de l’annonce",
+        "url": "https://gdr-iasis.cnrs.fr/kiosque/offre-post-doc-world-model-jepa-applique-au-forecasting-dimages/",
+        "receivedAt": "2026-11-28T00:04:00.000Z"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement-2f9f04758c2e8e85ea519f02",
+        "announcedAt": "2026-11-25T13:33:38.000Z"
+      }
+    ],
+    "attachments": []
   }
 ]
